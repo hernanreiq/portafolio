@@ -182,10 +182,15 @@ main section div.proyectos ul li:hover {
 .scroll {
     overflow-y: visible;
 }
-
+.visible {
+    visibility: visible;
+}
+.no-visible {
+    visibility: hidden;
+}
 div.overlay {
    background-color: rgba(0, 0, 0, 0.408);
-   z-index: 1000;
+   z-index: 105;
    position: fixed;
    top: 0;
    bottom: 0;
@@ -194,8 +199,73 @@ div.overlay {
    align-items: center;
    justify-content: center;
    display: flex;
-   visibility: hidden;
 } 
+div.popup {
+    position: absolute;
+    z-index: 110;
+    background: #F8F8F8;
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
+	border-radius: 3px;
+	font-family: 'Montserrat', sans-serif;
+	padding: 20px;
+	text-align: center;
+    max-width: 1000px;
+    max-height: 800px;
+	transition: .3s ease all;
+	transform: scale(0.7);
+    opacity: 0;
+    margin: 0px 20px;
+}
+div.popup div.popup-img {
+    max-width: 960px;
+    height: auto;
+    overflow: hidden;
+    border-radius: 10px;
+}
+div.popup div img {
+    width: 100%;
+    height: auto;
+}
+div.popup div img:hover {
+    transition: 3s ease;
+    transform: scale(1.7);
+}
+div.popup p {
+    text-align: justify;
+    margin: 20px 10px;
+}
+.popup.visible {	transform: scale(1); opacity: 1; }
+.popup.visible h3 { animation: entradaTitulo .8s ease .5s forwards; }
+.popup.visible h4 { animation: entradaSubtitulo .8s ease .5s forwards; }
+.popup.visible .contenedor-inputs { animation: entradaInputs 1s linear 1s forwards; }
+
+@keyframes entradaTitulo {
+	from {
+		opacity: 0;
+		transform: translateY(-25px);
+	}
+
+	to {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+
+@keyframes entradaSubtitulo {
+	from {
+		opacity: 0;
+		transform: translateY(25px);
+	}
+
+	to {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+@keyframes entradaInputs {
+	from { opacity: 0; }
+	to { opacity: 1; }
+}
 
 /*HABILIDADES*/
 main section div.mis-habilidades{
