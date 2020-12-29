@@ -1,0 +1,302 @@
+html {
+    box-sizing: border-box;    
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+/*Estilos de la web*/
+
+/*BANNER DE LA PAGINA*/
+header {
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+}
+header div.portada {
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 600px;
+}
+header div img.portada {
+    width: 100%;
+    min-height: 600px;
+    height: auto;
+    filter: blur(5px);
+    opacity: 0.4;
+    transform: scale(1.05);
+}
+header nav {
+    position: fixed;
+    z-index: 100;
+    right: 0px;
+    width: 100%;
+    top: 0px;
+    background-color: #3B93F7;
+    height: 50px;
+    box-shadow: black 0px 1px 5px;
+}
+header nav ul {
+    list-style: none;
+    text-align: right;
+    height: 50%;
+}
+header nav ul li{
+    line-height: 50px;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+header nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 5px 10px;
+    font-size: 25px;
+    text-align: center;
+    margin-right: 20px;
+    font-family: 'Lato', sans-serif;
+    text-shadow: rgb(37, 37, 37) 1px 1px 1px;
+}
+header nav ul li a:hover {
+    background-color:  #2e2e2e;
+    padding: 10px 10px;
+}
+
+/*PRESENTACION*/
+header section.presentacion {
+    width: 100%;
+    height: 600px;
+}
+header section div.presentacion {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 100px;
+}
+header section div img {
+    box-shadow: #3B93F7 2px 2px 2px;
+    border: solid 1px #5fa9ff;
+    width: auto;
+    height: 350px;
+    border-radius: 25px;
+}
+header section div div.presentacion-texto {
+    margin-top: 10px;
+}
+header section div p.nombre, header section p.hobby{
+    font-size: 45px;
+    background: -webkit-linear-gradient(#5ea9ff, #2a37c5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: rgba(0, 0, 0, 0.253) 1px 1px 1px;
+}
+header section div p.hobby {
+    font-size: 30px;
+    font-weight: bold;
+} 
+
+/*CONTENIDO DE LA PAGINS*/
+main section div.titulo {
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-shadow: rgb(37, 37, 37) 1px 1px 1px;
+}
+
+/*PORTAFOLIO*/
+main section div.mis-proyectos{
+    background-color: #2e2e2e;
+}
+main section div.proyectos {
+    background-color: #1a1a1a;
+    height: 600px;  
+    padding-top: 50px;
+}
+main section div.proyectos ul {
+    list-style: none;
+    margin: 0 auto;
+    width: 1000px;
+    min-height: 200px;
+}
+main section div.proyectos ul li {
+    background-color: #3b93f7e7;
+    text-align: center;
+    margin: 20px 75px;
+    width: 400;
+    float: left;
+    border-radius: 20px;
+    overflow: hidden;
+}
+main section div.proyectos ul li:last-child{
+    margin-bottom: 50px;
+}
+main section div.proyectos ul li:nth-child(2n+1){
+    clear: both;
+}
+main section div.proyectos ul li h2{
+    color: #ffffff;
+    text-shadow: black 1px 1px 1px;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+}
+main section div.proyectos ul li div.contenedor-imagen {
+    width: 350px;
+    height: 150px;
+    overflow: hidden;
+}
+main section div.proyectos ul li img{
+    width: 350px;
+    height: 150px;
+}
+main section div.proyectos ul li img:hover {
+    transition: 5s ease;
+    transform: scale(2);
+}
+main section div.proyectos ul li a{
+    text-decoration: none;
+    color:  #ffffff;
+    font-size: 18px;
+    text-shadow: black 1px 1px 1px;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+}
+main section div.proyectos ul li:hover {
+    background-color: #5ea9ff;
+}
+
+/*HABILIDADES*/
+main section div.mis-habilidades{
+    background-color: #5ea9ff;
+}
+main section div.habilidades {
+    background-color: #3B93F7;
+    padding: 0;
+}
+main section div.lenguajes {
+    margin: 0 auto;
+    width: 1000px;
+    min-height: 500px;
+    padding: 50px 0px;
+}
+main section div.habilidades ul {
+    list-style: none;
+    width: 100%;
+    height: 100%;
+}
+main section div.habilidades ul li{
+    text-align: center;
+    background-color: #2e2e2e;
+    max-width: 25%;
+    height: 150px;
+    margin: 25px 50px;
+    padding: 10px;
+    border-radius: 20px;
+    float: left;
+}
+main section div.habilidades ul li:nth-child(4n+1){
+    clear: both;
+}
+main section div.habilidades::after{
+    content: '';
+    display: block;
+    clear: both;
+} 
+main section div.habilidades ul li img{
+    width: 130px;
+    height: 100px;
+}
+main section div.habilidades ul li p{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+/*INFORMACION*/
+main section div.mi-informacion{
+    background-color:#2e2e2e;
+}
+main section div.informacion {
+    background-color: #1a1a1a;
+}
+main section div div.contenedor-texto-informacion {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 50px;
+    min-height: 300px;
+    height: auto;
+}
+main section div div.contenedor-texto-informacion p {
+    color: white;
+    text-align: justify;
+    font-size: 17px;
+}
+
+/*CONTACTO*/
+main section div.mi-contacto{
+    background-color:#5ea9ff;
+}
+main section div.contacto {
+    background-color: #3B93F7;
+    text-align: center;
+    padding: 50px 0px;
+}
+main section div.contacto a {
+    text-decoration: none;
+    font-size: 30px;
+    line-height: 60px;
+    color: white;
+    background-color: #2e2e2e;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: solid 2px #ffffff;
+}
+main section div.contacto a.linkedin:hover {
+    color: #0073b1;
+    border: solid 2px  #0073b1;
+}
+main section div.contacto a.email:hover{
+    color: #00b135;
+    border: solid 2px  #00b135;
+}
+main section div.contacto a.instagram:hover{
+    color: #ff2680;
+    border: solid 2px  #ff2680;
+}
+
+/*PIE DE LA PAGINA*/
+footer {
+    height: 80px;
+    background-color: #1a1a1a;
+    padding: 22px;
+}
+footer p {
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    text-align: center;
+}
+footer a {
+    color:  #3B93F7;
+    font-weight: bold;
+    text-decoration: none;
+}
+footer a:hover {
+    color:#5ea9ff;
+}
+
+/*LIMPIADOR*/
+div.clearfix {
+    display: block;
+    content: '';
+    clear: both;
+}
