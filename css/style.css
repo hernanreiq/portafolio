@@ -175,6 +175,28 @@ main section div.proyectos ul li:hover {
     background-color: #5ea9ff;
 }
 
+/*VENTANA EMERGENTE PARA LOS PROYECTOS DEL PORTAFOLIO*/
+.no-scroll {
+    overflow-y: hidden;
+}
+.scroll {
+    overflow-y: visible;
+}
+
+div.overlay {
+   background-color: rgba(0, 0, 0, 0.408);
+   z-index: 1000;
+   position: fixed;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   align-items: center;
+   justify-content: center;
+   display: flex;
+   visibility: hidden;
+} 
+
 /*HABILIDADES*/
 main section div.mis-habilidades{
     background-color: #5ea9ff;
