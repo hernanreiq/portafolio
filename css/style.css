@@ -1,5 +1,6 @@
 html {
     box-sizing: border-box;    
+    scroll-behavior: smooth;
 }
 *, *::before, *::after {
     box-sizing: inherit;
@@ -170,6 +171,7 @@ main section div.proyectos ul li a{
     text-shadow: black 1px 1px 1px;
     font-weight: normal;
     font-family: 'Roboto', sans-serif;
+    cursor: pointer;
 }
 main section div.proyectos ul li:hover {
     background-color: #5ea9ff;

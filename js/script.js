@@ -1,7 +1,15 @@
-var lista_proyectos = document.getElementById('proyectos-portafolio').children;
+function AsignarIdEnProyectos(){
+    var lista_proyectos = document.getElementById('proyectos-portafolio');
+    var ancla_proyectos = lista_proyectos.getElementsByTagName('a');
+    var cantidad_proyectos = ancla_proyectos.length;
+    var posicion_proyecto = 1;
+    for(var i = 0; i < cantidad_proyectos; i++){
+        ancla_proyectos[i].id = "proyecto-" + posicion_proyecto;
+        posicion_proyecto++;
+    }
+}
+AsignarIdEnProyectos();
 
-var div = document.createElement('div');
-div.setAttribute('class', 'ventada-emergente');
 
 var ventana_emergente_fondo = document.getElementById('ventana-emergente-fondo');
 var boton_cerrar_popup = document.getElementById('cerrar-popup');
