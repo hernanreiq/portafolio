@@ -223,48 +223,61 @@ div.popup div.popup-img {
     border-radius: 10px;
 }
 div.popup div img {
+    transform: scale(1.05);
     width: 100%;
-    height: auto;
+    height: 100%;
 }
 div.popup div img:hover {
     transition: 3s ease;
     transform: scale(1.7);
 }
+div.popup div.botones-img {
+    margin-top: 10px;
+}
+div.popup div button.direccion-img {
+    font-size: 25px;
+    color: #5ea9ff; 
+    background-color:#2e2e2e;
+    border-radius: 5px;
+    border: solid 2px #5ea9ff;
+    padding: 3px;
+}
+div.popup div button.direccion-img:hover {
+    color: #2e2e2e; 
+    background-color:#5ea9ff;
+    border: solid 2px #2e2e2e;
+}
+div.popup div span.posicion-img {
+    border: solid 2px#2e2e2e;
+    padding: 3px 7px;
+    border-radius: 5px;
+    font-size: 25px;
+    color: #2e2e2e;
+    background-color: #3B93F7;
+    font-weight: bold;
+}
 div.popup p {
     text-align: justify;
     margin: 20px 10px;
+    max-height: 250px;
+    overflow: auto;
 }
-.popup.visible {	transform: scale(1); opacity: 1; }
-.popup.visible h3 { animation: entradaTitulo .8s ease .5s forwards; }
-.popup.visible h4 { animation: entradaSubtitulo .8s ease .5s forwards; }
-.popup.visible .contenedor-inputs { animation: entradaInputs 1s linear 1s forwards; }
-
-@keyframes entradaTitulo {
-	from {
-		opacity: 0;
-		transform: translateY(-25px);
-	}
-
-	to {
-		transform: translateY(0);
-		opacity: 1;
-	}
+div.popup button.cerrar-popup {
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    border: solid 1px rgb(0, 0, 0);
+    background-color: rgb(255, 0, 0);
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 5px 10px;
 }
-
-@keyframes entradaSubtitulo {
-	from {
-		opacity: 0;
-		transform: translateY(25px);
-	}
-
-	to {
-		transform: translateY(0);
-		opacity: 1;
-	}
+div.popup button.cerrar-popup:hover {
+    color: rgb(255, 0, 0);
+    border: solid 1px rgb(255, 0, 0);
+    background-color: rgb(0, 0, 0);
 }
-@keyframes entradaInputs {
-	from { opacity: 0; }
-	to { opacity: 1; }
+.popup.visible {
+    transform: scale(1); opacity: 1; 
 }
 
 /*HABILIDADES*/
