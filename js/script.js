@@ -1,22 +1,24 @@
-function AsignarIdEnProyectos(){
+function AsignarNumeroProyectos(){
     var lista_proyectos = document.getElementById('proyectos-portafolio');
     var ancla_proyectos = lista_proyectos.getElementsByTagName('a');
     var cantidad_proyectos = ancla_proyectos.length;
     var posicion_proyecto = 1;
     for(var i = 0; i < cantidad_proyectos; i++){
-        ancla_proyectos[i].id = "proyecto-" + posicion_proyecto;
+        ancla_proyectos[i].setAttribute("onclick", "mostrarDetalles("+posicion_proyecto+")");
         posicion_proyecto++;
     }
 }
-AsignarIdEnProyectos();
-
+AsignarNumeroProyectos();
+function mostrarDetalles(proyecto_clicado){
+    EliminarScroll();
+    DeterminarProyecto(proyecto_clicado);
+}
 
 var ventana_emergente_fondo = document.getElementById('ventana-emergente-fondo');
 var boton_cerrar_popup = document.getElementById('cerrar-popup');
 var popup = document.getElementById('popup');
 
 boton_cerrar_popup.addEventListener('click', ActivarScroll);
-document.getElementById('proyecto-1').addEventListener('click', EliminarScroll);
 
 function EliminarScroll(){
     document.getElementById('body').setAttribute('class', 'no-scroll');
