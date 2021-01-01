@@ -56,7 +56,7 @@ header nav ul li{
 header nav ul li a {
     color: rgb(255, 255, 255);
     text-decoration: none;
-    padding: 5px 10px;
+    padding: 10px 10px;
     font-size: 25px;
     text-align: center;
     margin-right: 20px;
@@ -65,7 +65,7 @@ header nav ul li a {
 }
 header nav ul li a:hover {
     background-color:  #2e2e2e;
-    padding: 10px 10px;
+    transition: .5s;
 }
 
 /*PRESENTACION*/
@@ -118,6 +118,9 @@ main section div.titulo {
 /*PORTAFOLIO*/
 main section div.mis-proyectos{
     background-color: #2e2e2e;
+    background: -moz-linear-gradient(top, #2e2e2e 0%, #2e2e2e 50%, #1a1a1a 100%);
+    background: -webkit-linear-gradient(top, #2e2e2e 0%, #2e2e2e 50%, #1a1a1a 100%);
+    background: linear-gradient(to bottom, #2e2e2e 0%, #2e2e2e 50%, #1a1a1a 100%);
 }
 main section div.proyectos {
     background-color: #1a1a1a;
@@ -292,7 +295,10 @@ div.popup button.cerrar-popup:hover {
 
 /*HABILIDADES*/
 main section div.mis-habilidades{
-    background-color: #5ea9ff;
+    background-color:#5ea9ff;
+    background: -moz-linear-gradient(top,#5ea9ff 0%,#5ea9ff 50%, #3B93F7 100%);
+    background: -webkit-linear-gradient(top,#5ea9ff 0%,#5ea9ff 50%, #3B93F7 100%);
+    background: linear-gradient(to bottom,#5ea9ff 0%,#5ea9ff 50%, #3B93F7 100%);
 }
 main section div.habilidades {
     background-color: #3B93F7;
@@ -339,7 +345,10 @@ main section div.habilidades ul li p{
 
 /*INFORMACION*/
 main section div.mi-informacion{
-    background-color:#2e2e2e;
+    background-color: #2e2e2e;
+    background: -moz-linear-gradient(top, #2e2e2e 0%, #2e2e2e 50%, #1a1a1a 100%);
+    background: -webkit-linear-gradient(top, #2e2e2e 0%, #2e2e2e 50%, #1a1a1a 100%);
+    background: linear-gradient(to bottom, #2e2e2e 0%, #2e2e2e 50%, #1a1a1a 100%);
 }
 main section div.informacion {
     background-color: #1a1a1a;
@@ -360,33 +369,40 @@ main section div div.contenedor-texto-informacion p {
 /*CONTACTO*/
 main section div.mi-contacto{
     background-color:#5ea9ff;
+    background: -moz-linear-gradient(top,#5ea9ff 0%,#5ea9ff 50%, #3B93F7 100%);
+    background: -webkit-linear-gradient(top,#5ea9ff 0%,#5ea9ff 50%, #3B93F7 100%);
+    background: linear-gradient(to bottom,#5ea9ff 0%,#5ea9ff 50%, #3B93F7 100%);
 }
 main section div.contacto {
     background-color: #3B93F7;
     text-align: center;
     padding: 50px 0px;
 }
-main section div.contacto a {
+main section div div.enlace-contacto {
+    width: 180px;
+    margin: 0 auto;
+}
+main section div div a.enlace-contacto {
     text-decoration: none;
+    margin: 10px;
+}
+main section div div a div.contenido-enlace {
     font-size: 30px;
-    line-height: 60px;
-    color: white;
     background-color: #2e2e2e;
-    padding: 5px 10px;
-    border-radius: 10px;
-    border: solid 2px #ffffff;
+    width: 180px;
+    height: 140px;
+    margin: 0 auto;
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    padding: 10px 0px;
+    border: solid 3px white;
 }
-main section div.contacto a.linkedin:hover {
-    color: #0073b1;
-    border: solid 2px  #0073b1;
+main section div div a div.contenido-enlace .icono {
+    font-size: 80px;
 }
-main section div.contacto a.email:hover{
-    color: #00b135;
-    border: solid 2px  #00b135;
-}
-main section div.contacto a.instagram:hover{
-    color: #ff2680;
-    border: solid 2px  #ff2680;
+main section div div a div.contenido-enlace:hover {
+    color: #5ea9ff;
 }
 
 /*PIE DE LA PAGINA*/
