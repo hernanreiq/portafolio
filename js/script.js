@@ -83,9 +83,6 @@ function AsignarDetalles(proyecto_actual){
 */
 var contenedor_proyectos = document.getElementById("proyectos-portafolio");
 function CrearElementosLista(){
-    var resultado_division_contenido = Math.ceil((Proyectos_array.length) / 2);
-    var pixeles_contenido = 245 * resultado_division_contenido;
-    contenedor_proyectos.style.height = pixeles_contenido + "px";
     for(var i = 1; i <= Proyectos_array.length; i++){
         contenedor_proyectos.innerHTML += `
         <li>

@@ -122,31 +122,49 @@ main section div.mis-proyectos{
     background: -webkit-linear-gradient(top, #2e2e2e 0%, #2e2e2e 50%, #1a1a1a 100%);
     background: linear-gradient(to bottom, #2e2e2e 0%, #2e2e2e 50%, #1a1a1a 100%);
 }
-main section div.proyectos {
+main section div.contenedor-portafolio {
     background-color: #1a1a1a;
-    min-height: 205px;  
+    padding: 0;
+    padding-bottom: 50px;
     padding-top: 50px;
-    padding-bottom: 100px;
+}
+main section div.contenedor-portafolio::after{
+    content: '';
+    display: block;
+    clear: both;
+} 
+main section div div.proyectos {
+    width: 1000px;
+    margin: 0 auto;
 }
 main section div.proyectos ul {
     list-style: none;
-    margin: 0 auto;
-    width: 1000px;
-    min-height: 245px;
+    width: 100%;
+    height: 100%;
 }
 main section div.proyectos ul li {
     background-color: #3b93f7e7;
     text-align: center;
     margin: 20px 75px;
-    width: 400;
     float: left;
     border-radius: 20px;
     overflow: hidden;
+}
+@media only screen and (max-width: 999px){
+    main section div div.proyectos {
+        width: 500px;
+    }
+    div.proyectos ul#proyectos-portafolio {
+        margin: 0 auto;
+        width: 500px;
+    }
 }
 main section div.proyectos ul li:last-child{
     margin-bottom: 50px;
 }
 main section div.proyectos ul li:nth-child(2n+1){
+    content: '';
+    display: block;
     clear: both;
 }
 main section div.proyectos ul li h2{
@@ -180,7 +198,43 @@ main section div.proyectos ul li a{
 main section div.proyectos ul li:hover {
     background-color: #5ea9ff;
 }
-
+@media only screen and (max-width: 499px){
+    main section div div.proyectos {
+        width: 350px;
+    }
+    div.proyectos ul#proyectos-portafolio {
+        margin: 0 auto;
+        width: 350px;
+    }
+    main section div div.proyectos ul li {
+        margin: 20px 0px !important;
+    }
+}
+@media only screen and (max-width: 419px){
+    main section div div.proyectos {
+        width: 280px;
+    }
+    div.proyectos ul#proyectos-portafolio {
+        margin: 0 auto;
+        width: 280px;
+    }
+    main section div.proyectos ul li h2 {
+        font-size: 20px;
+    }
+    main section div div.proyectos ul li {
+        margin: 20px 0px !important;
+        width: 280px;
+    }
+    main section div.proyectos ul li div.contenedor-imagen {
+        width: 280px;
+        height: 150px;
+    }
+    main section div div.proyectos ul li img{
+        width: 280px;
+        padding: 0px;
+        height: 150px;
+    }
+}
 /*VENTANA EMERGENTE PARA LOS PROYECTOS DEL PORTAFOLIO*/
 .no-scroll {
     overflow-y: hidden;
