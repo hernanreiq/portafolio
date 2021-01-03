@@ -32,6 +32,22 @@ header div img.portada {
     opacity: 0.4;
     transform: scale(1.05);
 }
+@media only screen and (max-width: 579px){
+    header div.portada {
+        height: 550px;
+    }
+    header div img.portada {
+        min-height: 550px;
+    }
+}
+@media only screen and (max-width: 379px){
+    header div.portada {
+        height: 500px;
+    }
+    header div img.portada {
+        min-height: 510px;
+    }
+}
 header nav {
     position: fixed;
     z-index: 100;
@@ -101,7 +117,51 @@ header section div p.hobby {
     font-size: 30px;
     font-weight: bold;
 } 
-
+@media only screen and (max-width: 579px){
+    header section div p.nombre {
+        font-size: 35px;
+    }
+    header section div p.hobby {
+        font-size: 25px;
+    }
+    header section div img {
+        height: 300px;
+    }
+    header {
+        height: 550px;
+    }
+    header section.presentacion {
+        height: 450px;
+    }
+}
+@media only screen and (max-width: 459px){
+    header section div p.nombre {
+        font-size: 30px;
+    }
+    header section div p.hobby {
+        font-size: 20px;
+    }
+    header {
+        height: 520px;
+    }
+    header section.presentacion {
+        height: 450px;
+    }
+}
+@media only screen and (max-width: 389px){
+    header section div p.nombre {
+        font-size: 25px;
+    }
+    header section div p.hobby {
+        font-size: 18px;
+    }
+    header {
+        height: 500px;
+    }
+    header section.presentacion {
+        height: 450px;
+    }
+}
 /*CONTENIDO DE LA PAGINS*/
 main section div.titulo {
     width: 100%;
