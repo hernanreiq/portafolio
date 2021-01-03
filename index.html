@@ -15,11 +15,12 @@
             <img src="img/portada.jpg" alt="portada del portafolio" class="portada">
         </div>
         <nav>
-            <ul>
-                <li><a href="#proyectos">Portafolio</a></li>
-                <li><a href="#habilidades">Habilidades</a></li>
-                <li><a href="#informacion">Sobre mi...</a></li>
-                <li><a href="#contacto">Contacto</a></li>
+            <a href="javascript:void(0)" id="menu-navegacion"><i class="fas fa-bars"></i></a>
+            <ul id="lista-menu">
+                <a href="#proyectos"><li class="menu">Portafolio</li></a>
+                <a href="#habilidades"><li class="menu">Habilidades</li></a>
+                <a href="#informacion"><li class="menu">Sobre mi...</li></a>
+                <a href="#contacto"><li class="menu">Contacto</li></a>
             </ul>
         </nav>
         <section class="presentacion">
@@ -174,6 +175,7 @@
             <button id="cerrar-popup" class="cerrar-popup">Cerrar</button>
         </div>
     </div>
+    <script src="js/menu-navegacion.js"></script>
     <script src="js/correo.js"></script>
     <script src="js/script.js"></script>
 </body>
