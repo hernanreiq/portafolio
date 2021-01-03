@@ -396,7 +396,46 @@ main section div.habilidades ul li p{
     font-family: 'Roboto', sans-serif;
     color: white;
 }
-
+@media only screen and (max-width: 999px){
+    main section div.habilidades {
+        padding: 50px 0px;
+    }
+    main section div.habilidades div.lenguajes {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0px;
+    }
+    main section div.habilidades ul {
+        max-width: 600px;
+        height: 10px;
+        margin: 0 auto;
+    }
+    main section div.habilidades ul li {
+        margin: 25px 77.5px;
+    }
+    main section div.habilidades ul li img {
+        width: 125px;
+    }
+}
+@media only screen and (max-width: 599px){
+    main section div.habilidades ul {
+        max-width: 300px;
+        height: 10px;
+        margin: 0 auto;
+    }
+    main section div.habilidades ul li {
+        min-width: 40%;
+        margin: 25px 15px;
+    }
+    main section div.habilidades ul li img {
+        width: 100px;
+    }
+    main section div.habilidades ul li p{
+        font-size: 18px;
+        font-family: 'Roboto', sans-serif;
+        color: white;
+    }
+}
 /*INFORMACION*/
 main section div.mi-informacion{
     background-color: #2e2e2e;
