@@ -518,7 +518,20 @@ main section div div.contenedor-texto-informacion p {
     text-align: justify;
     font-size: 17px;
 }
-
+@media only screen and (max-width: 999px){
+    main section div div.contenedor-texto-informacion {
+        max-width: 700px;
+        width: auto;
+    }
+}
+@media only screen and (max-width: 499px){
+    main section div div.contenedor-texto-informacion {
+        padding: 50px 25px;
+    }
+    main section div div.contenedor-texto-informacion p {
+        font-size: 15px;
+    }
+} 
 /*CONTACTO*/
 main section div.mi-contacto{
     background-color:#5ea9ff;
