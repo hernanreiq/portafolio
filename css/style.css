@@ -77,15 +77,15 @@ header nav a.marca {
     text-decoration: none;
     top: 0;
     right: 0;
-    margin-right: 20px;
     line-height: 50px;
     font-family: 'Lato', sans-serif;
     color: #ffffff;
     text-shadow: black 1px 1px 1px;
     background-color: #2a2a2a;
-    padding: 0px 10px;
+    padding: 0px 20px;
     position: absolute;
     border-radius: 2px;
+    transition: .5s;
 }
 header nav a.marca:hover {
     background-color: #5ea9ff;
