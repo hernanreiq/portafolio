@@ -23,7 +23,7 @@
         <div class="portada">
             <img src="img/portada.jpg" alt="portada del portafolio" class="portada">
         </div>
-        <nav>
+        <nav> 
             <a href="javascript:void(0)" id="menu-navegacion"><i class="fas fa-bars"></i></a>
             <ul id="lista-menu">
                 <a href="#proyectos"><li class="menu">Portafolio</li></a>
@@ -31,19 +31,21 @@
                 <a href="#informacion"><li class="menu">Sobre mi...</li></a>
                 <a href="#contacto"><li class="menu">Contacto</li></a>
             </ul>
+            <a href="#presentacion" class="marca">Hernan.Reiq</a>
         </nav>
+        <a name="presentacion" class="ancla"></a>
         <section class="presentacion">
             <div class="presentacion">
-                <img src="img/hernan.jpg" alt="Hernan Demorizi Ureña">
+                <img src="img/hernan_1.jpg" alt="Hernan Demorizi Ureña - Hernan.Reiq" id="foto-presentacion">
                 <div class="presentacion-texto">
-                    <p class="nombre">Hernan V. Demorizi Ureña</p>
-                    <p class="hobby">Desarrollador y Diseñador Web</p>
+                    <h1 class="nombre">Hernan<span id="nombre-completo">&nbsp;V. Demorizi Ureña</span><span id="apodo">.Reiq</span></h1>
+                    <h2 class="hobby">Desarrollador y Diseñador Web</h2>
                 </div>
             </div>
         </section>
     </header>
     <main>
-        <a name="proyectos"></a>
+        <a name="proyectos" class="ancla"></a>
         <section>
             <div class="titulo mis-proyectos">
                 Portafolio
@@ -58,7 +60,7 @@
         </section>
         <div class="clearfix"></div>
 
-        <a name="habilidades"></a>
+        <a name="habilidades" class="ancla"></a>
         <section>
             <div class="titulo mis-habilidades">
                 Habilidades
@@ -98,7 +100,7 @@
                 </div>
             </div>
         </section>
-        <a name="informacion"></a>
+        <a name="informacion" class="ancla"></a>
         <section>
             <div class="titulo mi-informacion">
                 Sobre mi...
@@ -126,7 +128,7 @@
                 </div>
             </div>
         </section>
-        <a name="contacto"></a>
+        <a name="contacto" class="ancla"></a>
         <section>
             <div class="titulo mi-contacto">
                 Contacto
@@ -195,6 +197,7 @@
             <button id="cerrar-popup" class="cerrar-popup">Cerrar</button>
         </div>
     </div>
+    <script src="js/presentacion.js"></script>
     <script src="js/menu-navegacion.js"></script>
     <script src="js/correo.js"></script>
     <script src="js/script.js"></script>
