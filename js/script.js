@@ -1,4 +1,4 @@
-(function(){
+
 /* VENTANA EMERGENTE */
 var ventana_emergente_fondo = document.getElementById('ventana-emergente-fondo');
 var boton_cerrar_popup = document.getElementById('cerrar-popup');
@@ -179,4 +179,3 @@ function mostrarDetalles(proyecto_clicado){
     EliminarScroll();
     DeterminarProyecto(proyecto_clicado);
 }
-}());
