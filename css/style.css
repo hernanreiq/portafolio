@@ -482,6 +482,7 @@ div.popup p {
 }
 div.popup p a {
     color: #3B93F7;
+    text-decoration: none;
 }
 div.popup button.cerrar-popup {
     font-size: 18px;

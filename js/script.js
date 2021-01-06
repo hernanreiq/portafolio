@@ -70,7 +70,7 @@ function AsignarDetalles(proyecto_actual){
     actual_img.innerText = 1;
     total_img.innerText = proyecto_actual.fotos;
     if (proyecto_actual.enlace != ""){
-        var enlace = '<a href="'+ proyecto_actual.enlace +'" target="_blank"><i class="fas fa-external-link-alt"></i></a>';
+        var enlace = '<a href="'+ proyecto_actual.enlace +'" target="_blank">Ver el proyecto <i class="fas fa-external-link-alt"></i></a>';
     } else {
         var enlace = "Enlace no disponible";
     }
