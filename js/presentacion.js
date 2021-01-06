@@ -24,26 +24,4 @@
         nombre_completo.style.display = "inline-block";
         apodo.style.display = "none";
     }, 10000);
-
-    var foto_presentacion = document.getElementById('foto-presentacion');
-    var posicion_foto = 1;
-
-    var foto_intermitente = setInterval(function(){
-        switch (posicion_foto){
-            case 1:
-                posicion_foto = 2;
-                foto_presentacion.src = "img/hernan_2.jpg";
-            break;
-
-            case 2: 
-                posicion_foto = 1;
-                foto_presentacion.src = "img/hernan_1.jpg";
-            break;
-
-            default:
-                foto_presentacion.src = "img/hernan_1.jpg";
-            break;
-        }
-    }, 5000);
-
 }());
