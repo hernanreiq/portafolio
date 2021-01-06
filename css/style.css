@@ -165,7 +165,7 @@ header section div img {
 header section div div.presentacion-texto {
     margin-top: 10px;
 }
-header section div h1.nombre, header section h2.hobby{
+header section div h1.nombre, header section h2.hobby, #apodo, #nombre-completo{
     font-size: 45px;
     background: -webkit-linear-gradient(#5ea9ff, #2a37c5);
     -webkit-background-clip: text;
@@ -184,7 +184,7 @@ header section div h2.hobby {
     display: inline-block;
 }
 @media only screen and (max-width: 579px){
-    header section div h1.nombre {
+    header section div h1.nombre, #nombre-completo, #apodo {
         font-size: 35px;
     }
     header section div h2.hobby {
@@ -201,7 +201,7 @@ header section div h2.hobby {
     }
 }
 @media only screen and (max-width: 459px){
-    header section div h1.nombre {
+    header section div h1.nombre, #nombre-completo, #apodo {
         font-size: 30px;
     }
     header section div h2.hobby {
@@ -215,7 +215,7 @@ header section div h2.hobby {
     }
 }
 @media only screen and (max-width: 389px){
-    header section div h1.nombre {
+    header section div h1.nombre, #nombre-completo, #apodo {
         font-size: 25px;
     }
     header section div h2.hobby {
@@ -399,33 +399,31 @@ div.popup {
 	font-family: 'Montserrat', sans-serif;
 	padding: 20px;
 	text-align: center;
-    max-width: 1000px;
-    max-height: 900px;
+    max-width: 98%;
+    max-height: 98%;
 	transition: .3s ease all;
 	transform: scale(0.7);
     opacity: 0;
-    margin: 0px 20px;
+    overflow-y: scroll;
 }
 div.popup h2 {
     color: #3B93F7;
     text-shadow: black 1px 1px 1px;
     font-weight: normal;
     font-family: 'Roboto', sans-serif;
+    margin-bottom: 10px;
 }
 div.popup div.popup-img {
-    max-width: 960px;
-    max-height: 550px;
-    overflow: hidden;
+    max-width: 100%;
+    max-height: 100%;
+    overflow: scroll;
     border-radius: 5px;
 }
 div.popup div img {
     border-radius: 5px;
     width: 100%;
     height: 100%;
-}
-div.popup div img:hover {
-    transition: 3s ease;
-    transform: scale(1.7);
+    border: #2a2a2a solid 3px;
 }
 div.popup div.botones-img {
     margin-top: 10px;
@@ -454,10 +452,16 @@ div.popup div span.posicion-img {
 }
 div.popup p {
     text-align: justify;
-    margin: 20px 10px;
-    padding: 10px;
-    max-height: 100px;
+    margin: 20px 0px;
+    padding: 15px;
+    max-height: 250px;
     overflow: auto;
+    background-color: #1a1a1a;
+    border-radius: 10px;
+    color: white;
+}
+div.popup p a {
+    color: #3B93F7;
 }
 div.popup button.cerrar-popup {
     font-size: 18px;
