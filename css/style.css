@@ -414,18 +414,21 @@ div.overlay {
 div.popup {
     position: absolute;
     z-index: 110;
-    background: #F8F8F8;
+    background: #f8f8f8;
 	box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.3);
 	border-radius: 3px;
 	font-family: 'Montserrat', sans-serif;
 	padding: 20px;
 	text-align: center;
-    width: 99%;
+    width: 98%;
     max-height: 98%;
 	transition: .3s ease all;
-	transform: scale(0.7);
-    opacity: 0;
     overflow-y: scroll;
+}
+@media only screen and (max-width: 700px){
+    div.popup{
+        width: 100%;
+    }
 }
 div.popup h2 {
     color: #3B93F7;
