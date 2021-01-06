@@ -364,6 +364,28 @@ main section div.proyectos ul li:hover {
         height: 150px;
     }
 }
+div.contenedor-boton-ver-mas {
+    width: 100%;
+    text-align: center;
+}
+#boton-ver-mas {
+    padding: 10px 35px;
+    font-size: 20px;
+    background-color: #3B93F7;
+    border: solid 2px rgb(255, 255, 255);
+    color: white;
+    border-radius: 10px;
+    text-shadow: black 1px 1px 1px;
+    font-family: 'Roboto', sans-serif;
+}
+#boton-ver-mas:hover {
+    background-color: #2a2a2a;
+}
+@media only screen and (max-width: 500px){
+    #boton-ver-mas {
+        margin-top: 20px;
+    }
+}
 /*VENTANA EMERGENTE PARA LOS PROYECTOS DEL PORTAFOLIO*/
 .no-scroll {
     overflow-y: hidden;
@@ -469,7 +491,11 @@ div.popup button.cerrar-popup {
     background-color: rgb(255, 0, 0);
     font-weight: bold;
     border-radius: 5px;
-    padding: 5px 10px;
+    padding: 3px 5px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 2px;
 }
 div.popup button.cerrar-popup:hover {
     color: rgb(255, 0, 0);
@@ -558,6 +584,23 @@ main section div.habilidades ul li p{
     }
     main section div.habilidades ul li {
         min-width: 40%;
+        margin: 25px 15px;
+    }
+    main section div.habilidades ul li img {
+        width: 100px;
+    }
+    main section div.habilidades ul li p{
+        font-size: 18px;
+        font-family: 'Roboto', sans-serif;
+        color: white;
+    }
+}
+@media only screen and (max-width: 299px){
+    main section div.habilidades ul {
+        max-width: 280px;
+    }
+    main section div.habilidades ul li {
+        min-width: 90%;
         margin: 25px 15px;
     }
     main section div.habilidades ul li img {
