@@ -107,7 +107,6 @@ function AsignarDetalles(proyecto_actual){
 /* VENTANA EMERGENTE */
 var ventana_emergente_fondo = document.getElementById('ventana-emergente-fondo');
 var boton_cerrar_popup = document.getElementById('cerrar-popup');
-var popup = document.getElementById('popup');
 var nombre_proyecto_popup = document.getElementById("nombre-proyecto-popup");
 var img_proyecto = document.getElementById('img-popup');
 var actual_img = document.getElementById('actual-img');
@@ -157,8 +156,6 @@ function EliminarScroll(){
 function VerPopUP(){
     ventana_emergente_fondo.classList.remove('no-visible');
     ventana_emergente_fondo.classList.add('visible');
-    popup.classList.remove('no-visible');
-    popup.classList.add('visible');
 }
 
 /*
@@ -172,6 +169,4 @@ function ActivarScroll(){
 function EsconderPopUp(){
     ventana_emergente_fondo.classList.remove('visible');
     ventana_emergente_fondo.classList.add('no-visible');
-    popup.classList.remove('visible');
-    popup.classList.add('no-visible');
 }

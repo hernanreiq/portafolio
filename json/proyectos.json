@@ -1,5 +1,25 @@
 [
     {
+        "nombre": "Sommer Rose RD",
+        "tipo": "Web",
+        "enlace": "https://hernanreiq.github.io/sommerrose/",
+        "fotos": 4,
+        "ruta_fotos": "img/Sommer Rose RD/",
+        "descripcion": "Esta página web la hice para el negocio de mi prima, ella vende sombreros personalizados pintados a mano. La pagina te permite hacer un pedido o una orden de compra, para luego enviar toda esa información por WhatsApp y coordinar con ella el diseño que quieres en tu producto.",
+        "habilidades": "HTML, CSS, JavaScript, Font-Awesome, Google Fonts y WhatsApp API.",
+        "caracteristicas": "Diseño adaptable para distintos tamaños de pantalla, te permite enviar mensajes a WhatsApp con tu orden de compra, es una maqueta sencilla con un proposito definido."
+    },
+    {
+        "nombre": "Generador de contraseñas",
+        "tipo": "Sistema Web",
+        "enlace": "https://hernanreiq.github.io/password-generator/",
+        "fotos": 3,
+        "ruta_fotos": "img/Generador de contraseñas/",
+        "descripcion": "Este sistema web puede ser de ayuda para aquellas personas que se preocupan por la seguridad de sus cuentas. Este pequeño proyecto lo hice para desarrollar un poco más mi lógica de programación.", 
+        "habilidades": "HTML, CSS, JavaScript, Google Fonts y Font-Awesome.",
+        "caracteristicas": "Sistema web diseñado en un ancho de 300 píxeles, genera contraseñas seguras de forma aleatoria, permite configurar que tipos de carácteres conformarán la contraseña."
+    },
+    {
         "nombre": "Koncafé",
         "tipo": "Web",
         "enlace": "https://hernanreiq.github.io/koncafe/",
@@ -18,26 +38,6 @@
         "descripcion": "Esta página web fue realizada en colaboración con Nairobi Nivar como parte de un trabajo final en una asignatura de la Universidad. La maquetación inicial fue hecha por mi compañera, mientras que yo me encargué de agregar las otras sub-páginas, generar códigos con PHP, envío de mensajes personalizados al correo, los colores y de hacerla adaptable a distintas pantallas.", 
         "habilidades": "HTML, CSS, PHP e Inserción de vídeo de YouTube.",
         "caracteristicas": "Diseño adaptable a pocas pantallas, generar código único para obtener Internet en el lugar, envío de mensaje personalizado al correo."
-    },
-    {
-        "nombre": "Generador de contraseñas",
-        "tipo": "Sistema Web",
-        "enlace": "https://hernanreiq.github.io/password-generator/",
-        "fotos": 3,
-        "ruta_fotos": "img/Generador de contraseñas/",
-        "descripcion": "Este sistema web puede ser de ayuda para aquellas personas que se preocupan por la seguridad de sus cuentas. Este pequeño proyecto lo hice para desarrollar un poco más mi lógica de programación.", 
-        "habilidades": "HTML, CSS, JavaScript, Google Fonts y Font-Awesome.",
-        "caracteristicas": "Sistema web diseñado en un ancho de 300 píxeles, genera contraseñas seguras de forma aleatoria, permite configurar que tipos de carácteres conformarán la contraseña."
-    },
-    {
-        "nombre": "Sommer Rose RD",
-        "tipo": "Web",
-        "enlace": "https://hernanreiq.github.io/sommerrose/",
-        "fotos": 4,
-        "ruta_fotos": "img/Sommer Rose RD/",
-        "descripcion": "Esta página web la hice para el negocio de mi prima, ella vende sombreros personalizados pintados a mano. La pagina te permite hacer un pedido o una orden de compra, para luego enviar toda esa información por WhatsApp y coordinar con ella el diseño que quieres en tu producto.",
-        "habilidades": "HTML, CSS, JavaScript, Font-Awesome, Google Fonts y WhatsApp API.",
-        "caracteristicas": "Diseño adaptable para distintos tamaños de pantalla, te permite enviar mensajes a WhatsApp con tu orden de compra, es una maqueta sencilla con un proposito definido."
     },
     {
         "nombre": "Grupo Golden",
