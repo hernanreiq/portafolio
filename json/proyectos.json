@@ -1,0 +1,82 @@
+[
+    {
+        "nombre": "Koncafé",
+        "tipo": "Web",
+        "enlace": "https://hernanreiq.github.io/koncafe/",
+        "fotos": 5,
+        "ruta_fotos": "img/Koncafé/",
+        "descripcion": "Esta maqueta de página web la hice como favor a una compañera de la Universidad para que pueda aprobar una materia. La distribución de colores me encantó, tristemente y por obvias razones no podía hacer mi firma en el pie de la página. Lo único que odie de haber creado la página, fue tener que copiar y pegar la portada con el pie de página para las otras secciones, no podía hacer uso de PHP para dividir el código y reutilizarlo.",
+        "habilidades": "HTML, CSS y Google Maps.",
+        "caracteristicas": "Es una maqueta sencilla con varias sub-páginas."
+    },
+    {
+        "nombre": "Zona Colonial Digital",
+        "tipo": "Web",
+        "enlace": "https://hernanreiq.github.io/zona-colonial-digital/",
+        "fotos": 6,
+        "ruta_fotos": "img/Zona Colonial Digital/",
+        "descripcion": "Esta página web fue realizada en colaboración con Nairobi Nivar como parte de un trabajo final en una asignatura de la Universidad. La maquetación inicial fue hecha por mi compañera, mientras que yo me encargué de agregar las otras sub-páginas, generar códigos con PHP, envío de mensajes personalizados al correo, los colores y de hacerla adaptable a distintas pantallas.", 
+        "habilidades": "HTML, CSS, PHP e Inserción de vídeo de YouTube.",
+        "caracteristicas": "Diseño adaptable a pocas pantallas, generar código único para obtener Internet en el lugar, envío de mensaje personalizado al correo."
+    },
+    {
+        "nombre": "Generador de contraseñas",
+        "tipo": "Sistema Web",
+        "enlace": "https://hernanreiq.github.io/password-generator/",
+        "fotos": 3,
+        "ruta_fotos": "img/Generador de contraseñas/",
+        "descripcion": "Este sistema web puede ser de ayuda para aquellas personas que se preocupan por la seguridad de sus cuentas. Este pequeño proyecto lo hice para desarrollar un poco más mi lógica de programación.", 
+        "habilidades": "HTML, CSS, JavaScript, Google Fonts y Font-Awesome.",
+        "caracteristicas": "Sistema web diseñado en un ancho de 300 píxeles, genera contraseñas seguras de forma aleatoria, permite configurar que tipos de carácteres conformarán la contraseña."
+    },
+    {
+        "nombre": "Sommer Rose RD",
+        "tipo": "Web",
+        "enlace": "https://hernanreiq.github.io/sommerrose/",
+        "fotos": 4,
+        "ruta_fotos": "img/Sommer Rose RD/",
+        "descripcion": "Esta página web la hice para el negocio de mi prima, ella vende sombreros personalizados pintados a mano. La pagina te permite hacer un pedido o una orden de compra, para luego enviar toda esa información por WhatsApp y coordinar con ella el diseño que quieres en tu producto.",
+        "habilidades": "HTML, CSS, JavaScript, Font-Awesome, Google Fonts y WhatsApp API.",
+        "caracteristicas": "Diseño adaptable para distintos tamaños de pantalla, te permite enviar mensajes a WhatsApp con tu orden de compra, es una maqueta sencilla con un proposito definido."
+    },
+    {
+        "nombre": "Grupo Golden",
+        "tipo": "Web",
+        "enlace": "",
+        "fotos": 4,
+        "ruta_fotos": "img/Grupo Golden/",
+        "descripcion": "La motivación que me llevó a crear esa web fue mi alto interés por iniciar un negocio, enfocado esencialmente en desarrollar servicios que otras personas pudieran consumir. Aunque todo el desarrollo haya sido por mi, el plan era hacerlo en equipo, pero tristemente mis compañeros no tuvieron la misma visión o yo no supe motivarlos lo suficiente.",
+        "habilidades": "HTML, CSS, JavaScript, jQuery y PHP.",
+        "caracteristicas": "Cuenta con diseño adaptable a distintas pantallas, formulario de contacto que envía notificaciones al correo, ventanas emergentes para mostrar la descripción de los proyectos."
+    },
+    {
+        "nombre": "Visitas Promedio YT",
+        "tipo": "Extensión de navegador para Google Chrome",
+        "enlace": "https://github.com/hernanreiq/visitas-promedio-yt",
+        "fotos": 3,
+        "ruta_fotos": "img/Visitas Promedio YT/",
+        "descripcion": "Esta extensión del navegador Google Chrome, la diseñe y desarrollé para uso personal. La extensión sirve para analizar el rendimiento de las visitas en un canal de YouTube, tomando como parámetro la cantidad actuales de suscriptores.",
+        "habilidades": "HTML, CSS, JavaScript y JSON.",
+        "caracteristicas": "Extensión que calcula el promedio de visitas que deberia tener un canal en 48 horas."
+    },
+    {
+        "nombre": "Funeraria Eternidad",
+        "tipo": "Web",
+        "enlace": "https://hernanreiq.github.io/funeraria-eternidad/",
+        "fotos": 4,
+        "ruta_fotos": "img/Funeraria Eternidad/",
+        "descripcion": "El diseño de esta web se me ocurrió mientras hablaba con un compañero de la Universidad, donde le contaba que sería interesante tener una portada con un pasto verde simulando un cementerio, para luego al hacer scroll ir bajo tierra viendo ataudes, me pareció una idea muy creativa para una funeraria.",
+        "habilidades": "HTML y CSS.",
+        "caracteristicas": "No tuve interés en crear otras sub-páginas, es una maqueta sencilla."
+    },
+    {
+        "nombre": "F de Farándula",
+        "tipo": "Web",
+        "enlace": "https://hernanreiq.github.io/f-de-farandula/",
+        "fotos": 3,
+        "ruta_fotos": "img/F de Farándula/",
+        "descripcion": "Esta web la hice a modo de práctica de un curso que estaba haciendo sobre diseño web, la idea del sitio al igual que su nombre es propio, lo único que tomé del curso fue el cómo iba a distribuir los elementos en la página. La idea del curso era hacer un Blog de viajes, yo quería algo distinto.",
+        "habilidades": "HTML, CSS y Font-awesome.",
+        "caracteristicas": "No tiene sub-páginas, es una maqueta sencilla."
+    }
+]
