@@ -9,7 +9,7 @@ function ObtenerProyectosJSON(posicion){
             informacionJSON(proyectos, posicion);
         }
     }
-    xhttp.open('GET', '../json/proyectos.json', true);
+    xhttp.open('GET', 'json/proyectos.json', true);
     xhttp.send();
 }
 ObtenerProyectosJSON(1);
