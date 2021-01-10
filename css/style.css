@@ -377,6 +377,7 @@ div.contenedor-boton-ver-mas {
     border-radius: 10px;
     text-shadow: black 1px 1px 1px;
     font-family: 'Roboto', sans-serif;
+    display: none;
 }
 #boton-ver-mas:hover {
     background-color: #2a2a2a;
@@ -638,6 +639,11 @@ main section div div.contenedor-texto-informacion p {
     text-align: justify;
     font-size: 17px;
 }
+.frase {
+    font-size: 17px;
+    text-align: justify;
+    color: white;
+}
 @media only screen and (max-width: 999px){
     main section div div.contenedor-texto-informacion {
         max-width: 700px;
@@ -649,6 +655,9 @@ main section div div.contenedor-texto-informacion p {
         padding: 50px 25px;
     }
     main section div div.contenedor-texto-informacion p {
+        font-size: 15px;
+    }
+    .frase {
         font-size: 15px;
     }
 } 

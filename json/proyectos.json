@@ -10,6 +10,16 @@
         "caracteristicas": "Diseño adaptable para distintos tamaños de pantalla, te permite enviar mensajes a WhatsApp con tu orden de compra, es una maqueta sencilla con un proposito definido."
     },
     {
+        "nombre": "Simulador de Uber",
+        "tipo": "Sistema Web",
+        "enlace": "https://hernanreiq.github.io/simulador-uber/",
+        "fotos": 3,
+        "ruta_fotos": "img/Simulador de Uber/",
+        "descripcion": "Este simulador lo hice en forma de \"revancha\", debido a que en el pasado hice el intento de algo parecido a esto pero no pude obtener exactamente este resultado. Por otro lado también me sirvió para mejorar mi lógica de programación, ya que para hacer esto posible usé mis conocimientos en planos cartesianos y tuve que \"inventar\" una fórmula matemática para solucionar el problema.",
+        "habilidades": "HTML, CSS, JavaScript, Font-Awesome y Google Fonts.",
+        "caracteristicas": "Cuenta con un algoritmo que calcula la velocidad de movimiento que debe tener el carro en cada tramo de la vía, en donde para llegar a completar cada tramo tarda 5 segundos, dando la sensación de realismo porque en los tramos con muchas curvas va lento, pero cuando hay rectas largas va más rápido."
+    },
+    {
         "nombre": "Generador de contraseñas",
         "tipo": "Sistema Web",
         "enlace": "https://hernanreiq.github.io/password-generator/",
