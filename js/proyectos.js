@@ -42,7 +42,7 @@ function CrearElementosLista(velocidad, posicion, proyectos, longitud_proyectos)
             <a href="javascript:void(0)" onclick="mostrarDetalles(${posicion - 1})">
             <h2>${proyectos[posicion - 1]["nombre"]}</h2>
             <div class="contenedor-imagen">
-                <img src="img/${proyectos[posicion - 1]["nombre"]}/1.jpg" alt="proyecto ${proyectos[posicion - 1]["nombre"]}"><br>
+                <img src="img/${proyectos[posicion - 1]["nombre"]}/${proyectos[posicion - 1]["nombre"]} (1).jpg" alt="proyecto ${proyectos[posicion - 1]["nombre"]}"><br>
             </div>
             <p>Ver detalles</p>
             </a>
@@ -87,7 +87,7 @@ function DeterminarProyecto(proyecto_clicado){
 }
 function AsignarDetalles(proyecto_actual){
     nombre_proyecto_popup.innerText = mis_proyectos[proyecto_actual].nombre;
-    img_proyecto.src = mis_proyectos[proyecto_actual].ruta_fotos + 1 + ".jpg";
+    img_proyecto.src = mis_proyectos[proyecto_actual].ruta_fotos + mis_proyectos[proyecto_actual].nombre + " (1).jpg";
     actual_img.innerText = 1;
     total_img.innerText = mis_proyectos[proyecto_actual].fotos;
     if (mis_proyectos[proyecto_actual].enlace != ""){
@@ -124,23 +124,23 @@ function DireccionSlider(proyecto_actual_slider, proyecto_clicado){
     direccion_izquierda.addEventListener('click', function(){
         if (posicion_inicial_slider == 1){
             actual_img.innerText = proyecto_actual_slider[proyecto_clicado].fotos;
-            img_proyecto.src = proyecto_actual_slider[proyecto_clicado].ruta_fotos + proyecto_actual_slider[proyecto_clicado].fotos + ".jpg";
             posicion_inicial_slider = proyecto_actual_slider[proyecto_clicado].fotos;
+            img_proyecto.src = proyecto_actual_slider[proyecto_clicado].ruta_fotos + proyecto_actual_slider[proyecto_clicado].nombre + ` (${posicion_inicial_slider}).jpg`;
         } else if (posicion_inicial_slider != 1){
             actual_img.innerText = posicion_inicial_slider - 1;
             posicion_inicial_slider--;
-            img_proyecto.src = proyecto_actual_slider[proyecto_clicado].ruta_fotos + posicion_inicial_slider + ".jpg"; 
+            img_proyecto.src = proyecto_actual_slider[proyecto_clicado].ruta_fotos + proyecto_actual_slider[proyecto_clicado].nombre + ` (${posicion_inicial_slider}).jpg`;
         }
     });
     direccion_derecha.addEventListener('click', function(){
         if (posicion_inicial_slider < proyecto_actual_slider[proyecto_clicado].fotos){
             actual_img.innerText = posicion_inicial_slider + 1;
             posicion_inicial_slider++;
-            img_proyecto.src = proyecto_actual_slider[proyecto_clicado].ruta_fotos + posicion_inicial_slider + ".jpg";
+            img_proyecto.src = proyecto_actual_slider[proyecto_clicado].ruta_fotos + proyecto_actual_slider[proyecto_clicado].nombre + ` (${posicion_inicial_slider}).jpg`;
         } else if (posicion_inicial_slider == proyecto_actual_slider[proyecto_clicado].fotos){
             actual_img.innerText = 1;
-            img_proyecto.src = proyecto_actual_slider[proyecto_clicado].ruta_fotos +  "1.jpg";
             posicion_inicial_slider = 1;
+            img_proyecto.src = proyecto_actual_slider[proyecto_clicado].ruta_fotos + proyecto_actual_slider[proyecto_clicado].nombre + ` (${posicion_inicial_slider}).jpg`;
         }
     });  
 }
