@@ -9,8 +9,6 @@ html {
     margin: 0;
     padding: 0;
 }
-/*Estilos de la web*/
-
 /* BANNER DE LA PAGINA*/
 header {
     width: 100%;
@@ -209,9 +207,6 @@ header section div h2.hobby {
     header {
         height: 520px;
     }
-    header section.presentacion {
-        height: 450px;
-    }
 }
 @media only screen and (max-width: 389px){
     header section div h1.nombre, #nombre-completo, #apodo {
@@ -223,8 +218,13 @@ header section div h2.hobby {
     header {
         height: 500px;
     }
-    header section.presentacion {
-        height: 450px;
+}
+@media only screen and (max-width: 339px){
+    header section div h1.nombre, #nombre-completo, #apodo {
+        font-size: 22px;
+    }
+    header section div h2.hobby {
+        font-size: 17px;
     }
 }
 /*CONTENIDO DE LA PAGINA*/
@@ -268,10 +268,10 @@ main section div div.proyectos {
 }
 main section div.proyectos ul {
     list-style: none;
-    width: 100%;
-    height: 100%;
 }
 main section div.proyectos ul li {
+    width: 100%;
+    height: auto;
     background-color: #3b93f7e7;
     text-align: center;
     margin: 20px 75px;
@@ -279,13 +279,60 @@ main section div.proyectos ul li {
     border-radius: 20px;
     overflow: hidden;
 }
-@media only screen and (max-width: 999px){
+@media only screen and (max-width: 280px){
     main section div div.proyectos {
-        width: 500px;
+        width: 280px;
     }
-    div.proyectos ul#proyectos-portafolio {
-        margin: 0 auto;
-        width: 500px;
+    main section div.proyectos ul li {
+        width: 280px;
+        margin: 20px 0px;
+    }
+    main section div.proyectos ul li h2{
+        font-size: 20px;
+    }
+}
+@media only screen and (min-width: 280px){
+    main section div div.proyectos {
+        width: 280px;
+    }
+    main section div.proyectos ul li {
+        margin: 20px 0px;
+    }
+    main section div.proyectos ul li h2{
+        font-size: 20px;
+    }
+}
+@media only screen and (min-width: 380px){
+    main section div div.proyectos {
+        width: 340px;
+    }
+    main section div.proyectos ul li h2{
+        font-size: 22px;
+    }
+}
+@media only screen and (min-width: 500px){
+    main section div div.proyectos {
+        width: 360px;
+    }
+    main section div.proyectos ul li h2{
+        font-size: 25px;
+    }
+}
+@media only screen and (min-width: 820px){
+    main section div div.proyectos {
+        width: 800px;
+    }
+    main section div.proyectos ul li {
+        width: 360px;
+        margin: 20px 20px;
+    }
+}
+@media only screen and (min-width: 920px){
+    main section div div.proyectos {
+        width: 900px;
+    }
+    main section div.proyectos ul li {
+        margin: 20px 45px;
     }
 }
 main section div.proyectos ul li:last-child{
@@ -303,13 +350,13 @@ main section div.proyectos ul li h2{
     font-family: 'Roboto', sans-serif;
 }
 main section div.proyectos ul li div.contenedor-imagen {
-    width: 350px;
-    height: 150px;
+    margin: 0 auto;
     overflow: hidden;
+    height: 150px;
 }
 main section div.proyectos ul li img{
-    width: 350px;
-    height: 150px;
+    width: 100%;
+    height: 100%;
 }
 main section div.proyectos ul li img:hover {
     transition: 5s ease;
@@ -326,43 +373,6 @@ main section div.proyectos ul li a{
 }
 main section div.proyectos ul li:hover {
     background-color: #5ea9ff;
-}
-@media only screen and (max-width: 499px){
-    main section div div.proyectos {
-        width: 350px;
-    }
-    div.proyectos ul#proyectos-portafolio {
-        margin: 0 auto;
-        width: 350px;
-    }
-    main section div div.proyectos ul li {
-        margin: 20px 0px !important;
-    }
-}
-@media only screen and (max-width: 419px){
-    main section div div.proyectos {
-        width: 280px;
-    }
-    div.proyectos ul#proyectos-portafolio {
-        margin: 0 auto;
-        width: 280px;
-    }
-    main section div.proyectos ul li h2 {
-        font-size: 20px;
-    }
-    main section div div.proyectos ul li {
-        margin: 20px 0px !important;
-        width: 280px;
-    }
-    main section div.proyectos ul li div.contenedor-imagen {
-        width: 280px;
-        height: 150px;
-    }
-    main section div div.proyectos ul li img{
-        width: 280px;
-        padding: 0px;
-        height: 150px;
-    }
 }
 div.contenedor-boton-ver-mas {
     width: 100%;
@@ -429,6 +439,11 @@ div.popup {
 @media only screen and (max-width: 700px){
     div.popup{
         width: 100%;
+    }
+}
+@media only screen and (max-width: 360px){
+    div.popup{
+        overflow-y: hidden;
     }
 }
 div.popup h2 {
@@ -532,17 +547,17 @@ main section div.habilidades ul {
         margin: 0 auto;
     }
 }
-@media only screen and (min-width: 520px){
+@media only screen and (min-width: 530px){
     main section div.habilidades ul {
         max-width: 500px;
     }
 }
-@media only screen and (min-width: 770px){
+@media only screen and (min-width: 780px){
     main section div.habilidades ul {
         max-width: 750px;
     }
 }
-@media only screen and (min-width: 1020px){
+@media only screen and (min-width: 1030px){
     main section div.habilidades ul {
         max-width: 1000px;
     }
@@ -583,7 +598,7 @@ main section div.informacion {
     background-color: #1a1a1a;
 }
 main section div div.contenedor-texto-informacion {
-    width: 1000px;
+    max-width: 1000px;
     margin: 0 auto;
     padding: 50px;
     min-height: 300px;
@@ -599,12 +614,7 @@ main section div div.contenedor-texto-informacion p {
     text-align: justify;
     color: white;
 }
-@media only screen and (max-width: 999px){
-    main section div div.contenedor-texto-informacion {
-        max-width: 700px;
-        width: auto;
-    }
-}
+
 @media only screen and (max-width: 499px){
     main section div div.contenedor-texto-informacion {
         padding: 50px 25px;
