@@ -277,6 +277,7 @@ main section div.proyectos ul li {
     margin: 20px 75px;
     float: left;
     border-radius: 20px;
+    border: solid #5ea9ff 3px;
     overflow: hidden;
 }
 @media only screen and (max-width: 280px){
@@ -513,7 +514,7 @@ div.popup button.cerrar-popup {
     padding: 3px 5px;
     position: absolute;
     top: 0;
-    right: 0;
+    left: 0;
     margin: 2px;
 }
 div.popup button.cerrar-popup:hover {
@@ -634,35 +635,59 @@ main section div.mi-contacto{
 }
 main section div.contacto {
     background-color: #3B93F7;
-    text-align: center;
     padding: 50px 0px;
-}
-main section div div.enlace-contacto {
-    width: 180px;
     margin: 0 auto;
 }
-main section div div a.enlace-contacto {
-    text-decoration: none;
-    margin: 10px;
+main section div.contacto ul {
+    list-style: none;
+    margin: 0 auto;
 }
-main section div div a div.contenido-enlace {
-    font-size: 30px;
+@media only screen and (max-width: 279px){
+    main section div.contacto ul {
+        max-width: 210px;
+        margin: 0 auto;
+    }
+}
+@media only screen and (min-width: 280px){
+    main section div.contacto ul {
+        max-width: 210px;
+        margin: 0 auto;
+    }
+}
+@media only screen and (min-width: 460px){
+    main section div.contacto ul {
+        max-width: 420px;
+    }
+}
+@media only screen and (min-width: 1030px){
+    main section div.contacto ul {
+        max-width: 840px;
+    }
+}
+main section div.contacto ul a li{
+    text-align: center;
     background-color: #2e2e2e;
-    width: 180px;
-    height: 140px;
-    margin: 0 auto;
+    width: 170px;
+    margin: 20px;
+    padding: 10px;
     border-radius: 20px;
+    border: solid white 3px;
+    float: left;
+    font-size: 30px;
     font-family: 'Roboto', sans-serif;
     color: white;
-    padding: 10px 0px;
-    border: solid 3px white;
 }
-main section div div a div.contenido-enlace .icono {
+main section div.contacto ul a li:hover{
+    color: #5ea9ff;
+} 
+main section div.contacto ul a li i.icono {
     font-size: 80px;
 }
-main section div div a div.contenido-enlace:hover {
-    color: #5ea9ff;
-}
+main section div.contacto::after{
+    content: '';
+    display: block;
+    clear: both;
+}  
 
 /*PIE DE LA PAGINA*/
 footer {
