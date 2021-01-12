@@ -519,32 +519,44 @@ main section div.mis-habilidades{
 }
 main section div.habilidades {
     background-color: #3B93F7;
-    padding: 0;
-    padding-bottom: 50px;
-}
-main section div.lenguajes {
-    margin: 0 auto;
-    width: 1000px;
-    min-height: 500px;
     padding: 50px 0px;
+    margin: 0 auto;
 }
 main section div.habilidades ul {
     list-style: none;
-    width: 100%;
-    height: 100%;
+    margin: 0 auto;
+}
+@media only screen and (min-width: 280px){
+    main section div.habilidades ul {
+        max-width: 250px;
+        margin: 0 auto;
+    }
+}
+@media only screen and (min-width: 520px){
+    main section div.habilidades ul {
+        max-width: 500px;
+    }
+}
+@media only screen and (min-width: 770px){
+    main section div.habilidades ul {
+        max-width: 750px;
+    }
+}
+@media only screen and (min-width: 1020px){
+    main section div.habilidades ul {
+        max-width: 1000px;
+    }
 }
 main section div.habilidades ul li{
     text-align: center;
     background-color: #2e2e2e;
-    max-width: 25%;
+    max-width: 250px;
     height: 170px;
-    margin: 25px 50px;
+    margin: 25px 47px;
     padding: 10px;
     border-radius: 20px;
+    border: solid white 3px;
     float: left;
-}
-main section div.habilidades ul li:nth-child(4n+1){
-    clear: both;
 }
 main section div.habilidades::after{
     content: '';
@@ -559,63 +571,6 @@ main section div.habilidades ul li p{
     font-size: 20px;
     font-family: 'Roboto', sans-serif;
     color: white;
-}
-@media only screen and (max-width: 999px){
-    main section div.habilidades {
-        padding: 50px 0px;
-    }
-    main section div.habilidades div.lenguajes {
-        width: 100%;
-        margin: 0 auto;
-        padding: 0px;
-    }
-    main section div.habilidades ul {
-        max-width: 600px;
-        height: 10px;
-        margin: 0 auto;
-    }
-    main section div.habilidades ul li {
-        margin: 25px 77.5px;
-    }
-    main section div.habilidades ul li img {
-        width: 125px;
-    }
-}
-@media only screen and (max-width: 599px){
-    main section div.habilidades ul {
-        max-width: 300px;
-        height: 10px;
-        margin: 0 auto;
-    }
-    main section div.habilidades ul li {
-        min-width: 40%;
-        margin: 25px 15px;
-    }
-    main section div.habilidades ul li img {
-        width: 100px;
-    }
-    main section div.habilidades ul li p{
-        font-size: 18px;
-        font-family: 'Roboto', sans-serif;
-        color: white;
-    }
-}
-@media only screen and (max-width: 299px){
-    main section div.habilidades ul {
-        max-width: 280px;
-    }
-    main section div.habilidades ul li {
-        min-width: 90%;
-        margin: 25px 15px;
-    }
-    main section div.habilidades ul li img {
-        width: 100px;
-    }
-    main section div.habilidades ul li p{
-        font-size: 18px;
-        font-family: 'Roboto', sans-serif;
-        color: white;
-    }
 }
 /*INFORMACION*/
 main section div.mi-informacion{
