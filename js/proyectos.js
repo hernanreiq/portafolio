@@ -155,6 +155,7 @@ function EliminarScroll(){
     VerPopUP();
 }
 function VerPopUP(){
+    ventana_emergente_fondo.style.display = "flex";
     ventana_emergente_fondo.classList.remove('no-visible');
     ventana_emergente_fondo.classList.add('visible');
 }
@@ -168,6 +169,9 @@ function ActivarScroll(){
     EsconderPopUp();
 }
 function EsconderPopUp(){
+    ventana_emergente_fondo.style.display = "none";
     ventana_emergente_fondo.classList.remove('visible');
     ventana_emergente_fondo.classList.add('no-visible');
+    parrafo_popup.innerHTML = "";
+    img_proyecto.src = "";
 }
