@@ -1,10 +1,10 @@
 /*
     FUNCION DE AJAX PARA SACAR LOS DATOS DE LOS PROYECTOS DEL ARCHIVO PROYECTOS.JSON
 */
-function ObtenerProyectosJSON(posicion){
+function ObtenerProyectosJSON(posicion) {
     const xhttp = new XMLHttpRequest();
-    xhttp.onreadystatechange = function(){
-        if(this.readyState == 4 && this.status == 200){
+    xhttp.onreadystatechange = function() {
+        if (this.readyState == 4 && this.status == 200) {
             boton_ver_mas.style.display = "inline-block";
             const proyectos = JSON.parse(xhttp.responseText);
             informacionJSON(proyectos, posicion);
@@ -22,7 +22,8 @@ var posicion_actual_lista = 1;
 var velocidad_listas = 4;
 var resultado_lista_actual;
 var longitud_proyectos;
-function informacionJSON(proyectos, posicion){
+
+function informacionJSON(proyectos, posicion) {
     longitud_proyectos = proyectos.length;
     CrearElementosLista(velocidad_listas, posicion, proyectos, longitud_proyectos);
 }
@@ -34,9 +35,10 @@ function informacionJSON(proyectos, posicion){
 */
 var mis_proyectos;
 var contenedor_proyectos = document.getElementById("proyectos-portafolio");
-function CrearElementosLista(velocidad, posicion, proyectos, longitud_proyectos){
+
+function CrearElementosLista(velocidad, posicion, proyectos, longitud_proyectos) {
     mis_proyectos = proyectos;
-    for(posicion; posicion <= velocidad; posicion++){
+    for (posicion; posicion <= velocidad; posicion++) {
         contenedor_proyectos.innerHTML += `
         <li>
             <a href="javascript:void(0)" onclick="mostrarDetalles(${posicion - 1})">
@@ -51,7 +53,7 @@ function CrearElementosLista(velocidad, posicion, proyectos, longitud_proyectos)
     }
     posicion_actual_lista = posicion;
     resultado_lista_actual = longitud_proyectos - (posicion_actual_lista - 1);
-    if (resultado_lista_actual == 0){
+    if (resultado_lista_actual == 0) {
         boton_ver_mas.style.display = "none"
     }
 }
@@ -63,12 +65,12 @@ function CrearElementosLista(velocidad, posicion, proyectos, longitud_proyectos)
     LUEGO DE HACER 2 PUBLICACIONES DE 4, LA ULTIMA LA HACE DE LO QUE SOBRE
 */
 var boton_ver_mas = document.getElementById('boton-ver-mas');
-boton_ver_mas.addEventListener('click', function(){
-    if (resultado_lista_actual <= 4 && resultado_lista_actual > 0){
+boton_ver_mas.addEventListener('click', function() {
+    if (resultado_lista_actual <= 4 && resultado_lista_actual > 0) {
         velocidad_listas = velocidad_listas + resultado_lista_actual;
-    } else if (resultado_lista_actual > 4){
+    } else if (resultado_lista_actual > 4) {
         velocidad_listas = velocidad_listas + 4;
-    } 
+    }
     ObtenerProyectosJSON(posicion_actual_lista);
 });
 
@@ -76,22 +78,24 @@ boton_ver_mas.addEventListener('click', function(){
     FUNCIONES QUE DETERMINAN EL PROYECTO QUE SE LE HA DADO CLIC Y TAMBIEN
     ASIGNAN LOS DETALLES O INFORMACIONES DENTRO DE LA VENTANA EMERGENTE
 */
-function mostrarDetalles(proyecto_clicado){
+function mostrarDetalles(proyecto_clicado) {
     EliminarScroll();
     DeterminarProyecto(proyecto_clicado);
 }
-function DeterminarProyecto(proyecto_clicado){
-    if(proyecto_clicado < longitud_proyectos && proyecto_clicado >= 0){
-        AsignarDetalles(proyecto_clicado); 
+
+function DeterminarProyecto(proyecto_clicado) {
+    if (proyecto_clicado < longitud_proyectos && proyecto_clicado >= 0) {
+        AsignarDetalles(proyecto_clicado);
     }
 }
-function AsignarDetalles(proyecto_actual){
+
+function AsignarDetalles(proyecto_actual) {
     nombre_proyecto_popup.innerText = mis_proyectos[proyecto_actual].nombre;
     img_proyecto.src = mis_proyectos[proyecto_actual].ruta_fotos + mis_proyectos[proyecto_actual].nombre + " (1).jpg";
     actual_img.innerText = 1;
     total_img.innerText = mis_proyectos[proyecto_actual].fotos;
-    if (mis_proyectos[proyecto_actual].enlace != ""){
-        var enlace = '<a href="'+ mis_proyectos[proyecto_actual].enlace +'" target="_blank">Ver el proyecto <i class="fas fa-external-link-alt"></i></a>';
+    if (mis_proyectos[proyecto_actual].enlace != "") {
+        var enlace = '<a href="' + mis_proyectos[proyecto_actual].enlace + '" target="_blank">Ver el proyecto <i class="fas fa-external-link-alt"></i></a>';
     } else {
         var enlace = "Enlace no disponible";
     }
@@ -119,30 +123,30 @@ var parrafo_popup = document.getElementById('parrafo-popup');
 /*
     FUNCION QUE PERMITE EL CAMBIO DE IMAGEN
 */
-function DireccionSlider(proyecto_actual_slider, proyecto_clicado){
+function DireccionSlider(proyecto_actual_slider, proyecto_clicado) {
     var posicion_inicial_slider = 1;
-    direccion_izquierda.addEventListener('click', function(){
-        if (posicion_inicial_slider == 1){
+    direccion_izquierda.addEventListener('click', function() {
+        if (posicion_inicial_slider == 1) {
             actual_img.innerText = proyecto_actual_slider[proyecto_clicado].fotos;
             posicion_inicial_slider = proyecto_actual_slider[proyecto_clicado].fotos;
             img_proyecto.src = proyecto_actual_slider[proyecto_clicado].ruta_fotos + proyecto_actual_slider[proyecto_clicado].nombre + ` (${posicion_inicial_slider}).jpg`;
-        } else if (posicion_inicial_slider != 1){
+        } else if (posicion_inicial_slider != 1) {
             actual_img.innerText = posicion_inicial_slider - 1;
             posicion_inicial_slider--;
             img_proyecto.src = proyecto_actual_slider[proyecto_clicado].ruta_fotos + proyecto_actual_slider[proyecto_clicado].nombre + ` (${posicion_inicial_slider}).jpg`;
         }
     });
-    direccion_derecha.addEventListener('click', function(){
-        if (posicion_inicial_slider < proyecto_actual_slider[proyecto_clicado].fotos){
+    direccion_derecha.addEventListener('click', function() {
+        if (posicion_inicial_slider < proyecto_actual_slider[proyecto_clicado].fotos) {
             actual_img.innerText = posicion_inicial_slider + 1;
             posicion_inicial_slider++;
             img_proyecto.src = proyecto_actual_slider[proyecto_clicado].ruta_fotos + proyecto_actual_slider[proyecto_clicado].nombre + ` (${posicion_inicial_slider}).jpg`;
-        } else if (posicion_inicial_slider == proyecto_actual_slider[proyecto_clicado].fotos){
+        } else if (posicion_inicial_slider == proyecto_actual_slider[proyecto_clicado].fotos) {
             actual_img.innerText = 1;
             posicion_inicial_slider = 1;
             img_proyecto.src = proyecto_actual_slider[proyecto_clicado].ruta_fotos + proyecto_actual_slider[proyecto_clicado].nombre + ` (${posicion_inicial_slider}).jpg`;
         }
-    });  
+    });
 }
 
 /* FUNCIONES DE LA VENTANA EMERGENTE */
@@ -150,28 +154,18 @@ boton_cerrar_popup.addEventListener('click', ActivarScroll);
 /*
     FUNCIONES PARA ABRIR LA VENTANA EMERGENTE
 */
-function EliminarScroll(){
+function EliminarScroll() {
     document.getElementById('body').setAttribute('class', 'no-scroll');
-    VerPopUP();
-}
-function VerPopUP(){
-    ventana_emergente_fondo.style.display = "flex";
-    ventana_emergente_fondo.classList.remove('no-visible');
     ventana_emergente_fondo.classList.add('visible');
 }
 
 /*
     FUNCIONES PARA CERRAR LA VENTANA EMERGENTE
 */
-function ActivarScroll(){
+function ActivarScroll() {
     document.getElementById('body').classList.remove('no-scroll');
     document.getElementById('body').setAttribute('class', 'scroll');
-    EsconderPopUp();
-}
-function EsconderPopUp(){
-    ventana_emergente_fondo.style.display = "none";
     ventana_emergente_fondo.classList.remove('visible');
-    ventana_emergente_fondo.classList.add('no-visible');
-    parrafo_popup.innerHTML = "";
-    img_proyecto.src = "";
+    // parrafo_popup.innerHTML = "";
+    // img_proyecto.src = "";
 }
