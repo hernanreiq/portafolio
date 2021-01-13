@@ -166,6 +166,4 @@ function ActivarScroll() {
     document.getElementById('body').classList.remove('no-scroll');
     document.getElementById('body').setAttribute('class', 'scroll');
     ventana_emergente_fondo.classList.remove('visible');
-    // parrafo_popup.innerHTML = "";
-    // img_proyecto.src = "";
 }

@@ -741,11 +741,9 @@ main section div div.contenedor-texto-informacion p,
     main section div div.contenedor-texto-informacion {
         padding: 50px 25px;
     }
-    main section div div.contenedor-texto-informacion p {
-        font-size: 15px;
-    }
+    main section div div.contenedor-texto-informacion p,
     .frase {
-        font-size: 15px;
+        font-size: 16px;
     }
 }
 
@@ -828,9 +826,7 @@ main section div.contacto::after {
 /*PIE DE LA PAGINA*/
 
 footer {
-    height: 100px;
     background-color: #1a1a1a;
-    padding: 32px;
 }
 
 footer p {
@@ -839,6 +835,7 @@ footer p {
     text-align: center;
     font-family: 'PT Sans Narrow', sans-serif;
     letter-spacing: 1px;
+    padding: 32px;
 }
 
 footer a {
