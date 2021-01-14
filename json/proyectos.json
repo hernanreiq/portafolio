@@ -1,5 +1,4 @@
-[
-    {
+[{
         "nombre": "Sommer Rose RD",
         "tipo": "Web",
         "enlace": "https://hernanreiq.github.io/sommerrose/",
@@ -10,24 +9,14 @@
         "caracteristicas": "Diseño adaptable para distintos tamaños de pantalla, te permite enviar mensajes a WhatsApp con tu orden de compra, es una maqueta sencilla con un proposito definido."
     },
     {
-        "nombre": "Simulador de Uber",
-        "tipo": "Sistema Web",
-        "enlace": "https://hernanreiq.github.io/simulador-uber/",
-        "fotos": 3,
-        "ruta_fotos": "img/Simulador de Uber/",
-        "descripcion": "Este simulador lo hice en forma de \"revancha\", debido a que en el pasado hice el intento de algo parecido a esto pero no pude obtener exactamente este resultado. Por otro lado también me sirvió para mejorar mi lógica de programación, ya que para hacer esto posible usé mis conocimientos en planos cartesianos y tuve que \"inventar\" una fórmula matemática para solucionar el problema.",
-        "habilidades": "HTML, CSS, JavaScript, Font-Awesome y Google Fonts.",
-        "caracteristicas": "Cuenta con un algoritmo que calcula la velocidad de movimiento que debe tener el carro en cada tramo de la vía, en donde para llegar a completar cada tramo tarda 5 segundos, dando la sensación de realismo porque en los tramos con muchas curvas va lento, pero cuando hay rectas largas va más rápido."
-    },
-    {
-        "nombre": "Generador de contraseñas",
-        "tipo": "Sistema Web",
-        "enlace": "https://hernanreiq.github.io/password-generator/",
-        "fotos": 3,
-        "ruta_fotos": "img/Generador de contraseñas/",
-        "descripcion": "Este sistema web puede ser de ayuda para aquellas personas que se preocupan por la seguridad de sus cuentas. Este pequeño proyecto lo hice para desarrollar un poco más mi lógica de programación.", 
+        "nombre": "Simulador de batalla",
+        "tipo": "Juego web",
+        "enlace": "https://hernanreiq.github.io/battle-reiq/",
+        "fotos": 5,
+        "ruta_fotos": "img/Simulador de batalla/",
+        "descripcion": "La idea de crear este simulador de batalla me emocionó mucho, debido a que iba a hacer uso de la programación orientada a objetos a un nivel un poquito más avanzado del que suelo manejar.",
         "habilidades": "HTML, CSS, JavaScript, Google Fonts y Font-Awesome.",
-        "caracteristicas": "Sistema web diseñado en un ancho de 300 píxeles, genera contraseñas seguras de forma aleatoria, permite configurar que tipos de carácteres conformarán la contraseña."
+        "caracteristicas": "Juego web diseñado en un ancho de 1000 píxeles, por lo que no es resposive. El oponente tiene mejor curación que el jugador y las decisiones del oponente son aleatorias, pero su salud y fuerza tienen prioridad."
     },
     {
         "nombre": "Koncafé",
@@ -45,7 +34,7 @@
         "enlace": "https://hernanreiq.github.io/zona-colonial-digital/",
         "fotos": 6,
         "ruta_fotos": "img/Zona Colonial Digital/",
-        "descripcion": "Esta página web fue realizada en colaboración con Nairobi Nivar como parte de un trabajo final en una asignatura de la Universidad. La maquetación inicial fue hecha por mi compañera, mientras que yo me encargué de agregar las otras sub-páginas, generar códigos con PHP, envío de mensajes personalizados al correo, los colores y de hacerla adaptable a distintas pantallas.", 
+        "descripcion": "Esta página web fue realizada en colaboración con Nairobi Nivar como parte de un trabajo final en una asignatura de la Universidad. La maquetación inicial fue hecha por mi compañera, mientras que yo me encargué de agregar las otras sub-páginas, generar códigos con PHP, envío de mensajes personalizados al correo, los colores y de hacerla adaptable a distintas pantallas.",
         "habilidades": "HTML, CSS, PHP e Inserción de vídeo de YouTube.",
         "caracteristicas": "Diseño adaptable a pocas pantallas, generar código único para obtener Internet en el lugar, envío de mensaje personalizado al correo."
     },
@@ -58,6 +47,26 @@
         "descripcion": "La motivación que me llevó a crear esa web fue mi alto interés por iniciar un negocio, enfocado esencialmente en desarrollar servicios que otras personas pudieran consumir. Aunque todo el desarrollo haya sido por mi, el plan era hacerlo en equipo, pero tristemente mis compañeros no tuvieron la misma visión o yo no supe motivarlos lo suficiente.",
         "habilidades": "HTML, CSS, JavaScript, jQuery y PHP.",
         "caracteristicas": "Cuenta con diseño adaptable a distintas pantallas, formulario de contacto que envía notificaciones al correo, ventanas emergentes para mostrar la descripción de los proyectos."
+    },
+    {
+        "nombre": "Simulador de Uber",
+        "tipo": "Sistema Web",
+        "enlace": "https://hernanreiq.github.io/simulador-uber/",
+        "fotos": 3,
+        "ruta_fotos": "img/Simulador de Uber/",
+        "descripcion": "Este simulador lo hice en forma de \"revancha\", debido a que en el pasado hice el intento de algo parecido a esto pero no pude obtener exactamente este resultado. Por otro lado también me sirvió para mejorar mi lógica de programación, ya que para hacer esto posible usé mis conocimientos en planos cartesianos y tuve que \"inventar\" una fórmula matemática para solucionar el problema.",
+        "habilidades": "HTML, CSS, JavaScript, Font-Awesome y Google Fonts.",
+        "caracteristicas": "Cuenta con un algoritmo que calcula la velocidad de movimiento que debe tener el carro en cada tramo de la vía, en donde para llegar a completar cada tramo tarda 5 segundos, dando la sensación de realismo porque en los tramos con muchas curvas va lento, pero cuando hay rectas largas va más rápido."
+    },
+    {
+        "nombre": "Generador de contraseñas",
+        "tipo": "Sistema Web",
+        "enlace": "https://hernanreiq.github.io/password-generator/",
+        "fotos": 3,
+        "ruta_fotos": "img/Generador de contraseñas/",
+        "descripcion": "Este sistema web puede ser de ayuda para aquellas personas que se preocupan por la seguridad de sus cuentas. Este pequeño proyecto lo hice para desarrollar un poco más mi lógica de programación.",
+        "habilidades": "HTML, CSS, JavaScript, Google Fonts y Font-Awesome.",
+        "caracteristicas": "Sistema web diseñado en un ancho de 300 píxeles, genera contraseñas seguras de forma aleatoria, permite configurar que tipos de carácteres conformarán la contraseña."
     },
     {
         "nombre": "Visitas Promedio YT",
