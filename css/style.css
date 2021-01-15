@@ -738,6 +738,11 @@ main section div div.contenedor-texto-informacion p,
     letter-spacing: 1px;
 }
 
+main section div div.contenedor-texto-informacion p b,
+.frase b {
+    color: #5ea9ff;
+}
+
 @media only screen and (max-width: 499px) {
     main section div div.contenedor-texto-informacion {
         padding: 50px 25px;
