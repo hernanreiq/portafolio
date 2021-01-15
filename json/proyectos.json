@@ -16,7 +16,7 @@
         "ruta_fotos": "img/Simulador de batalla/",
         "descripcion": "La idea de crear este simulador de batalla me emocionó mucho, debido a que iba a hacer uso de la programación orientada a objetos a un nivel un poquito más avanzado del que suelo manejar.",
         "habilidades": "HTML, CSS, JavaScript, Google Fonts y Font-Awesome.",
-        "caracteristicas": "Juego web diseñado en un ancho de 1000 píxeles, por lo que no es resposive. El oponente tiene mejor curación que el jugador y las decisiones del oponente son aleatorias, pero su salud y fuerza tienen prioridad."
+        "caracteristicas": "Juego web diseñado en un ancho de 1000 píxeles, por lo que no es adaptable a distintas pantallas. El oponente tiene mejor curación que el jugador y las decisiones del oponente son aleatorias, pero su salud y fuerza tienen prioridad."
     },
     {
         "nombre": "Koncafé",
