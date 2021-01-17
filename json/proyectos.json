@@ -9,14 +9,14 @@
         "caracteristicas": "Diseño adaptable para distintos tamaños de pantalla, te permite enviar mensajes a WhatsApp con tu orden de compra, es una maqueta sencilla con un proposito definido."
     },
     {
-        "nombre": "Simulador de batalla",
-        "tipo": "Juego web",
-        "enlace": "https://hernanreiq.github.io/battle-reiq/",
-        "fotos": 5,
-        "ruta_fotos": "img/Simulador de batalla/",
-        "descripcion": "La idea de crear este simulador de batalla me emocionó mucho, debido a que iba a hacer uso de la programación orientada a objetos a un nivel un poquito más avanzado del que suelo manejar.",
+        "nombre": "Lista de tareas",
+        "tipo": "Sistema web",
+        "enlace": "https://hernanreiq.github.io/lista-de-tareas/",
+        "fotos": 7,
+        "ruta_fotos": "img/Lista de tareas/",
+        "descripcion": "Este sistema web de creación de listas de tareas lo he hecho para estimular mis habilidades de diseño, también para mejorar mi lógica como programador y porque desde que empecé a estudiar Ingeniería en sistemas y computación, siempre me hizo ilusión crear un sistema así desde cero, me llena de orgullo tener la capacidad para hacerlo.",
         "habilidades": "HTML, CSS, JavaScript, Google Fonts y Font-Awesome.",
-        "caracteristicas": "Juego web diseñado en un ancho de 1000 píxeles, por lo que no es adaptable a distintas pantallas. El oponente tiene mejor curación que el jugador y las decisiones del oponente son aleatorias, pero su salud y fuerza tienen prioridad."
+        "caracteristicas": "Sistema web diseñado en un ancho de 1000 píxeles, por lo que no es adaptable a distintas pantallas. Te permite crear listas de tareas, marcarlas como completadas, mostrar una barra de progreso en porcentaje de las tareas que ya se han realizado, también permite regresar a su estado de incompleta, permite borrar las tareas creadas y cuando son marcadas como completadas se muestra el mes, día y año en que se hizo esa acción. No está conectado a una base de datos, así que las tareas se pierden al actualizar la página."
     },
     {
         "nombre": "Koncafé",
@@ -97,5 +97,15 @@
         "descripcion": "Esta web la hice a modo de práctica de un curso que estaba haciendo sobre diseño web, la idea del sitio al igual que su nombre es propio, lo único que tomé del curso fue el cómo iba a distribuir los elementos en la página. La idea del curso era hacer un Blog de viajes, yo quería algo distinto.",
         "habilidades": "HTML, CSS y Font-awesome.",
         "caracteristicas": "No tiene sub-páginas, es una maqueta sencilla."
+    },
+    {
+        "nombre": "Simulador de batalla",
+        "tipo": "Juego web",
+        "enlace": "https://hernanreiq.github.io/battle-reiq/",
+        "fotos": 5,
+        "ruta_fotos": "img/Simulador de batalla/",
+        "descripcion": "La idea de crear este simulador de batalla me emocionó mucho, debido a que iba a hacer uso de la programación orientada a objetos a un nivel un poquito más avanzado del que suelo manejar.",
+        "habilidades": "HTML, CSS, JavaScript, Google Fonts y Font-Awesome.",
+        "caracteristicas": "Juego web diseñado en un ancho de 1000 píxeles, por lo que no es adaptable a distintas pantallas. El oponente tiene mejor curación que el jugador y las decisiones del oponente son aleatorias, pero su salud y fuerza tienen prioridad."
     }
 ]
