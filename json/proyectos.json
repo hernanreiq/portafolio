@@ -19,14 +19,14 @@
         "caracteristicas": "Aplicación web diseñado en un ancho de 1000 píxeles, por lo que no es adaptable a distintas pantallas. Te permite crear listas de tareas, marcarlas como completadas, mostrar una barra de progreso en porcentaje de las tareas que ya se han realizado, también permite regresar a su estado de incompleta, permite borrar las tareas creadas y cuando son marcadas como completadas se muestra el mes, día y año en que se hizo esa acción. No está conectado a una base de datos, así que las tareas se pierden al actualizar la página."
     },
     {
-        "nombre": "Campesino",
-        "tipo": "Página web",
-        "enlace": "https://hernanreiq.github.io/campesino/",
-        "fotos": 3,
-        "ruta_fotos": "img/Campesino/",
-        "descripcion": "Página web dedicada a una zona rural a la que le tengo mucho aprecio. Fue creada a modo de práctica y repaso final en un curso de Bootstrap 4 del canal de YouTube Fazt. Obviamente le di un toque personal para no hacer una copia exacta de la página web mostrada en el vídeo del curso.",
-        "habilidades": "HTML, CSS, JavaScript, Google Fonts, Bootstrap 4 y ScrollReveal.",
-        "caracteristicas": "Página web adaptable a distintas pantallas gracias al uso de la librería de Bootstrap 4 (CSS). Es una maqueta sencilla con varias animaciones que fueron posibles por la librería ScrollReveal (JavaScript)."
+        "nombre": "Info R",
+        "tipo": "Sitio web",
+        "enlace": "https://hernanreiq.github.io/info-r/",
+        "fotos": 5,
+        "ruta_fotos": "img/Info R/",
+        "descripcion": "Proyecto final de un curso de Bootstrap 4 que está disponible en el canal de YouTube de Fazt, en donde el sitio web creado está enfocado en la promoción de un libro para su venta. He buscado la manera de darle mi toque personal al proyecto, para que no sea una copia exacta. He implementado algunas animaciones, cambié algunos elementos de lugar y también agregué otros nuevos.",
+        "habilidades": "HTML, CSS, JavaScript, Font-Awesome, Photoshop CS6, Bootstrap 4 y ScrollReveal.",
+        "caracteristicas": "Sitio web adaptable a distintas pantallas gracias al uso de la librería de Bootstrap 4 (CSS), la mayoría de imágenes son propias. Es una maqueta sencilla con varias animaciones que fueron posibles por la librería ScrollReveal (JavaScript)."
     },
     {
         "nombre": "Koncafé",
@@ -45,7 +45,7 @@
         "fotos": 6,
         "ruta_fotos": "img/Zona Colonial Digital/",
         "descripcion": "Este sitio web fue realizada en colaboración con Nairobi Nivar como parte de un trabajo final en una asignatura de la Universidad. La maquetación inicial fue hecha por mi compañera, mientras que yo me encargué de agregar las otras sub-páginas, generar códigos con PHP, envío de mensajes personalizados al correo, los colores y de hacerla adaptable a distintas pantallas.",
-        "habilidades": "HTML, CSS, PHP e Inserción de vídeo de YouTube.",
+        "habilidades": "HTML, CSS, Photoshop CS6, PHP e Inserción de vídeo de YouTube.",
         "caracteristicas": "Diseño adaptable a pocas pantallas, generar código único para obtener Internet en el lugar, envío de mensaje personalizado al correo."
     },
     {
@@ -55,7 +55,7 @@
         "fotos": 4,
         "ruta_fotos": "img/Grupo Golden/",
         "descripcion": "La motivación que me llevó a crear esta página web fue mi alto interés por iniciar un negocio, enfocado esencialmente en desarrollar servicios que otras personas pudieran consumir. Aunque todo el desarrollo haya sido por mi, el plan era hacerlo en equipo, pero tristemente mis compañeros no tuvieron la misma visión o yo no supe motivarlos lo suficiente.",
-        "habilidades": "HTML, CSS, JavaScript, jQuery y PHP.",
+        "habilidades": "HTML, CSS, Photoshop CS6, JavaScript, jQuery y PHP.",
         "caracteristicas": "Cuenta con diseño adaptable a distintas pantallas, formulario de contacto que envía notificaciones al correo, ventanas emergentes para mostrar la descripción de los proyectos."
     },
     {
@@ -65,7 +65,7 @@
         "fotos": 3,
         "ruta_fotos": "img/Simulador de Uber/",
         "descripcion": "Este simulador lo hice en forma de \"revancha\", debido a que en el pasado hice el intento de algo parecido a esto pero no pude obtener exactamente este resultado. Por otro lado también me sirvió para mejorar mi lógica de programación, ya que para hacer esto posible usé mis conocimientos en planos cartesianos y tuve que \"inventar\" una fórmula matemática para solucionar el problema.",
-        "habilidades": "HTML, CSS, JavaScript, Font-Awesome y Google Fonts.",
+        "habilidades": "HTML, CSS, Photoshop CS6, JavaScript, Font-Awesome y Google Fonts.",
         "caracteristicas": "Cuenta con un algoritmo que calcula la velocidad de movimiento que debe tener el carro en cada tramo de la vía, en donde para llegar a completar cada tramo tarda 5 segundos, dando la sensación de realismo porque en los tramos con muchas curvas va lento, pero cuando hay rectas largas va más rápido."
     },
     {
@@ -95,7 +95,7 @@
         "fotos": 4,
         "ruta_fotos": "img/Funeraria Eternidad/",
         "descripcion": "El diseño de esta página web se me ocurrió mientras hablaba con un compañero de la Universidad, donde le contaba que sería interesante tener una portada con un pasto verde simulando un cementerio, para luego al hacer scroll ir bajo tierra viendo ataudes, me pareció una idea muy creativa para una funeraria.",
-        "habilidades": "HTML y CSS.",
+        "habilidades": "HTML, CSS y Photoshop CS6.",
         "caracteristicas": "No tuve interés en crear otras sub-páginas, es una maqueta sencilla."
     },
     {
@@ -105,8 +105,18 @@
         "fotos": 3,
         "ruta_fotos": "img/F de Farándula/",
         "descripcion": "Esta página web la hice a modo de práctica de un curso que estaba haciendo sobre diseño web, la idea del sitio al igual que su nombre es propio, lo único que tomé del curso fue el cómo iba a distribuir los elementos en la página. La idea del curso era hacer un Blog de viajes, yo quería algo distinto.",
-        "habilidades": "HTML, CSS y Font-awesome.",
+        "habilidades": "HTML, CSS, Photoshop CS6 y Font-awesome.",
         "caracteristicas": "No tiene sub-páginas, es una maqueta sencilla."
+    },
+    {
+        "nombre": "Campesino",
+        "tipo": "Página web",
+        "enlace": "https://hernanreiq.github.io/campesino/",
+        "fotos": 3,
+        "ruta_fotos": "img/Campesino/",
+        "descripcion": "Página web dedicada a una zona rural a la que le tengo mucho aprecio. Fue creada a modo de práctica y repaso final en un curso de Bootstrap 4 del canal de YouTube Fazt. Obviamente le di un toque personal para no hacer una copia exacta de la página web mostrada en el vídeo del curso.",
+        "habilidades": "HTML, CSS, JavaScript, Google Fonts, Bootstrap 4 y ScrollReveal.",
+        "caracteristicas": "Página web adaptable a distintas pantallas gracias al uso de la librería de Bootstrap 4 (CSS). Es una maqueta sencilla con varias animaciones que fueron posibles por la librería ScrollReveal (JavaScript)."
     },
     {
         "nombre": "Simulador de batalla",
@@ -115,7 +125,7 @@
         "fotos": 5,
         "ruta_fotos": "img/Simulador de batalla/",
         "descripcion": "La idea de crear este simulador de batalla me emocionó mucho, debido a que iba a hacer uso de la programación orientada a objetos a un nivel un poquito más avanzado del que suelo manejar.",
-        "habilidades": "HTML, CSS, JavaScript, Google Fonts y Font-Awesome.",
+        "habilidades": "HTML, CSS, Photoshop CS6, JavaScript, Google Fonts y Font-Awesome.",
         "caracteristicas": "Aplicación web diseñado en un ancho de 1000 píxeles, por lo que no es adaptable a distintas pantallas. El oponente tiene mejor curación que el jugador y las decisiones del oponente son aleatorias, pero su salud y fuerza tienen prioridad."
     }
 ]
