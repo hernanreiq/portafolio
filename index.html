@@ -17,7 +17,7 @@
         <div class="portada">
             <img src="img/portada.jpg" alt="portada del portafolio" class="portada">
         </div>
-        <nav>
+        <nav id="navBar">
             <a href="javascript:void(0)" id="menu-navegacion"><i class="fas fa-bars"></i></a>
             <ul id="lista-menu">
                 <a href="#proyectos">
@@ -33,7 +33,7 @@
                     <li class="menu">Contacto</li>
                 </a>
             </ul>
-            <a href="#presentacion" class="marca">Hernan.Reiq</a>
+            <a href="#presentacion" class="marca" id="marcaHR">Hernan.Reiq</a>
         </nav>
         <a name="presentacion" class="ancla"></a>
         <section class="presentacion">
@@ -48,7 +48,7 @@
     </header>
     <main>
         <a name="proyectos" class="ancla"></a>
-        <section>
+        <section id="section-portafolio">
             <div class="titulo mis-proyectos">
                 Portafolio
             </div>
@@ -68,13 +68,13 @@
         <div class="clearfix"></div>
 
         <a name="habilidades" class="ancla"></a>
-        <section>
+        <section id="section-habilidades">
             <div class="titulo mis-habilidades">
                 Habilidades
             </div>
             <hr class="blanco">
             <div class="contenido habilidades">
-                <ul>
+                <ul id="lista-habilidades">
                     <li>
                         <img src="svg/html5.svg" alt="HTML5">
                         <p>HTML5</p>
@@ -112,6 +112,10 @@
                         <p>Bootstrap</p>
                     </li>
                     <li>
+                        <img src="svg/scrollreveal.svg" alt="ScrollRevealJS">
+                        <p>ScrollReveal</p>
+                    </li>
+                    <li>
                         <img src="svg/photoshop.svg" alt="MySQL">
                         <p>Photoshop</p>
                     </li>
@@ -119,7 +123,7 @@
             </div>
         </section>
         <a name="informacion" class="ancla"></a>
-        <section>
+        <section id="section-informacion">
             <div class="titulo mi-informacion">
                 Sobre mi...
             </div>
@@ -148,8 +152,8 @@
                         ajeno. En el pasado esto pudo haberse considerado como virtudes, pero en este mundo tan cambiante "algunas malas acciones se están normalizando".
                     </p><br>
                     <p>
-                        <b>Pasatiempos: </b>cuando no estoy programando me gusta jugar SMITE, es un juego de estrategia donde un equipo de 5 personas con roles distintos deben proteger sus estructuras y aprovechar las oportunidades para destruir las del
-                        enemigo, los personajes del juego son dioses de diferentes mitologías. También disfruto de alguna buena película como Interestelar, Predestinación y cualquiera de superhéroes.
+                        <b>Pasatiempos: </b>cuando no estoy programando me gusta jugar SMITE, es un juego de estrategia donde un equipo de 5 personas con roles distintos, deben proteger sus estructuras y aprovechar las oportunidades para destruir las
+                        del enemigo. Me encanta pasar tiempo con mi familia y amigos. También disfruto de alguna buena película como Interestelar, Predestinación y cualquiera de superhéroes.
                     </p> <br>
                     <p>
                         <blockquote class="frase">
@@ -161,13 +165,13 @@
             </div>
         </section>
         <a name="contacto" class="ancla"></a>
-        <section>
+        <section id="section-contacto">
             <div class="titulo mi-contacto">
                 Contacto
             </div>
             <hr class="blanco">
             <div class="contenido contacto">
-                <ul>
+                <ul id="lista-contacto">
                     <a href="https://www.linkedin.com/in/hernan-demorizi-ure%C3%B1a-4430031b1/" target="_blank">
                         <li><i class="fab fa-linkedin icono"></i><br> LinkedIn
                         </li>
@@ -216,6 +220,8 @@
             <a href="javascript:void(0)" id="cerrar-popup" class="cerrar-popup"><i class="fas fa-times"></i></a>
         </div>
     </div>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="js/animaciones.js"></script>
     <script src="js/presentacion.js"></script>
     <script src="js/menu-navegacion.js"></script>
     <script src="js/proyectos.js"></script>
