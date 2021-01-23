@@ -49,18 +49,3 @@ sr.reveal('#lista-contacto', {
     origin: 'bottom',
     duration: 2000
 });
-sr.reveal('#section-portafolio', {
-    distance: '10px',
-    origin: 'top',
-    duration: 1000
-});
-sr.reveal('#section-habilidades', {
-    distance: '10px',
-    origin: 'top',
-    duration: 1000
-});
-sr.reveal('#section-informacion', {
-    distance: '10px',
-    origin: 'top',
-    duration: 1000
-});
