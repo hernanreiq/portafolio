@@ -1,12 +1,15 @@
 /*
     FUNCION DE AJAX PARA SACAR LOS DATOS DE LOS PROYECTOS DEL ARCHIVO PROYECTOS.JSON
 */
+var contador_cantidad_proyectos = document.getElementById('cantidad-proyectos-contador');
+
 function ObtenerProyectosJSON(posicion) {
     const xhttp = new XMLHttpRequest();
     xhttp.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
             boton_ver_mas.style.display = "inline-block";
             const proyectos = JSON.parse(xhttp.responseText);
+            contador_cantidad_proyectos.innerText = proyectos.length;
             informacionJSON(proyectos, posicion);
         }
     }
@@ -159,3 +162,21 @@ function ActivarScroll() {
     document.getElementById('body').setAttribute('class', 'scroll');
     ventana_emergente_fondo.classList.remove('visible');
 }
+
+/*
+    CORREO ELECTRONICO
+*/
+var boton_email = document.getElementById('boton-email');
+var id_correo = "hernandemure1202";
+var dominio = "@gmail.com";
+boton_email.addEventListener('click', function() {
+    window.open("mailto:" + id_correo + dominio);
+});
+
+/*
+    CONTADOR DE HABILIDADES
+*/
+var lista_habilidades = document.getElementById('lista-habilidades');
+lista_habilidades = lista_habilidades.getElementsByTagName('li');
+var contador_cantidad_habilidades = document.getElementById('cantidad-habilidades-contador');
+contador_cantidad_habilidades.innerText = lista_habilidades.length;

@@ -324,6 +324,14 @@ div.blanco {
     background-image: linear-gradient(to right, #3B93F7, #ffffff, #3B93F7);
 }
 
+.azul-fondo {
+    background-color: #3B93F7;
+}
+
+.negro-fondo {
+    background-color: #2a2a2a;
+}
+
 
 /*PORTAFOLIO*/
 
