@@ -13,7 +13,12 @@ function ObtenerProyectosJSON(posicion) {
     xhttp.open('GET', 'json/proyectos.json', true);
     xhttp.send();
 }
-ObtenerProyectosJSON(1);
+setTimeout(function() {
+    var contenido_proyectos = document.getElementById('contenido-proyectos');
+    var spinner = document.getElementById('spinner');
+    contenido_proyectos.removeChild(spinner);
+    ObtenerProyectosJSON(1);
+}, 1500);
 
 /*
     FUNCION QUE PERMITE ENVIAR LA INFORMACION DEL JSON A CADA PROYECTO QUE LE CORRESPONDA
@@ -42,11 +47,11 @@ function CrearElementosLista(velocidad, posicion, proyectos, longitud_proyectos)
         contenedor_proyectos.innerHTML += `
         <li>
             <a href="javascript:void(0)" onclick="mostrarDetalles(${posicion - 1})">
-            <h2>${proyectos[posicion - 1]["nombre"]}</h2>
+            <h2 class="m-0">${proyectos[posicion - 1]["nombre"]}</h2>
             <div class="contenedor-imagen">
                 <img src="img/${proyectos[posicion - 1]["nombre"]}/${proyectos[posicion - 1]["nombre"]} (1).jpg" alt="proyecto ${proyectos[posicion - 1]["nombre"]}"><br>
             </div>
-            <p>Ver detalles</p>
+            <p class="m-0">Ver detalles</p>
             </a>
         </li>
         `;
@@ -90,10 +95,8 @@ function DeterminarProyecto(proyecto_clicado) {
 }
 
 function AsignarDetalles(proyecto_actual) {
+    CarouselImages(mis_proyectos, proyecto_actual);
     nombre_proyecto_popup.innerText = mis_proyectos[proyecto_actual].nombre;
-    img_proyecto.src = mis_proyectos[proyecto_actual].ruta_fotos + mis_proyectos[proyecto_actual].nombre + " (1).jpg";
-    actual_img.innerText = 1;
-    total_img.innerText = mis_proyectos[proyecto_actual].fotos;
     if (mis_proyectos[proyecto_actual].enlace != "") {
         var enlace = '<a href="' + mis_proyectos[proyecto_actual].enlace + '" target="_blank">Ver el proyecto <i class="fas fa-external-link-alt"></i></a>';
     } else {
@@ -106,47 +109,34 @@ function AsignarDetalles(proyecto_actual) {
         <b>Habilidades y tecnologías usadas: </b>${mis_proyectos[proyecto_actual].habilidades}<br><br>
         <b>Características: </b>${mis_proyectos[proyecto_actual].caracteristicas}<br><br>
     `;
-    DireccionSlider(mis_proyectos, proyecto_actual);
 }
 
 /* VENTANA EMERGENTE */
 var ventana_emergente_fondo = document.getElementById('ventana-emergente-fondo');
 var boton_cerrar_popup = document.getElementById('cerrar-popup');
 var nombre_proyecto_popup = document.getElementById("nombre-proyecto-popup");
-var img_proyecto = document.getElementById('img-popup');
-var actual_img = document.getElementById('actual-img');
-var total_img = document.getElementById('total-img');
-var direccion_izquierda = document.getElementById('direccion-izquierda');
-var direccion_derecha = document.getElementById('direccion-derecha');
+var carousel_inner = document.getElementById('carousel-inner');
 var parrafo_popup = document.getElementById('parrafo-popup');
 
 /*
-    FUNCION QUE PERMITE EL CAMBIO DE IMAGEN
+    FUNCION QUE CONFIGURA EL CAROUSEL DE LOS PROYECTOS
 */
-function DireccionSlider(proyecto_actual_slider, proyecto_clicado) {
-    var posicion_inicial_slider = 1;
-    direccion_izquierda.addEventListener('click', function() {
-        if (posicion_inicial_slider == 1) {
-            actual_img.innerText = proyecto_actual_slider[proyecto_clicado].fotos;
-            posicion_inicial_slider = proyecto_actual_slider[proyecto_clicado].fotos;
-            img_proyecto.src = proyecto_actual_slider[proyecto_clicado].ruta_fotos + proyecto_actual_slider[proyecto_clicado].nombre + ` (${posicion_inicial_slider}).jpg`;
-        } else if (posicion_inicial_slider != 1) {
-            actual_img.innerText = posicion_inicial_slider - 1;
-            posicion_inicial_slider--;
-            img_proyecto.src = proyecto_actual_slider[proyecto_clicado].ruta_fotos + proyecto_actual_slider[proyecto_clicado].nombre + ` (${posicion_inicial_slider}).jpg`;
-        }
-    });
-    direccion_derecha.addEventListener('click', function() {
-        if (posicion_inicial_slider < proyecto_actual_slider[proyecto_clicado].fotos) {
-            actual_img.innerText = posicion_inicial_slider + 1;
-            posicion_inicial_slider++;
-            img_proyecto.src = proyecto_actual_slider[proyecto_clicado].ruta_fotos + proyecto_actual_slider[proyecto_clicado].nombre + ` (${posicion_inicial_slider}).jpg`;
-        } else if (posicion_inicial_slider == proyecto_actual_slider[proyecto_clicado].fotos) {
-            actual_img.innerText = 1;
-            posicion_inicial_slider = 1;
-            img_proyecto.src = proyecto_actual_slider[proyecto_clicado].ruta_fotos + proyecto_actual_slider[proyecto_clicado].nombre + ` (${posicion_inicial_slider}).jpg`;
-        }
-    });
+function CarouselImages(proyectos, proyecto_actual) {
+    carousel_inner.innerHTML = "";
+    var primer_div_carousel = document.createElement('div');
+    var primer_img_proyecto = document.createElement('img');
+    primer_img_proyecto.src = proyectos[proyecto_actual].ruta_fotos + proyectos[proyecto_actual].nombre + " (1).jpg";
+    primer_div_carousel.setAttribute('class', 'carousel-item active');
+    primer_div_carousel.appendChild(primer_img_proyecto);
+    carousel_inner.appendChild(primer_div_carousel);
+    for (var i = 1; i < proyectos[proyecto_actual].fotos; i++) {
+        var img_proyecto = document.createElement('img');
+        img_proyecto.src = proyectos[proyecto_actual].ruta_fotos + proyectos[proyecto_actual].nombre + " (" + (i + 1) + ").jpg";
+        var div_carousel = document.createElement('div');
+        div_carousel.setAttribute('class', 'carousel-item');
+        div_carousel.appendChild(img_proyecto);
+        carousel_inner.appendChild(div_carousel);
+    }
 }
 
 /* FUNCIONES DE LA VENTANA EMERGENTE */
@@ -163,6 +153,8 @@ function EliminarScroll() {
     FUNCIONES PARA CERRAR LA VENTANA EMERGENTE
 */
 function ActivarScroll() {
+    carousel_inner.innerHTML = "";
+    parrafo_popup.innerHTML = "";
     document.getElementById('body').classList.remove('no-scroll');
     document.getElementById('body').setAttribute('class', 'scroll');
     ventana_emergente_fondo.classList.remove('visible');

@@ -306,18 +306,18 @@ main section div.titulo {
     text-shadow: rgb(37, 37, 37) 1px 1px 1px;
 }
 
-hr.azul {
-    height: 1px;
-    max-width: 100%;
+div.azul {
+    height: 2px;
+    width: 100%;
     border: 0;
     background-image: -moz-linear-gradient(left, #1a1a1a, #3B93F7, #1a1a1a);
     background-image: -webkit-linear-gradient(left, #1a1a1a, #3B93F7, #1a1a1a);
     background-image: linear-gradient(to right, #1a1a1a, #3B93F7, #1a1a1a);
 }
 
-hr.blanco {
-    height: 1px;
-    max-width: 100%;
+div.blanco {
+    height: 2px;
+    width: 100%;
     border: 0;
     background-image: -moz-linear-gradient(left, #3B93F7, #ffffff, #3B93F7);
     background-image: -webkit-linear-gradient(left, #3B93F7, #ffffff, #3B93F7);
@@ -573,36 +573,6 @@ div.popup div img {
     width: 100%;
     height: 100%;
     border: #2a2a2a solid 3px;
-}
-
-div.popup div.botones-img {
-    margin-top: 10px;
-}
-
-div.popup div button.direccion-img {
-    font-size: 25px;
-    color: #5ea9ff;
-    background-color: #2e2e2e;
-    border-radius: 5px;
-    border: solid 2px #5ea9ff;
-    padding: 3px;
-}
-
-div.popup div button.direccion-img:hover {
-    color: #2e2e2e;
-    background-color: #5ea9ff;
-    border: solid 2px #2e2e2e;
-}
-
-div.popup div span.posicion-img {
-    border: solid 2px#2e2e2e;
-    padding: 3px 7px;
-    border-radius: 5px;
-    font-size: 25px;
-    color: #2e2e2e;
-    background-color: #3B93F7;
-    font-weight: bold;
-    font-family: 'PT Sans Narrow', sans-serif;
 }
 
 div.popup p {
@@ -861,6 +831,7 @@ footer a {
 }
 
 footer a:hover {
+    text-decoration: none;
     color: gold;
 }
 
