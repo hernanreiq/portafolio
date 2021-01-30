@@ -81,72 +81,134 @@
             </div>
             <div class="blanco"></div>
             <div class="contenido habilidades">
-                <ul id="lista-habilidades" class="animate__animated animate__fadeInUp">
-                    <li>
-                        <img src="svg/html5.svg" alt="HTML5">
-                        <p>HTML5</p>
-                    </li>
-                    <li>
-                        <img src="svg/css3.svg" alt="CSS3">
-                        <p>CSS3</p>
-                    </li>
-                    <li>
-                        <img src="svg/javascript.svg" alt="JavaScript">
-                        <p>JavaScript</p>
-                    </li>
-                    <li>
-                        <img src="svg/php.svg" alt="PHP">
-                        <p>PHP</p>
-                    </li>
-                    <li>
-                        <img src="svg/mysql.svg" alt="MySQL">
-                        <p>MySQL</p>
-                    </li>
-                    <li>
-                        <img src="svg/git.svg" alt="Git">
-                        <p>Git</p>
-                    </li>
-                    <li>
-                        <img src="svg/json.svg" alt="JSON">
-                        <p>JSON</p>
-                    </li>
-                    <li>
-                        <img src="svg/ajax.svg" alt="AJAX">
-                        <p>AJAX</p>
-                    </li>
-                    <li>
-                        <img src="svg/bootstrap.svg" alt="Bootstrap 4">
-                        <p>Bootstrap 4</p>
-                    </li>
-                    <li>
-                        <img src="svg/nodejs.svg" alt="NodeJS">
-                        <p>NodeJS</p>
-                    </li>
-                    <li>
-                        <img src="svg/npm.svg" alt="npm">
-                        <p>npm</p>
-                    </li>
-                    <li>
-                        <img src="svg/scrollreveal.svg" alt="ScrollRevealJS">
-                        <p>ScrollReveal</p>
-                    </li>
-                    <li>
-                        <img src="svg/animatecss.svg" alt="Animate.css">
-                        <p>Animate.css</p>
-                    </li>
-                    <li>
-                        <img src="svg/svg.svg" alt="svg">
-                        <p>SVG Graphics</p>
-                    </li>
-                    <li>
-                        <img src="svg/drawio.svg" alt="drawio diseño de uml, diagramas">
-                        <p>Draw.io</p>
-                    </li>
-                    <li>
-                        <img src="svg/photoshop.svg" alt="MySQL">
-                        <p>Photoshop</p>
-                    </li>
-                </ul>
+                <div class="container-xl">
+                    <div class="accordion" id="accordion-1">
+                        <div class="card azul-fondo-plus">
+                          <div class="card-header negro-fondo" id="headingOne">
+                            <h2 class="mb-0">
+                              <button class="btn btn-link btn-block text-left text-white text-decoration-none" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    <h2 class="titulo-skills">Front-end <span class="badge badge-pill ml-1 azul-fondo" id="cantidad-habilidades-contador-frontend"></span></h2>
+                              </button>
+                            </h2>
+                          </div>
+                          <div id="collapseOne" class="collapse pb-3 border border-dark show" aria-labelledby="headingOne" data-parent="#accordion-1">
+                            <div class="card-body">
+                                <ul class="animate__animated animate__fadeIn" id="contenedor-frontend">
+                                    <li class="skill">
+                                        <img src="svg/html5.svg" alt="HTML5">
+                                        <p>HTML5</p>
+                                    </li>
+                                    <li class="skill">
+                                        <img src="svg/css3.svg" alt="CSS3">
+                                        <p>CSS3</p>
+                                    </li>
+                                    <li class="skill">
+                                        <img src="svg/javascript.svg" alt="JavaScript">
+                                        <p>JavaScript</p>
+                                    </li>
+                                    <li class="skill">
+                                        <img src="svg/bootstrap.svg" alt="Bootstrap 4">
+                                        <p>Bootstrap 4</p>
+                                    </li>
+                                    <li class="skill">
+                                        <img src="svg/scrollreveal.svg" alt="ScrollRevealJS">
+                                        <p>ScrollReveal</p>
+                                    </li>
+                                    <li class="skill">
+                                        <img src="svg/animatecss.svg" alt="Animate.css">
+                                        <p>Animate.css</p>
+                                    </li>
+                                </ul>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card azul-fondo-plus">
+                          <div class="card-header negro-fondo" id="headingTwo">
+                            <h2 class="mb-0">
+                              <button class="btn btn-link btn-block text-left collapsed text-white text-decoration-none" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                <h2 class="titulo-skills">Back-end <span class="badge badge-pill ml-1 azul-fondo" id="cantidad-habilidades-contador-backend"></span></h2>
+                              </button>
+                            </h2>
+                          </div>
+                          <div id="collapseTwo" class="collapse pb-3 border border-dark" aria-labelledby="headingTwo" data-parent="#accordion-1">
+                            <div class="card-body">
+                                <ul class="animate__animated animate__fadeIn" id="contenedor-backend">
+                                    <li class="skill">
+                                        <img src="svg/php.svg" alt="PHP">
+                                        <p>PHP</p>
+                                    </li>
+                                    <li class="skill">
+                                        <img src="svg/mysql.svg" alt="MySQL">
+                                        <p>MySQL</p>
+                                    </li>
+                                    <li class="skill">
+                                        <img src="svg/nodejs.svg" alt="NodeJS">
+                                        <p>NodeJS</p>
+                                    </li>
+                                    <li class="skill">
+                                        <img src="svg/npm.svg" alt="npm">
+                                        <p>npm</p>
+                                    </li>
+                                </ul>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card azul-fondo-plus">
+                            <div class="card-header negro-fondo" id="headingFour">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link btn-block text-left collapsed text-white text-decoration-none" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                        <h2 class="titulo-skills">Diseño <span class="badge badge-pill ml-1 azul-fondo" id="cantidad-habilidades-contador-graphics"></span></h2>
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="collapseFour" class="collapse  pb-3 border border-dark" aria-labelledby="headingFour" data-parent="#accordion-1">
+                                <div class="card-body">
+                                    <ul class="animate__animated animate__fadeIn" id="contenedor-graphics">
+                                        <li class="skill">
+                                        <img src="svg/svg.svg" alt="svg">
+                                        <p>SVG Graphics</p>
+                                    </li>
+                                    <li class="skill">
+                                        <img src="svg/drawio.svg" alt="drawio diseño de uml, diagramas">
+                                        <p>Draw.io</p>
+                                    </li>
+                                    <li class="skill">
+                                        <img src="svg/photoshop.svg" alt="MySQL">
+                                        <p>Photoshop</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="card azul-fondo-plus">
+                        <div class="card-header negro-fondo" id="headingThree">
+                            <h2 class="mb-0">
+                            <button class="btn btn-link btn-block text-left collapsed text-white text-decoration-none" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                <h2 class="titulo-skills">Tecnologías <span class="badge badge-pill ml-1 azul-fondo" id="cantidad-habilidades-contador-tech"></span></h2>
+                            </button>
+                            </h2>
+                        </div>
+                        <div id="collapseThree" class="collapse pb-3 border border-dark" aria-labelledby="headingThree" data-parent="#accordion-1">
+                            <div class="card-body">
+                                <ul class="animate__animated animate__fadeIn" id="contenedor-tech">
+                                    <li class="skill">
+                                        <img src="svg/git.svg" alt="Git">
+                                        <p>Git</p>
+                                    </li>
+                                    <li class="skill">
+                                        <img src="svg/json.svg" alt="JSON">
+                                        <p>JSON</p>
+                                    </li>
+                                    <li class="skill">
+                                        <img src="svg/ajax.svg" alt="AJAX">
+                                        <p>AJAX</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
         <a name="informacion" class="ancla"></a>
@@ -267,7 +329,7 @@
     <script src="js/proyectos.js"></script>
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-LT0T6F676S"></script>
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-LT0T6F676S"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
 
@@ -277,7 +339,7 @@
         gtag('js', new Date());
 
         gtag('config', 'G-LT0T6F676S');
-    </script>
+    </script> -->
 </body>
 
 </html>

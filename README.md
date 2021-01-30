@@ -8,7 +8,7 @@ https://bit.ly/hernanreiq
 Lo considero completado en cuanto a diseño, pero nunca descarto agregar animaciones o revisar su código para ver cuales secciones pueden mejorar.
 
 # Tecnologías usadas en la creación del portafolio
-HTML5, CSS3, JavaScript, Font-Awesome, Google Fonts, Bootstrap 4, ScrollReveal, Draw.io, Photoshop CS6, AJAX y JSON. 
+HTML5, CSS3, JavaScript, Font-Awesome, Google Fonts, Bootstrap 4, ScrollReveal, Animate.css, Draw.io, Photoshop CS6, AJAX y JSON. 
 
 # Glosario de términos 
 Página web: maquetas sencillas con funciones reducidas y sin sub-páginas.

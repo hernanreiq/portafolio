@@ -176,7 +176,29 @@ boton_email.addEventListener('click', function() {
 /*
     CONTADOR DE HABILIDADES
 */
-var lista_habilidades = document.getElementById('lista-habilidades');
-lista_habilidades = lista_habilidades.getElementsByTagName('li');
+/* CONTENEDORES */
+var contenedor_frontend = document.getElementById('contenedor-frontend');
+var contenedor_backend = document.getElementById('contenedor-backend');
+var contenedor_graphics = document.getElementById('contenedor-graphics');
+var contenedor_tech = document.getElementById('contenedor-tech');
+
+/* SKILLS */
+var skills_existentes = document.getElementsByClassName('skill');
+var skills_frontend = contenedor_frontend.getElementsByClassName('skill');
+var skills_backend = contenedor_backend.getElementsByClassName('skill');
+var skills_graphics = contenedor_graphics.getElementsByClassName('skill');
+var skills_tech = contenedor_tech.getElementsByClassName('skill');
+
+/* CONTADORES */
 var contador_cantidad_habilidades = document.getElementById('cantidad-habilidades-contador');
-contador_cantidad_habilidades.innerText = lista_habilidades.length;
+var contador_frontend = document.getElementById('cantidad-habilidades-contador-frontend');
+var contador_backend = document.getElementById('cantidad-habilidades-contador-backend');
+var contador_graphics = document.getElementById('cantidad-habilidades-contador-graphics');
+var contador_tech = document.getElementById('cantidad-habilidades-contador-tech');
+
+/* INSERCION DE CANTIDAD */
+contador_cantidad_habilidades.innerText = skills_existentes.length;
+contador_frontend.innerText = skills_frontend.length;
+contador_backend.innerText = skills_backend.length;
+contador_graphics.innerText = skills_graphics.length;
+contador_tech.innerText = skills_tech.length;
