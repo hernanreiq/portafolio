@@ -1,3 +1,86 @@
+/* 
+    CONFIGURACION DEL MENU DE NAVEGACION QUE CUANDO SE ACTIVA O DESAVTIVA SU ICONO CAMBIA
+*/
+var lista_menu = document.getElementById('lista-menu');
+var menu_navegacion = document.getElementById('menu-navegacion');
+var menu_activo = 0;
+menu_navegacion.addEventListener('click', activar_desactivar_menu);
+lista_menu.addEventListener('click', comprobar_ancho_pantalla);
+
+function activar_desactivar_menu(){
+    if (menu_activo == 0){
+        menu_navegacion.innerHTML = '<i class="fas fa-times"></i>';
+        lista_menu.style.display = "block";
+        menu_activo = 1;
+    } else if (menu_activo == 1){
+        menu_navegacion.innerHTML = '<i class="fas fa-bars"></i>';
+        lista_menu.style.display = "";
+        menu_activo = 0;
+    }
+}
+
+function comprobar_ancho_pantalla(){
+    if (window.outerWidth < 700){
+        activar_desactivar_menu();
+    }
+}
+
+/*
+    ANIMACION BÁSICA CON MI NOMBRE Y MI MARCA EN LA PORTADA
+*/
+var nombre_completo = document.getElementById('nombre-completo');
+var apodo = document.getElementById('apodo');
+var marca = document.getElementById('marcaHR');
+marca.addEventListener('click', animacionNombreApodo);
+animacionNombreApodo();
+var nombre_activo = false;
+var apodo_activo = true;
+
+function animacionNombreApodo() {
+    var nombre_intermitente = setInterval(function() {
+        if (nombre_activo == false && apodo_activo) {
+            nombre_completo.style.display = "inline-block";
+            apodo.style.display = "none";
+            nombre_activo = true;
+            apodo_activo = false;
+        } else if (nombre_activo && apodo_activo == false) {
+            apodo.style.display = "inline-block";
+            nombre_completo.style.display = "none";
+            nombre_activo = false;
+            apodo_activo = true;
+        }
+    }, 2000);
+
+    setTimeout(function() {
+        clearInterval(nombre_intermitente);
+        nombre_completo.style.display = "inline-block";
+        apodo.style.display = "none";
+    }, 10000);
+}
+
+/*
+    ANIMACIONES CON LA LIBRERIA SCROLLREVEAL PARA EL MENU, LOS PROYECTOS Y EL TEXTO EN INFORMACION
+*/
+window.sr = ScrollReveal();
+
+sr.reveal('#navBar', {
+    duration: 1000,
+    distance: '100px',
+    origin: 'top'
+});
+sr.reveal('#proyectos-portafolio', {
+    distance: '200px',
+    origin: 'bottom',
+    duration: 2000,
+    scale: 0.2
+});
+sr.reveal('.contenedor-texto-informacion', {
+    distance: '200px',
+    origin: 'bottom',
+    duration: 2000,
+    scale: 0.2
+});
+
 /*
     FUNCION DE AJAX PARA SACAR LOS DATOS DE LOS PROYECTOS DEL ARCHIVO PROYECTOS.JSON
 */
