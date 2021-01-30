@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Roboto:wght@100;500&display=swap&family=Open+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/2acc1475d8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
     <title>Mi portafolio - Hernan Demorizi Ureña</title>
@@ -16,7 +17,7 @@
 <body id="body">
     <header>
         <div class="portada">
-            <img src="img/portada.jpg" alt="portada del portafolio" class="portada">
+            <img src="img/portada.jpg" alt="portada del portafolio" class="portada animate__animated animate__heartBeat">
         </div>
         <nav id="navBar">
             <a href="javascript:void(0)" id="menu-navegacion"><i class="fas fa-bars"></i></a>
@@ -39,8 +40,8 @@
         <a name="presentacion" class="ancla"></a>
         <section class="presentacion">
             <div class="presentacion">
-                <img src="img/hernan_1.jpg" alt="Hernan Demorizi Ureña - Hernan.Reiq" id="foto-presentacion">
-                <div class="presentacion-texto">
+                <img src="img/hernan_1.jpg" alt="Hernan Demorizi Ureña - Hernan.Reiq" id="foto-presentacion" class="animate__animated animate__rotateInDownRight">
+                <div class="presentacion-texto  animate__animated animate__rotateInUpLeft">
                     <h1 class="nombre">Hernan<span id="nombre-completo">&nbsp;V. Demorizi Ureña</span><span id="apodo">.Reiq</span></h1>
                     <h2 class="hobby">Desarrollador y Diseñador Web</h2>
                 </div>
@@ -80,7 +81,7 @@
             </div>
             <div class="blanco"></div>
             <div class="contenido habilidades">
-                <ul id="lista-habilidades">
+                <ul id="lista-habilidades" class="animate__animated animate__fadeInUp">
                     <li>
                         <img src="svg/html5.svg" alt="HTML5">
                         <p>HTML5</p>
@@ -115,11 +116,27 @@
                     </li>
                     <li>
                         <img src="svg/bootstrap.svg" alt="Bootstrap 4">
-                        <p>Bootstrap</p>
+                        <p>Bootstrap 4</p>
+                    </li>
+                    <li>
+                        <img src="svg/nodejs.svg" alt="NodeJS">
+                        <p>NodeJS</p>
+                    </li>
+                    <li>
+                        <img src="svg/npm.svg" alt="npm">
+                        <p>npm</p>
                     </li>
                     <li>
                         <img src="svg/scrollreveal.svg" alt="ScrollRevealJS">
                         <p>ScrollReveal</p>
+                    </li>
+                    <li>
+                        <img src="svg/animatecss.svg" alt="Animate.css">
+                        <p>Animate.css</p>
+                    </li>
+                    <li>
+                        <img src="svg/svg.svg" alt="svg">
+                        <p>SVG Graphics</p>
                     </li>
                     <li>
                         <img src="svg/drawio.svg" alt="drawio diseño de uml, diagramas">
@@ -181,7 +198,7 @@
             </div>
             <div class="blanco"></div>
             <div class="contenido contacto">
-                <ul id="lista-contacto">
+                <ul id="lista-contacto" class="animate__animated animate__lightSpeedInRight">
                     <a href="https://www.linkedin.com/in/hernan-demorizi-ure%C3%B1a-4430031b1/" target="_blank">
                         <li><i class="fab fa-linkedin icono"></i><br> LinkedIn
                         </li>

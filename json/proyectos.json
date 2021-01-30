@@ -9,6 +9,16 @@
         "caracteristicas": "Diseño adaptable para distintos tamaños de pantalla, te permite enviar mensajes a WhatsApp con tu orden de compra, es una maqueta sencilla con un proposito definido."
     },
     {
+        "nombre": "Golden Lottery",
+        "tipo": "Aplicación web",
+        "enlace": "https://bit.ly/golden_lottery",
+        "fotos": 7,
+        "ruta_fotos": "img/Golden Lottery/",
+        "descripcion": "La idea de desarrollar y diseñar una lotería virtual, fue la que me hizo apasionarme por aprender las tecnologías que hoy utilizo. A pesar del evidente aprecio que tengo por este proyecto, también fue parte de mi ruta de aprendizaje del entorno de desarrollo NodeJS y de npm.",
+        "habilidades": "HTML, CSS, JavaScript, Font-Awesome, Draw.io, Bootstrap 4, Animate.css, NodeJS (Express, ejs, nodemon, colors y morgan) y npm.",
+        "caracteristicas": "Aplicación web adaptable a distintas pantallas gracias al uso de la librería de Bootstrap 4 (CSS), se hizo un algoritmo que determina cuales de las jugadas realizadas por el usuario, coinciden con los resultados del sorteo, asignando una premiación dependiendo de la posición del número acertado y la cantidad de aciertos."
+    },
+    {
         "nombre": "Info R",
         "tipo": "Sitio web",
         "enlace": "https://hernanreiq.github.io/info-r/",
