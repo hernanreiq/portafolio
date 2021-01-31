@@ -350,16 +350,21 @@ div.blanco {
     background-color: #1a1a1a;
 }
 
-
-/*PORTAFOLIO*/
-
-main section div.mis-proyectos {
+.titulo-gradiente-negro {
     background-color: #2e2e2e;
     background: -moz-linear-gradient(top, #2e2e2e 0%, #2e2e2e 50%, #1a1a1a 100%);
     background: -webkit-linear-gradient(top, #2e2e2e 0%, #2e2e2e 50%, #1a1a1a 100%);
     background: linear-gradient(to bottom, #2e2e2e 0%, #2e2e2e 50%, #1a1a1a 100%);
 }
 
+.titulo-gradiente-azul {
+    background-color: #5ea9ff;
+    background: -moz-linear-gradient(top, #5ea9ff 0%, #5ea9ff 50%, #3B93F7 100%);
+    background: -webkit-linear-gradient(top, #5ea9ff 0%, #5ea9ff 50%, #3B93F7 100%);
+    background: linear-gradient(to bottom, #5ea9ff 0%, #5ea9ff 50%, #3B93F7 100%);
+}
+
+/*PORTAFOLIO*/
 main section div.contenedor-portafolio {
     background-color: #1a1a1a;
     padding: 0;
@@ -640,14 +645,6 @@ div.popup a.cerrar-popup {
 
 
 /*HABILIDADES*/
-
-main section div.mis-habilidades {
-    background-color: #5ea9ff;
-    background: -moz-linear-gradient(top, #5ea9ff 0%, #5ea9ff 50%, #3B93F7 100%);
-    background: -webkit-linear-gradient(top, #5ea9ff 0%, #5ea9ff 50%, #3B93F7 100%);
-    background: linear-gradient(to bottom, #5ea9ff 0%, #5ea9ff 50%, #3B93F7 100%);
-}
-
 main section div.habilidades {
     background-color: #3B93F7;
     padding: 50px 0px;
@@ -726,14 +723,6 @@ main section div.habilidades ul li p {
 }
 
 /*INFORMACION*/
-
-main section div.mi-informacion {
-    background-color: #2e2e2e;
-    background: -moz-linear-gradient(top, #2e2e2e 0%, #2e2e2e 50%, #1a1a1a 100%);
-    background: -webkit-linear-gradient(top, #2e2e2e 0%, #2e2e2e 50%, #1a1a1a 100%);
-    background: linear-gradient(to bottom, #2e2e2e 0%, #2e2e2e 50%, #1a1a1a 100%);
-}
-
 main section div.informacion {
     background-color: #1a1a1a;
 }
@@ -772,14 +761,6 @@ main section div div.contenedor-texto-informacion p b,
 
 
 /*CONTACTO*/
-
-main section div.mi-contacto {
-    background-color: #5ea9ff;
-    background: -moz-linear-gradient(top, #5ea9ff 0%, #5ea9ff 50%, #3B93F7 100%);
-    background: -webkit-linear-gradient(top, #5ea9ff 0%, #5ea9ff 50%, #3B93F7 100%);
-    background: linear-gradient(to bottom, #5ea9ff 0%, #5ea9ff 50%, #3B93F7 100%);
-}
-
 main section div.contacto {
     background-color: #3B93F7;
     padding: 50px 0px;
