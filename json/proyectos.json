@@ -19,14 +19,14 @@
         "caracteristicas": "Aplicación web adaptable a distintas pantallas gracias al uso de la librería de Bootstrap 4 (CSS), la aplicación sólo muestra las últimas 2 películas buscadas para no saturar con el contenido, entrega retroalimentación al usuario cuando existe o no lo que busca, se debe escribir el nombre de la película en su idioma de origen para luego con una API buscar dicha película, cuando encuentra la película traduce su descripción con otra API antes de mostrárselo al usuario."
     },
     {
-        "nombre": "Info R",
-        "tipo": "Sitio web",
-        "enlace": "https://hernanreiq.github.io/info-r/",
-        "fotos": 5,
-        "ruta_fotos": "img/Info R/",
-        "descripcion": "Proyecto final de un curso de Bootstrap 4 que está disponible en el canal de YouTube de Fazt, en donde el sitio web creado está enfocado en la promoción de un libro para su venta. He buscado la manera de darle mi toque personal al proyecto, para que no sea una copia exacta. He implementado algunas animaciones, cambié algunos elementos de lugar y también agregué otros nuevos.",
-        "habilidades": "HTML, CSS, JavaScript, Font-Awesome, Photoshop CS6, Bootstrap 4 y ScrollReveal.",
-        "caracteristicas": "Sitio web adaptable a distintas pantallas gracias al uso de la librería de Bootstrap 4 (CSS), la mayoría de imágenes son propias. Es una maqueta sencilla con varias animaciones que fueron posibles por la librería ScrollReveal (JavaScript)."
+        "nombre": "Hernan Reiq Bot",
+        "tipo": "Bot de Telegram",
+        "enlace": "https://aqueous-stream-18818.herokuapp.com/",
+        "fotos": 6,
+        "ruta_fotos": "img/Hernan Reiq Bot/",
+        "descripcion": "Este proyecto consiste en un bot creado con Node.js y el framework telegraf de Telegram API. Está orientado a mostrar información sobre mi (Hernan.Reiq), también se le diseñó una web sencilla porque para su funcionamiento requiere de un servidor encendido en Node.js.",
+        "habilidades": "HTML, CSS, JavaScript, Bootstrap 4, Node.js (Express, ejs, Telegraf, nodemon) y Telegram API.",
+        "caracteristicas": "Cuenta con una web sencilla para acceder al enlace del bot, entrega retroalimentación cuando se envía texto y responde por los comandos predefinidos que pueden ser accedidos desde el teclado, también al escribir '/' muestra los comandos disponibles con su descripción."
     },
     {
         "nombre": "Simulador de Uber",
@@ -55,7 +55,7 @@
         "fotos": 7,
         "ruta_fotos": "img/Golden Lottery/",
         "descripcion": "La idea de desarrollar y diseñar una lotería virtual, fue la que me hizo apasionarme por aprender las tecnologías que hoy utilizo. A pesar del evidente aprecio que tengo por este proyecto, también fue parte de mi ruta de aprendizaje del entorno de desarrollo NodeJS y de npm.",
-        "habilidades": "HTML, CSS, JavaScript, Font-Awesome, Draw.io, Bootstrap 4, Animate.css, NodeJS (Express, ejs, nodemon, colors y morgan) y npm.",
+        "habilidades": "HTML, CSS, JavaScript, Font-Awesome, Draw.io, Bootstrap 4, Animate.css, Node.js (Express, ejs, nodemon, colors y morgan) y npm.",
         "caracteristicas": "Aplicación web adaptable a distintas pantallas gracias al uso de la librería de Bootstrap 4 (CSS), se hizo un algoritmo que determina cuales de las jugadas realizadas por el usuario, coinciden con los resultados del sorteo, asignando una premiación dependiendo de la posición del número acertado y la cantidad de aciertos."
     },
     {
@@ -67,6 +67,16 @@
         "descripcion": "Este aplicación web de creación de listas de tareas lo he hecho para estimular mis habilidades de diseño, también para mejorar mi lógica como programador y porque desde que empecé a estudiar Ingeniería en sistemas y computación, siempre me hizo ilusión crear un sistema así desde cero, me llena de orgullo tener la capacidad para hacerlo.",
         "habilidades": "HTML, CSS, JavaScript, Google Fonts y Font-Awesome.",
         "caracteristicas": "Aplicación web diseñado en un ancho de 1000 píxeles, por lo que no es adaptable a distintas pantallas. Te permite crear listas de tareas, marcarlas como completadas, mostrar una barra de progreso en porcentaje de las tareas que ya se han realizado, también permite regresar a su estado de incompleta, permite borrar las tareas creadas y cuando son marcadas como completadas se muestra el mes, día y año en que se hizo esa acción. No está conectado a una base de datos, así que las tareas se pierden al actualizar la página."
+    },
+    {
+        "nombre": "Info R",
+        "tipo": "Sitio web",
+        "enlace": "https://hernanreiq.github.io/info-r/",
+        "fotos": 5,
+        "ruta_fotos": "img/Info R/",
+        "descripcion": "Proyecto final de un curso de Bootstrap 4 que está disponible en el canal de YouTube de Fazt, en donde el sitio web creado está enfocado en la promoción de un libro para su venta. He buscado la manera de darle mi toque personal al proyecto, para que no sea una copia exacta. He implementado algunas animaciones, cambié algunos elementos de lugar y también agregué otros nuevos.",
+        "habilidades": "HTML, CSS, JavaScript, Font-Awesome, Photoshop CS6, Bootstrap 4 y ScrollReveal.",
+        "caracteristicas": "Sitio web adaptable a distintas pantallas gracias al uso de la librería de Bootstrap 4 (CSS), la mayoría de imágenes son propias. Es una maqueta sencilla con varias animaciones que fueron posibles por la librería ScrollReveal (JavaScript)."
     },
     {
         "nombre": "Zona Colonial Digital",
