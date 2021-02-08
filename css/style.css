@@ -378,11 +378,6 @@ main section div.contenedor-portafolio::after {
     clear: both;
 }
 
-main section div div.proyectos {
-    width: 1000px;
-    margin: 0 auto;
-}
-
 main section div.proyectos ul {
     list-style: none;
 }
@@ -394,30 +389,37 @@ main section div.proyectos ul li {
     text-align: center;
     margin: 20px 75px;
     float: left;
-    border-radius: 20px;
-    border: solid #5ea9ff 3px;
+    border-radius: 5px;
+    border: solid #5ea9ff 2px;
     overflow: hidden;
 }
 
-@media only screen and (max-width: 280px) {
+@media only screen and (min-width: 100px) {
     main section div div.proyectos {
-        width: 280px;
+        width: 100%;
     }
     main section div.proyectos ul li {
-        width: 280px;
+        width: 100%;
         margin: 20px 0px;
     }
     main section div.proyectos ul li h2 {
         font-size: 20px;
     }
+    main section div.proyectos ul li div.contenedor-imagen {
+        margin: 0 auto;
+        overflow: hidden;
+        height: auto;
+    }
 }
 
 @media only screen and (min-width: 280px) {
     main section div div.proyectos {
-        width: 280px;
+        width: 260px;
+        margin: 0 auto;
     }
     main section div.proyectos ul li {
         margin: 20px 0px;
+        
     }
     main section div.proyectos ul li h2 {
         font-size: 20px;
@@ -431,24 +433,20 @@ main section div.proyectos ul li {
     main section div.proyectos ul li h2 {
         font-size: 22px;
     }
+    main section div.proyectos ul li {
+        width: 340px;
+    }
 }
 
-@media only screen and (min-width: 500px) {
+@media only screen and (min-width: 450px) {
     main section div div.proyectos {
-        width: 360px;
+        width: 400px;
     }
     main section div.proyectos ul li h2 {
         font-size: 25px;
     }
-}
-
-@media only screen and (min-width: 820px) {
-    main section div div.proyectos {
-        width: 800px;
-    }
     main section div.proyectos ul li {
-        width: 360px;
-        margin: 20px 20px;
+        width: 400px;
     }
 }
 
@@ -457,7 +455,19 @@ main section div.proyectos ul li {
         width: 900px;
     }
     main section div.proyectos ul li {
-        margin: 20px 45px;
+        margin: 20px 25px;
+    }
+    main section div.proyectos ul li div.contenedor-imagen {
+        height: 170px;
+    }
+}
+
+@media only screen and (min-width: 1020px) {
+    main section div div.proyectos {
+        width: 1000px;
+    }
+    main section div.proyectos ul li {
+        margin: 20px 50px;
     }
 }
 
@@ -478,12 +488,6 @@ main section div.proyectos ul li h2 {
     font-family: 'Roboto', sans-serif;
 }
 
-main section div.proyectos ul li div.contenedor-imagen {
-    margin: 0 auto;
-    overflow: hidden;
-    height: 150px;
-}
-
 main section div.proyectos ul li img {
     width: 100%;
     height: 100%;
@@ -492,6 +496,7 @@ main section div.proyectos ul li img {
 main section div.proyectos ul li img:hover {
     transition: 5s ease;
     transform: scale(2);
+    cursor: zoom-in;
 }
 
 main section div.proyectos ul li a {
@@ -505,7 +510,7 @@ main section div.proyectos ul li a {
 }
 
 main section div.proyectos ul li:hover {
-    background-color: #5ea9ff;
+    background-color: #2a2a2a;
 }
 
 div.contenedor-boton-ver-mas {
@@ -519,7 +524,7 @@ div.contenedor-boton-ver-mas {
     background-color: #3B93F7;
     border: solid 2px rgb(255, 255, 255);
     color: white;
-    border-radius: 10px;
+    border-radius: 5px;
     text-shadow: black 1px 1px 1px;
     font-family: 'Roboto', sans-serif;
     display: none;
