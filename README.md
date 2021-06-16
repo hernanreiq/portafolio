@@ -1,11 +1,13 @@
 # Portafolio
-Este es mi portafolio de páginas, sitios y aplicaciones web que he creado. 
+Este es mi portafolio de las páginas, sitios y aplicaciones web que he creado. 
 
 # Enlace para verlo
 https://bit.ly/hernanreiq
 
 # Estado actual del portafolio
 Lo considero completado en cuanto a diseño, pero nunca descarto agregar animaciones o revisar su código para ver cuales secciones pueden mejorar.
+
+Lo manejo incluso como si fuera un blog, ya que me gusta agregarle más proyectos desarrollados, actualizar las informaciones y añadir las tecnologías que voy aprendiendo a utilizar.
 
 # Tecnologías usadas en la creación del portafolio
 HTML5, CSS3, JavaScript, Font-Awesome, Google Fonts, Bootstrap 4, ScrollReveal, Animate.css, Draw.io, Photoshop CS6, AJAX y JSON. 
