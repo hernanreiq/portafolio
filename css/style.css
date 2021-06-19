@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&Patua+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&Josefin+Sans&display=swap');
 html {
     box-sizing: border-box;
     scroll-behavior: smooth;
@@ -484,9 +484,11 @@ main section div.proyectos ul li:nth-child(2n+1) {
 main section div.proyectos ul li h2 {
     color: #ffffff;
     text-shadow: black 1px 1px 1px;
-    font-weight: normal;
-    font-family: 'Patua One', cursive;
+    font-weight: 400;
+    font-family: 'Josefin Sans', sans-serif;
     padding: 5px;
+    font-style: italic;
+    letter-spacing: 1px;
 }
 
 main section div.proyectos ul li img {
@@ -508,6 +510,7 @@ main section div.proyectos ul li a {
     font-weight: normal;
     font-family: 'Roboto', sans-serif;
     cursor: pointer;
+    letter-spacing: 1px;
 }
 
 main section div.proyectos ul li:hover {
