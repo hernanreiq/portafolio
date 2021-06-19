@@ -422,7 +422,7 @@ main section div.proyectos ul li {
         
     }
     main section div.proyectos ul li h2 {
-        font-size: 20px;
+        font-size: 18px;
     }
 }
 
@@ -488,7 +488,7 @@ main section div.proyectos ul li h2 {
     font-family: 'Josefin Sans', sans-serif;
     padding: 5px;
     font-style: italic;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
 }
 
 main section div.proyectos ul li img {

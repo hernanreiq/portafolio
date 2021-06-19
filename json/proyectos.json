@@ -1,5 +1,15 @@
 [
     {
+        "nombre": "Graphic design",
+        "tipo": "Sitio web",
+        "enlace": "https://hernanreiq.github.io/graphic-design/",
+        "fotos": 5,
+        "ruta_fotos": "img/Graphic design/",
+        "descripcion": "Este nuevo portafolio trata sobre algunos de los diseños que hice en forma de colaboración y trabajo. No especifico el tipo de diseño para no limitar lo que pueda compartir en el portafolio, por lo que hay carteles o flayers, composiciones web, logos y otros tipos de diseños.",
+        "habilidades": "HTML, CSS, JavaScript, Macy.js, Axios, Bootstrap 4 y Google Fonts.",
+        "caracteristicas": "Es un sitio web sencillo que solamente se enfoca en mostrar los proyectos de diseños, en donde estos están organizados con el efecto Masonry o Bricks gracias a la librería Macy.js. Es adaptable a distintas pantallas debido al uso de Bootstrap 4."
+    },
+    {
         "nombre": "Sommer Rose RD",
         "tipo": "Página web",
         "enlace": "https://hernanreiq.github.io/sommerrose/",
@@ -18,16 +28,6 @@
         "descripcion": "La creación de esta aplicación web surgió de la necesidad de practicar el uso de las APIs, dicha aplicación está orientada a buscar películas y series para mostrar su información, pero dicha información está en inglés por lo que se utiliza una segunda API para traducir el contenido antes de mostrárselo al usuario.",
         "habilidades": "HTML, CSS, JavaScript, AJAX, Bootstrap 4, Animate.css, Photoshop CS6, OMDb API y Just Translated API.",
         "caracteristicas": "Aplicación web adaptable a distintas pantallas gracias al uso de la librería de Bootstrap 4 (CSS), la aplicación sólo muestra las últimas 2 películas buscadas para no saturar con el contenido, entrega retroalimentación al usuario cuando existe o no lo que busca, se debe escribir el nombre de la película en su idioma de origen para luego con una API buscar dicha película, cuando encuentra la película traduce su descripción con otra API antes de mostrárselo al usuario."
-    },
-    {
-        "nombre": "Hernan Reiq Bot",
-        "tipo": "Bot de Telegram",
-        "enlace": "https://aqueous-stream-18818.herokuapp.com/",
-        "fotos": 6,
-        "ruta_fotos": "img/Hernan Reiq Bot/",
-        "descripcion": "Este proyecto consiste en un bot creado con Node.js y el framework telegraf de Telegram API. Está orientado a mostrar información sobre mi (Hernan.Reiq), también se le diseñó una web sencilla porque para su funcionamiento requiere de un servidor encendido en Node.js.",
-        "habilidades": "HTML, CSS, JavaScript, Bootstrap 4, Node.js (Express, ejs, Telegraf, nodemon) y Telegram API.",
-        "caracteristicas": "Cuenta con una web sencilla para acceder al enlace del bot, entrega retroalimentación cuando se envía texto y responde por los comandos predefinidos que pueden ser accedidos desde el teclado, también al escribir '/' muestra los comandos disponibles con su descripción."
     },
     {
         "nombre": "Simulador de Uber",
@@ -128,6 +128,16 @@
         "descripcion": "Esta página web la hice a modo de práctica de un curso que estaba haciendo sobre diseño web, la idea del sitio al igual que su nombre es propio, lo único que tomé del curso fue el cómo iba a distribuir los elementos en la página. La idea del curso era hacer un Blog de viajes, yo quería algo distinto.",
         "habilidades": "HTML, CSS, Photoshop CS6 y Font-awesome.",
         "caracteristicas": "No tiene sub-páginas, es una maqueta sencilla."
+    },
+    {
+        "nombre": "Hernan Reiq Bot",
+        "tipo": "Bot de Telegram",
+        "enlace": "https://aqueous-stream-18818.herokuapp.com/",
+        "fotos": 6,
+        "ruta_fotos": "img/Hernan Reiq Bot/",
+        "descripcion": "Este proyecto consiste en un bot creado con Node.js y el framework telegraf de Telegram API. Está orientado a mostrar información sobre mi (Hernan.Reiq), también se le diseñó una web sencilla porque para su funcionamiento requiere de un servidor encendido en Node.js.",
+        "habilidades": "HTML, CSS, JavaScript, Bootstrap 4, Node.js (Express, ejs, Telegraf, nodemon) y Telegram API.",
+        "caracteristicas": "Cuenta con una web sencilla para acceder al enlace del bot, entrega retroalimentación cuando se envía texto y responde por los comandos predefinidos que pueden ser accedidos desde el teclado, también al escribir '/' muestra los comandos disponibles con su descripción."
     },
     {
         "nombre": "Campesino",
