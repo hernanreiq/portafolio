@@ -10,7 +10,7 @@ Lo considero completado en cuanto a diseño, pero nunca descarto agregar animaci
 Lo manejo incluso como si fuera un blog, ya que me gusta agregarle más proyectos desarrollados, actualizar las informaciones y añadir las tecnologías que voy aprendiendo a utilizar.
 
 # Tecnologías usadas en la creación del portafolio
-HTML5, CSS3, JavaScript, Font-Awesome, Google Fonts, Bootstrap 4, ScrollReveal, Animate.css, Draw.io, Photoshop CS6, AJAX y JSON. 
+HTML5, CSS3, JavaScript, Font-Awesome, Google Fonts, Bootstrap 4, ScrollReveal, Animate.css, Draw.io, Photoshop CS6, Axios y JSON. 
 
 # Glosario de términos 
 Página web: maquetas sencillas con funciones reducidas y sin sub-páginas.

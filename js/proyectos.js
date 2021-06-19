@@ -1,27 +1,30 @@
 /*
-    FUNCION DE AJAX PARA SACAR LOS DATOS DE LOS PROYECTOS DEL ARCHIVO PROYECTOS.JSON
+    FUNCION PARA OBTENER LOS DATOS DEL ARCHIVO PROYECTO.JSON UTILIZANDO LA LIBRERIA AXIOS EN REEMPLAZO A AJAX 
 */
 var contador_cantidad_proyectos = document.getElementById('cantidad-proyectos-contador');
 
-function ObtenerProyectosJSON(posicion) {
-    const xhttp = new XMLHttpRequest();
-    xhttp.onreadystatechange = function() {
-        if (this.readyState == 4 && this.status == 200) {
-            boton_ver_mas.style.display = "inline-block";
-            const proyectos = JSON.parse(xhttp.responseText);
-            contador_cantidad_proyectos.innerText = proyectos.length;
-            informacionJSON(proyectos, posicion);
-        }
-    }
-    xhttp.open('GET', 'json/proyectos.json', true);
-    xhttp.send();
+function ObtenerProyectosJSON(posicion){
+    axios({
+        method: 'GET',
+        url: 'json/proyectos.json'
+    }).then(res => {
+        boton_ver_mas.style.display = "inline-block";
+        contador_cantidad_proyectos.innerText = res.data.length;
+        informacionJSON(res.data, posicion);
+    }).catch(err => {
+        console.log('Hay un error con los proyectos!', err);
+    });
 }
+
+/* 
+    CARGAR LOS PROYECTOS LUEGO DE 1 SEGUNDO 
+*/
 setTimeout(function() {
     var contenido_proyectos = document.getElementById('contenido-proyectos');
     var spinner = document.getElementById('spinner');
     contenido_proyectos.removeChild(spinner);
     ObtenerProyectosJSON(1);
-}, 1500);
+}, 1000);
 
 /*
     FUNCION QUE PERMITE ENVIAR LA INFORMACION DEL JSON A CADA PROYECTO QUE LE CORRESPONDA
@@ -174,34 +177,92 @@ boton_email.addEventListener('click', function() {
 });
 
 /*
-    CONTADOR DE HABILIDADES
+  FUNCIONES PARA EXTRAER, IMPRIMIR Y CONTABILIZAR LAS HABILIDADES
 */
-/* CONTENEDORES */
+/* CONTENEDORES DE HABILIDADES */
 var contenedor_frontend = document.getElementById('contenedor-frontend');
 var contenedor_backend = document.getElementById('contenedor-backend');
 var contenedor_graphics = document.getElementById('contenedor-graphics');
 var contenedor_tech = document.getElementById('contenedor-tech');
 
-/* SKILLS */
-var skills_existentes = document.getElementsByClassName('skill');
-var skills_frontend = contenedor_frontend.getElementsByClassName('skill');
-var skills_backend = contenedor_backend.getElementsByClassName('skill');
-var skills_graphics = contenedor_graphics.getElementsByClassName('skill');
-var skills_tech = contenedor_tech.getElementsByClassName('skill');
+/* 
+    FUNCION PARA EXTRAER LAS HABILIDADES DE HABILIDADES.JSON 
+*/
+ObtenerHabilidadesJSON()
 
-/* CONTADORES */
-var contador_cantidad_habilidades = document.getElementById('cantidad-habilidades-contador');
-var contador_frontend = document.getElementById('cantidad-habilidades-contador-frontend');
-var contador_backend = document.getElementById('cantidad-habilidades-contador-backend');
-var contador_graphics = document.getElementById('cantidad-habilidades-contador-graphics');
-var contador_tech = document.getElementById('cantidad-habilidades-contador-tech');
+function ObtenerHabilidadesJSON(){
+    axios({
+        method: 'GET',
+        url: 'json/habilidades.json'
+    }).then(res => {
+        ClasificarHabilidades(res.data, res.data.length);
+    }).catch(err => {
+        console.log('Hay un error con las habilidades!', err);
+    });
+}
 
-/* INSERCION DE CANTIDAD */
-contador_cantidad_habilidades.innerText = skills_existentes.length;
-contador_frontend.innerText = skills_frontend.length;
-contador_backend.innerText = skills_backend.length;
-contador_graphics.innerText = skills_graphics.length;
-contador_tech.innerText = skills_tech.length;
+/* 
+    CLASIFICACION DE LAS HABILIDADES EN SUS CONTENEDORES 
+*/
+function ClasificarHabilidades(habilidades, cantidad_habilidades){
+    for(var i = 0; i < cantidad_habilidades; i++){
+        switch(habilidades[i].tipo){
+            case 'Front-end': 
+                ImprimirHabilidades(habilidades[i], contenedor_frontend);
+                break;
+            case 'Back-end': 
+                ImprimirHabilidades(habilidades[i], contenedor_backend);
+                break;
+            case 'Diseño': 
+                ImprimirHabilidades(habilidades[i], contenedor_graphics);
+                break;
+            case 'Tecnologías': 
+                ImprimirHabilidades(habilidades[i], contenedor_tech);
+                break;
+            default:
+                console.log('No hay habilidades!');
+        }
+    }
+    ContadorHabilidades();
+}
+
+/* 
+    IMPRESION DE LAS HABILIDADES EN SUS CONTENEDORES 
+*/
+function ImprimirHabilidades(habilidad, contenedor){
+    contenedor.innerHTML += `
+        <li class="skill">
+            <img src="svg/${habilidad.archivo}" alt="${habilidad.nombre} - ${habilidad.tipo}">
+            <p>${habilidad.nombre}</p>
+        </li>
+    `;
+}
+
+/* 
+    INSERTANDO LA CANTIDAD DE HABILIDADES EN SUS INSIGNIAS (BADGES) 
+*/
+function ContadorHabilidades(){
+    /* SKILLS */
+    var skills_existentes = document.getElementsByClassName('skill');
+    var skills_frontend = contenedor_frontend.getElementsByClassName('skill');
+    var skills_backend = contenedor_backend.getElementsByClassName('skill');
+    var skills_graphics = contenedor_graphics.getElementsByClassName('skill');
+    var skills_tech = contenedor_tech.getElementsByClassName('skill');
+
+    /* CONTADORES - INSIGNIAS - BADGES */
+    var contador_cantidad_habilidades = document.getElementById('cantidad-habilidades-contador');
+    var contador_frontend = document.getElementById('cantidad-habilidades-contador-frontend');
+    var contador_backend = document.getElementById('cantidad-habilidades-contador-backend');
+    var contador_graphics = document.getElementById('cantidad-habilidades-contador-graphics');
+    var contador_tech = document.getElementById('cantidad-habilidades-contador-tech');
+
+    /* INSERCION DE CANTIDAD */
+    contador_cantidad_habilidades.innerText = skills_existentes.length;
+    contador_frontend.innerText = skills_frontend.length;
+    contador_backend.innerText = skills_backend.length;
+    contador_graphics.innerText = skills_graphics.length;
+    contador_tech.innerText = skills_tech.length;
+}
 
 /* 
     CONFIGURACION DEL MENU DE NAVEGACION QUE CUANDO SE ACTIVA O DESAVTIVA SU ICONO CAMBIA

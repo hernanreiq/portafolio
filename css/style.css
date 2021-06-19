@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&Patua+One&display=swap');
 html {
     box-sizing: border-box;
     scroll-behavior: smooth;
@@ -485,7 +485,8 @@ main section div.proyectos ul li h2 {
     color: #ffffff;
     text-shadow: black 1px 1px 1px;
     font-weight: normal;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Patua One', cursive;
+    padding: 5px;
 }
 
 main section div.proyectos ul li img {

@@ -1,0 +1,75 @@
+[
+    {
+        "nombre": "HTML5",
+        "archivo": "html5.svg",
+        "tipo": "Front-end"
+    },{
+        "nombre": "CSS3",
+        "archivo": "css3.svg",
+        "tipo": "Front-end"
+    },{
+        "nombre": "JavaScript",
+        "archivo": "javascript.svg",
+        "tipo": "Front-end"
+    },{
+        "nombre": "Bootstrap 4",
+        "archivo": "bootstrap.svg",
+        "tipo": "Front-end"
+    },{
+        "nombre": "ScrollReveal",
+        "archivo": "scrollreveal.svg",
+        "tipo": "Front-end"
+    },{
+        "nombre": "Animate.css",
+        "archivo": "animatecss.svg",
+        "tipo": "Front-end"
+    },{
+        "nombre": "Macy.js",
+        "archivo": "macyjs.svg",
+        "tipo": "Front-end"
+    },{
+        "nombre": "Axios",
+        "archivo": "axios.svg",
+        "tipo": "Front-end"
+    },{
+        "nombre": "PHP",
+        "archivo": "php.svg",
+        "tipo": "Back-end"
+    },{
+        "nombre": "MySQL",
+        "archivo": "mysql.svg",
+        "tipo": "Back-end"
+    },{
+        "nombre": "Node.js",
+        "archivo": "nodejs.svg",
+        "tipo": "Back-end"
+    },{
+        "nombre": "SVG Graphics",
+        "archivo": "svg.svg",
+        "tipo": "Diseño"
+    },{
+        "nombre": "Draw.io",
+        "archivo": "drawio.svg",
+        "tipo": "Diseño"
+    },{
+        "nombre": "Photoshop",
+        "archivo": "photoshop.svg",
+        "tipo": "Diseño"
+    },{
+        "nombre": "Git",
+        "archivo": "git.svg",
+        "tipo": "Tecnologías"
+    },{
+        "nombre": "JSON",
+        "archivo": "json.svg",
+        "tipo": "Tecnologías"
+    },{
+        "nombre": "AJAX",
+        "archivo": "ajax.svg",
+        "tipo": "Tecnologías"
+    },{
+        "nombre": "npm",
+        "archivo": "npm.svg",
+        "tipo": "Tecnologías"
+    }
+]

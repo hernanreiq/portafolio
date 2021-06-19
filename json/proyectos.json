@@ -145,7 +145,7 @@
         "enlace": "https://github.com/hernanreiq/visitas-promedio-yt",
         "fotos": 3,
         "ruta_fotos": "img/Visitas Promedio YT/",
-        "descripcion": "Esta extensión del navegador Google Chrome, la diseñe y desarrollé para uso personal. La extensión sirve para analizar el rendimiento de las visitas en un canal de YouTube, tomando como parámetro la cantidad actuales de suscriptores.",
+        "descripcion": "Esta extensión del navegador Google Chrome, la diseñé y desarrollé para uso personal. La extensión sirve para analizar el rendimiento de las visitas en un canal de YouTube, tomando como parámetro la cantidad actuales de suscriptores.",
         "habilidades": "HTML, CSS, JavaScript y JSON.",
         "caracteristicas": "Extensión que calcula el promedio de visitas que deberia tener un canal en 48 horas."
     },
