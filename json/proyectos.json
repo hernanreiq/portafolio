@@ -20,14 +20,14 @@
         "caracteristicas": "Diseño adaptable para distintos tamaños de pantalla, te permite enviar mensajes a WhatsApp con tu orden de compra, es una maqueta sencilla con un proposito definido."
     },
     {
-        "nombre": "Reiq Films",
-        "tipo": "Aplicación web",
-        "enlace": "https://hernanreiq.github.io/reiq-films/",
-        "fotos": 3,
-        "ruta_fotos": "img/Reiq Films/",
-        "descripcion": "La creación de esta aplicación web surgió de la necesidad de practicar el uso de las APIs, dicha aplicación está orientada a buscar películas y series para mostrar su información, pero dicha información está en inglés por lo que se utiliza una segunda API para traducir el contenido antes de mostrárselo al usuario.",
-        "habilidades": "HTML, CSS, JavaScript, AJAX, Bootstrap 4, Animate.css, Photoshop CS6, OMDb API y Just Translated API.",
-        "caracteristicas": "Aplicación web adaptable a distintas pantallas gracias al uso de la librería de Bootstrap 4 (CSS), la aplicación sólo muestra las últimas 2 películas buscadas para no saturar con el contenido, entrega retroalimentación al usuario cuando existe o no lo que busca, se debe escribir el nombre de la película en su idioma de origen para luego con una API buscar dicha película, cuando encuentra la película traduce su descripción con otra API antes de mostrárselo al usuario."
+        "nombre": "Trade Calculator",
+        "tipo": "Sitio web",
+        "enlace": "https://hernanreiq.github.io/trade-calculator/",
+        "fotos": 4,
+        "ruta_fotos": "img/Trade Calculator/",
+        "descripcion": "Es un sitio web orientado al trading, aunque no está centrado en dar ningún tipo de consejo financiero, solamente sirve para calcular ganancias si se le aplica el interés compuesto en las inversiones.",
+        "habilidades": "HTML, CSS, JavaScript, Bootstrap 4 y Photoshop CS6.",
+        "caracteristicas": "Diseño adaptable hasta pantallas de 340 píxeles de ancho, utiliza una fórmula matemática para calcular la cantidad de operaciones exitosas que necesita para llegar a la meta deseada, aplicando el interés compuesto para lograrla."
     },
     {
         "nombre": "Simulador de Uber",
@@ -38,6 +38,16 @@
         "descripcion": "Este simulador lo hice en forma de \"revancha\", debido a que en el pasado hice el intento de algo parecido a esto pero no pude obtener exactamente este resultado. Por otro lado también me sirvió para mejorar mi lógica de programación, ya que para hacer esto posible usé mis conocimientos en planos cartesianos y tuve que \"inventar\" una fórmula matemática para solucionar el problema.",
         "habilidades": "HTML, CSS, Photoshop CS6, Draw.io, JavaScript, Font-Awesome y Google Fonts.",
         "caracteristicas": "Cuenta con un algoritmo que calcula la velocidad de movimiento que debe tener el carro en cada tramo de la vía, en donde para llegar a completar cada tramo tarda 5 segundos, dando la sensación de realismo porque en los tramos con muchas curvas va lento, pero cuando hay rectas largas va más rápido."
+    },
+    {
+        "nombre": "Reiq Films",
+        "tipo": "Aplicación web",
+        "enlace": "https://hernanreiq.github.io/reiq-films/",
+        "fotos": 3,
+        "ruta_fotos": "img/Reiq Films/",
+        "descripcion": "La creación de esta aplicación web surgió de la necesidad de practicar el uso de las APIs, dicha aplicación está orientada a buscar películas y series para mostrar su información, pero dicha información está en inglés por lo que se utiliza una segunda API para traducir el contenido antes de mostrárselo al usuario.",
+        "habilidades": "HTML, CSS, JavaScript, AJAX, Bootstrap 4, Animate.css, Photoshop CS6, OMDb API y Just Translated API.",
+        "caracteristicas": "Aplicación web adaptable a distintas pantallas gracias al uso de la librería de Bootstrap 4 (CSS), la aplicación sólo muestra las últimas 2 películas buscadas para no saturar con el contenido, entrega retroalimentación al usuario cuando existe o no lo que busca, se debe escribir el nombre de la película en su idioma de origen para luego con una API buscar dicha película, cuando encuentra la película traduce su descripción con otra API antes de mostrárselo al usuario."
     },
     {
         "nombre": "Koncafé",
