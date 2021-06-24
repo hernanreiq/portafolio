@@ -25,7 +25,6 @@ html {
     border-radius: 25px;
 }
 
-
 /* BANNER DE LA PAGINA*/
 
 header {
@@ -713,7 +712,6 @@ main section div.habilidades ul li {
     float: left;
 }
 
-
 main section div.habilidades::after {
     content: '';
     display: block;
@@ -726,7 +724,7 @@ main section div.habilidades ul li img {
 }
 
 main section div.habilidades ul li p {
-    font-size: 20px;
+    font-size: 18px;
     font-family: 'Roboto', sans-serif;
     color: white;
 }
@@ -858,13 +856,4 @@ footer a {
 footer a:hover {
     text-decoration: none;
     color: gold;
-}
-
-
-/*LIMPIADOR*/
-
-div.clearfix {
-    display: block;
-    content: '';
-    clear: both;
 }

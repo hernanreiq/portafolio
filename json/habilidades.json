@@ -16,6 +16,10 @@
         "archivo": "bootstrap.svg",
         "tipo": "Front-end"
     },{
+        "nombre": "Axios",
+        "archivo": "axios.svg",
+        "tipo": "Front-end"
+    },{
         "nombre": "ScrollReveal",
         "archivo": "scrollreveal.svg",
         "tipo": "Front-end"
@@ -26,10 +30,6 @@
     },{
         "nombre": "Macy.js",
         "archivo": "macyjs.svg",
-        "tipo": "Front-end"
-    },{
-        "nombre": "Axios",
-        "archivo": "axios.svg",
         "tipo": "Front-end"
     },{
         "nombre": "PHP",
