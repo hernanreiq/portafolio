@@ -10,14 +10,14 @@
         "caracteristicas": "Es un sitio web sencillo que solamente se enfoca en mostrar los proyectos de diseños, en donde estos están organizados con el efecto Masonry o Bricks gracias a la librería Macy.js. Es adaptable a distintas pantallas debido al uso de Bootstrap 4."
     },
     {
-        "nombre": "Sommer Rose RD",
-        "tipo": "Página web",
-        "enlace": "https://hernanreiq.github.io/sommerrose/",
-        "fotos": 4,
-        "ruta_fotos": "img/Sommer Rose RD/",
-        "descripcion": "Esta página web la hice para el negocio de mi prima, ella vende sombreros personalizados pintados a mano. La pagina te permite hacer un pedido o una orden de compra, para luego enviar toda esa información por WhatsApp y coordinar con ella el diseño que quieres en tu producto.",
-        "habilidades": "HTML, CSS, JavaScript, Font-Awesome, Google Fonts y WhatsApp API.",
-        "caracteristicas": "Diseño adaptable para distintos tamaños de pantalla, te permite enviar mensajes a WhatsApp con tu orden de compra, es una maqueta sencilla con un proposito definido."
+        "nombre": "Analista de crédito",
+        "tipo": "Sitio web",
+        "enlace": "https://github.com/hernanreiq/credit-analyst",
+        "fotos": 11,
+        "ruta_fotos": "img/Analista de crédito/",
+        "descripcion": "Sitio web dedicado al análisis de crédito, corresponde a una prueba técnica de un puesto laboral, en dicha prueba se solicitaba que el sistema permita iniciar sesión, tener retroalimentaciones, manipular los estados de cuenta (ver, imprimir, guardar, enviar por correo, etc.), pero yo le agregué búsquedas, historiales, servicios (crearlos, editarlos, ver los disponibles y ver los activos), recargas de saldo y capas de seguridad.",
+        "habilidades": "HTML, CSS, JavaScript, Axios, Bootstrap 4, Draw.io, PHP, MySQL, Composer, HTML2PDF y Font-Awesome.",
+        "caracteristicas": "Diseño adaptable a distintas pantallas debido al uso de Bootstrap 4, convierte la información mostrada del usuario en formato PDF desde HTML y retroalimenta con mensajes a medida que se vaya interactuando con el sitio web."
     },
     {
         "nombre": "Trade Calculator",
@@ -148,6 +148,16 @@
         "descripcion": "Este proyecto consiste en un bot creado con Node.js y el framework telegraf de Telegram API. Está orientado a mostrar información sobre mi (Hernan.Reiq), también se le diseñó una web sencilla porque para su funcionamiento requiere de un servidor encendido en Node.js.",
         "habilidades": "HTML, CSS, JavaScript, Bootstrap 4, Node.js (Express, ejs, Telegraf, nodemon) y Telegram API.",
         "caracteristicas": "Cuenta con una web sencilla para acceder al enlace del bot, entrega retroalimentación cuando se envía texto y responde por los comandos predefinidos que pueden ser accedidos desde el teclado, también al escribir '/' muestra los comandos disponibles con su descripción."
+    },
+    {
+        "nombre": "Sommer Rose RD",
+        "tipo": "Página web",
+        "enlace": "https://hernanreiq.github.io/sommerrose/",
+        "fotos": 4,
+        "ruta_fotos": "img/Sommer Rose RD/",
+        "descripcion": "Esta página web la hice para el negocio de mi prima, ella vende sombreros personalizados pintados a mano. La pagina te permite hacer un pedido o una orden de compra, para luego enviar toda esa información por WhatsApp y coordinar con ella el diseño que quieres en tu producto.",
+        "habilidades": "HTML, CSS, JavaScript, Font-Awesome, Google Fonts y WhatsApp API.",
+        "caracteristicas": "Diseño adaptable para distintos tamaños de pantalla, te permite enviar mensajes a WhatsApp con tu orden de compra, es una maqueta sencilla con un proposito definido."
     },
     {
         "nombre": "Campesino",

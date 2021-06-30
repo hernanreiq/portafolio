@@ -159,11 +159,13 @@ function EliminarScroll() {
     FUNCIONES PARA CERRAR LA VENTANA EMERGENTE
 */
 function ActivarScroll() {
-    carousel_inner.innerHTML = "";
-    parrafo_popup.innerHTML = "";
+    ventana_emergente_fondo.classList.remove('visible');
     document.getElementById('body').classList.remove('no-scroll');
     document.getElementById('body').setAttribute('class', 'scroll');
-    ventana_emergente_fondo.classList.remove('visible');
+    setTimeout(function(){
+        carousel_inner.innerHTML = "";
+        parrafo_popup.innerHTML = "";
+    }, 350);
 }
 
 /*

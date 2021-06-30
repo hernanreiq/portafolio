@@ -567,7 +567,7 @@ div.overlay {
     right: 0;
     bottom: 0;
     z-index: 105;
-    transition: .5s ease-out all;
+    transition: .4s ease-out all;
 }
 
 .visible {

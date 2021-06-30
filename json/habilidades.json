@@ -44,6 +44,10 @@
         "archivo": "nodejs.svg",
         "tipo": "Back-end"
     },{
+        "nombre": "HTML2PDF",
+        "archivo": "html2pdf.svg",
+        "tipo": "Back-end"
+    },{
         "nombre": "SVG Graphics",
         "archivo": "svg.svg",
         "tipo": "Diseño"
@@ -70,6 +74,10 @@
     },{
         "nombre": "npm",
         "archivo": "npm.svg",
+        "tipo": "Tecnologías"
+    },{
+        "nombre": "Composer",
+        "archivo": "composer.svg",
         "tipo": "Tecnologías"
     }
 ]
