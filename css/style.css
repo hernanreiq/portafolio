@@ -577,7 +577,7 @@ div.overlay {
 
 div.popup {
     background-color: #2e2e2e;
-    width: 98%;
+    max-width: 1050px;
     max-height: 98%;
     padding: 10px;
     border-radius: 5px;
@@ -594,7 +594,7 @@ div.popup {
 }
 
 div.popup h2 {
-    color: #3B93F7;
+    color: #ffffff;
     text-shadow: black 1px 1px 1px;
     font-weight: normal;
     font-family: 'Roboto', sans-serif;
@@ -617,7 +617,7 @@ div.popup div img {
 div.popup p {
     text-align: justify;
     margin: 20px 0px;
-    padding: 15px;
+    padding: 15px 30px 15px 15px;
     max-height: 250px;
     overflow: auto;
     background-color: #1a1a1a;

@@ -104,7 +104,12 @@ function AsignarDetalles(proyecto_actual) {
     CarouselImages(mis_proyectos, proyecto_actual);
     nombre_proyecto_popup.innerText = mis_proyectos[proyecto_actual].nombre;
     if (mis_proyectos[proyecto_actual].enlace != "") {
-        var enlace = '<a href="' + mis_proyectos[proyecto_actual].enlace + '" target="_blank">Ver el proyecto <i class="fas fa-external-link-alt"></i></a>';
+        var cadena_enlace = (mis_proyectos[proyecto_actual].enlace).substring(0, 18);
+        if(cadena_enlace == 'https://github.com'){
+            var enlace = '<a href="' + mis_proyectos[proyecto_actual].enlace + '" target="_blank">Ver el repositorio <i class="fas fa-external-link-alt"></i></a>';
+        } else {
+            var enlace = '<a href="' + mis_proyectos[proyecto_actual].enlace + '" target="_blank">Ver el proyecto <i class="fas fa-external-link-alt"></i></a>';
+        }
     } else {
         var enlace = "Enlace no disponible";
     }
