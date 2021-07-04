@@ -174,18 +174,53 @@ function ActivarScroll() {
 }
 
 /*
-    CORREO ELECTRONICO
+    IMPRESION DE LAS SECCIONES DEL ACORDEON PARA LAS HABILIDADES
 */
-var boton_email = document.getElementById('boton-email');
-var id_correo = "hernandemure1202";
-var dominio = "@gmail.com";
-boton_email.addEventListener('click', function() {
-    window.open("mailto:" + id_correo + dominio);
-});
+var tipos_de_habilidades = ["Front-end", "Back-end", "Diseño", "Tecnologías"];
+var id_contenedores_de_habilidades = ["frontend", "backend", "graphics", "tech"];
+var acordeon_habilidades = document.getElementById('accordion-1');
+
+imprimirSeccionesHTMLAcordeon();
+
+function imprimirSeccionesHTMLAcordeon(){
+    for(var i = 0; i < tipos_de_habilidades.length; i++){
+        if(i == 0){
+            var primera_seccion_habilidades = 'show';
+            var seccion_abierta = "true";
+            var hashtag = '#habilidades';
+        } else {
+            var primera_seccion_habilidades = '';
+            var seccion_abierta = "false";
+            var hashtag = '#skills';
+        }
+        acordeon_habilidades.innerHTML += `
+        <div class="card azul-fondo-plus">  
+            <div class="card-header titulo-gradiente-negro " id="heading${id_contenedores_de_habilidades[i]}">
+                <a href="${hashtag}" class="text-decoration-none">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link btn-block text-left text-white text-decoration-none" type="button" data-toggle="collapse" data-target="#collapse${id_contenedores_de_habilidades[i]}" aria-expanded="${seccion_abierta}" aria-controls="collapse${id_contenedores_de_habilidades[i]}">
+                            <h2 class="titulo-skills">${tipos_de_habilidades[i]} <span class="badge badge-pill ml-1 azul-fondo" id="cantidad-habilidades-contador-${id_contenedores_de_habilidades[i]}"></span></h2>
+                        </button>
+                    </h2>
+                </a>
+            </div>
+            <div id="collapse${id_contenedores_de_habilidades[i]}" class="collapse pb-3 border border-dark ${primera_seccion_habilidades}" aria-labelledby="heading${id_contenedores_de_habilidades[i]}" data-parent="#accordion-1">
+                <div class="card-body">
+                    <ul class="animate__animated animate__fadeIn" id="contenedor-${id_contenedores_de_habilidades[i]}">
+                    </ul>
+                </div>
+            </div>
+        </div>
+        `;
+    }
+    // CUANDO LAS SECCIONES TERMINEN DE IMPRIMIRSE, ENTONCES SE IMPRIMIRÁN LAS HABILIDADES
+    ObtenerHabilidadesJSON();
+}
 
 /*
   FUNCIONES PARA EXTRAER, IMPRIMIR Y CONTABILIZAR LAS HABILIDADES
 */
+
 /* CONTENEDORES DE HABILIDADES */
 var contenedor_frontend = document.getElementById('contenedor-frontend');
 var contenedor_backend = document.getElementById('contenedor-backend');
@@ -195,7 +230,6 @@ var contenedor_tech = document.getElementById('contenedor-tech');
 /* 
     FUNCION PARA EXTRAER LAS HABILIDADES DE HABILIDADES.JSON 
 */
-ObtenerHabilidadesJSON()
 
 function ObtenerHabilidadesJSON(){
     axios({
@@ -270,6 +304,16 @@ function ContadorHabilidades(){
     contador_graphics.innerText = skills_graphics.length;
     contador_tech.innerText = skills_tech.length;
 }
+
+/*
+    CORREO ELECTRONICO
+*/
+var boton_email = document.getElementById('boton-email');
+var id_correo = "hernandemure1202";
+var dominio = "@gmail.com";
+boton_email.addEventListener('click', function() {
+    window.open("mailto:" + id_correo + dominio);
+});
 
 /* 
     CONFIGURACION DEL MENU DE NAVEGACION QUE CUANDO SE ACTIVA O DESAVTIVA SU ICONO CAMBIA
