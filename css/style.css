@@ -598,6 +598,8 @@ div.popup h2 {
     text-shadow: black 1px 1px 1px;
     font-weight: normal;
     font-family: 'Roboto', sans-serif;
+    font-style: italic;
+    letter-spacing: 1px;
     margin-bottom: 10px;
 }
 

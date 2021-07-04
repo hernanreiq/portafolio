@@ -195,15 +195,13 @@ function imprimirSeccionesHTMLAcordeon(){
         }
         acordeon_habilidades.innerHTML += `
         <div class="card azul-fondo-plus">  
-            <div class="card-header titulo-gradiente-negro " id="heading${id_contenedores_de_habilidades[i]}">
-                <a href="${hashtag}" class="text-decoration-none">
-                    <h2 class="mb-0">
-                        <button class="btn btn-link btn-block text-left text-white text-decoration-none" type="button" data-toggle="collapse" data-target="#collapse${id_contenedores_de_habilidades[i]}" aria-expanded="${seccion_abierta}" aria-controls="collapse${id_contenedores_de_habilidades[i]}">
-                            <h2 class="titulo-skills">${tipos_de_habilidades[i]} <span class="badge badge-pill ml-1 azul-fondo" id="cantidad-habilidades-contador-${id_contenedores_de_habilidades[i]}"></span></h2>
-                        </button>
-                    </h2>
-                </a>
-            </div>
+            <a href="${hashtag}" class="text-decoration-none">
+                <button class="btn btn-link btn-block rounded-0 text-left text-white text-decoration-none titulo-gradiente-negro" type="button" data-toggle="collapse" data-target="#collapse${id_contenedores_de_habilidades[i]}" aria-expanded="${seccion_abierta}" aria-controls="collapse${id_contenedores_de_habilidades[i]}">
+                    <div class="card-header border-0" id="heading${id_contenedores_de_habilidades[i]}">
+                        <h2 class="titulo-skills mb-0">${tipos_de_habilidades[i]} <span class="badge badge-pill ml-1 azul-fondo" id="cantidad-habilidades-contador-${id_contenedores_de_habilidades[i]}"></span></h2>
+                    </div>
+                </button>
+            </a>
             <div id="collapse${id_contenedores_de_habilidades[i]}" class="collapse pb-3 border border-dark ${primera_seccion_habilidades}" aria-labelledby="heading${id_contenedores_de_habilidades[i]}" data-parent="#accordion-1">
                 <div class="card-body">
                     <ul class="animate__animated animate__fadeIn" id="contenedor-${id_contenedores_de_habilidades[i]}">
