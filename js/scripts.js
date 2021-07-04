@@ -283,26 +283,17 @@ function ImprimirHabilidades(habilidad, contenedor){
     INSERTANDO LA CANTIDAD DE HABILIDADES EN SUS INSIGNIAS (BADGES) 
 */
 function ContadorHabilidades(){
-    /* SKILLS */
-    var skills_existentes = document.getElementsByClassName('skill');
-    var skills_frontend = contenedor_frontend.getElementsByClassName('skill');
-    var skills_backend = contenedor_backend.getElementsByClassName('skill');
-    var skills_graphics = contenedor_graphics.getElementsByClassName('skill');
-    var skills_tech = contenedor_tech.getElementsByClassName('skill');
-
-    /* CONTADORES - INSIGNIAS - BADGES */
-    var contador_cantidad_habilidades = document.getElementById('cantidad-habilidades-contador');
-    var contador_frontend = document.getElementById('cantidad-habilidades-contador-frontend');
-    var contador_backend = document.getElementById('cantidad-habilidades-contador-backend');
-    var contador_graphics = document.getElementById('cantidad-habilidades-contador-graphics');
-    var contador_tech = document.getElementById('cantidad-habilidades-contador-tech');
-
-    /* INSERCION DE CANTIDAD */
-    contador_cantidad_habilidades.innerText = skills_existentes.length;
-    contador_frontend.innerText = skills_frontend.length;
-    contador_backend.innerText = skills_backend.length;
-    contador_graphics.innerText = skills_graphics.length;
-    contador_tech.innerText = skills_tech.length;
+    for(var i = 0; i <= tipos_de_habilidades.length; i++){
+        if(i == 0){//CONTADOR DE TODAS LAS SKILLS
+            var skills_contador = document.getElementsByClassName('skill');
+            var badge_contador_skills = document.getElementById('cantidad-habilidades-contador');
+        } else {//CONTADOR DE SKILLS ESPECIFICAS
+            var contenedor = document.getElementById('contenedor-' + id_contenedores_de_habilidades[i - 1]);
+            var skills_contador = contenedor.getElementsByClassName('skill');
+            var badge_contador_skills = document.getElementById('cantidad-habilidades-contador-' + id_contenedores_de_habilidades[i - 1]);
+        }
+        badge_contador_skills.innerText = skills_contador.length;
+    }
 }
 
 /*
