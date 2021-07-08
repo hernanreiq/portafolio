@@ -48,16 +48,16 @@
         "archivo": "html2pdf.svg",
         "tipo": "Back-end"
     },{
-        "nombre": "SVG Graphics",
-        "archivo": "svg.svg",
+        "nombre": "Photoshop",
+        "archivo": "photoshop.svg",
         "tipo": "Diseño"
     },{
         "nombre": "Draw.io",
         "archivo": "drawio.svg",
         "tipo": "Diseño"
     },{
-        "nombre": "Photoshop",
-        "archivo": "photoshop.svg",
+        "nombre": "SVG Graphics",
+        "archivo": "svggraphics.svg",
         "tipo": "Diseño"
     },{
         "nombre": "Git",
@@ -68,16 +68,16 @@
         "archivo": "json.svg",
         "tipo": "Tecnologías"
     },{
-        "nombre": "AJAX",
-        "archivo": "ajax.svg",
-        "tipo": "Tecnologías"
-    },{
         "nombre": "npm",
         "archivo": "npm.svg",
         "tipo": "Tecnologías"
     },{
         "nombre": "Composer",
         "archivo": "composer.svg",
+        "tipo": "Tecnologías"
+    },{
+        "nombre": "Markdown",
+        "archivo": "markdown.svg",
         "tipo": "Tecnologías"
     }
 ]
