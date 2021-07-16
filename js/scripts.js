@@ -106,10 +106,11 @@ function AsignarDetalles(proyecto_actual) {
     if (mis_proyectos[proyecto_actual].enlace != "") {
         var cadena_enlace = (mis_proyectos[proyecto_actual].enlace).substring(0, 18);
         if(cadena_enlace == 'https://github.com'){
-            var enlace = '<a href="' + mis_proyectos[proyecto_actual].enlace + '" target="_blank">Ver el repositorio <i class="fas fa-external-link-alt"></i></a>';
+            var texto_enlace = "Ver el repositorio";
         } else {
-            var enlace = '<a href="' + mis_proyectos[proyecto_actual].enlace + '" target="_blank">Ver el proyecto <i class="fas fa-external-link-alt"></i></a>';
+            var texto_enlace = "Ver el proyecto";
         }
+        var enlace = '<a href="' + mis_proyectos[proyecto_actual].enlace + '" target="_blank">' + texto_enlace + ' <i class="fas fa-external-link-alt"></i></a>';
     } else {
         var enlace = "Enlace no disponible";
     }
@@ -338,30 +339,35 @@ var nombre_completo = document.getElementById('nombre-completo');
 var apodo = document.getElementById('apodo');
 var marca = document.getElementById('marcaHR');
 marca.addEventListener('click', animacionNombreApodo);
+var animacion_activa = true;
 animacionNombreApodo();
 var nombre_activo = false;
 var apodo_activo = true;
 
 function animacionNombreApodo() {
-    var nombre_intermitente = setInterval(function() {
-        if (nombre_activo == false && apodo_activo) {
+    if(animacion_activa == true){
+        animacion_activa = false;
+        var nombre_intermitente = setInterval(function() {
+            if (nombre_activo == false && apodo_activo) {
+                nombre_completo.style.display = "inline-block";
+                apodo.style.display = "none";
+                nombre_activo = true;
+                apodo_activo = false;
+            } else if (nombre_activo && apodo_activo == false) {
+                apodo.style.display = "inline-block";
+                nombre_completo.style.display = "none";
+                nombre_activo = false;
+                apodo_activo = true;
+            }
+        }, 2000);
+    
+        setTimeout(function() {
+            clearInterval(nombre_intermitente);
             nombre_completo.style.display = "inline-block";
             apodo.style.display = "none";
-            nombre_activo = true;
-            apodo_activo = false;
-        } else if (nombre_activo && apodo_activo == false) {
-            apodo.style.display = "inline-block";
-            nombre_completo.style.display = "none";
-            nombre_activo = false;
-            apodo_activo = true;
-        }
-    }, 2000);
-
-    setTimeout(function() {
-        clearInterval(nombre_intermitente);
-        nombre_completo.style.display = "inline-block";
-        apodo.style.display = "none";
-    }, 10000);
+            animacion_activa = true;
+        }, 10000);
+    }
 }
 
 /*
