@@ -23,11 +23,11 @@
         "nombre": "Trade Calculator",
         "tipo": "Sitio web",
         "enlace": "https://hernanreiq.github.io/trade-calculator/",
-        "fotos": 4,
+        "fotos": 8,
         "ruta_fotos": "img/Trade Calculator/",
-        "descripcion": "Es un sitio web orientado al trading, aunque no está centrado en dar ningún tipo de consejo financiero, solamente sirve para calcular ganancias si se le aplica el interés compuesto en las inversiones.",
+        "descripcion": "Es un sitio web orientado al trading, aunque no está centrado en dar ningún tipo de consejo financiero, solamente sirve para calcular ganancias si se le aplica el interés compuesto en las inversiones y para calcular la cantidad de aciertos necesarios para llegar a una meta en operaciones binarias con un capital de $100 USD.",
         "habilidades": "HTML, CSS, JavaScript, Bootstrap 4 y Photoshop CS6.",
-        "caracteristicas": "Diseño adaptable hasta pantallas de 340 píxeles de ancho, utiliza una fórmula matemática para calcular la cantidad de operaciones exitosas que necesita para llegar a la meta deseada, aplicando el interés compuesto para lograrla."
+        "caracteristicas": "Diseño adaptable hasta pantallas de 340 píxeles de ancho, utiliza una fórmula matemática para calcular la cantidad de operaciones exitosas que necesitas para llegar a la meta deseada."
     },
     {
         "nombre": "Simulador de Uber",
