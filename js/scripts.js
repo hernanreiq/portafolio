@@ -302,9 +302,8 @@ var boton_email = document.getElementById('boton-email');
 var id_correo = "hernandemure1202";
 var dominio = "@gmail.com";
 var asunto_mensaje_correo = "?subject=¡Acabo de ver tu portafolio!";
-var mensaje_correo = "&body=Hola Hernan Demorizi Ureña, acabo de mirar tu portafolio de proyectos y habilidades.";
 boton_email.addEventListener('click', function() {
-    window.open("mailto:" + id_correo + dominio + asunto_mensaje_correo + mensaje_correo);
+    window.open("mailto:" + id_correo + dominio + asunto_mensaje_correo);
 });
 
 /* 
