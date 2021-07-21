@@ -10,6 +10,16 @@
         "caracteristicas": "Es un sitio web sencillo que solamente se enfoca en mostrar los proyectos de diseños, en donde estos están organizados con el efecto Masonry o Bricks gracias a la librería Macy.js. Es adaptable a distintas pantallas debido al uso de Bootstrap 4."
     },
     {
+        "nombre": "Cyber Games RD",
+        "tipo": "Sitio web",
+        "enlace": "https://hernanreiq.github.io/cyber-games-rd/",
+        "fotos": 5,
+        "ruta_fotos": "img/Cyber Games RD/",
+        "descripcion": "Sitio web dedicado a la venta de tarjetas de vídeo AMD y otros complementos, es de una tienda real, por lo que es posible hacer pedidos vía WhatsApp.",
+        "habilidades": "HTML, CSS, JavaScript, Axios, Bootstrap 4, Google Fonts, WhatsApp API, Photoshop CS6 y Font-Awesome.",
+        "caracteristicas": "Diseño adaptable a distintas pantallas debido al uso de Bootstrap 4, permite visualizar fotos de los productos en una ventana emergente, también da la opción de hacer compras reales a la tienda por WhatsApp."
+    },
+    {
         "nombre": "Analista de crédito",
         "tipo": "Sitio web",
         "enlace": "https://github.com/hernanreiq/credit-analyst",

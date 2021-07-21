@@ -115,11 +115,11 @@ function AsignarDetalles(proyecto_actual) {
         var enlace = "Enlace no disponible";
     }
     parrafo_popup.innerHTML = `
-        <b>Tipo de proyecto: </b>${mis_proyectos[proyecto_actual].tipo} <br><br> 
         <b>Enlace: </b> ${enlace}<br><br>
         <b>Descripción: </b>${mis_proyectos[proyecto_actual].descripcion} <br><br>
         <b>Habilidades y tecnologías usadas: </b>${mis_proyectos[proyecto_actual].habilidades}<br><br>
         <b>Características: </b>${mis_proyectos[proyecto_actual].caracteristicas}<br><br>
+        <b>Tipo de proyecto: </b>${mis_proyectos[proyecto_actual].tipo} <br><br> 
     `;
 }
 
