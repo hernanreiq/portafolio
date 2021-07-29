@@ -10,14 +10,14 @@
         "caracteristicas": "Es un sitio web sencillo que solamente se enfoca en mostrar los proyectos de diseños, en donde estos están organizados con el efecto Masonry o Bricks gracias a la librería Macy.js. Es adaptable a distintas pantallas debido al uso de Bootstrap 4."
     },
     {
-        "nombre": "Cyber Games RD",
+        "nombre": "Sarai Bufet",
         "tipo": "Sitio web",
-        "enlace": "https://hernanreiq.github.io/cyber-games-rd/",
-        "fotos": 5,
-        "ruta_fotos": "img/Cyber Games RD/",
-        "descripcion": "Sitio web dedicado a la venta de tarjetas de vídeo AMD y otros complementos, es de una tienda real, por lo que es posible hacer pedidos vía WhatsApp.",
-        "habilidades": "HTML, CSS, JavaScript, Axios, Bootstrap 4, Google Fonts, WhatsApp API, Photoshop CS6 y Font-Awesome.",
-        "caracteristicas": "Diseño adaptable a distintas pantallas debido al uso de Bootstrap 4, permite visualizar fotos de los productos en una ventana emergente, también da la opción de hacer compras reales a la tienda por WhatsApp."
+        "enlace": "https://hernanreiq.github.io/sarai-bufet/",
+        "fotos": 7,
+        "ruta_fotos": "img/Sarai Bufet/",
+        "descripcion": "Sitio web orientado a la venta de comida tipo bufé para cualquier tipo de actividad, donde el usuario puede personalizar el menú que comerán sus invitados para luego enviar toda la información por WhatsApp.",
+        "habilidades": "HTML, CSS, JavaScript, Axios, Bootstrap 4, Google Fonts, WhatsApp API, Draw.io y Photoshop CS6.",
+        "caracteristicas": "Diseño adaptable a distintas pantallas debido al uso de Bootstrap 4, permite crear un menú personalizado para el bufé que comerán los invitados y envía el menú y la cotización por WhatsApp."
     },
     {
         "nombre": "Analista de crédito",
@@ -40,6 +40,16 @@
         "caracteristicas": "Diseño adaptable hasta pantallas de 340 píxeles de ancho, utiliza una fórmula matemática para calcular la cantidad de operaciones exitosas que necesitas para llegar a la meta deseada."
     },
     {
+        "nombre": "Cyber Games RD",
+        "tipo": "Sitio web",
+        "enlace": "https://hernanreiq.github.io/cyber-games-rd/",
+        "fotos": 5,
+        "ruta_fotos": "img/Cyber Games RD/",
+        "descripcion": "Sitio web dedicado a la venta de tarjetas de vídeo AMD y otros complementos, es de una tienda real, por lo que es posible hacer pedidos vía WhatsApp.",
+        "habilidades": "HTML, CSS, JavaScript, Axios, Bootstrap 4, Google Fonts, WhatsApp API, Photoshop CS6 y Font-Awesome.",
+        "caracteristicas": "Diseño adaptable a distintas pantallas debido al uso de Bootstrap 4, permite visualizar fotos de los productos en una ventana emergente, también da la opción de hacer compras reales a la tienda por WhatsApp."
+    },
+    {
         "nombre": "Simulador de Uber",
         "tipo": "Aplicación web",
         "enlace": "https://hernanreiq.github.io/simulador-uber/",
@@ -60,16 +70,6 @@
         "caracteristicas": "Aplicación web adaptable a distintas pantallas gracias al uso de la librería de Bootstrap 4 (CSS), la aplicación sólo muestra las últimas 2 películas buscadas para no saturar con el contenido, entrega retroalimentación al usuario cuando existe o no lo que busca, se debe escribir el nombre de la película en su idioma de origen para luego con una API buscar dicha película, cuando encuentra la película traduce su descripción con otra API antes de mostrárselo al usuario."
     },
     {
-        "nombre": "Koncafé",
-        "tipo": "Sitio web",
-        "enlace": "https://hernanreiq.github.io/koncafe/",
-        "fotos": 5,
-        "ruta_fotos": "img/Koncafé/",
-        "descripcion": "Esta maqueta de sitio web la hice como favor a una compañera de la Universidad para que pueda aprobar una materia. La distribución de colores me encantó, tristemente y por obvias razones no podía hacer mi firma en el pie de la página. Lo único que odie de haber creado la página, fue tener que copiar y pegar la portada con el pie de página para las otras secciones, no podía hacer uso de PHP para dividir el código y reutilizarlo.",
-        "habilidades": "HTML, CSS y Google Maps.",
-        "caracteristicas": "Es una maqueta sencilla con varias sub-páginas."
-    },
-    {
         "nombre": "Golden Lottery",
         "tipo": "Aplicación web",
         "enlace": "https://bit.ly/golden_lottery",
@@ -78,6 +78,16 @@
         "descripcion": "La idea de desarrollar y diseñar una lotería virtual, fue la que me hizo apasionarme por aprender las tecnologías que hoy utilizo. A pesar del evidente aprecio que tengo por este proyecto, también fue parte de mi ruta de aprendizaje del entorno de desarrollo NodeJS y de npm.",
         "habilidades": "HTML, CSS, JavaScript, Font-Awesome, Draw.io, Bootstrap 4, Animate.css, Node.js (Express, ejs, nodemon, colors y morgan) y npm.",
         "caracteristicas": "Aplicación web adaptable a distintas pantallas gracias al uso de la librería de Bootstrap 4 (CSS), se hizo un algoritmo que determina cuales de las jugadas realizadas por el usuario, coinciden con los resultados del sorteo, asignando una premiación dependiendo de la posición del número acertado y la cantidad de aciertos."
+    },
+    {
+        "nombre": "Koncafé",
+        "tipo": "Sitio web",
+        "enlace": "https://hernanreiq.github.io/koncafe/",
+        "fotos": 5,
+        "ruta_fotos": "img/Koncafé/",
+        "descripcion": "Esta maqueta de sitio web la hice como favor a una compañera de la Universidad para que pueda aprobar una materia. La distribución de colores me encantó, tristemente y por obvias razones no podía hacer mi firma en el pie de la página. Lo único que odie de haber creado la página, fue tener que copiar y pegar la portada con el pie de página para las otras secciones, no podía hacer uso de PHP para dividir el código y reutilizarlo.",
+        "habilidades": "HTML, CSS y Google Maps.",
+        "caracteristicas": "Es una maqueta sencilla con varias sub-páginas."
     },
     {
         "nombre": "Lista de tareas",
