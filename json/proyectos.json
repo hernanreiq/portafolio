@@ -30,6 +30,16 @@
         "caracteristicas": "Diseño adaptable a distintas pantallas debido al uso de Bootstrap 4, convierte la información mostrada del usuario en formato PDF desde HTML y retroalimenta con mensajes a medida que se vaya interactuando con el sitio web."
     },
     {
+        "nombre": "Sabroso Play",
+        "tipo": "Aplicación web",
+        "enlace": "https://github.com/hernanreiq/Sabroso-Play",
+        "fotos": 4,
+        "ruta_fotos": "img/Sabroso Play/",
+        "descripcion": "Servicio de Streaming para compartir películas en el hogar, mediante la IP privada asignada por el router.",
+        "habilidades": "HTML, CSS, JavaScript, Bootstrap 4, Photoshop CS6, Google Fonts y Node.js (Express, ejs y nodemon).",
+        "caracteristicas": "Diseño adaptable a todas las pantallas, solamente funciona de manera local."
+    },
+    {
         "nombre": "WhatsApping",
         "tipo": "Aplicación web",
         "enlace": "https://hernanreiq.github.io/whatsapping/",
