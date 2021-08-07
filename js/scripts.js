@@ -53,9 +53,10 @@ function CrearElementosLista(velocidad, posicion, proyectos, longitud_proyectos)
         contenedor_proyectos.innerHTML += `
         <li class="shadow">
             <div class="contenedor-imagen">
-                <img src="img/${proyectos[posicion - 1]["nombre"]}/${proyectos[posicion - 1]["nombre"]} (1).jpg" alt="proyecto ${proyectos[posicion - 1]["nombre"]}"><br>
+                <img src="${proyectos[posicion - 1]["ruta_fotos"] + proyectos[posicion - 1]["nombre"]} (1).jpg" alt="proyecto ${proyectos[posicion - 1]["nombre"]}"><br>
             </div>
             <h2 class="m-0">${proyectos[posicion - 1]["nombre"]}</h2>
+            <div class="blanco my-1"></div>
             <a href="javascript:void(0)" onclick="mostrarDetalles(${posicion - 1})" class="btn mt-1 mb-2">VER DETALLES</a>
         </li>
         `;

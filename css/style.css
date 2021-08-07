@@ -394,7 +394,24 @@ main section div.proyectos ul li {
     margin: 20px 75px;
     float: left;
     border-radius: 3px;
+    border: solid 2px #2a2a2a;
     overflow: hidden;
+    animation-name: tarjetas;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes tarjetas {
+    0% {
+        background-color: #3B93F7;
+    }
+    50% {
+        background-color: #5ea9ff;
+    } 
+    100% {
+        background-color: #3B93F7;
+    }
 }
 
 @media only screen and (min-width: 100px) {
@@ -489,7 +506,7 @@ main section div.proyectos ul li h2 {
     text-shadow: black 1px 1px 1px;
     font-weight: 400;
     font-family: 'Josefin Sans', sans-serif;
-    padding: 5px;
+    padding: 0px 3px;
     font-style: italic;
     letter-spacing: 0.5px;
 }
