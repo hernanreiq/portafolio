@@ -51,14 +51,12 @@ function CrearElementosLista(velocidad, posicion, proyectos, longitud_proyectos)
     mis_proyectos = proyectos;
     for (posicion; posicion <= velocidad; posicion++) {
         contenedor_proyectos.innerHTML += `
-        <li>
-            <a href="javascript:void(0)" onclick="mostrarDetalles(${posicion - 1})">
-            <h2 class="m-0">${proyectos[posicion - 1]["nombre"]}</h2>
+        <li class="shadow">
             <div class="contenedor-imagen">
                 <img src="img/${proyectos[posicion - 1]["nombre"]}/${proyectos[posicion - 1]["nombre"]} (1).jpg" alt="proyecto ${proyectos[posicion - 1]["nombre"]}"><br>
             </div>
-            <p class="m-0">Ver detalles</p>
-            </a>
+            <h2 class="m-0">${proyectos[posicion - 1]["nombre"]}</h2>
+            <a href="javascript:void(0)" onclick="mostrarDetalles(${posicion - 1})" class="btn mt-1 mb-2">VER DETALLES</a>
         </li>
         `;
     }
@@ -376,11 +374,6 @@ function animacionNombreApodo() {
 */
 window.sr = ScrollReveal();
 
-sr.reveal('#navBar', {
-    duration: 1000,
-    distance: '100px',
-    origin: 'top'
-});
 sr.reveal('#proyectos-portafolio', {
     distance: '200px',
     origin: 'bottom',
