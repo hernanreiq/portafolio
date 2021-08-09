@@ -10,14 +10,14 @@
         "caracteristicas": "Es un sitio web sencillo que solamente se enfoca en mostrar los proyectos de diseños, en donde estos están organizados con el efecto Masonry o Bricks gracias a la librería Macy.js. Es adaptable a distintas pantallas debido al uso de Bootstrap 4."
     },
     {
-        "nombre": "Sarai Bufet",
-        "tipo": "Sitio web",
-        "enlace": "https://hernanreiq.github.io/sarai-bufet/",
-        "fotos": 7,
-        "ruta_fotos": "img/Sarai Bufet/",
-        "descripcion": "Sitio web orientado a la venta de comida tipo bufé para cualquier tipo de actividad, donde el usuario puede personalizar el menú que comerán sus invitados para luego enviar toda la información por WhatsApp.",
-        "habilidades": "HTML, CSS, JavaScript, Axios, Bootstrap 4, Google Fonts, WhatsApp API, Draw.io y Photoshop CS6.",
-        "caracteristicas": "Diseño adaptable a distintas pantallas debido al uso de Bootstrap 4, permite crear un menú personalizado para el bufé que comerán los invitados y envía el menú y la cotización por WhatsApp."
+        "nombre": "PC Store CMS",
+        "tipo": "Aplicación web",
+        "enlace": "https://github.com/hernanreiq/PC-Store-CMS",
+        "fotos": 16,
+        "ruta_fotos": "img/PC Store CMS/",
+        "descripcion": "Sistema de gestión de contenidos (CMS tipo CRUD) para un tienda dedicada a la venta de computadoras.",
+        "habilidades": "HTML, CSS, JavaScript, Bootstrap 4, MongoDB, Node.js (Express, EJS, Mongoose, Body parser, Connect Multiparty y Nodemon), Photoshop CS6, ImageHover y Font-Awesome.",
+        "caracteristicas": "Es un CMS tipo CRUD (Create, Read, Update and Delete), contiene retroalimentación, opción de agregarle una imagen a los productos y en caso de que ya tenga una le permite cambiarla, además de que cuando se cambia una imagen o se borra un producto, la imagen asociada al producto se elimina de los documentos para no ocupar espacios."
     },
     {
         "nombre": "Analista de crédito",
@@ -30,6 +30,16 @@
         "caracteristicas": "Diseño adaptable a distintas pantallas debido al uso de Bootstrap 4, convierte la información mostrada del usuario en formato PDF desde HTML y retroalimenta con mensajes a medida que se vaya interactuando con el sitio web."
     },
     {
+        "nombre": "Sarai Bufet",
+        "tipo": "Sitio web",
+        "enlace": "https://hernanreiq.github.io/sarai-bufet/",
+        "fotos": 7,
+        "ruta_fotos": "img/Sarai Bufet/",
+        "descripcion": "Sitio web orientado a la venta de comida tipo bufé para cualquier tipo de actividad, donde el usuario puede personalizar el menú que comerán sus invitados para luego enviar toda la información por WhatsApp.",
+        "habilidades": "HTML, CSS, JavaScript, Axios, Bootstrap 4, Google Fonts, WhatsApp API, Draw.io y Photoshop CS6.",
+        "caracteristicas": "Diseño adaptable a distintas pantallas debido al uso de Bootstrap 4, permite crear un menú personalizado para el bufé que comerán los invitados y envía el menú y la cotización por WhatsApp."
+    },
+    {
         "nombre": "Sabroso Play",
         "tipo": "Aplicación web",
         "enlace": "https://github.com/hernanreiq/Sabroso-Play",
@@ -40,14 +50,14 @@
         "caracteristicas": "Diseño adaptable a todas las pantallas, solamente funciona de manera local."
     },
     {
-        "nombre": "WhatsApping",
+        "nombre": "Simulador de Uber",
         "tipo": "Aplicación web",
-        "enlace": "https://hernanreiq.github.io/whatsapping/",
-        "fotos": 2,
-        "ruta_fotos": "img/WhatsApping/",
-        "descripcion": "Esta aplicación web sirve para abrir un chat con una persona que no quieras agregar a tus contactos de WhatsApp.",
-        "habilidades": "HTML, CSS, JavaScript, Bootstrap 4, WhatsApp API, Font-Awesome y Photoshop CS6.",
-        "caracteristicas": "Diseño adaptable hasta pantallas de 280 píxeles de ancho, solamente puede ser usada con números de teléfonos que inicien con \"+1\"."
+        "enlace": "https://hernanreiq.github.io/simulador-uber/",
+        "fotos": 3,
+        "ruta_fotos": "img/Simulador de Uber/",
+        "descripcion": "Este simulador lo hice en forma de \"revancha\", debido a que en el pasado hice el intento de algo parecido a esto pero no pude obtener exactamente este resultado. Por otro lado también me sirvió para mejorar mi lógica de programación, ya que para hacer esto posible usé mis conocimientos en planos cartesianos y tuve que \"inventar\" una fórmula matemática para solucionar el problema.",
+        "habilidades": "HTML, CSS, Photoshop CS6, Draw.io, JavaScript, Font-Awesome y Google Fonts.",
+        "caracteristicas": "Cuenta con un algoritmo que calcula la velocidad de movimiento que debe tener el carro en cada tramo de la vía, en donde para llegar a completar cada tramo tarda 5 segundos, dando la sensación de realismo porque en los tramos con muchas curvas va lento, pero cuando hay rectas largas va más rápido."
     },
     {
         "nombre": "Trade Calculator",
@@ -70,14 +80,14 @@
         "caracteristicas": "Diseño adaptable a distintas pantallas debido al uso de Bootstrap 4, permite visualizar fotos de los productos en una ventana emergente, también da la opción de hacer compras reales a la tienda por WhatsApp."
     },
     {
-        "nombre": "Simulador de Uber",
+        "nombre": "WhatsApping",
         "tipo": "Aplicación web",
-        "enlace": "https://hernanreiq.github.io/simulador-uber/",
-        "fotos": 3,
-        "ruta_fotos": "img/Simulador de Uber/",
-        "descripcion": "Este simulador lo hice en forma de \"revancha\", debido a que en el pasado hice el intento de algo parecido a esto pero no pude obtener exactamente este resultado. Por otro lado también me sirvió para mejorar mi lógica de programación, ya que para hacer esto posible usé mis conocimientos en planos cartesianos y tuve que \"inventar\" una fórmula matemática para solucionar el problema.",
-        "habilidades": "HTML, CSS, Photoshop CS6, Draw.io, JavaScript, Font-Awesome y Google Fonts.",
-        "caracteristicas": "Cuenta con un algoritmo que calcula la velocidad de movimiento que debe tener el carro en cada tramo de la vía, en donde para llegar a completar cada tramo tarda 5 segundos, dando la sensación de realismo porque en los tramos con muchas curvas va lento, pero cuando hay rectas largas va más rápido."
+        "enlace": "https://hernanreiq.github.io/whatsapping/",
+        "fotos": 2,
+        "ruta_fotos": "img/WhatsApping/",
+        "descripcion": "Esta aplicación web sirve para abrir un chat con una persona que no quieras agregar a tus contactos de WhatsApp.",
+        "habilidades": "HTML, CSS, JavaScript, Bootstrap 4, WhatsApp API, Font-Awesome y Photoshop CS6.",
+        "caracteristicas": "Diseño adaptable hasta pantallas de 280 píxeles de ancho, solamente puede ser usada con números de teléfonos que inicien con \"+1\"."
     },
     {
         "nombre": "Reiq Films",

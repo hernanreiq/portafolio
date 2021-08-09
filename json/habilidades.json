@@ -32,6 +32,10 @@
         "archivo": "macyjs.svg",
         "tipo": "Front-end"
     },{
+        "nombre": "ImageHover",
+        "archivo": "imagehover.svg",
+        "tipo": "Front-end"
+    },{
         "nombre": "PHP",
         "archivo": "php.svg",
         "tipo": "Back-end"
@@ -42,6 +46,10 @@
     },{
         "nombre": "Node.js",
         "archivo": "nodejs.svg",
+        "tipo": "Back-end"
+    },{
+        "nombre": "MongoDB",
+        "archivo": "mongodb.svg",
         "tipo": "Back-end"
     },{
         "nombre": "HTML2PDF",
