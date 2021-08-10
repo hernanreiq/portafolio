@@ -270,7 +270,7 @@ function ClasificarHabilidades(habilidades, cantidad_habilidades){
 */
 function ImprimirHabilidades(habilidad, contenedor){
     contenedor.innerHTML += `
-        <li class="skill">
+        <li class="skill shadow">
             <img src="svg/${habilidad.archivo}" alt="${habilidad.nombre} - ${habilidad.tipo}">
             <p>${habilidad.nombre}</p>
         </li>
