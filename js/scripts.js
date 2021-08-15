@@ -335,40 +335,26 @@ function comprobar_ancho_pantalla(){
 /*
     ANIMACION BÁSICA CON MI NOMBRE Y MI MARCA EN LA PORTADA
 */
-var nombre_completo = document.getElementById('nombre-completo');
-var apodo = document.getElementById('apodo');
-var marca = document.getElementById('marcaHR');
-marca.addEventListener('click', animacionNombreApodo);
-var animacion_activa = true;
-animacionNombreApodo();
-var nombre_activo = false;
-var apodo_activo = true;
+var nombre_apodo = document.getElementById('nombre-apodo');
+var marca_hr = document.getElementById('marcaHR');
 
-function animacionNombreApodo() {
-    if(animacion_activa == true){
-        animacion_activa = false;
-        var nombre_intermitente = setInterval(function() {
-            if (nombre_activo == false && apodo_activo) {
-                nombre_completo.style.display = "inline-block";
-                apodo.style.display = "none";
-                nombre_activo = true;
-                apodo_activo = false;
-            } else if (nombre_activo && apodo_activo == false) {
-                apodo.style.display = "inline-block";
-                nombre_completo.style.display = "none";
-                nombre_activo = false;
-                apodo_activo = true;
-            }
-        }, 2000);
+marca_hr.addEventListener('click', animacionNombre);
+function animacionNombre(){
+    var typewriter = new Typewriter(nombre_apodo, {
+        loop: true
+    });
     
-        setTimeout(function() {
-            clearInterval(nombre_intermitente);
-            nombre_completo.style.display = "inline-block";
-            apodo.style.display = "none";
-            animacion_activa = true;
-        }, 10000);
-    }
+    typewriter.typeString('Hernan.Reiq')
+        .pauseFor(1500)
+        .deleteChars(5)
+        .typeString(' Virgilio')
+        .pauseFor(200)
+        .deleteChars(7)
+        .typeString('. Demorizi Ureña')
+        .pauseFor(10000)
+        .start();
 }
+animacionNombre();
 
 /*
     ANIMACIONES CON LA LIBRERIA SCROLLREVEAL PARA EL MENU, LOS PROYECTOS Y EL TEXTO EN INFORMACION

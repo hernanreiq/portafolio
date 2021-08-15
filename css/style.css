@@ -201,16 +201,14 @@ header section div div.presentacion-texto {
 }
 
 header section div h1.nombre,
-header section h2.hobby,
-#apodo,
-#nombre-completo {
+header section h2.hobby {
     font-size: 45px;
     background: -webkit-linear-gradient(#5ea9ff, #2a37c5);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-family: 'Roboto', sans-serif;
     text-shadow: rgba(0, 0, 0, 0.253) 1px 1px 1px;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
 }
 
 header section div h2.hobby {
@@ -602,7 +600,7 @@ div.overlay {
 
 div.popup {
     background-color: #2e2e2e;
-    max-width: 1050px;
+    max-width: 1100px;
     max-height: 98%;
     padding: 10px;
     border-radius: 5px;

@@ -21,13 +21,23 @@
     },
     {
         "nombre": "Analista de crédito",
-        "tipo": "Sitio web",
+        "tipo": "Aplicación web",
         "enlace": "https://github.com/hernanreiq/credit-analyst",
         "fotos": 11,
         "ruta_fotos": "img/Analista de crédito/",
         "descripcion": "Sitio web dedicado al análisis de crédito, corresponde a una prueba técnica de un puesto laboral, en dicha prueba se solicitaba que el sistema permita iniciar sesión, tener retroalimentaciones, manipular los estados de cuenta (ver, imprimir, guardar, enviar por correo, etc.), pero yo le agregué búsquedas, historiales, servicios (crearlos, editarlos, ver los disponibles y ver los activos), recargas de saldo y capas de seguridad.",
         "habilidades": "HTML, CSS, JavaScript, Axios, Bootstrap 4, Draw.io, PHP, MySQL, Composer, HTML2PDF y Font-Awesome.",
         "caracteristicas": "Diseño adaptable a distintas pantallas debido al uso de Bootstrap 4, convierte la información mostrada del usuario en formato PDF desde HTML y retroalimenta con mensajes a medida que se vaya interactuando con el sitio web."
+    },
+    {
+        "nombre": "GetPic",
+        "tipo": "Aplicación web",
+        "enlace": "https://github.com/hernanreiq/GetPic",
+        "fotos": 8,
+        "ruta_fotos": "img/GetPic/",
+        "descripcion": "Aplicación web para subir, ver y eliminar imágenes. Es un clon de Pinterest que hice en un curso de Node.js y MongoDB, pero está estilizado a mi manera.",
+        "habilidades": "HTML, CSS, JavaScript, Bootstrap 4, Animate.css, Font-Awesome, MongoDB y Node.js (Express, Mongoose, ejs, fs-extra, morgan, multer, timeago.js, uuid y nodemon).",
+        "caracteristicas": "Diseño adaptable a distintas pantallas, permite subir fotos, agregarle un título y descripción, eliminar las fotos subidas y visualizarlas, pero no permite editarlas."
     },
     {
         "nombre": "Sarai Bufet",
@@ -61,7 +71,7 @@
     },
     {
         "nombre": "Trade Calculator",
-        "tipo": "Sitio web",
+        "tipo": "Aplicación web",
         "enlace": "https://hernanreiq.github.io/trade-calculator/",
         "fotos": 8,
         "ruta_fotos": "img/Trade Calculator/",
@@ -201,7 +211,7 @@
     },
     {
         "nombre": "Sommer Rose RD",
-        "tipo": "Página web",
+        "tipo": "Sitio web",
         "enlace": "https://hernanreiq.github.io/sommerrose/",
         "fotos": 4,
         "ruta_fotos": "img/Sommer Rose RD/",
