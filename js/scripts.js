@@ -1,3 +1,17 @@
+function rainingBadges(){
+    var container_showflakes = document.getElementById('snow-flakes');
+    var skill_badges = ['html5', 'css3', 'bootstrap', 'javascript', 'php', 'mysql', 'nodejs', 'mongodb', 'photoshop', 'git'];
+    for(var i = 0; i < skill_badges.length; i++){   
+        container_showflakes.innerHTML += `
+        <div class="snowflake">
+            <img src="svg/${skill_badges[i]}.svg" class="skill-badge">
+        </div>
+        `;
+    }
+}
+
+rainingBadges();
+
 /*
     FUNCION PARA OBTENER LOS DATOS DEL ARCHIVO PROYECTO.JSON UTILIZANDO LA LIBRERIA AXIOS EN REEMPLAZO A AJAX 
 */
