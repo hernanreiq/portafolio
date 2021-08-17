@@ -1,6 +1,6 @@
 function rainingBadges(){
     var container_showflakes = document.getElementById('snow-flakes');
-    var skill_badges = ['html5', 'css3', 'bootstrap', 'javascript', 'php', 'mysql', 'nodejs', 'mongodb', 'photoshop', 'git'];
+    var skill_badges = ['html5', 'css3', 'bootstrap', 'git', 'photoshop', 'mongodb', 'nodejs', 'mysql', 'php', 'javascript'];
     for(var i = 0; i < skill_badges.length; i++){   
         container_showflakes.innerHTML += `
         <div class="snowflake">
