@@ -52,8 +52,16 @@
         "archivo": "nodejs.svg",
         "tipo": "Back-end"
     },{
+        "nombre": "Express.js",
+        "archivo": "expressjs.svg",
+        "tipo": "Back-end"
+    },{
         "nombre": "MongoDB",
         "archivo": "mongodb.svg",
+        "tipo": "Back-end"
+    },{
+        "nombre": "Mongoose",
+        "archivo": "mongoose.svg",
         "tipo": "Back-end"
     },{
         "nombre": "HTML2PDF",
