@@ -1,3 +1,7 @@
+/*
+    FUNCION PARA AGREGAR LAS INSIGNIAS QUE LLUEVEN EN EL HEADER
+*/
+
 function rainingBadges(){
     var container_showflakes = document.getElementById('snow-flakes');
     var skill_badges = ['css3', 'javascript', 'bootstrap', 'git', 'photoshop', 'mongodb', 'nodejs', 'mysql', 'php', 'html5'];
@@ -347,7 +351,7 @@ function comprobar_ancho_pantalla(){
 }
 
 /*
-    ANIMACION BÁSICA CON MI NOMBRE Y MI MARCA EN LA PORTADA
+    ANIMACION CON MI NOMBRE Y MI MARCA EN LA PORTADA
 */
 var nombre_apodo = document.getElementById('nombre-apodo');
 var marca_hr = document.getElementById('marcaHR');

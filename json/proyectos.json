@@ -10,13 +10,23 @@
         "caracteristicas": "Es un sitio web sencillo que solamente se enfoca en mostrar los proyectos de diseños, en donde estos están organizados con el efecto Masonry o Bricks gracias a la librería Macy.js. Es adaptable a distintas pantallas debido al uso de Bootstrap 4."
     },
     {
+        "nombre": "Notes Network",
+        "tipo": "Aplicación web",
+        "enlace": "https://github.com/hernanreiq/Notes-Network",
+        "fotos": 17,
+        "ruta_fotos": "img/Notes Network/",
+        "descripcion": "Red social orientada a crear notas, las cuales pueden compartirse con todos los usuarios de la aplicación web o también, dejarlas en privado para que solamente el dueño de la cuenta las vea.",
+        "habilidades": "HTML, CSS, JavaScript, Bootstrap 4, Bootswatch, MongoDB, Node.js, npm (Express, Mongoose, EJS, bcryptjs, connect-flash, express-session, method-override, passport, passport-local, timeago.js y Nodemon), Font-Awesome y Google Fonts.", 
+        "caracteristicas": "Es una aplicación web tipo red social, permite el registro de usuarios e inicio de sesión, cambios de los datos de la cuenta (nombre, correo electrónico y contraseña). Crea, edita, visualiza y elimina notas, permite ver las notas públicas de otros usuarios, protege la información por lo que las notas son anónimas, las notas pueden estar en privado para que solamente las vea el dueño. Tiene saneamiento de datos y pantallas, por lo que no es posible alterar de alguna forma las notas o la información de la cuenta de otro usuario, tampoco permite entrar a rutas o pantallas que no están definidas y ofrece retroalimentación dependiendo de las acciones que haga el usuario dentro de la red social."
+    },
+    {
         "nombre": "PC Store CMS",
         "tipo": "Aplicación web",
         "enlace": "https://github.com/hernanreiq/PC-Store-CMS",
         "fotos": 16,
         "ruta_fotos": "img/PC Store CMS/",
         "descripcion": "Sistema de gestión de contenidos (CMS tipo CRUD) para un tienda dedicada a la venta de computadoras.",
-        "habilidades": "HTML, CSS, JavaScript, Bootstrap 4, MongoDB, Node.js (Express, EJS, Mongoose, Body parser, Connect Multiparty y Nodemon), Photoshop CS6, ImageHover y Font-Awesome.",
+        "habilidades": "HTML, CSS, JavaScript, Bootstrap 4, MongoDB, Node.js, npm (Express, EJS, Mongoose, Body parser, Connect Multiparty y Nodemon), Photoshop CS6, ImageHover y Font-Awesome.",
         "caracteristicas": "Es un CMS tipo CRUD (Create, Read, Update and Delete), contiene retroalimentación, opción de agregarle una imagen a los productos y en caso de que ya tenga una le permite cambiarla, además de que cuando se cambia una imagen o se borra un producto, la imagen asociada al producto se elimina de los documentos para no ocupar espacios."
     },
     {
@@ -26,7 +36,7 @@
         "fotos": 11,
         "ruta_fotos": "img/Analista de crédito/",
         "descripcion": "Sitio web dedicado al análisis de crédito, corresponde a una prueba técnica de un puesto laboral, en dicha prueba se solicitaba que el sistema permita iniciar sesión, tener retroalimentaciones, manipular los estados de cuenta (ver, imprimir, guardar, enviar por correo, etc.), pero yo le agregué búsquedas, historiales, servicios (crearlos, editarlos, ver los disponibles y ver los activos), recargas de saldo y capas de seguridad.",
-        "habilidades": "HTML, CSS, JavaScript, Axios, Bootstrap 4, Draw.io, PHP, MySQL, Composer, HTML2PDF y Font-Awesome.",
+        "habilidades": "HTML, CSS, JavaScript, Axios, Bootstrap 4, Draw.io, PHP, MySQL, Composer (HTML2PDF) y Font-Awesome.",
         "caracteristicas": "Diseño adaptable a distintas pantallas debido al uso de Bootstrap 4, convierte la información mostrada del usuario en formato PDF desde HTML y retroalimenta con mensajes a medida que se vaya interactuando con el sitio web."
     },
     {
@@ -36,7 +46,7 @@
         "fotos": 8,
         "ruta_fotos": "img/GetPic/",
         "descripcion": "Aplicación web para subir, ver y eliminar imágenes. Es un clon de Pinterest que hice en un curso de Node.js y MongoDB, pero está estilizado a mi manera.",
-        "habilidades": "HTML, CSS, JavaScript, Bootstrap 4, Animate.css, Font-Awesome, MongoDB y Node.js (Express, Mongoose, ejs, fs-extra, morgan, multer, timeago.js, uuid y nodemon).",
+        "habilidades": "HTML, CSS, JavaScript, Bootstrap 4, Animate.css, Font-Awesome, MongoDB y Node.js, npm (Express, Mongoose, ejs, fs-extra, morgan, multer, timeago.js, uuid y nodemon).",
         "caracteristicas": "Diseño adaptable a distintas pantallas, permite subir fotos, agregarle un título y descripción, eliminar las fotos subidas y visualizarlas, pero no permite editarlas."
     },
     {
@@ -56,7 +66,7 @@
         "fotos": 4,
         "ruta_fotos": "img/Sabroso Play/",
         "descripcion": "Servicio de Streaming para compartir películas en el hogar, mediante la IP privada asignada por el router.",
-        "habilidades": "HTML, CSS, JavaScript, Bootstrap 4, Photoshop CS6, Google Fonts y Node.js (Express, ejs y nodemon).",
+        "habilidades": "HTML, CSS, JavaScript, Bootstrap 4, Photoshop CS6, Google Fonts y Node.js, npm (Express, ejs y nodemon).",
         "caracteristicas": "Diseño adaptable a todas las pantallas, solamente funciona de manera local."
     },
     {
@@ -116,7 +126,7 @@
         "fotos": 7,
         "ruta_fotos": "img/Golden Lottery/",
         "descripcion": "La idea de desarrollar y diseñar una lotería virtual, fue la que me hizo apasionarme por aprender las tecnologías que hoy utilizo. A pesar del evidente aprecio que tengo por este proyecto, también fue parte de mi ruta de aprendizaje del entorno de desarrollo NodeJS y de npm.",
-        "habilidades": "HTML, CSS, JavaScript, Font-Awesome, Draw.io, Bootstrap 4, Animate.css, Node.js (Express, ejs, nodemon, colors y morgan) y npm.",
+        "habilidades": "HTML, CSS, JavaScript, Font-Awesome, Draw.io, Bootstrap 4, Animate.css, Node.js y npm (Express, ejs, nodemon, colors y morgan).",
         "caracteristicas": "Aplicación web adaptable a distintas pantallas gracias al uso de la librería de Bootstrap 4 (CSS), se hizo un algoritmo que determina cuales de las jugadas realizadas por el usuario, coinciden con los resultados del sorteo, asignando una premiación dependiendo de la posición del número acertado y la cantidad de aciertos."
     },
     {
@@ -206,7 +216,7 @@
         "fotos": 6,
         "ruta_fotos": "img/Hernan Reiq Bot/",
         "descripcion": "Este proyecto consiste en un bot creado con Node.js y el framework telegraf de Telegram API. Está orientado a mostrar información sobre mi (Hernan.Reiq), también se le diseñó una web sencilla porque para su funcionamiento requiere de un servidor encendido en Node.js.",
-        "habilidades": "HTML, CSS, JavaScript, Bootstrap 4, Node.js (Express, ejs, Telegraf, nodemon) y Telegram API.",
+        "habilidades": "HTML, CSS, JavaScript, Bootstrap 4, Node.js, npm (Express, ejs, Telegraf, nodemon) y Telegram API.",
         "caracteristicas": "Cuenta con una web sencilla para acceder al enlace del bot, entrega retroalimentación cuando se envía texto y responde por los comandos predefinidos que pueden ser accedidos desde el teclado, también al escribir '/' muestra los comandos disponibles con su descripción."
     },
     {
@@ -230,16 +240,6 @@
         "caracteristicas": "Página web adaptable a distintas pantallas gracias al uso de la librería de Bootstrap 4 (CSS). Es una maqueta sencilla con varias animaciones que fueron posibles por la librería ScrollReveal (JavaScript)."
     },
     {
-        "nombre": "Visitas Promedio YT",
-        "tipo": "Extensión de navegador para Google Chrome",
-        "enlace": "https://github.com/hernanreiq/visitas-promedio-yt",
-        "fotos": 3,
-        "ruta_fotos": "img/Visitas Promedio YT/",
-        "descripcion": "Esta extensión del navegador Google Chrome, la diseñé y desarrollé para uso personal. La extensión sirve para analizar el rendimiento de las visitas en un canal de YouTube, tomando como parámetro la cantidad actuales de suscriptores.",
-        "habilidades": "HTML, CSS, JavaScript y JSON.",
-        "caracteristicas": "Extensión que calcula el promedio de visitas que deberia tener un canal en 48 horas."
-    },
-    {
         "nombre": "Simulador de batalla",
         "tipo": "Aplicación web",
         "enlace": "https://hernanreiq.github.io/battle-reiq/",
@@ -248,5 +248,15 @@
         "descripcion": "La idea de crear este simulador de batalla me emocionó mucho, debido a que iba a hacer uso de la programación orientada a objetos a un nivel un poquito más avanzado del que suelo manejar.",
         "habilidades": "HTML, CSS, Photoshop CS6, JavaScript, Google Fonts y Font-Awesome.",
         "caracteristicas": "Aplicación web diseñado en un ancho de 1000 píxeles, por lo que no es adaptable a distintas pantallas. El oponente tiene mejor curación que el jugador y las decisiones del oponente son aleatorias, pero su salud y fuerza tienen prioridad."
+    },
+    {
+        "nombre": "Visitas Promedio YT",
+        "tipo": "Extensión de navegador para Google Chrome",
+        "enlace": "https://github.com/hernanreiq/visitas-promedio-yt",
+        "fotos": 3,
+        "ruta_fotos": "img/Visitas Promedio YT/",
+        "descripcion": "Esta extensión del navegador Google Chrome, la diseñé y desarrollé para uso personal. La extensión sirve para analizar el rendimiento de las visitas en un canal de YouTube, tomando como parámetro la cantidad actuales de suscriptores.",
+        "habilidades": "HTML, CSS, JavaScript y JSON.",
+        "caracteristicas": "Extensión que calcula el promedio de visitas que deberia tener un canal en 48 horas."
     }
 ]

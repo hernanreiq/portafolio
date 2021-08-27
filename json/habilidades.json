@@ -16,6 +16,10 @@
         "archivo": "bootstrap.svg",
         "tipo": "Front-end"
     },{
+        "nombre": "Bootswatch",
+        "archivo": "bootswatch.svg",
+        "tipo": "Front-end"
+    },{
         "nombre": "Axios",
         "archivo": "axios.svg",
         "tipo": "Front-end"
