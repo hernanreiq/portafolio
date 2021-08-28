@@ -215,18 +215,8 @@ header section div h2.hobby {
     font-size: 30px;
 }
 
-#nombre-completo {
-    display: none;
-}
-
-#apodo {
-    display: inline-block;
-}
-
 @media only screen and (max-width: 579px) {
-    header section div h1.nombre,
-    #nombre-completo,
-    #apodo {
+    header section div h1.nombre{
         font-size: 35px;
     }
     header section div h2.hobby {
@@ -244,9 +234,7 @@ header section div h2.hobby {
 }
 
 @media only screen and (max-width: 459px) {
-    header section div h1.nombre,
-    #nombre-completo,
-    #apodo {
+    header section div h1.nombre{
         font-size: 30px;
     }
     header section div h2.hobby {
@@ -258,9 +246,7 @@ header section div h2.hobby {
 }
 
 @media only screen and (max-width: 389px) {
-    header section div h1.nombre,
-    #nombre-completo,
-    #apodo {
+    header section div h1.nombre{
         font-size: 25px;
     }
     header section div h2.hobby {
@@ -272,9 +258,7 @@ header section div h2.hobby {
 }
 
 @media only screen and (max-width: 339px) {
-    header section div h1.nombre,
-    #nombre-completo,
-    #apodo {
+    header section div h1.nombre{
         font-size: 22px;
     }
     header section div h2.hobby {
@@ -287,6 +271,8 @@ header section div h2.hobby {
         height: 460px;
     }
 }
+
+/*ANIMACION DEL HEADER CON LAS HABILIDADES*/
 
 .skill-badge {
     width: 40px;

@@ -5,7 +5,7 @@
         "enlace": "https://hernanreiq.github.io/graphic-design/",
         "fotos": 5,
         "ruta_fotos": "img/Graphic design/",
-        "descripcion": "Este nuevo portafolio trata sobre algunos de los diseños que hice en forma de colaboración y trabajo. No especifico el tipo de diseño para no limitar lo que pueda compartir en el portafolio, por lo que hay carteles o flayers, composiciones web, logos y otros tipos de diseños.",
+        "descripcion": "Este nuevo portafolio trata sobre algunos de los diseños que hice en forma de colaboración y trabajo. Es por ello que hay carteles o flayers, composiciones web, logos y otros tipos de diseños.",
         "habilidades": "HTML, CSS, JavaScript, Macy.js, Axios, Bootstrap 4 y Google Fonts.",
         "caracteristicas": "Es un sitio web sencillo que solamente se enfoca en mostrar los proyectos de diseños, en donde estos están organizados con el efecto Masonry o Bricks gracias a la librería Macy.js. Es adaptable a distintas pantallas debido al uso de Bootstrap 4."
     },

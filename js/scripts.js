@@ -351,29 +351,47 @@ function comprobar_ancho_pantalla(){
 }
 
 /*
-    ANIMACION CON MI NOMBRE Y MI MARCA EN LA PORTADA
+    ANIMACION CON LOS TEXTOS EN LA PORTADA / HEADER
 */
 var nombre_apodo = document.getElementById('nombre-apodo');
 var marca_hr = document.getElementById('marcaHR');
+var titulo_profesional = document.getElementById('titulo-profesional');
 
 marca_hr.addEventListener('click', animacionNombre);
+
 function animacionNombre(){
-    var typewriter = new Typewriter(nombre_apodo, {
+    var animarNombre = new Typewriter(nombre_apodo, {
+        loop: false
+    });
+    
+    animarNombre.typeString('Hernan.Reiq')
+                .pauseFor(1500)
+                .deleteChars(5)
+                .typeString(' Virgilio')
+                .pauseFor(200)
+                .deleteChars(7)
+                .typeString('. Demorizi Ureña')
+                .pauseFor(13000)
+                .start();
+                
+                animacionTituloProfesional();
+}
+            
+function animacionTituloProfesional(){
+    var animarTitulo = new Typewriter(titulo_profesional, {
         loop: true
     });
     
-    typewriter.typeString('Hernan.Reiq')
-        .pauseFor(1500)
-        .deleteChars(5)
-        .typeString(' Virgilio')
-        .pauseFor(200)
-        .deleteChars(7)
-        .typeString('. Demorizi Ureña')
-        .pauseFor(10000)
-        .start();
+    animarTitulo.typeString('Desarrollador y Diseñador Web')
+                .pauseFor(3500)
+                .deleteAll()
+                .typeString('Ingeniero de Sistemas y Computación')
+                .pauseFor(6000)
+                .start();
 }
-animacionNombre();
 
+animacionNombre();
+            
 /*
     ANIMACIONES CON LA LIBRERIA SCROLLREVEAL PARA EL MENU, LOS PROYECTOS Y EL TEXTO EN INFORMACION
 */
