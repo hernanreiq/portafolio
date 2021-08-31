@@ -24,12 +24,16 @@
         "archivo": "axios.svg",
         "tipo": "Front-end"
     },{
-        "nombre": "ScrollReveal",
-        "archivo": "scrollreveal.svg",
-        "tipo": "Front-end"
-    },{
         "nombre": "Animate.css",
         "archivo": "animatecss.svg",
+        "tipo": "Front-end"
+    },{
+        "nombre": "SweetAlert2",
+        "archivo": "sweetalert2.svg",
+        "tipo": "Front-end"
+    },{
+        "nombre": "ScrollReveal",
+        "archivo": "scrollreveal.svg",
         "tipo": "Front-end"
     },{
         "nombre": "Macy.js",
@@ -68,6 +72,10 @@
         "archivo": "mongoose.svg",
         "tipo": "Back-end"
     },{
+        "nombre": "Socket.io",
+        "archivo": "socket-io.svg",
+        "tipo": "Back-end"
+    },{
         "nombre": "HTML2PDF",
         "archivo": "html2pdf.svg",
         "tipo": "Back-end"
@@ -98,6 +106,10 @@
     },{
         "nombre": "Composer",
         "archivo": "composer.svg",
+        "tipo": "Tecnologías"
+    },{
+        "nombre": "WebSocket",
+        "archivo": "websocket.svg",
         "tipo": "Tecnologías"
     },{
         "nombre": "Markdown",

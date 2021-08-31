@@ -20,14 +20,14 @@
         "caracteristicas": "Es una aplicación web tipo red social, permite el registro de usuarios e inicio de sesión, cambios de los datos de la cuenta (nombre, correo electrónico y contraseña). Crea, edita, visualiza y elimina notas, permite ver las notas públicas de otros usuarios, protege la información por lo que las notas son anónimas, las notas pueden estar en privado para que solamente las vea el dueño. Tiene saneamiento de datos y pantallas, por lo que no es posible alterar de alguna forma las notas o la información de la cuenta de otro usuario, tampoco permite entrar a rutas o pantallas que no están definidas y ofrece retroalimentación dependiendo de las acciones que haga el usuario dentro de la red social."
     },
     {
-        "nombre": "PC Store CMS",
+        "nombre": "MultiChat",
         "tipo": "Aplicación web",
-        "enlace": "https://github.com/hernanreiq/PC-Store-CMS",
-        "fotos": 16,
-        "ruta_fotos": "img/PC Store CMS/",
-        "descripcion": "Sistema de gestión de contenidos (CMS tipo CRUD) para un tienda dedicada a la venta de computadoras.",
-        "habilidades": "HTML, CSS, JavaScript, Bootstrap 4, MongoDB, Node.js, npm (Express, EJS, Mongoose, Body parser, Connect Multiparty y Nodemon), Photoshop CS6, ImageHover y Font-Awesome.",
-        "caracteristicas": "Es un CMS tipo CRUD (Create, Read, Update and Delete), contiene retroalimentación, opción de agregarle una imagen a los productos y en caso de que ya tenga una le permite cambiarla, además de que cuando se cambia una imagen o se borra un producto, la imagen asociada al producto se elimina de los documentos para no ocupar espacios."
+        "enlace": "https://github.com/hernanreiq/MultiChat",
+        "fotos": 6,
+        "ruta_fotos": "img/MultiChat/",
+        "descripcion": "Aplicación web para enviar mensajes de texto con varias personas simultáneamente.",
+        "habilidades": "HTML, CSS, JavaScript, Bootstrap 4, Bootswatch, Node.js, npm (Express, WebSocket (Socket.io) y Nodemon), SweetAlert2, Google Fonts y Font-Awesome.",
+        "caracteristicas": "Esta aplicación web permite enviar mensajes de texto y que estos sean recibidos por todos aquellos que estén en línea. Prohíbe el uso de la aplicación con aquellos que no han definido un nombre de usuario."
     },
     {
         "nombre": "Analista de crédito",
@@ -38,6 +38,16 @@
         "descripcion": "Sitio web dedicado al análisis de crédito, corresponde a una prueba técnica de un puesto laboral, en dicha prueba se solicitaba que el sistema permita iniciar sesión, tener retroalimentaciones, manipular los estados de cuenta (ver, imprimir, guardar, enviar por correo, etc.), pero yo le agregué búsquedas, historiales, servicios (crearlos, editarlos, ver los disponibles y ver los activos), recargas de saldo y capas de seguridad.",
         "habilidades": "HTML, CSS, JavaScript, Axios, Bootstrap 4, Draw.io, PHP, MySQL, Composer (HTML2PDF) y Font-Awesome.",
         "caracteristicas": "Diseño adaptable a distintas pantallas debido al uso de Bootstrap 4, convierte la información mostrada del usuario en formato PDF desde HTML y retroalimenta con mensajes a medida que se vaya interactuando con el sitio web."
+    },
+    {
+        "nombre": "PC Store CMS",
+        "tipo": "Aplicación web",
+        "enlace": "https://github.com/hernanreiq/PC-Store-CMS",
+        "fotos": 16,
+        "ruta_fotos": "img/PC Store CMS/",
+        "descripcion": "Sistema de gestión de contenidos (CMS tipo CRUD) para un tienda dedicada a la venta de computadoras.",
+        "habilidades": "HTML, CSS, JavaScript, Bootstrap 4, MongoDB, Node.js, npm (Express, EJS, Mongoose, Body parser, Connect Multiparty y Nodemon), Photoshop CS6, ImageHover y Font-Awesome.",
+        "caracteristicas": "Es un CMS tipo CRUD (Create, Read, Update and Delete), contiene retroalimentación, opción de agregarle una imagen a los productos y en caso de que ya tenga una le permite cambiarla, además de que cuando se cambia una imagen o se borra un producto, la imagen asociada al producto se elimina de los documentos para no ocupar espacios."
     },
     {
         "nombre": "GetPic",
