@@ -22,7 +22,7 @@
     {
         "nombre": "MultiChat",
         "tipo": "Aplicación web",
-        "enlace": "https://github.com/hernanreiq/MultiChat",
+        "enlace": "https://multichat-reiq.herokuapp.com/",
         "fotos": 6,
         "ruta_fotos": "img/MultiChat/",
         "descripcion": "Aplicación web para enviar mensajes de texto con varias personas simultáneamente.",
@@ -108,6 +108,16 @@
         "descripcion": "Sitio web dedicado a la venta de tarjetas de vídeo AMD y otros complementos, es de una tienda real, por lo que es posible hacer pedidos vía WhatsApp.",
         "habilidades": "HTML, CSS, JavaScript, Axios, Bootstrap 4, Google Fonts, WhatsApp API, Photoshop CS6 y Font-Awesome.",
         "caracteristicas": "Diseño adaptable a distintas pantallas debido al uso de Bootstrap 4, permite visualizar fotos de los productos en una ventana emergente, también da la opción de hacer compras reales a la tienda por WhatsApp."
+    },
+    {
+        "nombre": "Our Location",
+        "tipo": "Aplicación web",
+        "enlace": "https://our-location.herokuapp.com/",
+        "fotos": 3,
+        "ruta_fotos": "img/Our Location/",
+        "descripcion": "Mira en tiempo real la ubicación de los usuarios que están conectados.",
+        "habilidades": "HTML, CSS, JavaScript, Photoshop CS6, Bootstrap 4, Bootswatch, Node.js, npm (Express, Socket.io, EJS-mate y nodemon) y Leaflet.",
+        "caracteristicas": "Permite mirar la ubicación de los que están conectados, recibe retroalimentación cuando un usuario se conecta o se desconecta, obtiene las coordenadas de aquellos que se conectaron primero y se actualiza el mapa cuando un usuario se desconecta, es decir, se borra su ubicación."
     },
     {
         "nombre": "WhatsApping",
