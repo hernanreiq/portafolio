@@ -113,7 +113,7 @@
         "nombre": "Our Location",
         "tipo": "Aplicación web",
         "enlace": "https://our-location.herokuapp.com/",
-        "fotos": 3,
+        "fotos": 5,
         "ruta_fotos": "img/Our Location/",
         "descripcion": "Mira en tiempo real la ubicación de los usuarios que están conectados.",
         "habilidades": "HTML, CSS, JavaScript, Photoshop CS6, Bootstrap 4, Bootswatch, Node.js, npm (Express, Socket.io, EJS-mate y nodemon) y Leaflet.",
