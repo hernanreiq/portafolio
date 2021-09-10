@@ -1,13 +1,13 @@
 [
     {
-        "nombre": "Graphic design",
-        "tipo": "Sitio web",
-        "enlace": "https://hernanreiq.github.io/graphic-design/",
-        "fotos": 5,
-        "ruta_fotos": "img/Graphic design/",
-        "descripcion": "Este nuevo portafolio trata sobre algunos de los diseños que hice en forma de colaboración y trabajo. Es por ello que hay carteles o flayers, composiciones web, logos y otros tipos de diseños.",
-        "habilidades": "HTML, CSS, JavaScript, Macy.js, Axios, Bootstrap 4 y Google Fonts.",
-        "caracteristicas": "Es un sitio web sencillo que solamente se enfoca en mostrar los proyectos de diseños, en donde estos están organizados con el efecto Masonry o Bricks gracias a la librería Macy.js. Es adaptable a distintas pantallas debido al uso de Bootstrap 4."
+        "nombre": "Joy Me",
+        "tipo": "Aplicación web",
+        "enlace": "https://joy-me-reiq.herokuapp.com/",
+        "fotos": 4,
+        "ruta_fotos": "img/Joy Me/",
+        "descripcion": "Galería de fotos personales hecha con React como forma de práctica para asimilar mejor los conceptos.",
+        "habilidades": "React, HTML, CSS, JavaScript, Bootstrap 4, Node.js, Photoshop CS6, Font-Awesome y Google Fonts.",
+        "caracteristicas": "Diseño adaptable a todas las pantallas y saneamiento de rutas para no entrar a ventanas no definidas."
     },
     {
         "nombre": "Notes Network",
@@ -128,6 +128,16 @@
         "descripcion": "Esta aplicación web sirve para abrir un chat con una persona que no quieras agregar a tus contactos de WhatsApp.",
         "habilidades": "HTML, CSS, JavaScript, Bootstrap 4, WhatsApp API, Font-Awesome y Photoshop CS6.",
         "caracteristicas": "Diseño adaptable hasta pantallas de 280 píxeles de ancho, solamente puede ser usada con números de teléfonos que inicien con \"+1\"."
+    },
+    {
+        "nombre": "Graphic design",
+        "tipo": "Sitio web",
+        "enlace": "https://hernanreiq.github.io/graphic-design/",
+        "fotos": 5,
+        "ruta_fotos": "img/Graphic design/",
+        "descripcion": "Este nuevo portafolio trata sobre algunos de los diseños que hice en forma de colaboración y trabajo. Es por ello que hay carteles o flayers, composiciones web, logos y otros tipos de diseños.",
+        "habilidades": "HTML, CSS, JavaScript, Macy.js, Axios, Bootstrap 4 y Google Fonts.",
+        "caracteristicas": "Es un sitio web sencillo que solamente se enfoca en mostrar los proyectos de diseños, en donde estos están organizados con el efecto Masonry o Bricks gracias a la librería Macy.js. Es adaptable a distintas pantallas debido al uso de Bootstrap 4."
     },
     {
         "nombre": "Reiq Films",

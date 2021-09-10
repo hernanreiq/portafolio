@@ -4,7 +4,7 @@
 
 function rainingBadges(){
     var container_showflakes = document.getElementById('snow-flakes');
-    var skill_badges = ['css3', 'javascript', 'bootstrap', 'git', 'photoshop', 'mongodb', 'nodejs', 'mysql', 'php', 'html5'];
+    var skill_badges = ['css3', 'javascript', 'react', 'bootstrap', 'git', 'mongodb', 'nodejs', 'mysql', 'php', 'html5'];
     for(var i = 0; i < skill_badges.length; i++){   
         container_showflakes.innerHTML += `
         <div class="snowflake">
@@ -234,7 +234,7 @@ function imprimirSeccionesHTMLAcordeon(){
 }
 
 /*
-  FUNCIONES PARA EXTRAER, IMPRIMIR Y CONTABILIZAR LAS HABILIDADES
+    FUNCIONES PARA EXTRAER, IMPRIMIR Y CONTABILIZAR LAS HABILIDADES
 */
 
 /* CONTENEDORES DE HABILIDADES */
@@ -313,7 +313,7 @@ function ContadorHabilidades(){
 }
 
 /*
-    ESTE BLOQUE DE CODIGO ES PARA ENVIAR UN CORREO ELECTRONICO CON UN ASUNTO Y MENSAJE PRE-DEFINIDO
+    ESTE BLOQUE DE CODIGO ES PARA ENVIAR UN CORREO ELECTRONICO CON UN ASUNTO PRE-DEFINIDO
 */
 var boton_email = document.getElementById('boton-email');
 var id_correo = "hernandemure1202";

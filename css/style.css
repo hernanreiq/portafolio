@@ -833,7 +833,7 @@ main section div.contacto ul {
     }
 }
 
-main section div.contacto ul a li {
+main section div.contacto ul li a {
     text-align: center;
     background-color: #2e2e2e;
     width: 170px;
@@ -847,11 +847,12 @@ main section div.contacto ul a li {
     color: white;
 }
 
-main section div.contacto ul a li:hover {
+main section div.contacto ul li a:hover {
+    text-decoration: none;
     color: #5ea9ff;
 }
 
-main section div.contacto ul a li i.icono {
+main section div.contacto ul li a i.icono {
     font-size: 80px;
 }
 

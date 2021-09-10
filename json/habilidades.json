@@ -12,6 +12,10 @@
         "archivo": "javascript.svg",
         "tipo": "Front-end"
     },{
+        "nombre": "React",
+        "archivo": "react.svg",
+        "tipo": "Front-end"
+    },{
         "nombre": "Bootstrap 4",
         "archivo": "bootstrap.svg",
         "tipo": "Front-end"
