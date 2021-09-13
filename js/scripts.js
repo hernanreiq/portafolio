@@ -73,7 +73,7 @@ function CrearElementosLista(velocidad, posicion, proyectos, longitud_proyectos)
             <div class="contenedor-imagen">
                 <img src="${proyectos[posicion - 1]["ruta_fotos"] + proyectos[posicion - 1]["nombre"]} (1).jpg" alt="proyecto ${proyectos[posicion - 1]["nombre"]}"><br>
             </div>
-            <h2 class="m-0">${proyectos[posicion - 1]["nombre"]}</h2>
+            <h2 class="mx-0 my-1">${proyectos[posicion - 1]["nombre"]}</h2>
             <div class="blanco my-1"></div>
             <a href="javascript:void(0)" onclick="mostrarDetalles(${posicion - 1})" class="btn mt-1 mb-2">VER DETALLES</a>
         </li>
@@ -212,7 +212,7 @@ function imprimirSeccionesHTMLAcordeon(){
             var hashtag = '#skills';
         }
         acordeon_habilidades.innerHTML += `
-        <div class="card azul-fondo-plus">  
+        <div class="card shadow azul-fondo-plus">  
             <a href="${hashtag}" class="text-decoration-none">
                 <button class="btn btn-link btn-block rounded-0 text-left text-white text-decoration-none titulo-gradiente-negro" type="button" data-toggle="collapse" data-target="#collapse${id_contenedores_de_habilidades[i]}" aria-expanded="${seccion_abierta}" aria-controls="collapse${id_contenedores_de_habilidades[i]}">
                     <div class="card-header border-0" id="heading${id_contenedores_de_habilidades[i]}">
@@ -355,9 +355,11 @@ function comprobar_ancho_pantalla(){
 */
 var nombre_apodo = document.getElementById('nombre-apodo');
 var marca_hr = document.getElementById('marcaHR');
+var marca_telefono_hr = document.getElementById('hr-brand-mobile');
 var titulo_profesional = document.getElementById('titulo-profesional');
 
 marca_hr.addEventListener('click', animacionNombre);
+marca_telefono_hr.addEventListener('click', animacionNombre);
 
 function animacionNombre(){
     var animarNombre = new Typewriter(nombre_apodo, {

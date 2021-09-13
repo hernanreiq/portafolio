@@ -85,36 +85,58 @@ header nav {
 
 header nav ul {
     list-style: none;
-    text-align: left;
-    height: 50%;
-    padding-left: 20px;
+    margin-bottom: 0px;
 }
 
-header nav ul a li {
-    line-height: 50px;
+header nav ul div a li {
     display: inline-block;
     margin: 0;
     padding: 0;
 }
 
-header nav a.marca {
-    font-size: 30px;
-    text-decoration: none;
-    top: 0;
-    right: 0;
-    line-height: 50px;
-    font-family: 'Lato', sans-serif;
-    color: #ffffff;
-    text-shadow: black 1px 1px 1px;
+header nav div.marca a {
     background-color: #2a2a2a;
-    padding: 0px 20px;
-    position: absolute;
-    transition: .5s;
 }
 
-header nav a.marca:hover {
+header nav div.marca a:hover, nav #hr-brand-mobile:hover {
     background-color: #5ea9ff;
-    color: white;
+    color: #ffffff;
+}
+
+header nav a#menu-navegacion {
+    font-size: 25px;
+    color: #ffffff;
+    line-height: 50px;
+    margin: 20px;
+}
+
+header nav ul div a {
+    color: rgb(255, 255, 255);
+    line-height: 50px;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 25px;
+    font-family: 'Lato', sans-serif;
+    text-shadow: rgb(37, 37, 37) 1px 1px 1px;
+    transition: .3s;
+}
+
+header nav ul div a:hover {
+    background-color: #2e2e2e;
+}
+
+header nav #hr-brand-mobile {
+    font-size: 25px;
+    font-family: 'Lato', sans-serif;
+    line-height: 50px;
+    color: #ffffff;
+    text-shadow: rgb(37, 37, 37) 1px 1px 1px;
+    background-color: #2a2a2a;
+    padding: 0px 20px;
+    transition: .3s;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
 @media only screen and (min-width: 825px) {
@@ -124,52 +146,43 @@ header nav a.marca:hover {
     header nav ul#lista-menu {
         display: block;
     }
+    header nav ul div.opciones-menu {
+        display: inline-block;
+    }
+    header nav div.marca {
+        float: right;
+    }
+    header nav #hr-brand-mobile {
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 824px) {
-    header nav a#menu-navegacion {
-        font-size: 30px;
-        color: white;
-        line-height: 50px;
-        width: 100%;
-        margin: 20px;
-    }
     header nav ul {
         padding: 0;
         display: none;
         height: 200px;
         text-align: center;
     }
-    header nav ul a li.menu {
+    header nav ul div a li.menu {
         display: block;
         background-color: #2e2e2ebd;
         margin: 0;
+        transition: .3s;
     }
-    header nav ul a li.menu:hover {
+    header nav ul div a li.menu:hover {
         background-color: #5faaffbd;
     }
-    header nav ul#lista-menu a {
+    header nav ul#lista-menu div a {
         margin: 0px;
         height: 50px;
         width: 100%;
         padding: 0;
     }
-}
-
-header nav ul a {
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-    padding: 10px 20px;
-    font-size: 25px;
-    text-align: center;
-    font-family: 'Lato', sans-serif;
-    text-shadow: rgb(37, 37, 37) 1px 1px 1px;
-    border-radius: 2px;
-}
-
-header nav ul a:hover {
-    background-color: #2e2e2e;
-    transition: .5s;
+    header nav div.marca {
+        float: none;
+        display: none;
+    }
 }
 
 
@@ -188,9 +201,6 @@ header section div.presentacion {
 }
 
 header section div img {
-    box-shadow: #3B93F7 2px 2px 2px;
-    border: solid 1px;
-    width: auto;
     height: 350px;
     border-radius: 25px;
 }
@@ -295,13 +305,17 @@ a.ancla {
 main section div.titulo {
     width: 100%;
     height: 50px;
-    line-height: 50px;
     text-align: center;
+}
+
+main section div.titulo h2 {
+    line-height: 50px;
     font-size: 25px;
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     color: rgb(255, 255, 255);
     text-shadow: rgb(37, 37, 37) 1px 1px 1px;
+    margin-bottom: 0px;
 }
 
 .titulo-skills {
@@ -402,7 +416,7 @@ main section div.proyectos ul li {
     }
     50% {
         background-color: #5ea9ff;
-    } 
+    }
     100% {
         background-color: #3B93F7;
     }
@@ -433,7 +447,7 @@ main section div.proyectos ul li {
     }
     main section div.proyectos ul li {
         margin: 20px 0px;
-        
+
     }
     main section div.proyectos ul li h2 {
         font-size: 18px;
@@ -540,12 +554,12 @@ div.contenedor-boton-ver-mas {
 }
 
 #boton-ver-mas {
-    padding: 10px 35px;
+    padding: 5px 30px;
     text-transform: uppercase;
     font-size: 20px;
     background-color: #3B93F7;
-    border: solid 2px rgb(255, 255, 255);
-    color: white;
+    border: unset;
+    color: #ffffff;
     border-radius: 5px;
     text-shadow: black 1px 1px 1px;
     font-family: 'Roboto', sans-serif;
@@ -553,7 +567,7 @@ div.contenedor-boton-ver-mas {
 }
 
 #boton-ver-mas:hover {
-    background-color: #2a2a2a;
+    background-color: #5ea9ff;
 }
 
 @media only screen and (max-width: 500px) {
@@ -643,7 +657,7 @@ div.popup p {
     overflow: auto;
     background-color: #1a1a1a;
     border-radius: 10px;
-    color: white;
+    color: #ffffff;
     letter-spacing: 1px;
     font-family: 'PT Sans Narrow', sans-serif;
 }
@@ -729,7 +743,7 @@ main section div.habilidades ul li {
     height: 170px;
     padding: 10px;
     border-radius: 20px;
-    border: solid white 3px;
+    border: solid #ffffff 3px;
     float: left;
 }
 
@@ -747,7 +761,7 @@ main section div.habilidades ul li img {
 main section div.habilidades ul li p {
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
-    color: white;
+    color: #ffffff;
 }
 
 /*INFORMACION*/
@@ -766,7 +780,7 @@ main section div div.contenedor-texto-informacion {
 main section div div.contenedor-texto-informacion p,
 ul.metas li,
 .frase {
-    color: white;
+    color: #ffffff;
     text-align: justify;
     font-size: 18px;
     font-family: 'PT Sans Narrow', sans-serif;
@@ -839,11 +853,11 @@ main section div.contacto ul li a {
     margin: 20px;
     padding: 10px;
     border-radius: 20px;
-    border: solid white 3px;
+    border: solid #ffffff 3px;
     float: left;
     font-size: 30px;
     font-family: 'Roboto', sans-serif;
-    color: white;
+    color: #ffffff;
 }
 
 main section div.contacto ul li a:hover {
