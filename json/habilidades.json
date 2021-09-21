@@ -52,6 +52,10 @@
         "archivo": "imagehover.svg",
         "tipo": "Front-end"
     },{
+        "nombre": "Timeago.js",
+        "archivo": "timeagojs.svg",
+        "tipo": "Front-end"
+    },{
         "nombre": "Typewriter JS",
         "archivo": "typewriterjs.svg",
         "tipo": "Front-end"

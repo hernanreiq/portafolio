@@ -8,7 +8,7 @@ function rainingBadges(){
     for(var i = 0; i < skill_badges.length; i++){   
         container_showflakes.innerHTML += `
         <div class="snowflake">
-            <img src="svg/${skill_badges[i]}.svg" class="skill-badge">
+            <img src="img/Habilidades/${skill_badges[i]}.svg" class="skill-badge">
         </div>
         `;
     }
@@ -131,6 +131,7 @@ function AsignarDetalles(proyecto_actual) {
     } else {
         var enlace = "Enlace no disponible";
     }
+    badge_cantidad_fotos_popup.innerText = mis_proyectos[proyecto_actual].fotos;
     parrafo_popup.innerHTML = `
         <b>Enlace: </b> ${enlace}<br><br>
         <b>Descripción: </b>${mis_proyectos[proyecto_actual].descripcion} <br><br>
@@ -145,6 +146,7 @@ var ventana_emergente_fondo = document.getElementById('ventana-emergente-fondo')
 var boton_cerrar_popup = document.getElementById('cerrar-popup');
 var nombre_proyecto_popup = document.getElementById("nombre-proyecto-popup");
 var carousel_inner = document.getElementById('carousel-inner');
+var badge_cantidad_fotos_popup = document.getElementById('cantidad-fotos-popup');
 var parrafo_popup = document.getElementById('parrafo-popup');
 
 /*
@@ -289,7 +291,7 @@ function ClasificarHabilidades(habilidades, cantidad_habilidades){
 function ImprimirHabilidades(habilidad, contenedor){
     contenedor.innerHTML += `
         <li class="skill shadow">
-            <img src="svg/${habilidad.archivo}" alt="${habilidad.nombre} - ${habilidad.tipo}">
+            <img src="img/Habilidades/${habilidad.archivo}" alt="${habilidad.nombre} - ${habilidad.tipo}">
             <p>${habilidad.nombre}</p>
         </li>
     `;

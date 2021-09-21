@@ -626,7 +626,7 @@ div.popup {
     }
 }
 
-div.popup h2 {
+div.popup h2, div.popup h3.cantidad-fotos-popup  {
     color: #ffffff;
     text-shadow: black 1px 1px 1px;
     font-weight: normal;
@@ -634,6 +634,12 @@ div.popup h2 {
     font-style: italic;
     letter-spacing: 1px;
     margin-bottom: 10px;
+}
+
+div.popup h3.cantidad-fotos-popup {
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 13px;
 }
 
 div.popup div.popup-img {
@@ -651,7 +657,7 @@ div.popup div img {
 
 div.popup p {
     text-align: justify;
-    margin: 20px 0px;
+    margin: 10px 0px;
     padding: 15px;
     max-height: 250px;
     overflow: auto;
