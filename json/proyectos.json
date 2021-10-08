@@ -10,14 +10,14 @@
         "caracteristicas": "Diseño adaptable a todas las pantallas y saneamiento de rutas para no entrar a ventanas no definidas."
     },
     {
-        "nombre": "Quality Writer",
+        "nombre": "Hunter Cinema",
         "tipo": "Aplicación web",
-        "enlace": "https://github.com/hernanreiq/Quality-Writer",
-        "fotos": 21,
-        "ruta_fotos": "img/Proyectos/Quality Writer/",
-        "descripcion": "Blog de variedades hecho como una forma de practicar el Stack MERN (MongoDB, Express, React, Node.js).",
-        "habilidades": "React, HTML, CSS, JavaScript, Bootstrap 4, Bootswatch, MongoDB, Node.js, npm (Express, Mongoose, Axios, SweetAlert2, Timeago.js, Morgan y Nodemon), Font-Awesome y Google Fonts.", 
-        "caracteristicas": "Está diseñado para ser adaptable a todas las pantallas y tiene un saneamiento de rutas para no entrar a ventanas que no existen. Ordena el contenido del más reciente al más antiguo, cada publicación tiene una etiqueta para saber si es original o si fue editado, una etiqueta para ver el tema al que pertenece (Ciencia, Tecnología, Entretenimiento, etc.) y una etiqueta para saber hace cuánto tiempo fue creada la publicación y permite clasificar o ver las publicaciones por temas. Contiene un CRUD (Create, Read, Update and Delete) que sirve para crear, ver, actualizar o eliminar contenido del blog, además de que este ofrece retroalimentación dependiendo de la acción realizada y también hay un buscador que funciona en tiempo real, que permite buscar por título, tema o contenido."
+        "enlace": "https://github.com/hernanreiq/Hunter-Cinema",
+        "fotos": 31,
+        "ruta_fotos": "img/Proyectos/Hunter Cinema/",
+        "descripcion": "Prueba técnica de un puesto laboral, donde se me solicitó hacer dos gestores de contenidos tipo CRUD para trabajar con la información de una API (Hecha por mí) de películas y actores.",
+        "habilidades": "React, HTML, CSS, JavaScript, Bootstrap 4, MongoDB, Node.js, npm (Express, Mongoose, Axios, SweetAlert2, Connect Multiparty, Morgan y Nodemon), Font-Awesome y Google Fonts.", 
+        "caracteristicas": "El diseño es adaptable a todas las pantallas y tiene un saneamiento de rutas para bloquear la entrada a ventanas que no existen. En el buscador ordena el contenido del más reciente al más antiguo, permite ver los detalles de los actores y películas en una ventana emergente (Pop Up), como por ejemplo la foto del actor y las películas donde este haya participado, además de que el buscador cuenta con la opción de usar filtros para las búsquedas. Contiene dos CRUDs (Create, Read, Update and Delete) que sirven para crear, ver, actualizar o eliminar contenido de los actores y las películas, además de que estos ofrecen retroalimentación dependiendo de las acciones realizadas."
     },
     {
         "nombre": "MultiChat",
@@ -108,6 +108,16 @@
         "descripcion": "Es un sitio web orientado al trading, aunque no está centrado en dar ningún tipo de consejo financiero, solamente sirve para calcular ganancias si se le aplica el interés compuesto en las inversiones y para calcular la cantidad de aciertos necesarios para llegar a una meta en operaciones binarias con un capital de $100 USD.",
         "habilidades": "HTML, CSS, JavaScript, Bootstrap 4 y Photoshop CS6.",
         "caracteristicas": "Diseño adaptable hasta pantallas de 340 píxeles de ancho, utiliza una fórmula matemática para calcular la cantidad de operaciones exitosas que necesitas para llegar a la meta deseada."
+    },
+    {
+        "nombre": "Quality Writer",
+        "tipo": "Aplicación web",
+        "enlace": "https://github.com/hernanreiq/Quality-Writer",
+        "fotos": 21,
+        "ruta_fotos": "img/Proyectos/Quality Writer/",
+        "descripcion": "Blog de variedades hecho como una forma de practicar el Stack MERN (MongoDB, Express, React, Node.js).",
+        "habilidades": "React, HTML, CSS, JavaScript, Bootstrap 4, Bootswatch, MongoDB, Node.js, npm (Express, Mongoose, Axios, SweetAlert2, Timeago.js, Morgan y Nodemon), Font-Awesome y Google Fonts.", 
+        "caracteristicas": "Está diseñado para ser adaptable a todas las pantallas y tiene un saneamiento de rutas para no entrar a ventanas que no existen. Ordena el contenido del más reciente al más antiguo, cada publicación tiene una etiqueta para saber si es original o si fue editado, una etiqueta para ver el tema al que pertenece (Ciencia, Tecnología, Entretenimiento, etc.) y una etiqueta para saber hace cuánto tiempo fue creada la publicación y permite clasificar o ver las publicaciones por temas. Contiene un CRUD (Create, Read, Update and Delete) que sirve para crear, ver, actualizar o eliminar contenido del blog, además de que este ofrece retroalimentación dependiendo de la acción realizada y también hay un buscador que funciona en tiempo real, que permite buscar por título, tema o contenido."
     },
     {
         "nombre": "Cyber Games RD",
