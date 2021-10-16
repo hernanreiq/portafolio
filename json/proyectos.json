@@ -16,7 +16,7 @@
         "fotos": 31,
         "ruta_fotos": "img/Proyectos/Hunter Cinema/",
         "descripcion": "Prueba técnica de un puesto laboral, donde se me solicitó hacer dos gestores de contenidos tipo CRUD para trabajar con la información de una API (Hecha por mí) de películas y actores.",
-        "habilidades": "React, HTML, CSS, JavaScript, Bootstrap 4, MongoDB, Node.js, npm (Express, Mongoose, Axios, SweetAlert2, Connect Multiparty, Morgan y Nodemon), Font-Awesome y Google Fonts.", 
+        "habilidades": "React, HTML, CSS, JavaScript, Draw.io, Bootstrap 4, MongoDB, Node.js, npm (Express, Mongoose, Axios, SweetAlert2, Connect Multiparty, Morgan y Nodemon), Font-Awesome y Google Fonts.", 
         "caracteristicas": "El diseño es adaptable a todas las pantallas y tiene un saneamiento de rutas para bloquear la entrada a ventanas que no existen. En el buscador ordena el contenido del más reciente al más antiguo, permite ver los detalles de los actores y películas en una ventana emergente (Pop Up), como por ejemplo la foto del actor y las películas donde este haya participado, además de que el buscador cuenta con la opción de usar filtros para las búsquedas. Contiene dos CRUDs (Create, Read, Update and Delete) que sirven para crear, ver, actualizar o eliminar contenido de los actores y las películas, además de que estos ofrecen retroalimentación dependiendo de las acciones realizadas."
     },
     {
@@ -78,6 +78,16 @@
         "descripcion": "Sitio web orientado a la venta de comida tipo bufé para cualquier tipo de actividad, donde el usuario puede personalizar el menú que comerán sus invitados para luego enviar toda la información por WhatsApp.",
         "habilidades": "HTML, CSS, JavaScript, Axios, Bootstrap 4, Google Fonts, WhatsApp API, Draw.io y Photoshop CS6.",
         "caracteristicas": "Diseño adaptable a distintas pantallas debido al uso de Bootstrap 4, permite crear un menú personalizado para el bufé que comerán los invitados y envía el menú y la cotización por WhatsApp."
+    },
+    {
+        "nombre": "GitHub Stats",
+        "tipo": "Aplicación web",
+        "enlace": "https://github.com/hernanreiq/GitHub-Stats",
+        "fotos": 6,
+        "ruta_fotos": "img/Proyectos/GitHub Stats/",
+        "descripcion": "Mira las estadísticas públicas relacionadas a un usuario de GitHub.",
+        "habilidades": "React, HTML, CSS, JavaScript, Bootstrap 5, Macy.js, SweetAlert2, Photoshop CS6, Google Fonts, Font-Awesome, Node.js y npm.",
+        "caracteristicas": "Diseño adaptable a todas las pantallas, efecto masonry con las tarjetas que tienen información del usuario, alertas cuando se copia el código de implementación de las estadísticas y solamente funciona de manera local."
     },
     {
         "nombre": "Sabroso Play",
