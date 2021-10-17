@@ -86,7 +86,7 @@
         "fotos": 6,
         "ruta_fotos": "img/Proyectos/GitHub Stats/",
         "descripcion": "Mira las estadísticas públicas relacionadas a un usuario de GitHub.",
-        "habilidades": "React, HTML, CSS, JavaScript, Bootstrap 5, Macy.js, SweetAlert2, Photoshop CS6, Google Fonts, Font-Awesome, Node.js y npm.",
+        "habilidades": "React, HTML, CSS, JavaScript, Bootstrap 5, Macy.js, SweetAlert2, GraphQL, Photoshop CS6, Google Fonts, Font-Awesome, Node.js y npm.",
         "caracteristicas": "Diseño adaptable a todas las pantallas, efecto masonry con las tarjetas que tienen información del usuario, alertas cuando se copia el código de implementación de las estadísticas y solamente funciona de manera local."
     },
     {
