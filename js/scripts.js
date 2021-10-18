@@ -131,7 +131,7 @@ function AsignarDetalles(proyecto_actual) {
     } else {
         var enlace = "Enlace no disponible";
     }
-    badge_cantidad_fotos_popup.innerText = mis_proyectos[proyecto_actual].fotos;
+    badge_cantidad_fotos_popup.innerText = mis_proyectos[proyecto_actual].images;
     parrafo_popup.innerHTML = `
         <b>Enlace: </b> ${enlace}<br><br>
         <b>Descripción: </b>${mis_proyectos[proyecto_actual].descripcion} <br><br>
@@ -160,7 +160,7 @@ function CarouselImages(proyectos, proyecto_actual) {
     primer_div_carousel.setAttribute('class', 'carousel-item active');
     primer_div_carousel.appendChild(primer_img_proyecto);
     carousel_inner.appendChild(primer_div_carousel);
-    for (var i = 1; i < proyectos[proyecto_actual].fotos; i++) {
+    for (var i = 1; i < proyectos[proyecto_actual].images; i++) {
         var img_proyecto = document.createElement('img');
         img_proyecto.src = proyectos[proyecto_actual].ruta_fotos + proyectos[proyecto_actual].nombre + " (" + (i + 1) + ").jpg";
         var div_carousel = document.createElement('div');
