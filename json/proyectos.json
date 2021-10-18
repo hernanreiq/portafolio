@@ -1,13 +1,13 @@
 [
     {
-        "nombre": "Joy Me",
+        "nombre": "Pokedex Online",
         "tipo": "Aplicación web",
-        "enlace": "https://joy-me-reiq.herokuapp.com/",
-        "fotos": 4,
-        "ruta_fotos": "img/Proyectos/Joy Me/",
-        "descripcion": "Galería de fotos personales hecha con React como forma de práctica para asimilar mejor los conceptos.",
-        "habilidades": "React, HTML, CSS, JavaScript, Bootstrap 4, Node.js, Photoshop CS6, Font-Awesome y Google Fonts.",
-        "caracteristicas": "Diseño adaptable a todas las pantallas y saneamiento de rutas para no entrar a ventanas no definidas."
+        "enlace": "https://hernanreiq.github.io/Pokedex-Online/",
+        "fotos": 5,
+        "ruta_fotos": "img/Proyectos/Pokedex Online/",
+        "descripcion": "Aplicación web para la consulta de información sobre pokemones, creado con React y consumiendo la API de PokéAPI.",
+        "habilidades": "React, HTML, CSS, JavaScript, Bootstrap 4, Axios, Node.js, npm (gh-pages) y Google Fonts.",
+        "caracteristicas": "Diseño adaptable a todas las pantallas e información sobre los pokemones traídas desde PokéAPI."
     },
     {
         "nombre": "Hunter Cinema",
@@ -88,6 +88,16 @@
         "descripcion": "Mira las estadísticas públicas relacionadas a un usuario de GitHub.",
         "habilidades": "React, HTML, CSS, JavaScript, Bootstrap 5, Macy.js, SweetAlert2, GraphQL, Photoshop CS6, Google Fonts, Font-Awesome, Node.js y npm.",
         "caracteristicas": "Diseño adaptable a todas las pantallas, efecto masonry con las tarjetas que tienen información del usuario, alertas cuando se copia el código de implementación de las estadísticas y solamente funciona de manera local."
+    },
+    {
+        "nombre": "Joy Me",
+        "tipo": "Aplicación web",
+        "enlace": "https://joy-me-reiq.herokuapp.com/",
+        "fotos": 4,
+        "ruta_fotos": "img/Proyectos/Joy Me/",
+        "descripcion": "Galería de fotos personales hecha con React como forma de práctica para asimilar mejor los conceptos.",
+        "habilidades": "React, HTML, CSS, JavaScript, Bootstrap 4, Node.js, Photoshop CS6, Font-Awesome y Google Fonts.",
+        "caracteristicas": "Diseño adaptable a todas las pantallas y saneamiento de rutas para no entrar a ventanas no definidas."
     },
     {
         "nombre": "Sabroso Play",
