@@ -1,0 +1,21 @@
+<svg width="512" height="512" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="514" width="514" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <path stroke="null" id="svg_1" d="m14.5566,91.51318l241.53182,-82.2434l241.355,82.91753l-36.80488,304.70508l-203.13454,105.83783l-205.25794,-106.51196l-37.68946,-304.70508z" stroke-opacity="null" stroke-width="null" fill="#0c0d1e"/>
+  <path id="svg_2" d="m257.6773,10.01409l-1.93821,492.13258l205.78855,-105.9359l33.82825,-303.7276l-237.67859,-82.46908z" stroke-width="null" fill="#030414"/>
+  <g stroke="null" id="svg_11">
+   <rect stroke="null" fill="#FFCB36" fill-rule="evenodd" x="107.10043" y="97.24997" width="42.54273" height="164.53129" rx="3" id="svg_4"/>
+   <rect stroke="null" fill="#007D97" fill-rule="evenodd" x="277.27135" y="97.24997" width="42.54273" height="292.50008" rx="3" id="svg_5"/>
+   <rect stroke="null" fill="#2EAD6D" fill-rule="evenodd" x="192.18589" y="97.24997" width="42.54273" height="73.12502" rx="3" id="svg_6"/>
+   <rect stroke="null" fill="#E31D65" fill-rule="evenodd" x="192.18589" y="225.21875" width="42.54273" height="164.53129" rx="3" id="svg_7"/>
+   <rect stroke="null" fill="#E31D65" fill-rule="evenodd" x="362.35682" y="97.24997" width="42.54273" height="164.53129" rx="3" id="svg_8"/>
+   <rect stroke="null" fill="#FF7C35" fill-rule="evenodd" x="107.10043" y="316.62502" width="42.54273" height="73.12502" rx="3" id="svg_9"/>
+   <rect stroke="null" fill="#553BB8" fill-rule="evenodd" x="362.35682" y="316.62502" width="42.54273" height="73.12502" rx="3" id="svg_10"/>
+  </g>
+ </g>
+</svg>

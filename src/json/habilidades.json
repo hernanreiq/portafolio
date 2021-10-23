@@ -1,0 +1,131 @@
+[
+    {
+        "nombre": "HTML5",
+        "archivo": "html5.svg",
+        "tipo": "Front-end"
+    },{
+        "nombre": "CSS3",
+        "archivo": "css3.svg",
+        "tipo": "Front-end"
+    },{
+        "nombre": "JavaScript",
+        "archivo": "javascript.svg",
+        "tipo": "Front-end"
+    },{
+        "nombre": "React",
+        "archivo": "react.svg",
+        "tipo": "Front-end"
+    },{
+        "nombre": "Bootstrap",
+        "archivo": "bootstrap.svg",
+        "tipo": "Front-end"
+    },{
+        "nombre": "Bootswatch",
+        "archivo": "bootswatch.svg",
+        "tipo": "Front-end"
+    },{
+        "nombre": "Leaflet",
+        "archivo": "leaflet.svg",
+        "tipo": "Front-end"
+    },{
+        "nombre": "Axios",
+        "archivo": "axios.svg",
+        "tipo": "Front-end"
+    },{
+        "nombre": "Animate.css",
+        "archivo": "animatecss.svg",
+        "tipo": "Front-end"
+    },{
+        "nombre": "SweetAlert2",
+        "archivo": "sweetalert2.svg",
+        "tipo": "Front-end"
+    },{
+        "nombre": "ScrollReveal",
+        "archivo": "scrollreveal.svg",
+        "tipo": "Front-end"
+    },{
+        "nombre": "Macy.js",
+        "archivo": "macyjs.svg",
+        "tipo": "Front-end"
+    },{
+        "nombre": "ImageHover",
+        "archivo": "imagehover.svg",
+        "tipo": "Front-end"
+    },{
+        "nombre": "Timeago.js",
+        "archivo": "timeagojs.svg",
+        "tipo": "Front-end"
+    },{
+        "nombre": "Typewriter JS",
+        "archivo": "typewriterjs.svg",
+        "tipo": "Front-end"
+    },{
+        "nombre": "PHP",
+        "archivo": "php.svg",
+        "tipo": "Back-end"
+    },{
+        "nombre": "MySQL",
+        "archivo": "mysql.svg",
+        "tipo": "Back-end"
+    },{
+        "nombre": "Node.js",
+        "archivo": "nodejs.svg",
+        "tipo": "Back-end"
+    },{
+        "nombre": "Express.js",
+        "archivo": "expressjs.svg",
+        "tipo": "Back-end"
+    },{
+        "nombre": "MongoDB",
+        "archivo": "mongodb.svg",
+        "tipo": "Back-end"
+    },{
+        "nombre": "Mongoose",
+        "archivo": "mongoose.svg",
+        "tipo": "Back-end"
+    },{
+        "nombre": "Socket.io",
+        "archivo": "socket-io.svg",
+        "tipo": "Back-end"
+    },{
+        "nombre": "HTML2PDF",
+        "archivo": "html2pdf.svg",
+        "tipo": "Back-end"
+    },{
+        "nombre": "Photoshop",
+        "archivo": "photoshop.svg",
+        "tipo": "Diseño"
+    },{
+        "nombre": "Draw.io",
+        "archivo": "drawio.svg",
+        "tipo": "Diseño"
+    },{
+        "nombre": "SVG Graphics",
+        "archivo": "svggraphics.svg",
+        "tipo": "Diseño"
+    },{
+        "nombre": "Git",
+        "archivo": "git.svg",
+        "tipo": "Tecnologías"
+    },{
+        "nombre": "JSON",
+        "archivo": "json.svg",
+        "tipo": "Tecnologías"
+    },{
+        "nombre": "npm",
+        "archivo": "npm.svg",
+        "tipo": "Tecnologías"
+    },{
+        "nombre": "Composer",
+        "archivo": "composer.svg",
+        "tipo": "Tecnologías"
+    },{
+        "nombre": "WebSocket",
+        "archivo": "websocket.svg",
+        "tipo": "Tecnologías"
+    },{
+        "nombre": "Markdown",
+        "archivo": "markdown.svg",
+        "tipo": "Tecnologías"
+    }
+]

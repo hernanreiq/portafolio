@@ -1,0 +1,332 @@
+[
+    {
+        "nombre": "Pokedex Online",
+        "tipo": "Aplicación web",
+        "enlace": "https://hernanreiq.github.io/Pokedex-Online/",
+        "images": 5,
+        "ruta_fotos": "img/Proyectos/Pokedex Online/",
+        "descripcion": "Aplicación web para la consulta de información sobre pokemones, creado con React y consumiendo la API de PokéAPI.",
+        "habilidades": "React, HTML, CSS, JavaScript, Bootstrap 4, Axios, Node.js, npm (gh-pages) y Google Fonts.",
+        "caracteristicas": "Diseño adaptable a todas las pantallas e información sobre los pokemones traídas desde PokéAPI."
+    },
+    {
+        "nombre": "Hunter Cinema",
+        "tipo": "Aplicación web",
+        "enlace": "https://github.com/hernanreiq/Hunter-Cinema",
+        "images": 31,
+        "ruta_fotos": "img/Proyectos/Hunter Cinema/",
+        "descripcion": "Prueba técnica de un puesto laboral, donde se me solicitó hacer dos gestores de contenidos tipo CRUD para trabajar con la información de una API (Hecha por mí) de películas y actores.",
+        "habilidades": "React, HTML, CSS, JavaScript, Draw.io, Bootstrap 4, MongoDB, Node.js, npm (Express, Mongoose, Axios, SweetAlert2, Connect Multiparty, Morgan y Nodemon), Font-Awesome y Google Fonts.", 
+        "caracteristicas": "El diseño es adaptable a todas las pantallas y tiene un saneamiento de rutas para bloquear la entrada a ventanas que no existen. En el buscador ordena el contenido del más reciente al más antiguo, permite ver los detalles de los actores y películas en una ventana emergente (Pop Up), como por ejemplo la foto del actor y las películas donde este haya participado, además de que el buscador cuenta con la opción de usar filtros para las búsquedas. Contiene dos CRUDs (Create, Read, Update and Delete) que sirven para crear, ver, actualizar o eliminar contenido de los actores y las películas, además de que estos ofrecen retroalimentación dependiendo de las acciones realizadas."
+    },
+    {
+        "nombre": "MultiChat",
+        "tipo": "Aplicación web",
+        "enlace": "https://multichat-reiq.herokuapp.com/",
+        "images": 6,
+        "ruta_fotos": "img/Proyectos/MultiChat/",
+        "descripcion": "Aplicación web para enviar mensajes de texto con varias personas simultáneamente.",
+        "habilidades": "HTML, CSS, JavaScript, Bootstrap 4, Bootswatch, Node.js, npm (Express, WebSocket (Socket.io) y Nodemon), SweetAlert2, Google Fonts y Font-Awesome.",
+        "caracteristicas": "Esta aplicación web permite enviar mensajes de texto y que estos sean recibidos por todos aquellos que estén en línea. Prohíbe el uso de la aplicación con aquellos que no han definido un nombre de usuario."
+    },
+    {
+        "nombre": "Analista de crédito",
+        "tipo": "Aplicación web",
+        "enlace": "https://github.com/hernanreiq/credit-analyst",
+        "images": 11,
+        "ruta_fotos": "img/Proyectos/Analista de crédito/",
+        "descripcion": "Sitio web dedicado al análisis de crédito, corresponde a una prueba técnica de un puesto laboral, en dicha prueba se solicitaba que el sistema permita iniciar sesión, tener retroalimentaciones, manipular los estados de cuenta (ver, imprimir, guardar, enviar por correo, etc.), pero yo le agregué búsquedas, historiales, servicios (crearlos, editarlos, ver los disponibles y ver los activos), recargas de saldo y capas de seguridad.",
+        "habilidades": "HTML, CSS, JavaScript, Axios, Bootstrap 4, Draw.io, PHP, MySQL, Composer (HTML2PDF) y Font-Awesome.",
+        "caracteristicas": "Diseño adaptable a distintas pantallas debido al uso de Bootstrap 4, convierte la información mostrada del usuario en formato PDF desde HTML y retroalimenta con mensajes a medida que se vaya interactuando con el sitio web."
+    },
+    {
+        "nombre": "PC Store CMS",
+        "tipo": "Aplicación web",
+        "enlace": "https://github.com/hernanreiq/PC-Store-CMS",
+        "images": 16,
+        "ruta_fotos": "img/Proyectos/PC Store CMS/",
+        "descripcion": "Sistema de gestión de contenidos (CMS tipo CRUD) para un tienda dedicada a la venta de computadoras.",
+        "habilidades": "HTML, CSS, JavaScript, Bootstrap 4, MongoDB, Node.js, npm (Express, EJS, Mongoose, Body parser, Connect Multiparty y Nodemon), Photoshop CS6, ImageHover y Font-Awesome.",
+        "caracteristicas": "Es un CMS tipo CRUD (Create, Read, Update and Delete), contiene retroalimentación, opción de agregarle una imagen a los productos y en caso de que ya tenga una le permite cambiarla, además de que cuando se cambia una imagen o se borra un producto, la imagen asociada al producto se elimina de los documentos para no ocupar espacios."
+    },
+    {
+        "nombre": "Notes Network",
+        "tipo": "Aplicación web",
+        "enlace": "https://github.com/hernanreiq/Notes-Network",
+        "images": 17,
+        "ruta_fotos": "img/Proyectos/Notes Network/",
+        "descripcion": "Red social orientada a crear notas, las cuales pueden compartirse con todos los usuarios de la aplicación web o también, dejarlas en privado para que solamente el dueño de la cuenta las vea.",
+        "habilidades": "HTML, CSS, JavaScript, Bootstrap 4, Bootswatch, MongoDB, Node.js, npm (Express, Mongoose, EJS, bcryptjs, connect-flash, express-session, method-override, passport, passport-local, Timeago.js y Nodemon), Font-Awesome y Google Fonts.", 
+        "caracteristicas": "Es una aplicación web tipo red social, permite el registro de usuarios e inicio de sesión, cambios de los datos de la cuenta (nombre, correo electrónico y contraseña). Crea, edita, visualiza y elimina notas, permite ver las notas públicas de otros usuarios, protege la información por lo que las notas son anónimas, las notas pueden estar en privado para que solamente las vea el dueño. Tiene saneamiento de datos y pantallas, por lo que no es posible alterar de alguna forma las notas o la información de la cuenta de otro usuario, tampoco permite entrar a rutas o pantallas que no están definidas y ofrece retroalimentación dependiendo de las acciones que haga el usuario dentro de la red social."
+    },
+    {
+        "nombre": "GetPic",
+        "tipo": "Aplicación web",
+        "enlace": "https://github.com/hernanreiq/GetPic",
+        "images": 8,
+        "ruta_fotos": "img/Proyectos/GetPic/",
+        "descripcion": "Aplicación web para subir, ver y eliminar imágenes. Es un clon de Pinterest que hice en un curso de Node.js y MongoDB, pero está estilizado a mi manera.",
+        "habilidades": "HTML, CSS, JavaScript, Bootstrap 4, Animate.css, Font-Awesome, MongoDB y Node.js, npm (Express, Mongoose, ejs, fs-extra, morgan, multer, Timeago.js, uuid y nodemon).",
+        "caracteristicas": "Diseño adaptable a distintas pantallas, permite subir fotos, agregarle un título y descripción, eliminar las fotos subidas y visualizarlas, pero no permite editarlas."
+    },
+    {
+        "nombre": "Sarai Bufet",
+        "tipo": "Sitio web",
+        "enlace": "https://hernanreiq.github.io/sarai-bufet/",
+        "images": 7,
+        "ruta_fotos": "img/Proyectos/Sarai Bufet/",
+        "descripcion": "Sitio web orientado a la venta de comida tipo bufé para cualquier tipo de actividad, donde el usuario puede personalizar el menú que comerán sus invitados para luego enviar toda la información por WhatsApp.",
+        "habilidades": "HTML, CSS, JavaScript, Axios, Bootstrap 4, Google Fonts, WhatsApp API, Draw.io y Photoshop CS6.",
+        "caracteristicas": "Diseño adaptable a distintas pantallas debido al uso de Bootstrap 4, permite crear un menú personalizado para el bufé que comerán los invitados y envía el menú y la cotización por WhatsApp."
+    },
+    {
+        "nombre": "GitHub Stats",
+        "tipo": "Aplicación web",
+        "enlace": "https://github.com/hernanreiq/GitHub-Stats",
+        "images": 6,
+        "ruta_fotos": "img/Proyectos/GitHub Stats/",
+        "descripcion": "Mira las estadísticas públicas relacionadas a un usuario de GitHub.",
+        "habilidades": "React, HTML, CSS, JavaScript, Bootstrap 5, Macy.js, SweetAlert2, GraphQL, Photoshop CS6, Google Fonts, Font-Awesome, Node.js y npm.",
+        "caracteristicas": "Diseño adaptable a todas las pantallas, efecto masonry con las tarjetas que tienen información del usuario, alertas cuando se copia el código de implementación de las estadísticas y solamente funciona de manera local."
+    },
+    {
+        "nombre": "Joy Me",
+        "tipo": "Aplicación web",
+        "enlace": "https://joy-me-reiq.herokuapp.com/",
+        "images": 4,
+        "ruta_fotos": "img/Proyectos/Joy Me/",
+        "descripcion": "Galería de fotos personales hecha con React como forma de práctica para asimilar mejor los conceptos.",
+        "habilidades": "React, HTML, CSS, JavaScript, Bootstrap 4, Node.js, Photoshop CS6, Font-Awesome y Google Fonts.",
+        "caracteristicas": "Diseño adaptable a todas las pantallas y saneamiento de rutas para no entrar a ventanas no definidas."
+    },
+    {
+        "nombre": "Sabroso Play",
+        "tipo": "Aplicación web",
+        "enlace": "https://github.com/hernanreiq/Sabroso-Play",
+        "images": 4,
+        "ruta_fotos": "img/Proyectos/Sabroso Play/",
+        "descripcion": "Servicio de Streaming para compartir películas en el hogar, mediante la IP privada asignada por el router.",
+        "habilidades": "HTML, CSS, JavaScript, Bootstrap 4, Photoshop CS6, Google Fonts y Node.js, npm (Express, ejs y nodemon).",
+        "caracteristicas": "Diseño adaptable a todas las pantallas, solamente funciona de manera local."
+    },
+    {
+        "nombre": "Simulador de Uber",
+        "tipo": "Aplicación web",
+        "enlace": "https://hernanreiq.github.io/simulador-uber/",
+        "images": 3,
+        "ruta_fotos": "img/Proyectos/Simulador de Uber/",
+        "descripcion": "Este simulador lo hice en forma de \"revancha\", debido a que en el pasado hice el intento de algo parecido a esto pero no pude obtener exactamente este resultado. Por otro lado también me sirvió para mejorar mi lógica de programación, ya que para hacer esto posible usé mis conocimientos en planos cartesianos y tuve que \"inventar\" una fórmula matemática para solucionar el problema.",
+        "habilidades": "HTML, CSS, Photoshop CS6, Draw.io, JavaScript, Font-Awesome y Google Fonts.",
+        "caracteristicas": "Cuenta con un algoritmo que calcula la velocidad de movimiento que debe tener el carro en cada tramo de la vía, en donde para llegar a completar cada tramo tarda 5 segundos, dando la sensación de realismo porque en los tramos con muchas curvas va lento, pero cuando hay rectas largas va más rápido."
+    },
+    {
+        "nombre": "Trade Calculator",
+        "tipo": "Aplicación web",
+        "enlace": "https://hernanreiq.github.io/trade-calculator/",
+        "images": 8,
+        "ruta_fotos": "img/Proyectos/Trade Calculator/",
+        "descripcion": "Es un sitio web orientado al trading, aunque no está centrado en dar ningún tipo de consejo financiero, solamente sirve para calcular ganancias si se le aplica el interés compuesto en las inversiones y para calcular la cantidad de aciertos necesarios para llegar a una meta en operaciones binarias con un capital de $100 USD.",
+        "habilidades": "HTML, CSS, JavaScript, Bootstrap 4 y Photoshop CS6.",
+        "caracteristicas": "Diseño adaptable hasta pantallas de 340 píxeles de ancho, utiliza una fórmula matemática para calcular la cantidad de operaciones exitosas que necesitas para llegar a la meta deseada."
+    },
+    {
+        "nombre": "Quality Writer",
+        "tipo": "Aplicación web",
+        "enlace": "https://github.com/hernanreiq/Quality-Writer",
+        "images": 21,
+        "ruta_fotos": "img/Proyectos/Quality Writer/",
+        "descripcion": "Blog de variedades hecho como una forma de practicar el Stack MERN (MongoDB, Express, React, Node.js).",
+        "habilidades": "React, HTML, CSS, JavaScript, Bootstrap 4, Bootswatch, MongoDB, Node.js, npm (Express, Mongoose, Axios, SweetAlert2, Timeago.js, Morgan y Nodemon), Font-Awesome y Google Fonts.", 
+        "caracteristicas": "Está diseñado para ser adaptable a todas las pantallas y tiene un saneamiento de rutas para no entrar a ventanas que no existen. Ordena el contenido del más reciente al más antiguo, cada publicación tiene una etiqueta para saber si es original o si fue editado, una etiqueta para ver el tema al que pertenece (Ciencia, Tecnología, Entretenimiento, etc.) y una etiqueta para saber hace cuánto tiempo fue creada la publicación y permite clasificar o ver las publicaciones por temas. Contiene un CRUD (Create, Read, Update and Delete) que sirve para crear, ver, actualizar o eliminar contenido del blog, además de que este ofrece retroalimentación dependiendo de la acción realizada y también hay un buscador que funciona en tiempo real, que permite buscar por título, tema o contenido."
+    },
+    {
+        "nombre": "Cyber Games RD",
+        "tipo": "Sitio web",
+        "enlace": "https://hernanreiq.github.io/cyber-games-rd/",
+        "images": 5,
+        "ruta_fotos": "img/Proyectos/Cyber Games RD/",
+        "descripcion": "Sitio web dedicado a la venta de tarjetas de vídeo AMD y otros complementos, es de una tienda real, por lo que es posible hacer pedidos vía WhatsApp.",
+        "habilidades": "HTML, CSS, JavaScript, Axios, Bootstrap 4, Google Fonts, WhatsApp API, Photoshop CS6 y Font-Awesome.",
+        "caracteristicas": "Diseño adaptable a distintas pantallas debido al uso de Bootstrap 4, permite visualizar fotos de los productos en una ventana emergente, también da la opción de hacer compras reales a la tienda por WhatsApp."
+    },
+    {
+        "nombre": "Our Location",
+        "tipo": "Aplicación web",
+        "enlace": "https://our-location.herokuapp.com/",
+        "images": 5,
+        "ruta_fotos": "img/Proyectos/Our Location/",
+        "descripcion": "Mira en tiempo real la ubicación de los usuarios que están conectados.",
+        "habilidades": "HTML, CSS, JavaScript, Photoshop CS6, Bootstrap 4, Bootswatch, Node.js, npm (Express, Socket.io, EJS-mate y nodemon) y Leaflet.",
+        "caracteristicas": "Permite mirar la ubicación de los que están conectados, recibe retroalimentación cuando un usuario se conecta o se desconecta, obtiene las coordenadas de aquellos que se conectaron primero y se actualiza el mapa cuando un usuario se desconecta, es decir, se borra su ubicación."
+    },
+    {
+        "nombre": "WhatsApping",
+        "tipo": "Aplicación web",
+        "enlace": "https://hernanreiq.github.io/whatsapping/",
+        "images": 2,
+        "ruta_fotos": "img/Proyectos/WhatsApping/",
+        "descripcion": "Esta aplicación web sirve para abrir un chat con una persona que no quieras agregar a tus contactos de WhatsApp.",
+        "habilidades": "HTML, CSS, JavaScript, Bootstrap 4, WhatsApp API, Font-Awesome y Photoshop CS6.",
+        "caracteristicas": "Diseño adaptable hasta pantallas de 280 píxeles de ancho, solamente puede ser usada con números de teléfonos que inicien con \"+1\"."
+    },
+    {
+        "nombre": "Graphic design",
+        "tipo": "Sitio web",
+        "enlace": "https://hernanreiq.github.io/graphic-design/",
+        "images": 5,
+        "ruta_fotos": "img/Proyectos/Graphic design/",
+        "descripcion": "Este nuevo portafolio trata sobre algunos de los diseños que hice en forma de colaboración y trabajo. Es por ello que hay carteles o flayers, composiciones web, logos y otros tipos de diseños.",
+        "habilidades": "HTML, CSS, JavaScript, Macy.js, Axios, Bootstrap 4 y Google Fonts.",
+        "caracteristicas": "Es un sitio web sencillo que solamente se enfoca en mostrar los proyectos de diseños, en donde estos están organizados con el efecto Masonry o Bricks gracias a la librería Macy.js. Es adaptable a distintas pantallas debido al uso de Bootstrap 4."
+    },
+    {
+        "nombre": "Reiq Films",
+        "tipo": "Aplicación web",
+        "enlace": "https://hernanreiq.github.io/reiq-films/",
+        "images": 3,
+        "ruta_fotos": "img/Proyectos/Reiq Films/",
+        "descripcion": "La creación de esta aplicación web surgió de la necesidad de practicar el uso de las APIs, dicha aplicación está orientada a buscar películas y series para mostrar su información, pero dicha información está en inglés por lo que se utiliza una segunda API para traducir el contenido antes de mostrárselo al usuario.",
+        "habilidades": "HTML, CSS, JavaScript, AJAX, Bootstrap 4, Animate.css, Photoshop CS6, OMDb API y Just Translated API.",
+        "caracteristicas": "Aplicación web adaptable a distintas pantallas gracias al uso de la librería de Bootstrap 4 (CSS), la aplicación sólo muestra las últimas 2 películas buscadas para no saturar con el contenido, entrega retroalimentación al usuario cuando existe o no lo que busca, se debe escribir el nombre de la película en su idioma de origen para luego con una API buscar dicha película, cuando encuentra la película traduce su descripción con otra API antes de mostrárselo al usuario."
+    },
+    {
+        "nombre": "Golden Lottery",
+        "tipo": "Aplicación web",
+        "enlace": "https://bit.ly/golden_lottery",
+        "images": 7,
+        "ruta_fotos": "img/Proyectos/Golden Lottery/",
+        "descripcion": "La idea de desarrollar y diseñar una lotería virtual, fue la que me hizo apasionarme por aprender las tecnologías que hoy utilizo. A pesar del evidente aprecio que tengo por este proyecto, también fue parte de mi ruta de aprendizaje del entorno de desarrollo NodeJS y de npm.",
+        "habilidades": "HTML, CSS, JavaScript, Font-Awesome, Draw.io, Bootstrap 4, Animate.css, Node.js y npm (Express, ejs, nodemon, colors y morgan).",
+        "caracteristicas": "Aplicación web adaptable a distintas pantallas gracias al uso de la librería de Bootstrap 4 (CSS), se hizo un algoritmo que determina cuales de las jugadas realizadas por el usuario, coinciden con los resultados del sorteo, asignando una premiación dependiendo de la posición del número acertado y la cantidad de aciertos."
+    },
+    {
+        "nombre": "Koncafé",
+        "tipo": "Sitio web",
+        "enlace": "https://hernanreiq.github.io/koncafe/",
+        "images": 5,
+        "ruta_fotos": "img/Proyectos/Koncafé/",
+        "descripcion": "Esta maqueta de sitio web la hice como favor a una compañera de la Universidad para que pueda aprobar una materia. La distribución de colores me encantó, tristemente y por obvias razones no podía hacer mi firma en el pie de la página. Lo único que odie de haber creado la página, fue tener que copiar y pegar la portada con el pie de página para las otras secciones, no podía hacer uso de PHP para dividir el código y reutilizarlo.",
+        "habilidades": "HTML, CSS y Google Maps.",
+        "caracteristicas": "Es una maqueta sencilla con varias sub-páginas."
+    },
+    {
+        "nombre": "Lista de tareas",
+        "tipo": "Aplicación web",
+        "enlace": "https://hernanreiq.github.io/lista-de-tareas/",
+        "images": 7,
+        "ruta_fotos": "img/Proyectos/Lista de tareas/",
+        "descripcion": "Este aplicación web de creación de listas de tareas lo he hecho para estimular mis habilidades de diseño, también para mejorar mi lógica como programador y porque desde que empecé a estudiar Ingeniería en sistemas y computación, siempre me hizo ilusión crear un sistema así desde cero, me llena de orgullo tener la capacidad para hacerlo.",
+        "habilidades": "HTML, CSS, JavaScript, Google Fonts y Font-Awesome.",
+        "caracteristicas": "Aplicación web diseñado en un ancho de 1000 píxeles, por lo que no es adaptable a distintas pantallas. Te permite crear listas de tareas, marcarlas como completadas, mostrar una barra de progreso en porcentaje de las tareas que ya se han realizado, también permite regresar a su estado de incompleta, permite borrar las tareas creadas y cuando son marcadas como completadas se muestra el mes, día y año en que se hizo esa acción. No está conectado a una base de datos, así que las tareas se pierden al actualizar la página."
+    },
+    {
+        "nombre": "Info R",
+        "tipo": "Sitio web",
+        "enlace": "https://hernanreiq.github.io/info-r/",
+        "images": 5,
+        "ruta_fotos": "img/Proyectos/Info R/",
+        "descripcion": "Proyecto final de un curso de Bootstrap 4 que está disponible en el canal de YouTube de Fazt, en donde el sitio web creado está enfocado en la promoción de un libro para su venta. He buscado la manera de darle mi toque personal al proyecto, para que no sea una copia exacta. He implementado algunas animaciones, cambié algunos elementos de lugar y también agregué otros nuevos.",
+        "habilidades": "HTML, CSS, JavaScript, Font-Awesome, Photoshop CS6, Bootstrap 4 y ScrollReveal.",
+        "caracteristicas": "Sitio web adaptable a distintas pantallas gracias al uso de la librería de Bootstrap 4 (CSS), la mayoría de imágenes son propias. Es una maqueta sencilla con varias animaciones que fueron posibles por la librería ScrollReveal (JavaScript)."
+    },
+    {
+        "nombre": "Zona Colonial Digital",
+        "tipo": "Sitio web",
+        "enlace": "https://hernanreiq.github.io/zona-colonial-digital/",
+        "images": 6,
+        "ruta_fotos": "img/Proyectos/Zona Colonial Digital/",
+        "descripcion": "Este sitio web fue realizada en colaboración con Nairobi Nivar como parte de un trabajo final en una asignatura de la Universidad. La maquetación inicial fue hecha por mi compañera, mientras que yo me encargué de agregar las otras sub-páginas, generar códigos con PHP, envío de mensajes personalizados al correo, los colores y de hacerla adaptable a distintas pantallas.",
+        "habilidades": "HTML, CSS, Photoshop CS6, PHP e Inserción de vídeo de YouTube.",
+        "caracteristicas": "Diseño adaptable a pocas pantallas, generar código único para obtener Internet en el lugar, envío de mensaje personalizado al correo."
+    },
+    {
+        "nombre": "Grupo Golden",
+        "tipo": "Página web",
+        "enlace": "",
+        "images": 4,
+        "ruta_fotos": "img/Proyectos/Grupo Golden/",
+        "descripcion": "La motivación que me llevó a crear esta página web fue mi alto interés por iniciar un negocio, enfocado esencialmente en desarrollar servicios que otras personas pudieran consumir. Aunque todo el desarrollo haya sido por mi, el plan era hacerlo en equipo, pero tristemente mis compañeros no tuvieron la misma visión o yo no supe motivarlos lo suficiente.",
+        "habilidades": "HTML, CSS, Photoshop CS6, JavaScript, jQuery y PHP.",
+        "caracteristicas": "Cuenta con diseño adaptable a distintas pantallas, formulario de contacto que envía notificaciones al correo, ventanas emergentes para mostrar la descripción de los proyectos."
+    },
+    {
+        "nombre": "Generador de contraseñas",
+        "tipo": "Aplicación web",
+        "enlace": "https://hernanreiq.github.io/password-generator/",
+        "images": 3,
+        "ruta_fotos": "img/Proyectos/Generador de contraseñas/",
+        "descripcion": "Esta aplicación web puede ser de ayuda para aquellas personas que se preocupan por la seguridad de sus cuentas. Este pequeño proyecto lo hice para desarrollar un poco más mi lógica de programación.",
+        "habilidades": "HTML, CSS, JavaScript, Google Fonts y Font-Awesome.",
+        "caracteristicas": "Aplicación web diseñado en un ancho de 300 píxeles, genera contraseñas seguras de forma aleatoria, permite configurar que tipos de carácteres conformarán la contraseña."
+    },
+    {
+        "nombre": "Funeraria Eternidad",
+        "tipo": "Página web",
+        "enlace": "https://hernanreiq.github.io/funeraria-eternidad/",
+        "images": 4,
+        "ruta_fotos": "img/Proyectos/Funeraria Eternidad/",
+        "descripcion": "El diseño de esta página web se me ocurrió mientras hablaba con un compañero de la Universidad, donde le contaba que sería interesante tener una portada con un pasto verde simulando un cementerio, para luego al hacer scroll ir bajo tierra viendo ataudes, me pareció una idea muy creativa para una funeraria.",
+        "habilidades": "HTML, CSS y Photoshop CS6.",
+        "caracteristicas": "No tuve interés en crear otras sub-páginas, es una maqueta sencilla."
+    },
+    {
+        "nombre": "F de Farándula",
+        "tipo": "Página web",
+        "enlace": "https://hernanreiq.github.io/f-de-farandula/",
+        "images": 3,
+        "ruta_fotos": "img/Proyectos/F de Farándula/",
+        "descripcion": "Esta página web la hice a modo de práctica de un curso que estaba haciendo sobre diseño web, la idea del sitio al igual que su nombre es propio, lo único que tomé del curso fue el cómo iba a distribuir los elementos en la página. La idea del curso era hacer un Blog de viajes, yo quería algo distinto.",
+        "habilidades": "HTML, CSS, Photoshop CS6 y Font-awesome.",
+        "caracteristicas": "No tiene sub-páginas, es una maqueta sencilla."
+    },
+    {
+        "nombre": "Hernan Reiq Bot",
+        "tipo": "Bot de Telegram",
+        "enlace": "https://aqueous-stream-18818.herokuapp.com/",
+        "images": 6,
+        "ruta_fotos": "img/Proyectos/Hernan Reiq Bot/",
+        "descripcion": "Este proyecto consiste en un bot creado con Node.js y el framework telegraf de Telegram API. Está orientado a mostrar información sobre mi (Hernan.Reiq), también se le diseñó una web sencilla porque para su funcionamiento requiere de un servidor encendido en Node.js.",
+        "habilidades": "HTML, CSS, JavaScript, Bootstrap 4, Node.js, npm (Express, ejs, Telegraf, nodemon) y Telegram API.",
+        "caracteristicas": "Cuenta con una web sencilla para acceder al enlace del bot, entrega retroalimentación cuando se envía texto y responde por los comandos predefinidos que pueden ser accedidos desde el teclado, también al escribir '/' muestra los comandos disponibles con su descripción."
+    },
+    {
+        "nombre": "Sommer Rose RD",
+        "tipo": "Sitio web",
+        "enlace": "https://hernanreiq.github.io/sommerrose/",
+        "images": 4,
+        "ruta_fotos": "img/Proyectos/Sommer Rose RD/",
+        "descripcion": "Esta página web la hice para el negocio de mi prima, ella vende sombreros personalizados pintados a mano. La pagina te permite hacer un pedido o una orden de compra, para luego enviar toda esa información por WhatsApp y coordinar con ella el diseño que quieres en tu producto.",
+        "habilidades": "HTML, CSS, JavaScript, Font-Awesome, Google Fonts y WhatsApp API.",
+        "caracteristicas": "Diseño adaptable para distintos tamaños de pantalla, te permite enviar mensajes a WhatsApp con tu orden de compra, es una maqueta sencilla con un proposito definido."
+    },
+    {
+        "nombre": "Campesino",
+        "tipo": "Página web",
+        "enlace": "https://hernanreiq.github.io/campesino/",
+        "images": 3,
+        "ruta_fotos": "img/Proyectos/Campesino/",
+        "descripcion": "Página web dedicada a una zona rural a la que le tengo mucho aprecio. Fue creada a modo de práctica y repaso final en un curso de Bootstrap 4 del canal de YouTube Fazt. Obviamente le di un toque personal para no hacer una copia exacta de la página web mostrada en el vídeo del curso.",
+        "habilidades": "HTML, CSS, JavaScript, Google Fonts, Bootstrap 4 y ScrollReveal.",
+        "caracteristicas": "Página web adaptable a distintas pantallas gracias al uso de la librería de Bootstrap 4 (CSS). Es una maqueta sencilla con varias animaciones que fueron posibles por la librería ScrollReveal (JavaScript)."
+    },
+    {
+        "nombre": "Simulador de batalla",
+        "tipo": "Aplicación web",
+        "enlace": "https://hernanreiq.github.io/battle-reiq/",
+        "images": 5,
+        "ruta_fotos": "img/Proyectos/Simulador de batalla/",
+        "descripcion": "La idea de crear este simulador de batalla me emocionó mucho, debido a que iba a hacer uso de la programación orientada a objetos a un nivel un poquito más avanzado del que suelo manejar.",
+        "habilidades": "HTML, CSS, Photoshop CS6, JavaScript, Google Fonts y Font-Awesome.",
+        "caracteristicas": "Aplicación web diseñado en un ancho de 1000 píxeles, por lo que no es adaptable a distintas pantallas. El oponente tiene mejor curación que el jugador y las decisiones del oponente son aleatorias, pero su salud y fuerza tienen prioridad."
+    },
+    {
+        "nombre": "Visitas Promedio YT",
+        "tipo": "Extensión de navegador para Google Chrome",
+        "enlace": "https://github.com/hernanreiq/visitas-promedio-yt",
+        "images": 3,
+        "ruta_fotos": "img/Proyectos/Visitas Promedio YT/",
+        "descripcion": "Esta extensión del navegador Google Chrome, la diseñé y desarrollé para uso personal. La extensión sirve para analizar el rendimiento de las visitas en un canal de YouTube, tomando como parámetro la cantidad actuales de suscriptores.",
+        "habilidades": "HTML, CSS, JavaScript y JSON.",
+        "caracteristicas": "Extensión que calcula el promedio de visitas que deberia tener un canal en 48 horas."
+    }
+]
