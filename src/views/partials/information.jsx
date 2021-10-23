@@ -27,8 +27,8 @@ function Information() {
                             <b>Pasatiempos: </b>cuando no estoy programando me gusta jugar en la computadora, me encanta compartir con mis seres queridos y a veces veo alguna película de acción o suspenso.<br /><br />
                         </p>
                         <blockquote className="frase">
-                            <b>Mi frase: </b>“No puedes improvisar la calidad y tampoco la experiencia, pero si puedes hacer las cosas con el corazón para obtener buenos resultados.”
-                            <cite>Hernan V.Demorizi Ureña.</cite>
+                            <b>Mi frase: </b>“No puedes improvisar la calidad y tampoco la experiencia, pero si puedes hacer las cosas con el corazón para obtener buenos resultados.” &nbsp;
+                            <cite>Hernan V. Demorizi Ureña.</cite>
                         </blockquote>
                     </div>
                 </div>
