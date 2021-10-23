@@ -1,4 +1,7 @@
 import React from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLinkedin, faInstagram, faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 function Contact() {
     return (
@@ -12,16 +15,24 @@ function Contact() {
                 <div className="contenido contacto">
                     <ul id="lista-contacto" className="animate__animated animate__lightSpeedInRight">
                         <li className="shadow">
-                            <a href="https://www.linkedin.com/in/hernan-demorizi-ure%C3%B1a-4430031b1/" target="_blank"><i className="fab fa-linkedin icono"></i><br/> LinkedIn</a>
+                            <a href="https://www.linkedin.com/in/hernan-demorizi-ure%C3%B1a-4430031b1/" target="_blank">
+                                <FontAwesomeIcon icon={faLinkedin} className="icono" />
+                                <br /> LinkedIn</a>
                         </li>
                         <li className="shadow">
-                            <a href="#contacto" id="boton-email"><i className="fas fa-envelope icono"></i><br/> Email</a>
+                            <a href="#contacto" id="boton-email">
+                                <FontAwesomeIcon icon={faEnvelope} className="icono" />
+                                <br /> Email</a>
                         </li>
                         <li className="shadow">
-                            <a href="https://www.instagram.com/hernan.reiq" target="_blank"><i className="fab fa-instagram icono"></i><br/> Instagram</a>
+                            <a href="https://www.instagram.com/hernan.reiq" target="_blank">
+                                <FontAwesomeIcon icon={faInstagram} className="icono" />
+                                <br /> Instagram</a>
                         </li>
                         <li className="shadow">
-                            <a href="https://github.com/hernanreiq" target="_blank"><i className="fab fa-github icono"></i><br/> GitHub</a>
+                            <a href="https://github.com/hernanreiq" target="_blank">
+                                <FontAwesomeIcon icon={faGithub} className="icono" />
+                                <br /> GitHub</a>
                         </li>
                     </ul>
                 </div>

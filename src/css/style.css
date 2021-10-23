@@ -861,6 +861,8 @@ main section div.contacto ul li a {
     float: left;
     font-size: 30px;
     font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.5px;
     color: #ffffff;
 }
 
@@ -870,7 +872,7 @@ main section div.contacto ul li a:hover {
     background-color: #2a2a2a;
 }
 
-main section div.contacto ul li a i.icono {
+main section div.contacto ul li a .icono {
     font-size: 80px;
 }
 
