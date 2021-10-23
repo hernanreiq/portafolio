@@ -38,7 +38,9 @@ class Portfolio extends Component {
                                                 </div>
                                                 <h2 className="mx-0 my-1">{project.nombre}</h2>
                                                 <div className="blanco my-1"></div>
-                                                {/* <a href="javascript:void(0)" onclick="mostrarDetalles(${posicion - 1})" className="btn mt-1 mb-2">VER DETALLES</a> */}
+                                                <button onClick={() => {
+                                                    this.props.showDetails(project)
+                                                }} className="btn mt-1 mb-2">VER DETALLES</button>
                                             </li>
                                         )
                                     })

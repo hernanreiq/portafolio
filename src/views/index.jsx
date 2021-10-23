@@ -5,19 +5,42 @@ import Portfolio from "./partials/portfolio";
 import Information from "./partials/information";
 import Contact from "./partials/contatc";
 import Footer from "./partials/footer";
+import PopUp from "./partials/popup";
 
 class Index extends Component {
+    state = {
+        project: [],
+        showPopUp: false
+    }
+
+    showDetails = (project) => {
+        this.setState({
+            project: project,
+            showPopUp: true
+        })
+    }
+
+    hideDetails = () => {
+        this.setState({
+            project: [],
+            showPopUp: false
+        })
+    }
+
     render() {
         return (
             <React.Fragment>
                 <Header />
                 <main>
-                    <Portfolio />
+                    <Portfolio showDetails={this.showDetails} />
                     <Skills />
                     <Information />
                     <Contact />
                 </main>
                 <Footer />
+                {this.state.showPopUp &&
+                    <PopUp show={this.state.showPopUp} project={this.state.project} hideDetails={this.hideDetails} />
+                }
             </React.Fragment>
         )
     }
