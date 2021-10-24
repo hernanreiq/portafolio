@@ -1,10 +1,21 @@
 import React, { Component } from "react";
-import { rainingBadges } from "../helpers/functions";
+import "../../css/header.css";
+import { rainingBadges, nameWriter, professionWriter } from "../helpers/functions";
 import Portada from "../../img/portada.jpg";
 import Hernan from "../../img/hernan.jpg";
 import Badges from "./badges";
 
 class Header extends Component {
+    nameRef = React.createRef();
+    professionRef = React.createRef();
+
+    animationInit = () => {
+        var name = this.nameRef.current;
+        nameWriter(name);
+        var profession = this.professionRef.current;
+        professionWriter(profession);
+    }
+
     render() {
         return (
             <React.Fragment>
@@ -41,12 +52,12 @@ class Header extends Component {
                         <a href="#presentacion" id="hr-brand-mobile" className="text-decoration-none text-white">Hernan.Reiq</a>
                     </nav>
                     <a name="presentacion" className="ancla"></a>
-                    <section className="presentacion">
+                    <section className="presentacion" onLoad={this.animationInit}>
                         <div className="presentacion">
                             <img src={Hernan} alt="Hernan Demorizi Ureña - Hernan.Reiq" id="foto-presentacion" className="animate__animated animate__rotateInDownRight shadow" />
                             <div className="presentacion-texto  animate__animated animate__rotateInUpLeft">
-                                <h1 className="nombre"></h1>
-                                <h2 className="hobby"></h2>
+                                <h1 className="nombre" ref={this.nameRef}></h1>
+                                <h2 className="hobby" ref={this.professionRef}></h2>
                             </div>
                             <Badges />
                         </div>

@@ -1,4 +1,5 @@
 import React from "react";
+import Typewriter from "typewriter-effect/dist/core";
 
 export function getImagesCarousel(numberOfImages, routeImage, nameProject) {
     var arrayImages = [];
@@ -32,4 +33,34 @@ export function rainingBadges() {
         )
     }
     return arrayBadges;
+}
+
+export function nameWriter(container) {
+    var animateText = new Typewriter(container, {
+        loop: false
+    });
+
+    animateText.typeString('Hernan.Reiq')
+        .pauseFor(1500)
+        .deleteChars(5)
+        .typeString(' Virgilio')
+        .pauseFor(200)
+        .deleteChars(7)
+        .typeString('. Demorizi Ureña')
+        .pauseFor(13000)
+        .start();
+
+}
+
+export function professionWriter(container) {
+    var animarTitulo = new Typewriter(container, {
+        loop: true
+    });
+
+    animarTitulo.typeString('Desarrollador y Diseñador Web')
+        .pauseFor(3500)
+        .deleteAll()
+        .typeString('Ingeniero de Sistemas y Computación')
+        .pauseFor(6000)
+        .start();
 }
