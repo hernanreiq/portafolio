@@ -8,7 +8,7 @@ class Badges extends Component {
     render() {
         return (
             <React.Fragment>
-                <div className="col-md-6 offset-md-3 mt-3 mb-5 px-0">
+                <div className="col-md-6 offset-md-3 mt-3 pb-4 px-0">
                     <div className="row">
                         <div className="col-md-6 my-2 px-0 text-center">
                             <div className="badge-container mx-auto animate__animated animate__backInLeft">
