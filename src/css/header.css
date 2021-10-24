@@ -1,8 +1,7 @@
 /* BANNER DE LA PAGINA*/
-
+/*
 header {
     width: 100%;
-    height: 600px;
     overflow: hidden;
 }
 
@@ -11,19 +10,17 @@ header div.portada {
     position: absolute;
     z-index: -1;
     width: 100%;
-    height: 600px;
     filter: saturate(150%);
 }
 
 header div img.portada {
     width: 100%;
-    min-height: 600px;
     height: auto;
     filter: blur(3px);
     opacity: 0.4;
     transform: scale(1.05);
 }
-
+/*
 @media only screen and (max-width: 579px) {
     header div.portada {
         height: 550px;
@@ -41,140 +38,23 @@ header div img.portada {
         min-height: 510px;
     }
 }
-
-
-/* MENU DE NAVEGACION*/
-
-header nav {
-    position: fixed;
-    z-index: 100;
-    right: 0px;
-    width: 100%;
-    top: 0px;
-    background-color: #3B93F7;
-    height: 50px;
-    box-shadow: black 0px 1px 5px;
-}
-
-header nav ul {
-    list-style: none;
-    margin-bottom: 0px;
-}
-
-header nav ul div a li {
-    display: inline-block;
-    margin: 0;
-    padding: 0;
-}
-
-header nav div.marca a {
-    background-color: #2a2a2a;
-}
-
-header nav div.marca a:hover, nav #hr-brand-mobile:hover {
-    background-color: #5ea9ff;
-    color: #ffffff;
-}
-
-header nav a#menu-navegacion {
-    font-size: 25px;
-    color: #ffffff;
-    line-height: 50px;
-    margin: 20px;
-}
-
-header nav ul div a {
-    color: rgb(255, 255, 255);
-    line-height: 50px;
-    text-decoration: none;
-    padding: 10px 20px;
-    font-size: 25px;
-    font-family: 'Lato', sans-serif;
-    text-shadow: rgb(37, 37, 37) 1px 1px 1px;
-    transition: .3s;
-}
-
-header nav ul div a:hover {
-    background-color: #2e2e2e;
-}
-
-header nav #hr-brand-mobile {
-    font-size: 25px;
-    font-family: 'Lato', sans-serif;
-    line-height: 50px;
-    color: #ffffff;
-    text-shadow: rgb(37, 37, 37) 1px 1px 1px;
-    background-color: #2a2a2a;
-    padding: 0px 20px;
-    transition: .3s;
-    position: absolute;
-    top: 0;
-    right: 0;
-}
-
-@media only screen and (min-width: 825px) {
-    header nav a#menu-navegacion {
-        display: none;
-    }
-    header nav ul#lista-menu {
-        display: block;
-    }
-    header nav ul div.opciones-menu {
-        display: inline-block;
-    }
-    header nav div.marca {
-        float: right;
-    }
-    header nav #hr-brand-mobile {
-        display: none;
-    }
-}
-
-@media only screen and (max-width: 824px) {
-    header nav ul {
-        padding: 0;
-        display: none;
-        height: 200px;
-        text-align: center;
-    }
-    header nav ul div a li.menu {
-        display: block;
-        background-color: #2e2e2ebd;
-        margin: 0;
-        transition: .3s;
-    }
-    header nav ul div a li.menu:hover {
-        background-color: #5faaffbd;
-    }
-    header nav ul#lista-menu div a {
-        margin: 0px;
-        height: 50px;
-        width: 100%;
-        padding: 0;
-    }
-    header nav div.marca {
-        float: none;
-        display: none;
-    }
-}
-
+*/
 
 /*MI PRESENTACION*/
 
 header section.presentacion {
     width: 100%;
-    height: 600px;
+    margin-top: 100px;
 }
 
 header section div.presentacion {
     max-width: 1000px;
     margin: 0 auto;
     text-align: center;
-    margin-top: 100px;
 }
 
 header section div img {
-    height: 350px;
+    max-height: 350px;
     border-radius: 25px;
 }
 
@@ -184,6 +64,7 @@ header section div div.presentacion-texto {
 
 header section div h1.nombre,
 header section h2.hobby {
+    padding: 0px 10px;
     font-size: 45px;
     background: -webkit-linear-gradient(#5ea9ff, #2a37c5);
     background-clip: text;
@@ -206,52 +87,14 @@ header section div h2.hobby {
     header section div img {
         height: 300px;
     }
-    header {
-        height: 550px;
-    }
-    header section.presentacion {
-        height: 450px;
-    }
-}
-
-@media only screen and (max-width: 459px) {
-    header section div h1.nombre{
-        font-size: 30px;
-    }
-    header section div h2.hobby {
-        font-size: 20px;
-    }
-    header {
-        height: 520px;
-    }
-}
-
-@media only screen and (max-width: 389px) {
-    header section div h1.nombre{
-        font-size: 25px;
-    }
-    header section div h2.hobby {
-        font-size: 18px;
-    }
-    header {
-        height: 500px;
-    }
 }
 
 @media only screen and (max-width: 339px) {
-    header section div h1.nombre{
-        font-size: 22px;
-    }
-    header section div h2.hobby {
-        font-size: 17px;
-    }
     header section div img {
         height: 260px;
     }
-    header {
-        height: 460px;
-    }
 }
+
 
 /*ANIMACION DEL HEADER CON LAS HABILIDADES*/
 
@@ -261,8 +104,83 @@ header section div h2.hobby {
     opacity: 0.7;
     filter: drop-shadow(2px 2px 3px rgb(0 0 0 / 0.8));
 }
-
 @-webkit-keyframes snowflakes-fall{0%{top:-10%}100%{top:100%}}
-@-webkit-keyframes snowflakes-shake{0%{-webkit-transform:translateX(0px);transform:translateX(0px)}50%{-webkit-transform:translateX(80px);transform:translateX(80px)}100%{-webkit-transform:translateX(0px);transform:translateX(0px)}}
+@-webkit-keyframes snowflakes-shake{
+    0%{
+    -webkit-transform:translateX(0px);transform:translateX(0px)
+  }
+    50%{
+    -webkit-transform:translateX(80px);
+    transform:translateX(80px)
+  }
+    100%{
+    -webkit-transform:translateX(0px);
+    transform:translateX(0px)
+  }
+}
 @keyframes snowflakes-fall{0%{top:-10%}100%{top:100%}}
-@keyframes snowflakes-shake{0%{transform:translateX(0px)}50%{transform:translateX(80px)}100%{transform:translateX(0px)}}.snowflake{position:fixed;top:-10%;z-index:9999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;cursor:default;-webkit-animation-name:snowflakes-fall,snowflakes-shake;-webkit-animation-duration:10s,3s;-webkit-animation-timing-function:linear,ease-in-out;-webkit-animation-iteration-count:infinite,infinite;-webkit-animation-play-state:running,running;animation-name:snowflakes-fall,snowflakes-shake;animation-duration:10s,3s;animation-timing-function:linear,ease-in-out;animation-iteration-count:infinite,infinite;animation-play-state:running,running}.snowflake:nth-of-type(0){left:1%;-webkit-animation-delay:0s,0s;animation-delay:0s,0s}.snowflake:nth-of-type(1){left:10%;-webkit-animation-delay:1s,1s;animation-delay:1s,1s}.snowflake:nth-of-type(2){left:20%;-webkit-animation-delay:6s,.5s;animation-delay:6s,.5s}.snowflake:nth-of-type(3){left:30%;-webkit-animation-delay:4s,2s;animation-delay:4s,2s}.snowflake:nth-of-type(4){left:40%;-webkit-animation-delay:2s,2s;animation-delay:2s,2s}.snowflake:nth-of-type(5){left:50%;-webkit-animation-delay:8s,3s;animation-delay:8s,3s}.snowflake:nth-of-type(6){left:60%;-webkit-animation-delay:6s,2s;animation-delay:6s,2s}.snowflake:nth-of-type(7){left:70%;-webkit-animation-delay:2.5s,1s;animation-delay:2.5s,1s}.snowflake:nth-of-type(8){left:80%;-webkit-animation-delay:1s,0s;animation-delay:1s,0s}.snowflake:nth-of-type(9){left:90%;-webkit-animation-delay:3s,1.5s;animation-delay:3s,1.5s}
+@keyframes snowflakes-shake{
+  0%{transform:translateX(0px)
+  }
+  50%{transform:translateX(80px)}100%{transform:translateX(0px)
+  }
+}.snowflake{
+  position:fixed;
+  top:-10%;
+  z-index:9999;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none;
+  cursor:default;
+  -webkit-animation-name:snowflakes-fall,snowflakes-shake;
+  -webkit-animation-duration:20s,3s;
+  -webkit-animation-timing-function:linear,ease-in-out;
+  -webkit-animation-iteration-count:infinite,infinite;
+  -webkit-animation-play-state:running,running;
+  animation-name:snowflakes-fall,snowflakes-shake;
+  animation-duration:20s,3s;
+  animation-timing-function:linear,ease-in-out;
+  animation-iteration-count:infinite,infinite;
+  animation-play-state:running,running
+}.snowflake:nth-of-type(0){
+  left:1%;
+  -webkit-animation-delay:0s,0s;
+  animation-delay:0s,0s
+}.snowflake:nth-of-type(1){
+  left:10%;
+  -webkit-animation-delay:2s,1s;
+  animation-delay:2s,1s
+}.snowflake:nth-of-type(2){
+  left:20%;
+  -webkit-animation-delay:12s,.5s;
+  animation-delay:12s,.5s
+}.snowflake:nth-of-type(3){
+  left:30%;
+  -webkit-animation-delay:8s,2s;
+  animation-delay:8s,2s
+}.snowflake:nth-of-type(4){
+  left:40%;
+  -webkit-animation-delay:4s,2s;
+  animation-delay:4s,2s
+}.snowflake:nth-of-type(5){
+  left:50%;
+  -webkit-animation-delay:16s,3s;
+  animation-delay:16s,3s
+}.snowflake:nth-of-type(6){
+  left:60%;
+  -webkit-animation-delay:12s,2s;
+  animation-delay:12s,2s
+}.snowflake:nth-of-type(7){
+  left:70%;
+  -webkit-animation-delay:5s,1s;
+  animation-delay:5s,1s
+}.snowflake:nth-of-type(8){
+  left:80%;
+  -webkit-animation-delay:2s,0s;
+  animation-delay:2s,0s
+}.snowflake:nth-of-type(9){
+  left:90%;
+  -webkit-animation-delay:6s,1.5s;
+  animation-delay:6s,1.5s
+}

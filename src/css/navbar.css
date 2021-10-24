@@ -1,0 +1,115 @@
+/* MENU DE NAVEGACION*/
+
+header nav {
+    position: fixed;
+    z-index: 100;
+    right: 0px;
+    width: 100%;
+    top: 0px;
+    background-color: #3B93F7;
+    height: 50px;
+    box-shadow: black 0px 1px 5px;
+}
+
+header nav ul {
+    list-style: none;
+    margin-bottom: 0px;
+}
+
+header nav ul div a li {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+header nav div.marca button {
+    background-color: #2a2a2a;
+}
+
+header nav div.marca button:hover, nav button:hover {
+    background-color: #5ea9ff;
+    color: #ffffff;
+}
+
+header nav a#menu-navegacion {
+    font-size: 25px;
+    color: #ffffff;
+    line-height: 50px;
+    margin: 20px;
+}
+
+header nav ul div a {
+    color: rgb(255, 255, 255);
+    line-height: 50px;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 25px;
+    font-family: 'Lato', sans-serif;
+    text-shadow: rgb(37, 37, 37) 1px 1px 1px;
+    transition: .3s;
+}
+
+header nav ul div a:hover {
+    background-color: #2e2e2e;
+}
+
+header nav button {
+    border: unset;
+    font-size: 25px;
+    font-family: 'Lato', sans-serif;
+    line-height: 50px;
+    color: #ffffff;
+    text-shadow: rgb(37, 37, 37) 1px 1px 1px;
+    background-color: #2a2a2a;
+    padding: 0px 20px;
+    transition: .3s;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+@media only screen and (min-width: 825px) {
+    header nav a#menu-navegacion {
+        display: none;
+    }
+    header nav ul#lista-menu {
+        display: block;
+    }
+    header nav ul div.opciones-menu {
+        display: inline-block;
+    }
+    header nav div.marca {
+        float: right;
+    }
+    header nav #hr-brand-mobile {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 824px) {
+    header nav ul {
+        padding: 0;
+        display: none;
+        height: 200px;
+        text-align: center;
+    }
+    header nav ul div a li.menu {
+        display: block;
+        background-color: #2e2e2ebd;
+        margin: 0;
+        transition: .3s;
+    }
+    header nav ul div a li.menu:hover {
+        background-color: #5faaffbd;
+    }
+    header nav ul#lista-menu div a {
+        margin: 0px;
+        height: 50px;
+        width: 100%;
+        padding: 0;
+    }
+    header nav div.marca {
+        float: none;
+        display: none;
+    }
+}

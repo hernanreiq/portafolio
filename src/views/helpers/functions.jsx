@@ -28,7 +28,7 @@ export function rainingBadges() {
         var badge = require(`../../img/Habilidades/${skill_badges[i]}.svg`);
         arrayBadges.push(
             <div className="snowflake" key={i}>
-                <img src={badge.default} alt={skill_badges[i] + ' skill badge'} class="skill-badge" />
+                <img src={badge.default} alt={skill_badges[i] + ' skill badge'} className="skill-badge" />
             </div>
         )
     }
