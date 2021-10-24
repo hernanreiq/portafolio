@@ -17,7 +17,7 @@ class Portfolio extends Component {
                 <a name="proyectos" className="ancla"></a>
                 <section id="section-portafolio">
                     <div className="titulo titulo-gradiente-negro mis-proyectos">
-                        <h2>Portafolio <span className="badge badge-pill ml-1 azul-fondo">{this.state.projects.length}</span></h2>
+                        <h2>Proyectos</h2>
                     </div>
                     <div className="azul"></div>
                     <div className="contenedor-portafolio">

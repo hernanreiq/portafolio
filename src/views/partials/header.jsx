@@ -1,6 +1,8 @@
 import React, { Component } from "react";
+import { rainingBadges } from "../helpers/functions";
 import Portada from "../../img/portada.jpg";
 import Hernan from "../../img/hernan.jpg";
+import Badges from "./badges";
 
 class Header extends Component {
     render() {
@@ -8,7 +10,9 @@ class Header extends Component {
             <React.Fragment>
                 <header>
                     <div className="portada">
-                        <div id="snow-flakes"></div>
+                        <React.Fragment>
+                            {rainingBadges()}
+                        </React.Fragment>
                         <img src={Portada} alt="Portada del portafolio" className="portada animate__animated animate__heartBeat" />
                     </div>
                     <nav id="navBar">
@@ -16,7 +20,7 @@ class Header extends Component {
                         <ul id="lista-menu" className="container-xl px-0">
                             <div className="opciones-menu">
                                 <a className="text-decoration-none text-white" href="#proyectos">
-                                    <li className="menu">Portafolio</li>
+                                    <li className="menu">Proyectos</li>
                                 </a>
                                 <a className="text-decoration-none text-white" href="#habilidades">
                                     <li className="menu">Habilidades</li>
@@ -41,9 +45,10 @@ class Header extends Component {
                         <div className="presentacion">
                             <img src={Hernan} alt="Hernan Demorizi Ureña - Hernan.Reiq" id="foto-presentacion" className="animate__animated animate__rotateInDownRight shadow" />
                             <div className="presentacion-texto  animate__animated animate__rotateInUpLeft">
-                            <h1 className="nombre" id="nombre-apodo"></h1>
-                            <h2 className="hobby" id="titulo-profesional"></h2>
+                                <h1 className="nombre"></h1>
+                                <h2 className="hobby"></h2>
                             </div>
+                            <Badges />
                         </div>
                     </section>
                 </header>
