@@ -1,34 +1,73 @@
-import React from "react";
+import React, { Component, createRef } from "react";
 import "../../css/navbar.css";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
 
-function Navbar() {
-    return (
-        <nav id="navBar">
-            <div className="containter">
-                <a href="javascript:void(0)" id="menu-navegacion"><i className="fas fa-bars"></i></a>
-                <ul id="lista-menu" className="container-xl px-0">
-                    <div className="opciones-menu">
-                        <a className="text-decoration-none text-white" href="#proyectos">
-                            <li className="menu">Proyectos</li>
-                        </a>
-                        <a className="text-decoration-none text-white" href="#habilidades">
-                            <li className="menu">Habilidades</li>
-                        </a>
-                        <a className="text-decoration-none text-white" href="#informacion">
-                            <li className="menu">Sobre mí...</li>
-                        </a>
-                        <a className="text-decoration-none text-white" href="#contacto">
-                            <li className="menu">Contacto</li>
-                        </a>
+class Navbar extends Component {
+    state = {
+        icon: <FontAwesomeIcon icon={faBars} />,
+        active: false,
+        optionsStyle: 'options'
+    }
+
+    checkScreenWidth = () => {
+        if (window.outerWidth < 825) {
+            this.navbarResponsive();
+        }
+    }
+
+    navbarResponsive = () => {
+        if (!this.state.active) {
+            this.setState({
+                icon: <FontAwesomeIcon icon={faTimes} />,
+                active: !this.state.active,
+                optionsStyle: 'options d-block'
+            })
+        } else {
+            this.setState({
+                active: !this.state.active,
+                icon: <FontAwesomeIcon icon={faBars} />,
+                optionsStyle: 'options'
+            })
+        }
+    }
+
+    buttonClick = (section) => {
+        if (section !== 'presentacion'){
+            this.checkScreenWidth();
+        }
+        console.log(section)
+    }
+
+    render() {
+        return (
+            <nav>
+                <div className="navContainer">
+                    <button onClick={this.checkScreenWidth} className="barsMenu">
+                        {this.state.icon}
+                    </button>
+                    <div className={this.state.optionsStyle}>
+                        <button onClick={ () => {this.buttonClick('proyectos')}} className="option">Proyectos</button>
+                        <button onClick={ () => {this.buttonClick('habilidades')}} className="option">Habilidades</button>
+                        <button onClick={ () => {this.buttonClick('informacion')}} className="option">Sobre mí...</button>
+                        <button onClick={ () => {this.buttonClick('contacto')}} className="option">Contacto</button>
+                        <div className="marca marca-option">
+                            <button onClick={ () => {
+                                this.buttonClick('presentacion');
+                                this.props.animationInit();
+                                }} className="marca">Hernan.Reiq</button>
+                        </div>
                     </div>
-                    <div className="marca">
-                        <button className="text-white" id="marcaHR" onClick={this.animationInit}>Hernan.Reiq</button>
+                    <div className="marca marca-externa">
+                        <button onClick={ () => {
+                            this.buttonClick('presentacion');
+                            this.props.animationInit();
+                            }} className="marca">Hernan.Reiq</button>
                     </div>
-                </ul>
-                <button className="text-white" id="hr-brand-mobile" onClick={this.animationInit}>Hernan.Reiq</button>
-            </div>
-        </nav>
-    )
+                </div>
+            </nav>
+        )
+    }
 }
 
 export default Navbar;

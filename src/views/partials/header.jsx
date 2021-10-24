@@ -1,14 +1,9 @@
 import React, { Component } from "react";
-import Portada from "../../img/portada.jpg";
-import PortadaM from "../../img/portada-m.jpg";
-import PortadaX from "../../img/portada-x.jpg";
-import PortadaSS from "../../img/portada-ss.jpg";
-import PortadaSSS from "../../img/portada-sss.jpg";
-import PortadaSSSS from "../../img/portada-ssss.jpg";
-import PortadaS from "../../img/portada-s.jpg";
 import "../../css/header.css";
-import { rainingBadges, nameWriter, professionWriter } from "../helpers/functions";
+import { nameWriter, professionWriter } from "../helpers/functions";
 import Hernan from "../../img/hernan.jpg";
+import Navbar from "./navbar";
+import Banner from "./banner";
 import Badges from "./badges";
 
 class Header extends Component {
@@ -26,21 +21,8 @@ class Header extends Component {
         return (
             <React.Fragment>
                 <header>
-                    <div className="portada">
-                        <React.Fragment>
-                            {rainingBadges()}
-                        </React.Fragment>
-                        <picture>
-                            <source media="(min-width:1550px)" srcSet={Portada} />
-                            <source media="(min-width:770px)" srcSet={PortadaX} />
-                            <source media="(min-width:700px)" srcSet={PortadaM} />
-                            <source media="(min-width:630px)" srcSet={PortadaSS} />
-                            <source media="(min-width:480px)" srcSet={PortadaSSS} />
-                            <source media="(min-width:430px)" srcSet={PortadaSSSS} />
-                            <source media="(min-width:200px)" srcSet={PortadaS} />
-                            <img src={Portada} alt="Portada del portafolio" className="portada animate__animated animate__heartBeat"  />
-                        </picture>
-                    </div>
+                    <Banner />
+                    <Navbar animationInit={this.animationInit}/>
                     <a name="presentacion" className="ancla"></a>
                     <section className="presentacion" onLoad={this.animationInit}>
                         <div className="presentacion">

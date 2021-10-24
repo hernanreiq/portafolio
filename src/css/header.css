@@ -2,7 +2,7 @@
 
 header {
     width: 100%;
-    overflow: hidden !important;
+    overflow: hidden;
 }
 
 header div.portada {
@@ -19,26 +19,6 @@ header div img.portada {
     opacity: 0.4;
     transform: scale(1.05);
 }
-
-/*
-@media only screen and (max-width: 579px) {
-    header div.portada {
-        height: 550px;
-    }
-    header div img.portada {
-        min-height: 550px;
-    }
-}
-
-@media only screen and (max-width: 379px) {
-    header div.portada {
-        height: 500px;
-    }
-    header div img.portada {
-        min-height: 510px;
-    }
-}
-
 
 /*MI PRESENTACION*/
 
