@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import "../../css/header.css";
 import { nameWriter, professionWriter } from "../helpers/functions";
 import Hernan from "../../img/hernan.jpg";
 import Navbar from "./navbar";

@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Proyectos from "../../json/proyectos.json";
+import Project from "../templates/project";
 
 class Portfolio extends Component {
     state = {
@@ -32,16 +33,12 @@ class Portfolio extends Component {
                                     {this.state.projects.map((project, i) => {
                                         var image = require(`../../${project.ruta_fotos + project.nombre} (1).jpg`);
                                         return (
-                                            <li className="shadow" key={i}>
-                                                <div className="contenedor-imagen">
-                                                    <img src={image.default} alt="" /><br />
-                                                </div>
-                                                <h2 className="mx-0 my-1">{project.nombre}</h2>
-                                                <div className="blanco my-1"></div>
-                                                <button onClick={() => {
-                                                    this.props.showDetails(project)
-                                                }} className="btn mt-1 mb-2">VER DETALLES</button>
-                                            </li>
+                                            <Project 
+                                                key={i}
+                                                image={image.default}
+                                                project={project}
+                                                showDetails={this.props.showDetails}
+                                            />
                                         )
                                     })
                                     }

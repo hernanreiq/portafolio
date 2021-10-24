@@ -1,0 +1,76 @@
+/*HABILIDADES*/
+main section div.habilidades {
+    background-color: #3B93F7;
+    padding: 50px 0px;
+    margin: 0 auto;
+}
+
+main section div.habilidades ul {
+    list-style: none;
+    margin: 0 auto;
+}
+
+@media only screen and (min-width: 200px){
+    main section div.habilidades ul {
+        max-width: 200px;
+        margin: 0 auto;
+    }
+    main section div.habilidades li.skill {
+        margin: 25px 22px;
+    }
+}
+
+@media only screen and (min-width: 350px) {
+    main section div.habilidades ul {
+        max-width: 250px;
+    }
+    main section div.habilidades li.skill {
+        margin: 25px 47px;
+    }
+}
+
+@media only screen and (min-width: 590px) {
+    main section div.habilidades ul {
+        max-width: 500px;
+    }
+}
+
+@media only screen and (min-width: 840px) {
+    main section div.habilidades ul {
+        max-width: 750px;
+    }
+}
+
+@media only screen and (min-width: 1100px) {
+    main section div.habilidades ul {
+        max-width: 1000px;
+    }
+}
+
+main section div.habilidades ul li {
+    text-align: center;
+    background-color: #2e2e2e;
+    max-width: 250px;
+    height: 170px;
+    padding: 10px;
+    border-radius: 20px;
+    border: solid #ffffff 3px;
+    float: left;
+}
+
+main section div.habilidades::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+main section div.habilidades ul li img {
+    width: 130px;
+    height: 120px;
+}
+
+main section div.habilidades ul li p {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+}

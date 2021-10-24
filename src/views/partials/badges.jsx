@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCode, faCheck } from "@fortawesome/free-solid-svg-icons";
 import Proyectos from '../../json/proyectos.json';
-import "../../css/badges.css";
 
 class Badges extends Component {
     render() {

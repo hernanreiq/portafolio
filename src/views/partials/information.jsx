@@ -22,7 +22,6 @@ function Information() {
                             <li><p className="mb-0">Colaborar en equipos que me permitan mejorar mis habilidades blandas.</p></li>
                             <li><p className="mb-0">Aumentar la versatilidad con la que me adapto a los lenguajes y las nuevas tecnologías.</p></li>
                         </ul>
-
                         <p className="mb-0">
                             <b>Pasatiempos: </b>cuando no estoy programando me gusta jugar en la computadora, me encanta compartir con mis seres queridos y a veces veo alguna película de acción o suspenso.<br /><br />
                         </p>
