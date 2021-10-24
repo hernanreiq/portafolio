@@ -23,13 +23,12 @@ class Header extends Component {
                 <header>
                     <Banner />
                     <Navbar animationInit={this.animationInit}/>
-                    <a name="presentacion" className="ancla"></a>
                     <section className="presentacion" onLoad={this.animationInit}>
                         <div className="presentacion">
                             <img src={Hernan} alt="Hernan Demorizi Ureña - Hernan.Reiq" id="foto-presentacion" className="animate__animated animate__backInDown shadow" />
                             <div className="presentacion-texto  animate__animated animate__backInUp">
-                                <h1 className="nombre" ref={this.nameRef}></h1>
-                                <h2 className="hobby" ref={this.professionRef}></h2>
+                                <h1 className="nombre" ref={this.nameRef}>{' '}</h1>
+                                <h2 className="hobby" ref={this.professionRef}>{' '}</h2>
                             </div>
                             <Badges />
                         </div>

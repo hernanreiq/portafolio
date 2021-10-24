@@ -9,15 +9,13 @@ class Skills extends Component {
     render() {
         return (
             <React.Fragment>
-                <div className="clearfix"></div>
-                <a name="habilidades" className="ancla"></a>
-                <section id="section-habilidades">
+                <div className="react-scroll" id="section-habilidades"></div>
+                <section>
                     <div className="titulo titulo-gradiente-azul mis-habilidades">
                         <h2>Habilidades <span className="badge badge-pill ml-1 negro-fondo" id="cantidad-habilidades-contador"></span></h2>
                     </div>
                     <div className="blanco"></div>
                     <div className="contenido habilidades">
-                        <a name="skills" className="ancla"></a>
                         <div className="container-xl">
                             <div className="accordion" id="accordion-1">
                                 {this.state.skills.length === 0 ?

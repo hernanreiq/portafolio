@@ -10,21 +10,24 @@ import { rainingBadges } from "../helpers/functions";
 
 function Banner() {
     return (
-        <div className="portada">
-            <React.Fragment>
-                {rainingBadges()}
-            </React.Fragment>
-            <picture>
-                <source media="(min-width:1550px)" srcSet={Portada} />
-                <source media="(min-width:770px)" srcSet={PortadaX} />
-                <source media="(min-width:700px)" srcSet={PortadaM} />
-                <source media="(min-width:630px)" srcSet={PortadaSS} />
-                <source media="(min-width:480px)" srcSet={PortadaSSS} />
-                <source media="(min-width:430px)" srcSet={PortadaSSSS} />
-                <source media="(min-width:200px)" srcSet={PortadaS} />
-                <img src={Portada} alt="Portada del portafolio" className="portada animate__animated animate__heartBeat" />
-            </picture>
-        </div>
+        <React.Fragment>
+            <div className="react-scroll" id="section-presentacion"></div>
+            <div className="portada">
+                <React.Fragment>
+                    {rainingBadges()}
+                </React.Fragment>
+                <picture>
+                    <source media="(min-width:1550px)" srcSet={Portada} />
+                    <source media="(min-width:770px)" srcSet={PortadaX} />
+                    <source media="(min-width:700px)" srcSet={PortadaM} />
+                    <source media="(min-width:630px)" srcSet={PortadaSS} />
+                    <source media="(min-width:480px)" srcSet={PortadaSSS} />
+                    <source media="(min-width:430px)" srcSet={PortadaSSSS} />
+                    <source media="(min-width:200px)" srcSet={PortadaS} />
+                    <img src={Portada} alt="Portada del portafolio" className="portada animate__animated animate__heartBeat" />
+                </picture>
+            </div>
+        </React.Fragment>
     )
 }
 

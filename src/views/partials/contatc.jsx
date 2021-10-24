@@ -15,8 +15,8 @@ class Contact extends Component {
     render() {
         return (
             <React.Fragment>
-                <a name="contacto" className="ancla"></a>
-                <section id="section-contacto">
+                <div className="react-scroll" id="section-contacto"></div>
+                <section>
                     <div className="titulo titulo-gradiente-azul mi-contacto">
                         <h2>Contacto</h2>
                     </div>

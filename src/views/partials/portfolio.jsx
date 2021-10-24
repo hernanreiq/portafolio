@@ -14,8 +14,8 @@ class Portfolio extends Component {
     render() {
         return (
             <React.Fragment>
-                <a name="proyectos" className="ancla"></a>
-                <section id="section-portafolio">
+                <div className="react-scroll" id="section-portafolio"></div>
+                <section>
                     <div className="titulo titulo-gradiente-negro mis-proyectos">
                         <h2>Proyectos</h2>
                     </div>
@@ -54,6 +54,7 @@ class Portfolio extends Component {
                         </div>
                     </div>
                 </section>
+                <div className="clearfix"></div>
             </React.Fragment>
         )
     }

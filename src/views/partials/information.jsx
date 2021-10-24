@@ -3,8 +3,8 @@ import React from "react";
 function Information() {
     return (
         <React.Fragment>
-            <a name="informacion" className="ancla"></a>
-            <section id="section-informacion">
+            <div className="react-scroll" id="section-informacion"></div>
+            <section>
                 <div className="titulo titulo-gradiente-negro mi-informacion">
                     <h2>Sobre mí...</h2>
                 </div>

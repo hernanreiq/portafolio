@@ -1,4 +1,4 @@
-import React, { Component, createRef } from "react";
+import React, { Component } from "react";
 import "../../css/navbar.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
@@ -32,11 +32,32 @@ class Navbar extends Component {
         }
     }
 
+    navRef = React.createRef();
+
     buttonClick = (section) => {
-        if (section !== 'presentacion'){
+        if (section !== 'presentacion') {
             this.checkScreenWidth();
         }
-        console.log(section)
+        if (section === 'presentacion') {
+            var presentation = document.getElementById('section-presentacion');
+            presentation.scrollIntoView();
+        }
+        if (section === 'proyectos') {
+            var projects = document.getElementById('section-portafolio');
+            projects.scrollIntoView();
+        }
+        if (section === 'habilidades') {
+            var skills = document.getElementById('section-habilidades');
+            skills.scrollIntoView();
+        }
+        if (section === 'informacion') {
+            var information = document.getElementById('section-informacion');
+            information.scrollIntoView();
+        }
+        if (section === 'contacto') {
+            var contact = document.getElementById('section-contacto');
+            contact.scrollIntoView();
+        }
     }
 
     render() {
@@ -47,22 +68,22 @@ class Navbar extends Component {
                         {this.state.icon}
                     </button>
                     <div className={this.state.optionsStyle}>
-                        <button onClick={ () => {this.buttonClick('proyectos')}} className="option">Proyectos</button>
-                        <button onClick={ () => {this.buttonClick('habilidades')}} className="option">Habilidades</button>
-                        <button onClick={ () => {this.buttonClick('informacion')}} className="option">Sobre mí...</button>
-                        <button onClick={ () => {this.buttonClick('contacto')}} className="option">Contacto</button>
+                        <button onClick={() => { this.buttonClick('proyectos') }} className="option">Proyectos</button>
+                        <button onClick={() => { this.buttonClick('habilidades') }} className="option">Habilidades</button>
+                        <button onClick={() => { this.buttonClick('informacion') }} className="option">Sobre mí...</button>
+                        <button onClick={() => { this.buttonClick('contacto') }} className="option">Contacto</button>
                         <div className="marca marca-option">
-                            <button onClick={ () => {
+                            <button onClick={() => {
                                 this.buttonClick('presentacion');
                                 this.props.animationInit();
-                                }} className="marca">Hernan.Reiq</button>
+                            }} className="marca">Hernan.Reiq</button>
                         </div>
                     </div>
                     <div className="marca marca-externa">
-                        <button onClick={ () => {
+                        <button onClick={() => {
                             this.buttonClick('presentacion');
                             this.props.animationInit();
-                            }} className="marca">Hernan.Reiq</button>
+                        }} className="marca">Hernan.Reiq</button>
                     </div>
                 </div>
             </nav>
