@@ -80,6 +80,16 @@
         "caracteristicas": "Diseño adaptable a distintas pantallas debido al uso de Bootstrap 4, permite crear un menú personalizado para el bufé que comerán los invitados y envía el menú y la cotización por WhatsApp."
     },
     {
+        "nombre": "Unlimited Images",
+        "tipo": "Aplicación web",
+        "enlace": "https://hernanreiq.github.io/Unlimited-Images/",
+        "images": 10,
+        "ruta_fotos": "img/Proyectos/Unlimited Images/",
+        "descripcion": "Disfruta de imágenes y vídeos de alta calidad sin derechos de autor.",
+        "habilidades": "React, HTML, CSS, JavaScript, Bootstrap 4, Pexels, Node.js y npm.",
+        "caracteristicas": "La aplicación está diseñada para adaptarse a distintas pantallas. Las imágenes y vídeos son mostrados en una ventana emergente. El contenido (sin derechos de autor) proviene de la API de Pexels."
+    },
+    {
         "nombre": "GitHub Stats",
         "tipo": "Aplicación web",
         "enlace": "https://github.com/hernanreiq/GitHub-Stats",
