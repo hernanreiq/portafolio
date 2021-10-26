@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { getImagesCarousel } from "../helpers/functions";
+import { getImagesCarousel, TransformURL } from "../helpers/functions";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTimes } from "@fortawesome/free-solid-svg-icons";
 import { Carousel } from "react-bootstrap";
@@ -17,7 +17,7 @@ class PopUp extends Component {
                     </div>
                     <h3 className="cantidad-fotos-popup">Imágenes: <span className="badge badge-pill ml-1 azul-fondo">{this.props.project.images}</span></h3>
                     <p>
-                        <b>Enlace: </b>{this.props.project.enlace}<br /><br />
+                        <b>Enlace: </b>{TransformURL(this.props.project.enlace)}<br /><br />
                         <b>Descripción: </b>{this.props.project.descripcion}<br /><br />
                         <b>Habilidades y tecnologías usadas: </b>{this.props.project.habilidades}<br /><br />
                         <b>Características: </b>{this.props.project.caracteristicas}<br /><br />
