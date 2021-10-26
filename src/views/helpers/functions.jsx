@@ -6,17 +6,18 @@ import { Carousel } from "react-bootstrap";
 
 export function TransformURL(url) {
     var available = false;
+    var textURL = 'Sin enlace';
     if (url.substring(0, 18) === 'https://hernanreiq') {
-        var textURL = 'Proyecto desplegado con GitHub Pages';
+        textURL = 'Proyecto desplegado con GitHub Pages';
         available = true;
     } else if (url.substring(0, 18) === 'https://github.com') {
-        var textURL = 'Repositorio con el código de este proyecto';
+        textURL = 'Repositorio con el código de este proyecto';
         available = true;
     } else if (url.substring(0, 18) !== ''){
-        var textURL = 'Proyecto desplegado con Heroku';
+        textURL = 'Proyecto desplegado con Heroku';
         available = true;
     } else {
-        var textURL = 'Este proyecto no está disponible';
+        textURL = 'Este proyecto no está disponible';
         available = false;
     } 
     
