@@ -158,7 +158,7 @@ main section div.proyectos ul li button {
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
     cursor: pointer;
-    letter-spacing: 1px;
+    letter-spacing: 1.5px;
     background-color: #1a1a1a;
 }
 
@@ -172,7 +172,8 @@ div.contenedor-boton-ver-mas {
     text-align: center;
 }
 
-#boton-ver-mas {
+.ver-mas-proyectos {
+    letter-spacing: 1.5px;
     padding: 5px 30px;
     text-transform: uppercase;
     font-size: 20px;
@@ -182,15 +183,15 @@ div.contenedor-boton-ver-mas {
     border-radius: 5px;
     text-shadow: black 1px 1px 1px;
     font-family: 'Roboto', sans-serif;
-    display: none;
+    font-weight: bold;
 }
 
-#boton-ver-mas:hover {
+.ver-mas-proyectos:hover {
     background-color: #5ea9ff;
 }
 
 @media only screen and (max-width: 500px) {
-    #boton-ver-mas {
+    .ver-mas-proyectos {
         margin-top: 20px;
     }
 }

@@ -4,13 +4,21 @@ import Project from "../templates/project";
 
 class Portfolio extends Component {
     state = {
-        projects: Proyectos
+        projects: Proyectos,
+        projectsInit: 4
     }
-    getProjects = () => {
-        console.log(Proyectos);
-    }
-    componentDidMount() {
-        this.getProjects();
+
+    moreProjects = () => {
+        if ((this.state.projectsInit + 4) < this.state.projects.length) {
+            this.setState({
+                projectsInit: this.state.projectsInit + 4
+            });
+        } else if ((this.state.projectsInit + 4) > this.state.projects.length && this.state.projectsInit < this.state.projects.length) {
+            var calLastProjects = (this.state.projects.length - this.state.projectsInit);
+            this.setState({
+                projectsInit: this.state.projectsInit + calLastProjects
+            })
+        }
     }
     render() {
         return (
@@ -30,10 +38,10 @@ class Portfolio extends Component {
                                     </div>
                                 </div> :
                                 <ul id="proyectos-portafolio">
-                                    {this.state.projects.map((project, i) => {
+                                    {this.state.projects.slice(0, this.state.projectsInit).map((project, i) => {
                                         var image = require(`../../${project.ruta_fotos + project.nombre} (1).jpg`);
                                         return (
-                                            <Project 
+                                            <Project
                                                 key={i}
                                                 image={image.default}
                                                 project={project}
@@ -45,9 +53,11 @@ class Portfolio extends Component {
                                 </ul>
                             }
                             <div className="clearfix"></div>
-                            <div className="contenedor-boton-ver-mas">
-                                <button id="boton-ver-mas" className="shadow">VER MAS</button>
-                            </div>
+                            {this.state.projectsInit < this.state.projects.length &&
+                                <div className="contenedor-boton-ver-mas">
+                                    <button className="shadow ver-mas-proyectos" onClick={this.moreProjects}>VER MAS</button>
+                                </div>
+                            }
                         </div>
                     </div>
                 </section>
