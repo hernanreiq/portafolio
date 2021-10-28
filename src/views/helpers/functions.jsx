@@ -4,6 +4,34 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons";
 import { Carousel } from "react-bootstrap";
 
+export function SkillsClasify(skills) {
+    var result = {
+        frontend: [],
+        backend: [],
+        design: [],
+        tech: []
+    };
+    for (var i = 0; i < skills.length; i++) {
+        switch (skills[i].tipo) {
+            case 'Front-end':
+                result.frontend.push(skills[i]);
+                break;
+            case 'Back-end':
+                result.backend.push(skills[i]);
+                break;
+            case 'Diseño':
+                result.design.push(skills[i]);
+                break;
+            case 'Tecnologías':
+                result.tech.push(skills[i]);
+                break;
+            default:
+                result.tech.push(skills[i]);
+        }
+    }
+    return result;
+}
+
 export function TransformURL(url) {
     var available = false;
     var textURL = 'Sin enlace';
@@ -13,14 +41,14 @@ export function TransformURL(url) {
     } else if (url.substring(0, 18) === 'https://github.com') {
         textURL = 'Repositorio con el código de este proyecto';
         available = true;
-    } else if (url.substring(0, 18) !== ''){
+    } else if (url.substring(0, 18) !== '') {
         textURL = 'Proyecto desplegado con Heroku';
         available = true;
     } else {
         textURL = 'Este proyecto no está disponible';
         available = false;
-    } 
-    
+    }
+
     if (available) {
         return <a href={url} target="_blank" rel="noreferrer" className="">{textURL} <FontAwesomeIcon icon={faExternalLinkAlt} /></a>
     } else {
