@@ -12,7 +12,7 @@ class AccordionTemplate extends Component {
         return (
             <Card className={this.state.cardStyle}>
                 <Accordion.Toggle as={Card.Header} eventKey={this.props.section} className={this.state.accordionStyle} onClick={() =>{
-                    document.getElementById('section-habilidades').scrollIntoView();
+                    document.getElementById('skills-scroll').scrollIntoView();
                 }}>
                     <h2 className="titulo-skills mb-0">{this.props.section} <span className={this.state.badgePillStyle}>{this.props.skills.length}</span></h2>
                 </Accordion.Toggle>

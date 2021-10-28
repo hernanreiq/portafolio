@@ -28,6 +28,7 @@ class Skills extends Component {
                                     </div>
                                 </div> :
                                 <Accordion defaultActiveKey="Front-end">
+                                    <div id="skills-scroll" className="react-scroll"></div>
                                     {this.state.accordionSections.map((section, i) => {
                                         if (section === 'Front-end') {
                                             return (

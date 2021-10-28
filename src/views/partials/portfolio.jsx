@@ -5,15 +5,16 @@ import Project from "../templates/project";
 class Portfolio extends Component {
     state = {
         projects: Proyectos,
-        projectsInit: 4
+        projectsInit: 4,
+        projectsNumPrint: 6
     }
 
     moreProjects = () => {
-        if ((this.state.projectsInit + 4) < this.state.projects.length) {
+        if ((this.state.projectsInit + this.state.projectsNumPrint) <= this.state.projects.length) {
             this.setState({
-                projectsInit: this.state.projectsInit + 4
+                projectsInit: this.state.projectsInit + this.state.projectsNumPrint
             });
-        } else if ((this.state.projectsInit + 4) > this.state.projects.length && this.state.projectsInit < this.state.projects.length) {
+        } else if ((this.state.projectsInit + this.state.projectsNumPrint) > this.state.projects.length && this.state.projectsInit < this.state.projects.length) {
             var calLastProjects = (this.state.projects.length - this.state.projectsInit);
             this.setState({
                 projectsInit: this.state.projectsInit + calLastProjects
