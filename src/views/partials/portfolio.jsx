@@ -37,7 +37,7 @@ class Portfolio extends Component {
                                         <span className="sr-only">Loading...</span>
                                     </div>
                                 </div> :
-                                <ul id="proyectos-portafolio">
+                                <ul id="proyectos-portafolio" className="animate__animated animate__fadeIn">
                                     {this.state.projects.slice(0, this.state.projectsInit).map((project, i) => {
                                         var image = require(`../../${project.ruta_fotos + project.nombre} (1).jpg`);
                                         return (
@@ -54,7 +54,7 @@ class Portfolio extends Component {
                             }
                             <div className="clearfix"></div>
                             {this.state.projectsInit < this.state.projects.length &&
-                                <div className="contenedor-boton-ver-mas">
+                                <div className="contenedor-boton-ver-mas animate__animated animate__fadeIn">
                                     <button className="shadow ver-mas-proyectos" onClick={this.moreProjects}>VER MAS</button>
                                 </div>
                             }

@@ -22,7 +22,7 @@ class Contact extends Component {
                     </div>
                     <div className="blanco"></div>
                     <div className="contenido contacto">
-                        <ul id="lista-contacto" className="animate__animated animate__lightSpeedInRight">
+                        <ul id="lista-contacto" className="animate__animated animate__fadeInUp">
                             <li className="shadow">
                                 <a href="https://www.linkedin.com/in/hernan-demorizi-ure%C3%B1a-4430031b1/" target="_blank" rel="noreferrer">
                                     <FontAwesomeIcon icon={faLinkedin} className="icono" />

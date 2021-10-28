@@ -10,7 +10,7 @@ function Information() {
                 </div>
                 <div className="azul"></div>
                 <div className="contenido informacion">
-                    <div className="contenedor-texto-informacion">
+                    <div className="contenedor-texto-informacion animate__animated animate__fadeIn">
                         <p className="mb-0">Soy un egresado de la Universidad Dominicana O&M, donde estudié la carrera de Ingeniería de Sistemas y Computación. A pesar de haber conocido muchas ramas interesantes de dicha carrera, siempre me interesó la programación, debido a que esta me da la oportunidad de crear soluciones y automatizar procesos de la vida cotidiana.<br /><br />
                             <b>Mi personalidad: </b>me defino como una persona autodidacta, proactiva, persistente, amante de los retos y con un gran entusiasmo por seguir aprendiendo. Para mí es importante tener una personalidad que me permita pensar y actuar por mi propia cuenta, pero me gusta escuchar aquellas vivencias que puedan orientarme sobre cuales errores evitar en la vida.<br /><br />
                             <b>Respecto a mis conocimientos: </b>estoy seguro de que con el conocimiento adquirido en los años en que me he estado preparando, puedo crear soluciones eficientes para resolver muchos problemas de mi área, pero también debo reconocer que este mundo está muy apegado a la informática, por lo que siempre tendré que mantenerme actualizado para poder ofrecer mejores resultados.<br /><br />
