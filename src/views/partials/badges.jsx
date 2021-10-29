@@ -10,7 +10,9 @@ class Badges extends Component {
                 <div className="col-md-6 offset-md-3 mt-3 pb-4 px-0">
                     <div className="row">
                         <div className="col-md-6 my-2 px-0 text-center">
-                            <div className="badge-container mx-auto animate__animated animate__backInLeft">
+                            <div className="badge-container mx-auto animate__animated animate__backInLeft" onClick={() => {
+                                document.getElementById('section-portafolio').scrollIntoView();
+                            }}>
                                 <div className="badge-body text-center pt-3">
                                     <span className="h2">{Proyectos.length}</span>
                                     <h5>Proyectos</h5>
@@ -22,7 +24,9 @@ class Badges extends Component {
                             </div>
                         </div>
                         <div className="col-md-6 my-2 px-0 text-center">
-                            <div className="badge-container mx-auto animate__animated animate__backInRight">
+                            <div className="badge-container mx-auto animate__animated animate__backInRight"  onClick={() => {
+                                document.getElementById('section-habilidades').scrollIntoView();
+                            }}>
                                 <div className="badge-body text-center pt-3">
                                     <span className="h2">2</span>
                                     <h5>Stacks</h5>
