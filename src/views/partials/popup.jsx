@@ -5,6 +5,22 @@ import { faTimes } from "@fortawesome/free-solid-svg-icons";
 import { Carousel } from "react-bootstrap";
 
 class PopUp extends Component {
+    changeScroll = (state) => {
+        let body = document.getElementsByTagName('body');
+        if (state) {
+            body[0].removeAttribute('class');
+            body[0].setAttribute('class', 'no-scroll');
+        } else {
+            body[0].removeAttribute('class');
+            body[0].setAttribute('class', 'scroll');
+        }
+    }
+    componentDidMount(){
+        this.changeScroll(this.props.show);
+    }
+    componentWillUnmount(){
+        this.changeScroll(false);
+    }
     render() {
         return (
             <div className="overlay visible">

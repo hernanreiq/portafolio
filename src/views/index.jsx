@@ -17,14 +17,14 @@ class Index extends Component {
         this.setState({
             project: project,
             showPopUp: true
-        })
+        });
     }
-
+    
     hideDetails = () => {
         this.setState({
             project: [],
             showPopUp: false
-        })
+        });
     }
 
     render() {
