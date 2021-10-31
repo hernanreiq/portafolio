@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portafolio/static/css/main.f8665fa7.chunk.css",
-    "main.js": "/portafolio/static/js/main.a0e08351.chunk.js",
-    "main.js.map": "/portafolio/static/js/main.a0e08351.chunk.js.map",
+    "main.js": "/portafolio/static/js/main.f2e601d8.chunk.js",
+    "main.js.map": "/portafolio/static/js/main.f2e601d8.chunk.js.map",
     "runtime-main.js": "/portafolio/static/js/runtime-main.7f0399c4.js",
     "runtime-main.js.map": "/portafolio/static/js/runtime-main.7f0399c4.js.map",
     "static/css/2.80e8070a.chunk.css": "/portafolio/static/css/2.80e8070a.chunk.css",
@@ -69,10 +69,10 @@
     "static/media/Graphic design (3).jpg": "/portafolio/static/media/Graphic design (3).93aa238b.jpg",
     "static/media/Graphic design (4).jpg": "/portafolio/static/media/Graphic design (4).fc61dcad.jpg",
     "static/media/Graphic design (5).jpg": "/portafolio/static/media/Graphic design (5).82e945f5.jpg",
-    "static/media/Grupo Golden (1).jpg": "/portafolio/static/media/Grupo Golden (1).708d9711.jpg",
-    "static/media/Grupo Golden (2).jpg": "/portafolio/static/media/Grupo Golden (2).7230de4b.jpg",
-    "static/media/Grupo Golden (3).jpg": "/portafolio/static/media/Grupo Golden (3).8784f20f.jpg",
-    "static/media/Grupo Golden (4).jpg": "/portafolio/static/media/Grupo Golden (4).e462b931.jpg",
+    "static/media/Grupo Golden (1).jpg": "/portafolio/static/media/Grupo Golden (1).7a60c0a9.jpg",
+    "static/media/Grupo Golden (2).jpg": "/portafolio/static/media/Grupo Golden (2).9cf06431.jpg",
+    "static/media/Grupo Golden (3).jpg": "/portafolio/static/media/Grupo Golden (3).a9d570ea.jpg",
+    "static/media/Grupo Golden (4).jpg": "/portafolio/static/media/Grupo Golden (4).51e3e7df.jpg",
     "static/media/Hernan Reiq Bot (1).jpg": "/portafolio/static/media/Hernan Reiq Bot (1).983d3569.jpg",
     "static/media/Hernan Reiq Bot (2).jpg": "/portafolio/static/media/Hernan Reiq Bot (2).0dee67f2.jpg",
     "static/media/Hernan Reiq Bot (3).jpg": "/portafolio/static/media/Hernan Reiq Bot (3).600d88db.jpg",
@@ -302,6 +302,6 @@
     "static/css/2.80e8070a.chunk.css",
     "static/js/2.c8da3001.chunk.js",
     "static/css/main.f8665fa7.chunk.css",
-    "static/js/main.a0e08351.chunk.js"
+    "static/js/main.f2e601d8.chunk.js"
   ]
 }
