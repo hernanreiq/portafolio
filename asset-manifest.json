@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/portafolio/static/css/main.f8665fa7.chunk.css",
-    "main.js": "/portafolio/static/js/main.f2e601d8.chunk.js",
-    "main.js.map": "/portafolio/static/js/main.f2e601d8.chunk.js.map",
-    "runtime-main.js": "/portafolio/static/js/runtime-main.7f0399c4.js",
-    "runtime-main.js.map": "/portafolio/static/js/runtime-main.7f0399c4.js.map",
+    "main.js": "/portafolio/static/js/main.c56059b7.chunk.js",
+    "main.js.map": "/portafolio/static/js/main.c56059b7.chunk.js.map",
+    "runtime-main.js": "/portafolio/static/js/runtime-main.c5def609.js",
+    "runtime-main.js.map": "/portafolio/static/js/runtime-main.c5def609.js.map",
     "static/css/2.80e8070a.chunk.css": "/portafolio/static/css/2.80e8070a.chunk.css",
-    "static/js/2.c8da3001.chunk.js": "/portafolio/static/js/2.c8da3001.chunk.js",
-    "static/js/2.c8da3001.chunk.js.map": "/portafolio/static/js/2.c8da3001.chunk.js.map",
-    "static/js/3.2124612d.chunk.js": "/portafolio/static/js/3.2124612d.chunk.js",
-    "static/js/3.2124612d.chunk.js.map": "/portafolio/static/js/3.2124612d.chunk.js.map",
+    "static/js/2.4d4411cb.chunk.js": "/portafolio/static/js/2.4d4411cb.chunk.js",
+    "static/js/2.4d4411cb.chunk.js.map": "/portafolio/static/js/2.4d4411cb.chunk.js.map",
+    "static/js/3.c6ccca51.chunk.js": "/portafolio/static/js/3.c6ccca51.chunk.js",
+    "static/js/3.c6ccca51.chunk.js.map": "/portafolio/static/js/3.c6ccca51.chunk.js.map",
     "index.html": "/portafolio/index.html",
     "static/css/2.80e8070a.chunk.css.map": "/portafolio/static/css/2.80e8070a.chunk.css.map",
     "static/css/main.f8665fa7.chunk.css.map": "/portafolio/static/css/main.f8665fa7.chunk.css.map",
-    "static/js/2.c8da3001.chunk.js.LICENSE.txt": "/portafolio/static/js/2.c8da3001.chunk.js.LICENSE.txt",
+    "static/js/2.4d4411cb.chunk.js.LICENSE.txt": "/portafolio/static/js/2.4d4411cb.chunk.js.LICENSE.txt",
     "static/media/Analista de crédito (1).jpg": "/portafolio/static/media/Analista de crédito (1).f03dfc22.jpg",
     "static/media/Analista de crédito (10).jpg": "/portafolio/static/media/Analista de crédito (10).7f434024.jpg",
     "static/media/Analista de crédito (11).jpg": "/portafolio/static/media/Analista de crédito (11).f3ee2478.jpg",
@@ -33,6 +33,10 @@
     "static/media/Cyber Games RD (3).jpg": "/portafolio/static/media/Cyber Games RD (3).5a3c47da.jpg",
     "static/media/Cyber Games RD (4).jpg": "/portafolio/static/media/Cyber Games RD (4).f3b77fa3.jpg",
     "static/media/Cyber Games RD (5).jpg": "/portafolio/static/media/Cyber Games RD (5).d8b76dfa.jpg",
+    "static/media/E-Sports Shop (1).jpg": "/portafolio/static/media/E-Sports Shop (1).c31d3e2f.jpg",
+    "static/media/E-Sports Shop (2).jpg": "/portafolio/static/media/E-Sports Shop (2).b87b58a1.jpg",
+    "static/media/E-Sports Shop (3).jpg": "/portafolio/static/media/E-Sports Shop (3).d4e4784e.jpg",
+    "static/media/E-Sports Shop (4).jpg": "/portafolio/static/media/E-Sports Shop (4).03c15c74.jpg",
     "static/media/F de Farándula (1).jpg": "/portafolio/static/media/F de Farándula (1).71cd5d2f.jpg",
     "static/media/F de Farándula (2).jpg": "/portafolio/static/media/F de Farándula (2).71e84620.jpg",
     "static/media/F de Farándula (3).jpg": "/portafolio/static/media/F de Farándula (3).9231d124.jpg",
@@ -298,10 +302,10 @@
     "static/media/websocket.svg": "/portafolio/static/media/websocket.01620dce.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.7f0399c4.js",
+    "static/js/runtime-main.c5def609.js",
     "static/css/2.80e8070a.chunk.css",
-    "static/js/2.c8da3001.chunk.js",
+    "static/js/2.4d4411cb.chunk.js",
     "static/css/main.f8665fa7.chunk.css",
-    "static/js/main.f2e601d8.chunk.js"
+    "static/js/main.c56059b7.chunk.js"
   ]
 }
