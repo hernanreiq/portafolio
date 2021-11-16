@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/portafolio/static/css/main.f8665fa7.chunk.css",
-    "main.js": "/portafolio/static/js/main.980c91da.chunk.js",
-    "main.js.map": "/portafolio/static/js/main.980c91da.chunk.js.map",
-    "runtime-main.js": "/portafolio/static/js/runtime-main.c5def609.js",
-    "runtime-main.js.map": "/portafolio/static/js/runtime-main.c5def609.js.map",
+    "main.js": "/portafolio/static/js/main.45a71af1.chunk.js",
+    "main.js.map": "/portafolio/static/js/main.45a71af1.chunk.js.map",
+    "runtime-main.js": "/portafolio/static/js/runtime-main.f4214dae.js",
+    "runtime-main.js.map": "/portafolio/static/js/runtime-main.f4214dae.js.map",
     "static/css/2.80e8070a.chunk.css": "/portafolio/static/css/2.80e8070a.chunk.css",
-    "static/js/2.40b32619.chunk.js": "/portafolio/static/js/2.40b32619.chunk.js",
-    "static/js/2.40b32619.chunk.js.map": "/portafolio/static/js/2.40b32619.chunk.js.map",
-    "static/js/3.c6ccca51.chunk.js": "/portafolio/static/js/3.c6ccca51.chunk.js",
-    "static/js/3.c6ccca51.chunk.js.map": "/portafolio/static/js/3.c6ccca51.chunk.js.map",
+    "static/js/2.5479e6a7.chunk.js": "/portafolio/static/js/2.5479e6a7.chunk.js",
+    "static/js/2.5479e6a7.chunk.js.map": "/portafolio/static/js/2.5479e6a7.chunk.js.map",
+    "static/js/3.85fe083d.chunk.js": "/portafolio/static/js/3.85fe083d.chunk.js",
+    "static/js/3.85fe083d.chunk.js.map": "/portafolio/static/js/3.85fe083d.chunk.js.map",
     "index.html": "/portafolio/index.html",
     "static/css/2.80e8070a.chunk.css.map": "/portafolio/static/css/2.80e8070a.chunk.css.map",
     "static/css/main.f8665fa7.chunk.css.map": "/portafolio/static/css/main.f8665fa7.chunk.css.map",
-    "static/js/2.40b32619.chunk.js.LICENSE.txt": "/portafolio/static/js/2.40b32619.chunk.js.LICENSE.txt",
+    "static/js/2.5479e6a7.chunk.js.LICENSE.txt": "/portafolio/static/js/2.5479e6a7.chunk.js.LICENSE.txt",
     "static/media/Analista de crédito (1).jpg": "/portafolio/static/media/Analista de crédito (1).f03dfc22.jpg",
     "static/media/Analista de crédito (10).jpg": "/portafolio/static/media/Analista de crédito (10).7f434024.jpg",
     "static/media/Analista de crédito (11).jpg": "/portafolio/static/media/Analista de crédito (11).f3ee2478.jpg",
@@ -141,6 +141,9 @@
     "static/media/MultiChat (4).jpg": "/portafolio/static/media/MultiChat (4).a098af20.jpg",
     "static/media/MultiChat (5).jpg": "/portafolio/static/media/MultiChat (5).61df63b7.jpg",
     "static/media/MultiChat (6).jpg": "/portafolio/static/media/MultiChat (6).01c297b2.jpg",
+    "static/media/Next Marvel Films (1).jpg": "/portafolio/static/media/Next Marvel Films (1).cfab349e.jpg",
+    "static/media/Next Marvel Films (2).jpg": "/portafolio/static/media/Next Marvel Films (2).528185c5.jpg",
+    "static/media/Next Marvel Films (3).jpg": "/portafolio/static/media/Next Marvel Films (3).9e392e6b.jpg",
     "static/media/Notes Network (1).jpg": "/portafolio/static/media/Notes Network (1).169ef26a.jpg",
     "static/media/Notes Network (10).jpg": "/portafolio/static/media/Notes Network (10).8b1a9738.jpg",
     "static/media/Notes Network (11).jpg": "/portafolio/static/media/Notes Network (11).d5b83ad7.jpg",
@@ -302,10 +305,10 @@
     "static/media/websocket.svg": "/portafolio/static/media/websocket.01620dce.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.c5def609.js",
+    "static/js/runtime-main.f4214dae.js",
     "static/css/2.80e8070a.chunk.css",
-    "static/js/2.40b32619.chunk.js",
+    "static/js/2.5479e6a7.chunk.js",
     "static/css/main.f8665fa7.chunk.css",
-    "static/js/main.980c91da.chunk.js"
+    "static/js/main.45a71af1.chunk.js"
   ]
 }
