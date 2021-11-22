@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/portafolio/static/css/main.f8665fa7.chunk.css",
-    "main.js": "/portafolio/static/js/main.45a71af1.chunk.js",
-    "main.js.map": "/portafolio/static/js/main.45a71af1.chunk.js.map",
-    "runtime-main.js": "/portafolio/static/js/runtime-main.f4214dae.js",
-    "runtime-main.js.map": "/portafolio/static/js/runtime-main.f4214dae.js.map",
+    "main.js": "/portafolio/static/js/main.df1961ed.chunk.js",
+    "main.js.map": "/portafolio/static/js/main.df1961ed.chunk.js.map",
+    "runtime-main.js": "/portafolio/static/js/runtime-main.c06b3a79.js",
+    "runtime-main.js.map": "/portafolio/static/js/runtime-main.c06b3a79.js.map",
     "static/css/2.80e8070a.chunk.css": "/portafolio/static/css/2.80e8070a.chunk.css",
-    "static/js/2.5479e6a7.chunk.js": "/portafolio/static/js/2.5479e6a7.chunk.js",
-    "static/js/2.5479e6a7.chunk.js.map": "/portafolio/static/js/2.5479e6a7.chunk.js.map",
-    "static/js/3.85fe083d.chunk.js": "/portafolio/static/js/3.85fe083d.chunk.js",
-    "static/js/3.85fe083d.chunk.js.map": "/portafolio/static/js/3.85fe083d.chunk.js.map",
+    "static/js/2.1fd4a08a.chunk.js": "/portafolio/static/js/2.1fd4a08a.chunk.js",
+    "static/js/2.1fd4a08a.chunk.js.map": "/portafolio/static/js/2.1fd4a08a.chunk.js.map",
+    "static/js/3.fbfa1c2c.chunk.js": "/portafolio/static/js/3.fbfa1c2c.chunk.js",
+    "static/js/3.fbfa1c2c.chunk.js.map": "/portafolio/static/js/3.fbfa1c2c.chunk.js.map",
     "index.html": "/portafolio/index.html",
     "static/css/2.80e8070a.chunk.css.map": "/portafolio/static/css/2.80e8070a.chunk.css.map",
     "static/css/main.f8665fa7.chunk.css.map": "/portafolio/static/css/main.f8665fa7.chunk.css.map",
-    "static/js/2.5479e6a7.chunk.js.LICENSE.txt": "/portafolio/static/js/2.5479e6a7.chunk.js.LICENSE.txt",
+    "static/js/2.1fd4a08a.chunk.js.LICENSE.txt": "/portafolio/static/js/2.1fd4a08a.chunk.js.LICENSE.txt",
     "static/media/Analista de crédito (1).jpg": "/portafolio/static/media/Analista de crédito (1).f03dfc22.jpg",
     "static/media/Analista de crédito (10).jpg": "/portafolio/static/media/Analista de crédito (10).7f434024.jpg",
     "static/media/Analista de crédito (11).jpg": "/portafolio/static/media/Analista de crédito (11).f3ee2478.jpg",
@@ -267,6 +267,7 @@
     "static/media/axios.svg": "/portafolio/static/media/axios.6d170f64.svg",
     "static/media/bootstrap.svg": "/portafolio/static/media/bootstrap.9ab72505.svg",
     "static/media/bootswatch.svg": "/portafolio/static/media/bootswatch.1a3e54a0.svg",
+    "static/media/chai.svg": "/portafolio/static/media/chai.ce409fb5.svg",
     "static/media/composer.svg": "/portafolio/static/media/composer.8a65738c.svg",
     "static/media/css3.svg": "/portafolio/static/media/css3.b3c0acbf.svg",
     "static/media/drawio.svg": "/portafolio/static/media/drawio.ba05c576.svg",
@@ -281,6 +282,7 @@
     "static/media/leaflet.svg": "/portafolio/static/media/leaflet.79fa901b.svg",
     "static/media/macyjs.svg": "/portafolio/static/media/macyjs.d8ea410f.svg",
     "static/media/markdown.svg": "/portafolio/static/media/markdown.5c93001c.svg",
+    "static/media/mocha.svg": "/portafolio/static/media/mocha.9700a204.svg",
     "static/media/mongodb.svg": "/portafolio/static/media/mongodb.0781b723.svg",
     "static/media/mongoose.svg": "/portafolio/static/media/mongoose.16a148c0.svg",
     "static/media/mysql.svg": "/portafolio/static/media/mysql.279354bc.svg",
@@ -295,6 +297,7 @@
     "static/media/portada-ssss.f3941326.jpg": "/portafolio/static/media/portada-ssss.f3941326.jpg",
     "static/media/portada-x.af5dd524.jpg": "/portafolio/static/media/portada-x.af5dd524.jpg",
     "static/media/portada.6f1072ca.jpg": "/portafolio/static/media/portada.6f1072ca.jpg",
+    "static/media/postman.svg": "/portafolio/static/media/postman.a06092ac.svg",
     "static/media/react.svg": "/portafolio/static/media/react.7098e271.svg",
     "static/media/scrollreveal.svg": "/portafolio/static/media/scrollreveal.4da59751.svg",
     "static/media/socket-io.svg": "/portafolio/static/media/socket-io.aa27363b.svg",
@@ -305,10 +308,10 @@
     "static/media/websocket.svg": "/portafolio/static/media/websocket.01620dce.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.f4214dae.js",
+    "static/js/runtime-main.c06b3a79.js",
     "static/css/2.80e8070a.chunk.css",
-    "static/js/2.5479e6a7.chunk.js",
+    "static/js/2.1fd4a08a.chunk.js",
     "static/css/main.f8665fa7.chunk.css",
-    "static/js/main.45a71af1.chunk.js"
+    "static/js/main.df1961ed.chunk.js"
   ]
 }
