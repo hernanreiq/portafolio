@@ -35,8 +35,19 @@ main section div div.contenedor-texto-informacion p b,
     main section div div.contenedor-texto-informacion {
         padding: 50px 25px;
     }
+
     main section div div.contenedor-texto-informacion p,
     .frase {
         font-size: 16px;
     }
+}
+
+.badge-work-tech {
+    font-weight: normal;
+    letter-spacing: 1.5px;
+    font-size: 15px;
+}
+
+.badge-work-tech:hover {
+    background-color: #3B93F7 !important;
 }

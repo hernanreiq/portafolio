@@ -1,7 +1,9 @@
-import { Fragment } from "react";
-import WorkExperience from "./work-experience";
+import { Fragment, useState } from "react";
+import PopUpWork from "./popup-work";
+import Trabajos from '../../json/experiencia-laboral.json';
 
 function Information() {
+    const [ShowPopup, setShowPopup] = useState('');
     return (
         <Fragment>
             <div className="react-scroll" id="section-informacion"></div>
@@ -30,10 +32,17 @@ function Information() {
                             <b>Mi frase: </b>“No puedes improvisar la calidad y tampoco la experiencia, pero si puedes hacer las cosas con el corazón para obtener buenos resultados.” &nbsp;
                             <cite>Hernan V. Demorizi Ureña.</cite>
                         </blockquote>
-                        <WorkExperience />
+                        <div className="text-center mt-4">
+                            <button className="shadow ver-mas-proyectos" onClick={() => setShowPopup('Abre')}>
+                                Experiencia Laboral
+                            </button>
+                        </div>
                     </div>
                 </div>
             </section>
+            {ShowPopup !== '' &&
+                <PopUpWork Empresa={ShowPopup} Posiciones={Trabajos} setShowPopup={setShowPopup} />
+            }
         </Fragment>
     )
 }
