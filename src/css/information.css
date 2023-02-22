@@ -1,0 +1,42 @@
+/*INFORMACION*/
+main section div.informacion {
+    background-color: #1a1a1a;
+}
+
+main section div div.contenedor-texto-informacion {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 50px;
+    min-height: 300px;
+    height: auto;
+}
+
+main section div div.contenedor-texto-informacion p,
+ul.metas li,
+.frase {
+    color: #ffffff;
+    text-align: justify;
+    font-size: 18px;
+    font-family: 'PT Sans Narrow', sans-serif;
+    letter-spacing: 1px;
+}
+
+ul.metas li {
+    margin-left: 18px;
+    color: #5ea9ff;
+}
+
+main section div div.contenedor-texto-informacion p b,
+.frase b {
+    color: #5ea9ff;
+}
+
+@media only screen and (max-width: 499px) {
+    main section div div.contenedor-texto-informacion {
+        padding: 50px 25px;
+    }
+    main section div div.contenedor-texto-informacion p,
+    .frase {
+        font-size: 16px;
+    }
+}

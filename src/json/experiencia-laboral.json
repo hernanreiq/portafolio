@@ -1,0 +1,70 @@
+{
+    "Empresas": [
+        {
+            "Nombre": "Freelance",
+            "Logo": "freelance.png"
+        },
+        {
+            "Nombre": "Banco Popular Dominicano",
+            "Logo": "banco-popular-dominicano.jpg"
+        }
+    ],
+    "Posiciones": [
+        {
+            "Empresa": "Freelance",
+            "Posicion": "Desarrollador y Diseñador Web",
+            "Fecha_Inicio": "2020-05-16",
+            "Fecha_Final": "2020-12-16",
+            "Herramientas": [
+                "HTML",
+                "CSS",
+                "JavaScript",
+                "PHP",
+                "MySQL",
+                "PHPMailer",
+                "PayPal - API"
+            ]
+        },
+        {
+            "Empresa": "Banco Popular Dominicano",
+            "Posicion": "Líder de Automatización",
+            "Fecha_Inicio": "2021-11-25",
+            "Fecha_Final": false,
+            "Herramientas": [
+                "vmware - vRealize Orchestrator",
+                "JavaScript",
+                "vmware - Service Broker",
+                "vmware - vRealize Operations",
+                "vmware - vRealize Log Insight",
+                "vmware - vSphere",
+                "Microsoft Active Directory",
+                "Microsoft SQL Server",
+                "Microsoft Office 365",
+                "Outlook - HTML & CSS",
+                "Okta",
+                "SolarWinds",
+                "Windows Server - PowerShell",
+                "Linux Server - Bash",
+                "Power Automate",
+                "System Center Operations Manager",
+                "Splunk",
+                "AS400 - ICBS",
+                "BeyondTrust",
+                "RVTools",
+                "React",
+                "Bootstrap",
+                "Node.js",
+                "Internet Information Services (IIS)",
+                "Cisco - Jabber",
+                "Cisco - Webex",
+                "Postman",
+                "Visual Studio Code",
+                "CA Technologies - Service Catalog",
+                "CA Technologies - Service Desk Manager",
+                "Jira",
+                "PuTTY",
+                "Draw.io"
+            ]
+        }
+    ]
+}

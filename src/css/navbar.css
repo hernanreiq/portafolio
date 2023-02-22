@@ -1,0 +1,88 @@
+/* MENU DE NAVEGACION*/
+
+nav {
+    position: fixed;
+    z-index: 100;
+    right: 0px;
+    width: 100%;
+    top: 0px;
+    background-color: #3B93F7;
+    height: 50px;
+    box-shadow: black 0px 1px 5px;
+}
+
+nav div.navContainer {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+nav button.barsMenu {
+    border: unset;
+    font-size: 25px;
+    background-color: unset;
+    color: #ffffff;
+    margin: 6px 15px;
+}
+
+@media only screen and (min-width: 825px) {
+    nav button.barsMenu {
+        display: none;
+    }
+}
+
+nav button.option, nav button.marca {
+    background-color: unset;
+    border: unset;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 6.5px 20px;
+    font-size: 25px;
+    font-family: 'Lato', sans-serif;
+    text-shadow: rgb(37, 37, 37) 1px 1px 1px;
+    transition: .3s;
+}
+
+nav button.option:hover {
+    background-color: #2a2a2a;
+}
+
+nav div.marca button {
+    background-color: #2a2a2a;
+    color: #ffffff;
+}
+
+button.marca:hover {
+    background-color: #5ea9ff;
+}
+
+@media only screen and (min-width: 825px) {
+    div.marca-externa {
+        display: none;
+    }
+    div.marca-option {
+        float: right;
+    }
+}
+
+@media only screen and (max-width: 824px) { 
+    div.marca-option {
+        display: none;
+    }
+    div.marca-externa {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    div.options button.option {
+        display: block;
+        margin: 0 auto;
+        background-color: #2e2e2ebd;
+        width: 100%;
+    }
+    div.options button.option:hover {
+        background-color: #5faaffbd;
+    }
+    div.options {
+        display: none;
+    }
+}

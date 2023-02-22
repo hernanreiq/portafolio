@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Lato:ital@1&family=Open+Sans:ital,wght@1,300&family=PT+Sans+Narrow&family=Roboto:wght@100&display=swap');
+@import url('./badges.css');
+@import url('./navbar.css');
+@import url('./header.css');
+@import url('./portfolio.css');
+@import url('./popup.css');
+@import url('./skills.css');
+@import url('./information.css');
+@import url('./work.css');
+@import url('./contact.css');
+@import url('./footer.css');
+
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    background-color: #1a1a1a;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #5ea9ff;
+    border-radius: 25px;
+}
+
+body {
+    letter-spacing: 1px;
+}
+
+
+/*CONTENIDO DE LA PAGINA*/
+
+.react-scroll {
+    position: relative;
+    top: -50px;
+}
+
+main section div.titulo {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+
+main section div.titulo h2 {
+    line-height: 50px;
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-shadow: rgb(37, 37, 37) 1px 1px 1px;
+    margin-bottom: 0px;
+}
+
+.titulo-skills {
+    text-align: left;
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-shadow: rgb(37, 37, 37) 1px 1px 1px;
+    margin-bottom: 0;
+}
+
+div.azul {
+    height: 2px;
+    width: 100%;
+    border: 0;
+    background-image: -moz-linear-gradient(left, #1a1a1a, #3B93F7, #1a1a1a);
+    background-image: -webkit-linear-gradient(left, #1a1a1a, #3B93F7, #1a1a1a);
+    background-image: linear-gradient(to right, #1a1a1a, #3B93F7, #1a1a1a);
+}
+
+div.blanco {
+    height: 2px;
+    width: 100%;
+    border: 0;
+    background-image: -moz-linear-gradient(left, #3B93F7, #ffffff, #3B93F7);
+    background-image: -webkit-linear-gradient(left, #3B93F7, #ffffff, #3B93F7);
+    background-image: linear-gradient(to right, #3B93F7, #ffffff, #3B93F7);
+}
+
+.azul-fondo {
+    background-color: #3B93F7;
+}
+
+.azul-fondo-plus {
+    background-color: #5ea9ff;
+}
+
+.negro-fondo {
+    background-color: #2a2a2a;
+}
+
+.negro-fondo-plus {
+    background-color: #1a1a1a;
+}
+
+.titulo-gradiente-negro {
+    background-color: #2e2e2e;
+    background: -moz-linear-gradient(top, #2e2e2e 0%, #2e2e2e 50%, #1a1a1a 100%);
+    background: -webkit-linear-gradient(top, #2e2e2e 0%, #2e2e2e 50%, #1a1a1a 100%);
+    background: linear-gradient(to bottom, #2e2e2e 0%, #2e2e2e 50%, #1a1a1a 100%);
+}
+
+.titulo-gradiente-azul {
+    background-color: #5ea9ff;
+    background: -moz-linear-gradient(top, #5ea9ff 0%, #5ea9ff 50%, #3B93F7 100%);
+    background: -webkit-linear-gradient(top, #5ea9ff 0%, #5ea9ff 50%, #3B93F7 100%);
+    background: linear-gradient(to bottom, #5ea9ff 0%, #5ea9ff 50%, #3B93F7 100%);
+}
