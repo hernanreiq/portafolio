@@ -39,7 +39,7 @@ class Portfolio extends Component {
                                 </div> :
                                 <ul id="proyectos-portafolio" className="animate__animated animate__fadeIn">
                                     {this.state.projects.slice(0, this.state.projectsInit).map((project, i) => {
-                                        var image = (`./portafolio/${project.ruta_fotos + project.nombre} (1).jpg`);
+                                        var image = (`./${project.ruta_fotos + project.nombre} (1).jpg`);
                                         return (
                                             <Project
                                                 key={i}

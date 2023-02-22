@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 class SkillBadge extends Component {
     state = {
-        image: (`./portafolio/Habilidades/${this.props.skill.archivo}`)
+        image: (`./Habilidades/${this.props.skill.archivo}`)
     }
     render() {
         return (

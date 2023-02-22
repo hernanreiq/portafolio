@@ -63,7 +63,7 @@ export function TransformURL(url) {
 export function getImagesCarousel(numberOfImages, routeImage, nameProject) {
     var arrayImages = [];
     for (var i = 0; i < numberOfImages; i++) {
-        var image = (`./portafolio/${routeImage + nameProject} (${i + 1}).jpg`);
+        var image = (`./${routeImage + nameProject} (${i + 1}).jpg`);
         var imageComplete = (
             <Carousel.Item key={i}>
                 <img src={image} alt={nameProject} />
@@ -78,7 +78,7 @@ export function rainingBadges() {
     var skill_badges = ['css3', 'javascript', 'react', 'bootstrap', 'git', 'mongodb', 'nodejs', 'mysql', 'php', 'html5'];
     var arrayBadges = [];
     for (var i = 0; i < skill_badges.length; i++) {
-        var badge = (`./portafolio/Habilidades/${skill_badges[i]}.svg`);
+        var badge = (`./Habilidades/${skill_badges[i]}.svg`);
         arrayBadges.push(
             <div className="snowflake" key={i}>
                 <img src={badge} alt={skill_badges[i] + ' skill badge'} className="skill-badge" />
