@@ -20,14 +20,14 @@
         "caracteristicas": "El diseño es adaptable a todas las pantallas y tiene un saneamiento de rutas para bloquear la entrada a ventanas que no existen. En el buscador ordena el contenido del más reciente al más antiguo, permite ver los detalles de los actores y películas en una ventana emergente (Pop Up), como por ejemplo la foto del actor y las películas donde este haya participado, además de que el buscador cuenta con la opción de usar filtros para las búsquedas. Contiene dos CRUDs (Create, Read, Update and Delete) que sirven para crear, ver, actualizar o eliminar contenido de los actores y las películas, además de que estos ofrecen retroalimentación dependiendo de las acciones realizadas."
     },
     {
-        "nombre": "MultiChat",
-        "tipo": "Aplicación web",
-        "enlace": "https://multichat-reiq.herokuapp.com/",
+        "nombre": "App Patrimonio",
+        "tipo": "Aplicación Móvil Android",
+        "enlace": "",
         "images": 6,
-        "ruta_fotos": "/Proyectos/MultiChat/",
-        "descripcion": "Aplicación web para enviar mensajes de texto con varias personas simultáneamente.",
-        "habilidades": "HTML, CSS, JavaScript, Bootstrap 4, Bootswatch, Node.js, npm (Express, WebSocket (Socket.io) y Nodemon), SweetAlert2, Google Fonts y Font-Awesome.",
-        "caracteristicas": "Esta aplicación web permite enviar mensajes de texto y que estos sean recibidos por todos aquellos que estén en línea. Prohíbe el uso de la aplicación con aquellos que no han definido un nombre de usuario."
+        "ruta_fotos": "/Proyectos/App Patrimonio/",
+        "descripcion": "Aplicación móvil para la administración de finanzas personales, control de gastos, monitoreo de patrimonio y calculadoras financieras.",
+        "habilidades": "React Native, Expo, JavaScript, CSS, React Native Vector Icons, Axios, React Native Picker Select, DateTime Picker, Google Spread Sheet y Apps Script.",
+        "caracteristicas": "Esta aplicación móvil está diseñada y desarrollada para suplir una necesidad personal, contiene 28 funcionalidades adaptadas completamente a mi realidad actual y mis metas a futuro. En ella puedo obtener trazabilidad de mis comportamientos al registrar mis gastos, ingresos y transacciones, además de que puedo configurar recordatorios de compromisos económicos, tengo la facilidad de ver en tiempo real mi patrimonio y sus divisiones dentro de mi portafolio de inversiones, puedo realizar operaciones que afectan directamente a mis finanzas y tengo calculadoras financieras adaptadas a todos los escenarios que necesito. Utilizo de base de datos un Spread Sheet de Google (Excel) con Apps Script (Extensión) para crear una API que me permita integrar la aplicación con el archivo, es decir, todo lo que hago se registra en la nube."
     },
     {
         "nombre": "Analista de crédito",
@@ -50,14 +50,14 @@
         "caracteristicas": "Es un CMS tipo CRUD (Create, Read, Update and Delete), contiene retroalimentación, opción de agregarle una imagen a los productos y en caso de que ya tenga una le permite cambiarla, además de que cuando se cambia una imagen o se borra un producto, la imagen asociada al producto se elimina de los documentos para no ocupar espacios."
     },
     {
-        "nombre": "App Patrimonio",
-        "tipo": "Aplicación Móvil Android",
-        "enlace": "",
+        "nombre": "MultiChat",
+        "tipo": "Aplicación web",
+        "enlace": "https://multichat-reiq.herokuapp.com/",
         "images": 6,
-        "ruta_fotos": "/Proyectos/App Patrimonio/",
-        "descripcion": "Aplicación móvil para la administración de finanzas personales, control de gastos, monitoreo de patrimonio y calculadores financieras.",
-        "habilidades": "React Native, Expo, JavaScript, CSS, React Native Vector Icons, Axios, React Native Picker Select, DateTime Picker, Google Spread Sheet y Apps Script.",
-        "caracteristicas": "Esta aplicación móvil está diseñada y desarrollada para suplir una necesidad personal, contiene 28 funcionalidades adaptadas completamente a mi realidad actual y mis metas a futuro. En ella puedo obtener trazabilidad de mis comportamientos al registrar mis gastos, ingresos y transacciones, además de que puedo configurar recordatorios de compromisos económicos, tengo la facilidad de ver en tiempo real mi patrimonio y sus divisiones dentro de mi portafolio de inversiones, puedo realizar operaciones que afectan directamente a mis finanzas y tengo calculadoras financieras adaptadas a todos los escenarios que necesito. Utilizo de base de datos un Spread Sheet de Google (Excel) con Apps Script (Extensión) para crear un API que me permite integrar la Aplicación con el archivo, es decir, todo lo que hago se registra en la nube."
+        "ruta_fotos": "/Proyectos/MultiChat/",
+        "descripcion": "Aplicación web para enviar mensajes de texto con varias personas simultáneamente.",
+        "habilidades": "HTML, CSS, JavaScript, Bootstrap 4, Bootswatch, Node.js, npm (Express, WebSocket (Socket.io) y Nodemon), SweetAlert2, Google Fonts y Font-Awesome.",
+        "caracteristicas": "Esta aplicación web permite enviar mensajes de texto y que estos sean recibidos por todos aquellos que estén en línea. Prohíbe el uso de la aplicación con aquellos que no han definido un nombre de usuario."
     },
     {
         "nombre": "App Nómina RD",

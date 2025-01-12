@@ -122,5 +122,8 @@ export function professionWriter(container) {
         .deleteAll()
         .typeString('Ingeniero de Sistemas y Computación')
         .pauseFor(6000)
+        .deleteAll()
+        .typeString('Líder de Automatización')
+        .pauseFor(4500)
         .start();
 }
