@@ -56,8 +56,8 @@
         "images": 6,
         "ruta_fotos": "/Proyectos/App Patrimonio/",
         "descripcion": "Aplicación móvil para la administración de finanzas personales, control de gastos, monitoreo de patrimonio y calculadores financieras.",
-        "habilidades": "React Native, Expo, JavaScript, CSS, React Native Vector Icons, Axios, React Native Picker Select y DateTime Picker.",
-        "caracteristicas": "Esta aplicación móvil está diseñada y desarrollada para suplir una necesidad personal, contiene 28 funcionalidades adaptadas completamente a mi realidad actual y mis metas a futuro. En ella puedo obtener trazabilidad de mis comportamientos al registrar mis gastos, ingresos y transacciones, además de que puedo configurar recordatorios de compromisos económicos, tengo la facilidad de ver en tiempo real mi patrimonio y sus divisiones dentro de mi portafolio de inversiones, puedo realizar operaciones que afectan directamente a mis finanzas y tengo calculadoras financieras adaptadas a todos los escenarios que necesito."
+        "habilidades": "React Native, Expo, JavaScript, CSS, React Native Vector Icons, Axios, React Native Picker Select, DateTime Picker, Google Spread Sheet y Apps Script.",
+        "caracteristicas": "Esta aplicación móvil está diseñada y desarrollada para suplir una necesidad personal, contiene 28 funcionalidades adaptadas completamente a mi realidad actual y mis metas a futuro. En ella puedo obtener trazabilidad de mis comportamientos al registrar mis gastos, ingresos y transacciones, además de que puedo configurar recordatorios de compromisos económicos, tengo la facilidad de ver en tiempo real mi patrimonio y sus divisiones dentro de mi portafolio de inversiones, puedo realizar operaciones que afectan directamente a mis finanzas y tengo calculadoras financieras adaptadas a todos los escenarios que necesito. Utilizo de base de datos un Spread Sheet de Google (Excel) con Apps Script (Extensión) para crear un API que me permite integrar la Aplicación con el archivo, es decir, todo lo que hago se registra en la nube."
     },
     {
         "nombre": "App Nómina RD",
