@@ -1,5 +1,5 @@
 # Portafolio
-Este es mi portafolio de las páginas, sitios y aplicaciones web que he creado. 
+Este es mi portafolio de las páginas, sitios, aplicaciones web y móviles que he creado. También es el lugar donde comparto mi experiencia laboral y las herramientas o tecnologías que utilizo en el rol que esté desempeñando.
 ___
 ## Enlace para verlo
 ### [Portafolio de proyectos y habilidades](https://bit.ly/hernanreiq) :heart:
@@ -18,3 +18,5 @@ ___
 * **Sitio web:** maquetas que pueden considerarse parte de un negocio, ya sea para promocionar un producto o servicio, pero que el negocio no necesita de ellas estrictamente para funcionar, sólo aportan a la expansión del mismo.
 
 * **Aplicación web:** son aquellas que cuentan con un producto o servicio dentro de la misma, es decir, un sistema que devuelve un resultado. Se consideran el negocio y no un medio para promocionarlo.
+
+* **Aplicación móvil:** son herramientas que puedes tener instaladas en tu celular Android para obtener un resultado que te aporte valor.
