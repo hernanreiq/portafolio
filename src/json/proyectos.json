@@ -50,14 +50,14 @@
         "caracteristicas": "Es un CMS tipo CRUD (Create, Read, Update and Delete), contiene retroalimentación, opción de agregarle una imagen a los productos y en caso de que ya tenga una le permite cambiarla, además de que cuando se cambia una imagen o se borra un producto, la imagen asociada al producto se elimina de los documentos para no ocupar espacios."
     },
     {
-        "nombre": "Notes Network",
-        "tipo": "Aplicación web",
-        "enlace": "https://github.com/hernanreiq/Notes-Network",
-        "images": 17,
-        "ruta_fotos": "/Proyectos/Notes Network/",
-        "descripcion": "Red social orientada a crear notas, las cuales pueden compartirse con todos los usuarios de la aplicación web o también, dejarlas en privado para que solamente el dueño de la cuenta las vea.",
-        "habilidades": "HTML, CSS, JavaScript, Bootstrap 4, Bootswatch, MongoDB, Node.js, npm (Express, Mongoose, EJS, bcryptjs, connect-flash, express-session, method-override, passport, passport-local, Timeago.js y Nodemon), Font-Awesome y Google Fonts.",
-        "caracteristicas": "Es una aplicación web tipo red social, permite el registro de usuarios e inicio de sesión, cambios de los datos de la cuenta (nombre, correo electrónico y contraseña). Crea, edita, visualiza y elimina notas, permite ver las notas públicas de otros usuarios, protege la información por lo que las notas son anónimas, las notas pueden estar en privado para que solamente las vea el dueño. Tiene saneamiento de datos y pantallas, por lo que no es posible alterar de alguna forma las notas o la información de la cuenta de otro usuario, tampoco permite entrar a rutas o pantallas que no están definidas y ofrece retroalimentación dependiendo de las acciones que haga el usuario dentro de la red social."
+        "nombre": "App Patrimonio",
+        "tipo": "Aplicación Móvil Android",
+        "enlace": "Sin enlace",
+        "images": 6,
+        "ruta_fotos": "/Proyectos/App Patrimonio/",
+        "descripcion": "Aplicación móvil para la administración de finanzas personales, control de gastos, monitoreo de patrimonio y calculadores financieras.",
+        "habilidades": "React Native, Expo, JavaScript, CSS, React Native Vector Icons, Axios, React Native Picker Select y DateTime Picker.",
+        "caracteristicas": "Esta aplicación móvil está diseñada y desarrollada para suplir una necesidad personal, contiene 28 funcionalidades adaptadas completamente a mi realidad actual y mis metas a futuro. En ella puedo obtener trazabilidad de mis comportamientos al registrar mis gastos, ingresos y transacciones, además de que puedo configurar recordatorios de compromisos económicos, tengo la facilidad de ver en tiempo real mi patrimonio y sus divisiones dentro de mi portafolio de inversiones, puedo realizar operaciones que afectan directamente a mis finanzas y tengo calculadoras financieras adaptadas a todos los escenarios que necesito."
     },
     {
         "nombre": "App Nómina RD",
@@ -80,14 +80,14 @@
         "caracteristicas": "Facilita la creación de contraseñas seguras, recibe parámetros que permiten definir la cantidad de caracteres que tendrá la misma."
     },
     {
-        "nombre": "GetPic",
+        "nombre": "Notes Network",
         "tipo": "Aplicación web",
-        "enlace": "https://github.com/hernanreiq/GetPic",
-        "images": 8,
-        "ruta_fotos": "/Proyectos/GetPic/",
-        "descripcion": "Aplicación web para subir, ver y eliminar imágenes. Es un clon de Pinterest que hice en un curso de Node.js y MongoDB, pero está estilizado a mi manera.",
-        "habilidades": "HTML, CSS, JavaScript, Bootstrap 4, Animate.css, Font-Awesome, MongoDB y Node.js, npm (Express, Mongoose, ejs, fs-extra, morgan, multer, Timeago.js, uuid y nodemon).",
-        "caracteristicas": "Diseño adaptable a distintas pantallas, permite subir fotos, agregarle un título y descripción, eliminar las fotos subidas y visualizarlas, pero no permite editarlas."
+        "enlace": "https://github.com/hernanreiq/Notes-Network",
+        "images": 17,
+        "ruta_fotos": "/Proyectos/Notes Network/",
+        "descripcion": "Red social orientada a crear notas, las cuales pueden compartirse con todos los usuarios de la aplicación web o también, dejarlas en privado para que solamente el dueño de la cuenta las vea.",
+        "habilidades": "HTML, CSS, JavaScript, Bootstrap 4, Bootswatch, MongoDB, Node.js, npm (Express, Mongoose, EJS, bcryptjs, connect-flash, express-session, method-override, passport, passport-local, Timeago.js y Nodemon), Font-Awesome y Google Fonts.",
+        "caracteristicas": "Es una aplicación web tipo red social, permite el registro de usuarios e inicio de sesión, cambios de los datos de la cuenta (nombre, correo electrónico y contraseña). Crea, edita, visualiza y elimina notas, permite ver las notas públicas de otros usuarios, protege la información por lo que las notas son anónimas, las notas pueden estar en privado para que solamente las vea el dueño. Tiene saneamiento de datos y pantallas, por lo que no es posible alterar de alguna forma las notas o la información de la cuenta de otro usuario, tampoco permite entrar a rutas o pantallas que no están definidas y ofrece retroalimentación dependiendo de las acciones que haga el usuario dentro de la red social."
     },
     {
         "nombre": "Sarai Bufet",
@@ -98,6 +98,16 @@
         "descripcion": "Sitio web orientado a la venta de comida tipo bufé para cualquier tipo de actividad, donde el usuario puede personalizar el menú que comerán sus invitados para luego enviar toda la información por WhatsApp.",
         "habilidades": "HTML, CSS, JavaScript, Axios, Bootstrap 4, Google Fonts, WhatsApp API, Draw.io y Photoshop CS6.",
         "caracteristicas": "Diseño adaptable a distintas pantallas debido al uso de Bootstrap 4, permite crear un menú personalizado para el bufé que comerán los invitados y envía el menú y la cotización por WhatsApp."
+    },
+    {
+        "nombre": "GetPic",
+        "tipo": "Aplicación web",
+        "enlace": "https://github.com/hernanreiq/GetPic",
+        "images": 8,
+        "ruta_fotos": "/Proyectos/GetPic/",
+        "descripcion": "Aplicación web para subir, ver y eliminar imágenes. Es un clon de Pinterest que hice en un curso de Node.js y MongoDB, pero está estilizado a mi manera.",
+        "habilidades": "HTML, CSS, JavaScript, Bootstrap 4, Animate.css, Font-Awesome, MongoDB y Node.js, npm (Express, Mongoose, ejs, fs-extra, morgan, multer, Timeago.js, uuid y nodemon).",
+        "caracteristicas": "Diseño adaptable a distintas pantallas, permite subir fotos, agregarle un título y descripción, eliminar las fotos subidas y visualizarlas, pero no permite editarlas."
     },
     {
         "nombre": "E-Sports Shop",
