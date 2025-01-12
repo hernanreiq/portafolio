@@ -188,5 +188,10 @@
         "nombre": "Expo Go",
         "archivo": "expogo.svg",
         "tipo": "Apps"
+    },
+    {
+        "nombre": "Apps Script",
+        "archivo": "appsscript.svg",
+        "tipo": "Apps"
     }
 ]
