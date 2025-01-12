@@ -16,7 +16,7 @@
         "images": 31,
         "ruta_fotos": "/Proyectos/Hunter Cinema/",
         "descripcion": "Prueba técnica de un puesto laboral, donde se me solicitó hacer dos gestores de contenidos tipo CRUD para trabajar con la información de una API (Hecha por mí) de películas y actores.",
-        "habilidades": "React, HTML, CSS, JavaScript, Draw.io, Bootstrap 4, MongoDB, Node.js, npm (Express, Mongoose, Axios, SweetAlert2, Connect Multiparty, Morgan y Nodemon), Font-Awesome y Google Fonts.", 
+        "habilidades": "React, HTML, CSS, JavaScript, Draw.io, Bootstrap 4, MongoDB, Node.js, npm (Express, Mongoose, Axios, SweetAlert2, Connect Multiparty, Morgan y Nodemon), Font-Awesome y Google Fonts.",
         "caracteristicas": "El diseño es adaptable a todas las pantallas y tiene un saneamiento de rutas para bloquear la entrada a ventanas que no existen. En el buscador ordena el contenido del más reciente al más antiguo, permite ver los detalles de los actores y películas en una ventana emergente (Pop Up), como por ejemplo la foto del actor y las películas donde este haya participado, además de que el buscador cuenta con la opción de usar filtros para las búsquedas. Contiene dos CRUDs (Create, Read, Update and Delete) que sirven para crear, ver, actualizar o eliminar contenido de los actores y las películas, además de que estos ofrecen retroalimentación dependiendo de las acciones realizadas."
     },
     {
@@ -56,8 +56,28 @@
         "images": 17,
         "ruta_fotos": "/Proyectos/Notes Network/",
         "descripcion": "Red social orientada a crear notas, las cuales pueden compartirse con todos los usuarios de la aplicación web o también, dejarlas en privado para que solamente el dueño de la cuenta las vea.",
-        "habilidades": "HTML, CSS, JavaScript, Bootstrap 4, Bootswatch, MongoDB, Node.js, npm (Express, Mongoose, EJS, bcryptjs, connect-flash, express-session, method-override, passport, passport-local, Timeago.js y Nodemon), Font-Awesome y Google Fonts.", 
+        "habilidades": "HTML, CSS, JavaScript, Bootstrap 4, Bootswatch, MongoDB, Node.js, npm (Express, Mongoose, EJS, bcryptjs, connect-flash, express-session, method-override, passport, passport-local, Timeago.js y Nodemon), Font-Awesome y Google Fonts.",
         "caracteristicas": "Es una aplicación web tipo red social, permite el registro de usuarios e inicio de sesión, cambios de los datos de la cuenta (nombre, correo electrónico y contraseña). Crea, edita, visualiza y elimina notas, permite ver las notas públicas de otros usuarios, protege la información por lo que las notas son anónimas, las notas pueden estar en privado para que solamente las vea el dueño. Tiene saneamiento de datos y pantallas, por lo que no es posible alterar de alguna forma las notas o la información de la cuenta de otro usuario, tampoco permite entrar a rutas o pantallas que no están definidas y ofrece retroalimentación dependiendo de las acciones que haga el usuario dentro de la red social."
+    },
+    {
+        "nombre": "App Nómina RD",
+        "tipo": "Aplicación Móvil Android",
+        "enlace": "https://play.google.com/store/apps/details?id=com.hernanreiq.nominardapp",
+        "images": 2,
+        "ruta_fotos": "/Proyectos/App Nómina RD/",
+        "descripcion": "Aplicación móvil para calcular las retenciones de impuestos de un salario en República Dominicana.",
+        "habilidades": "React Native, Expo, JavaScript, CSS y Photoshop CS6.",
+        "caracteristicas": "Permite calcular los impuestos de Seguro Familiar de Salud (SFS), Administradora de Fondos de Pensiones (AFP) y el Impuesto Sobre la Renta (ISR) de un salario de República Dominicana."
+    },
+    {
+        "nombre": "App Password Generator",
+        "tipo": "Aplicación Móvil Android",
+        "enlace": "https://play.google.com/store/apps/details?id=com.hernanreiq.passwordgeneratorapp",
+        "images": 2,
+        "ruta_fotos": "/Proyectos/App Password Generator/",
+        "descripcion": "Aplicación móvil para generar contraseñas seguras.",
+        "habilidades": "React Native, Expo, JavaScript, React Native Elements, Expo Clipboard, React Native Vector Icons, CSS y Photoshop CS6.",
+        "caracteristicas": "Facilita la creación de contraseñas seguras, recibe parámetros que permiten definir la cantidad de caracteres que tendrá la misma."
     },
     {
         "nombre": "GetPic",
@@ -156,7 +176,7 @@
         "images": 21,
         "ruta_fotos": "/Proyectos/Quality Writer/",
         "descripcion": "Blog de variedades hecho como una forma de practicar el Stack MERN (MongoDB, Express, React, Node.js).",
-        "habilidades": "React, HTML, CSS, JavaScript, Bootstrap 4, Bootswatch, MongoDB, Node.js, npm (Express, Mongoose, Axios, SweetAlert2, Timeago.js, Morgan y Nodemon), Font-Awesome y Google Fonts.", 
+        "habilidades": "React, HTML, CSS, JavaScript, Bootstrap 4, Bootswatch, MongoDB, Node.js, npm (Express, Mongoose, Axios, SweetAlert2, Timeago.js, Morgan y Nodemon), Font-Awesome y Google Fonts.",
         "caracteristicas": "Está diseñado para ser adaptable a todas las pantallas y tiene un saneamiento de rutas para no entrar a ventanas que no existen. Ordena el contenido del más reciente al más antiguo, cada publicación tiene una etiqueta para saber si es original o si fue editado, una etiqueta para ver el tema al que pertenece (Ciencia, Tecnología, Entretenimiento, etc.) y una etiqueta para saber hace cuánto tiempo fue creada la publicación y permite clasificar o ver las publicaciones por temas. Contiene un CRUD (Create, Read, Update and Delete) que sirve para crear, ver, actualizar o eliminar contenido del blog, además de que este ofrece retroalimentación dependiendo de la acción realizada y también hay un buscador que funciona en tiempo real, que permite buscar por título, tema o contenido."
     },
     {

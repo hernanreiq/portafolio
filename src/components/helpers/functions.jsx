@@ -45,6 +45,9 @@ export function TransformURL(url) {
     } else if (url.substring(0, 18) === 'https://github.com') {
         textURL = 'Repositorio con el código de este proyecto';
         available = true;
+    } else if (url.substring(0, 23) === 'https://play.google.com') {
+        textURL = 'Aplicación Móvil en Google Play Store';
+        available = true;
     } else if (url.substring(0, 18) !== '') {
         textURL = 'Proyecto desplegado con Heroku';
         available = true;
