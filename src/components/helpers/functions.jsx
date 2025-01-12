@@ -10,7 +10,8 @@ export function SkillsClasify(skills) {
         backend: [],
         design: [],
         tech: [],
-        testing: []
+        testing: [],
+        apps: []
     };
     for (var i = 0; i < skills.length; i++) {
         switch (skills[i].tipo) {
@@ -28,6 +29,9 @@ export function SkillsClasify(skills) {
                 break;
             case 'Testing':
                 result.testing.push(skills[i]);
+                break;
+            case 'Apps':
+                result.apps.push(skills[i]);
                 break;
             default:
                 result.tech.push(skills[i]);

@@ -52,7 +52,7 @@
     {
         "nombre": "App Patrimonio",
         "tipo": "Aplicación Móvil Android",
-        "enlace": "Sin enlace",
+        "enlace": "",
         "images": 6,
         "ruta_fotos": "/Proyectos/App Patrimonio/",
         "descripcion": "Aplicación móvil para la administración de finanzas personales, control de gastos, monitoreo de patrimonio y calculadores financieras.",

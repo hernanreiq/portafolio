@@ -7,7 +7,7 @@ import { SkillsClasify } from "../helpers/functions";
 class Skills extends Component {
     state = {
         skills: Habilidades,
-        accordionSections: ['Front-end', 'Back-end', 'Diseño', 'Tecnologías', 'Testing'],
+        accordionSections: ['Front-end', 'Back-end', 'Apps', 'Diseño', 'Tecnologías', 'Testing'],
         skillsType: SkillsClasify(Habilidades)
     }
     render() {
@@ -45,6 +45,10 @@ class Skills extends Component {
                                         } else if (section === 'Tecnologías') {
                                             return (
                                                 <AccordionTemplate key={i} section={section} skills={this.state.skillsType.tech} />
+                                            )
+                                        } else if (section === 'Apps') {
+                                            return (
+                                                <AccordionTemplate key={i} section={section} skills={this.state.skillsType.apps} />
                                             )
                                         } else {
                                             return (
