@@ -2,7 +2,7 @@
     {
         "nombre": "R36S theme EpNo",
         "tipo": "Tema para R36S",
-        "enlace": "",
+        "enlace": "https://github.com/hernanreiq/R36S-theme-epicnoir-hernanreiq",
         "images": 5,
         "ruta_fotos": "/Proyectos/R36S theme EpNo/",
         "descripcion": "Personalización de 23 pantallas del dispositivo R36S, un emulador de diferentes consolas retro basado en ArkOS 2.0.",
