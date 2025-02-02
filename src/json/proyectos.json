@@ -1,13 +1,13 @@
 [
     {
-        "nombre": "Next Marvel Films",
-        "tipo": "Aplicación web",
-        "enlace": "https://hernanreiq.github.io/Next-Marvel-Films/",
-        "images": 3,
-        "ruta_fotos": "/Proyectos/Next Marvel Films/",
-        "descripcion": "Descubre cuantos días faltan para las nuevas películas y series de Marvel Studios.",
-        "habilidades": "React, HTML, CSS, JavaScript, Bootstrap 4, Axios, Node.js y npm (gh-pages)",
-        "caracteristicas": "Diseño ajustable para todas las pantallas, informaciones de las películas y series ofrecidas por la API de TMDB."
+        "nombre": "R36S theme EpNo",
+        "tipo": "Tema para R36S",
+        "enlace": "",
+        "images": 5,
+        "ruta_fotos": "/Proyectos/R36S theme EpNo/",
+        "descripcion": "Personalización de 23 pantallas del dispositivo R36S, un emulador de diferentes consolas retro basado en ArkOS 2.0.",
+        "habilidades": "XML y Photoshop CS6",
+        "caracteristicas": "Le he asignado una imágen a cada consola (23 en total), he trasladado la posición del control asociado y además he cambiado los colores de las letras. Todo el diseño está basado e influenciado en el tema ya existente \"R36S-theme-epicnoir\", la diferencia es el toque personal que le he dado."
     },
     {
         "nombre": "Hunter Cinema",
@@ -68,6 +68,16 @@
         "descripcion": "Aplicación móvil para calcular las retenciones de impuestos de un salario en República Dominicana.",
         "habilidades": "React Native, Expo, JavaScript, CSS y Photoshop CS6.",
         "caracteristicas": "Permite calcular los impuestos de Seguro Familiar de Salud (SFS), Administradora de Fondos de Pensiones (AFP) y el Impuesto Sobre la Renta (ISR) de un salario de República Dominicana."
+    },
+    {
+        "nombre": "Next Marvel Films",
+        "tipo": "Aplicación web",
+        "enlace": "https://hernanreiq.github.io/Next-Marvel-Films/",
+        "images": 3,
+        "ruta_fotos": "/Proyectos/Next Marvel Films/",
+        "descripcion": "Descubre cuantos días faltan para las nuevas películas y series de Marvel Studios.",
+        "habilidades": "React, HTML, CSS, JavaScript, Bootstrap 4, Axios, Node.js y npm (gh-pages)",
+        "caracteristicas": "Diseño ajustable para todas las pantallas, informaciones de las películas y series ofrecidas por la API de TMDB."
     },
     {
         "nombre": "App Password Generator",

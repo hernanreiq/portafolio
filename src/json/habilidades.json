@@ -140,6 +140,11 @@
         "tipo": "Tecnologías"
     },
     {
+        "nombre": "XML",
+        "archivo": "xml.svg",
+        "tipo": "Tecnologías"
+    },
+    {
         "nombre": "npm",
         "archivo": "npm.svg",
         "tipo": "Tecnologías"
